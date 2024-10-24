@@ -1,0 +1,63 @@
+:root {
+  --background-color: #ffffff;
+  --title-text-color: #246DFB;
+  --paragraph-text-color: #666c82;
+  --primary-text-color: #00d1cb;
+  --button-bg: #455B72;
+  --bg--contact-slider: #F1F3F4;
+  --bg--slider-item: #F3F3F3;
+}
+
+/*Modo Dark*/
+[data-theme="dark"] {
+  --background-color: #0c1721;
+  --title-text-color: #00d1cb;
+  --paragraph-text-color: #b9d1d5;
+  --primary-text-color: #f1f1f1;
+  --button-bg: #455B72;
+  --bg--contact-slider: #0B141D;
+  --bg--slider-item: #0E161C;
+}
+
+main { background-color: var(--background-color)!important; transition: background-color 250ms ease-in-out;}
+
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, p {
+  text-align: center;
+  padding-top: 1.5 rem;
+}
+.navbar-toggler , .navbar-toggler:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

@@ -1,0 +1,590 @@
+{
+  "locale": "es",
+  "page": "Pagina",
+  "components": {
+    "read_more": "Leer Más"
+  },
+  "menu": {
+    "solutions": "Soluciones",
+    "services": "Soluciones Tecnológicas",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "careers": "Carreras",
+    "english": "Ingles",
+    "spanish": "Español"
+  },
+  "footer": {
+    "email": "Correo",
+    "phone": "Teléfono",
+    "privacy_policy": "Políticas de Privacidad",
+    "address": "Centro de Negocios Jardín Central, Oficina 1202",
+    "widgets": [
+      {
+        "name": "Nosotros",
+        "items": [
+          {
+            "url": "/services",
+            "text": "Soluciones"
+          },
+          {
+            "url": "/about",
+            "text": "Historia"
+          },
+          {
+            "url": "/about",
+            "text": "Valores"
+          },
+          {
+            "url": "/scrum",
+            "text": "Metodología Scrum"
+          },
+          {
+            "url": "/devops",
+            "text": "¿Qué es DevOps?"
+          },
+          {
+            "url": "/contact",
+            "text": "Contáctanos"
+          },
+          {
+            "url": "/doc/Tratamiento_de_Datos_Dreamcode.pdf",
+            "text": "Políticas de Privacidad"
+          }
+        ]
+      },
+      {
+        "name": "Carreras",
+        "items": [
+          {
+            "url": "/careers",
+            "text": "¿Por qué DreamCode?"
+          },
+          {
+            "url": "/careers",
+            "text": "Oportunidades de trabajo"
+          },
+          {
+            "url": "/dreamcoders",
+            "text": "DreamCoders"
+          }
+        ]
+      }
+    ]
+  },
+  "meta_datos": {
+    "meta_title_404": "Página no encontrada - Error 404",
+    "meta_description_404": "Lo sentimos, la página que estás buscando no se encuentra disponible. Navega por nuestro sitio web para encontrar la información que necesitas.",
+    "meta_title_Home": "Desarrollo de Software a medida - IT Staff Augmentation",
+    "meta_description_Home": "Especialistas en Desarrollo de software, proveemos talento TI  para Estados Unidos y Latinoamérica ",
+    "meta_title_Services": "Servicios DreamCode: Desarrolladores de software para el futuro ",
+    "meta_description_Services": "Desarrollo de software. Equipo experto en la creación de productos con alta tecnología para las empresas, talento humano especializado para los negocios",
+    "meta_title_Process": "Metodologías y prácticas ágiles para el desarrollo de software",
+    "meta_description_Process": "Todos nuestros procesos están centralizados en el usuario, entregamos valor al cliente durante todo el desarrollo de sus proyectos, dinamismo y flexibilidad.",
+    "meta_title_Devops": "¿Qué es DevOps? Estrategia efectiva de fusión de dos equipos",
+    "meta_description_Devops": "DevOps es un proceso de desarrollo de software y un cambio de cultura organizacional que acelera la entrega de software de mayor calidad al automatizar e integrar dos equipos.",
+    "meta_title_Scrum": "Agile Scrum: qué es, como funciona",
+    "meta_description_Scrum": "Scrum es un marco de trabajo ágil que se centra en la gestión efectiva de proyectos, con énfasis en la adaptabilidad y entrega continua mediante procesos iterativos e incrementales.",
+    "meta_title_About": "Nosotros - DreamCode Desarrollo de Software",
+    "meta_description_About": "Creemos en el desarrollo de la tecnología y la transformación digital como el futuro de los negocios, el crecimiento de las compañías y el mundo que nos rodea.",
+    "meta_title_Jobs": "Trabaja con nosotros - Desarrolla tu carrera ",
+    "meta_description_Jobs": "Impulsa tu camino profesional en DreamCode, conoce  oportunidades laborales de crecimiento. Conéctate con nosotros y emprende tu futuro. Unete y Desarrolla tu propósito.",
+    "meta_title_Contacts": "DreamCode: Contáctanos, queremos escucharte",
+    "meta_description_Contacts": "Cuéntanos que idea o sueño de negocio tienes para tu empresa, estamos listos para ayudarte y empezar ¡Escríbenos ahora mismo!",
+    "meta_title_Blog": "Blog - DreamBlog: Explorando el mundo de la tecnología del futuro",
+    "meta_description_Blog": "Contenido de valor en tecnología del futuro, desarrollo de software, IT Staff Augmentation y Nearshore outsourcing para el futuro",
+    "meta_title_Dreamcoders": "DreamCoders | Soñamos para transformar el futuro",
+    "meta_description_Dreamcoders": "Creemos que un sueño puede hacerse realidad con ayuda de otros, en DreamCode convertimos los sueños e ideas en realidad y convertimos lo invisible en visible",
+    "meta_title_great": "DreamCode : Somos un Great Place To Work ",
+    "meta_description_great": "Conoce porque nuestros colaboradores reconocen un ambiente laboral agradable y lleno de bienestar, donde las personas son el primer y más importante criterio en cada decisión.",
+    "meta_title_staff": "Servicio de Staff Augmentation : talento especializado TI",
+    "meta_description_staff": "Aprovecha la capacidad de acceder a una experiencia de apoyo externo en desarrollo de software | Outsourcing en tecnología"
+  },
+  "homePage": {
+    "bannerHome": {
+      "titleBannerHome": "<0>Ideas de negocio en</0> Desarrollo de Software",
+      "subtitleBannerHome": "Facilitando los procesos\n de<1> adhesión tecnologica\n</1> de las compañías, <3>evolucionando</3> con ellas al ritmo de los mercados.",
+      "btn_slider_home": "Quiero saber más ",
+      "btn_slider_one": "Más información "
+    },
+    "service_home": {
+      "service_title": "Staff Augmentation para las organizaciones",
+      "service_subtitle": "Servicios de desarrollo de software nearshore/offshore, somos expertos en la creación de productos de alto performance , basados en metodologías y procesos agiles para las compañías.",
+      "service_subt": "Somos expertos en la creación de soluciones tecnológicas de alto performance",
+      "read_more": "Leer más",
+      "consultoriaTitle": "Consultoría tecnológica",
+      "consultoriaDescrip": "Prestamos servicios de asesoría y orientación personalizada en la integración de herramientas tecnológicas empresariales.",
+      "baseTitle": "Servicio de base de datos",
+      "baseDescrip": "Brindamos recursos estratégicos y tácticos para las organizaciones que requieran un complemento de servicios de soporte.",
+      "appTitle": "Servicio de aplicaciones \nmóviles y web",
+      "appDescrip": "Somos impulsadores del crecimiento empresarial y como líderes del desarrollo web y móvil creamos aplicaciones que trasforman y brindan el valor agregado a las organizaciones.",
+      "servitems": [
+        {
+          "id": 3,
+          "planet": "venus",
+          "servTitle": "Consultoría tecnológica",
+          "servDescrip": "Prestamos servicios de asesoría y orientación personalizada en la integración de herramientas tecnológicas empresariales."
+        },
+        {
+          "id": 2,
+          "planet": "neptune",
+          "servTitle": "Servicios de base de datos",
+          "servDescrip": "Brindamos recursos estratégicos y tácticos para las organizaciones que requieran un complemento de servicios de soporte."
+        },
+        {
+          "id": 1,
+          "planet": "mercury",
+          "servTitle": "Servicios de aplicaciones móviles y web",
+          "servDescrip": "Somos impulsadores del crecimiento empresarial y como líderes del desarrollo web y móvil creamos aplicaciones que trasforman y brindan el valor agregado a las organizaciones."
+        }
+      ]
+    },
+    "process_home": {
+      "process_title": "Metodologías y prácticas eficientes para el desarrollo de software",
+      "process_subtitle": "Todos nuestros procesos están centralizados en el usuario, entregamos valor al cliente durante todo el desarrollo de sus proyectos, dinamismo y flexibilidad.",
+      "scrum_description": "Scrum es una metodología ágil utilizada en el desarrollo de Software, basada en procesos iterativos e incrementales, un marco adaptable, rápido, flexible y eficaz.",
+      "devops_description": "DevOps es un proceso de desarrollo de software y un cambio de cultura organizacional que acelera la entrega de software de mayor calidad al automatizar e integrar dos equipos.",
+      "read_more": "Leer más"
+    },
+    "staff_home": {
+      "title": "En DreamCode creemos que los sueños se\n construyen y materializan en conjunto",
+      "subtitle": "¿Cómo lo hacemos? ",
+      "text": "Nos integramos al <1>cumplimiento de la visión de negocio</1> de las organizaciones <3>facilitando su crecimiento e impulsando los procesos</3> de transformación tecnológica con <5>talento TI especializado.</5>",
+      "know_more": "Contáctanos"
+    },
+    "testimonios": {
+      "testim_title": "Construimos ideas con:",
+      "testim_subtitle": "Lo que ellos dicen habla de nuestro trabajo",
+      "testimoniosItems": [
+        {
+          "name": "Diego Prada",
+          "image": "test2",
+          "position": "Co-founder y CTO. Global Networks Solutions",
+          "description": "Como un sólido y excelente socio para GNS son todo lo relacionado con el desarrollo de software en la nube. Además, nos brindan el soporte que necesitamos con muy buenos tiempos de respuesta y SLA."
+        },
+        {
+          "name": "Iván Mauricio Pérez",
+          "image": "test3",
+          "position": "Gerente Portafolio Digital - Seguros Bolívar",
+          "description": "Junto a DreamCode hemos consolidado una dinámica de trabajo y creación tecnológica exitosa. Su capacidad para entender nuestros objetivos de negocio, aportar desde la ideación y guiar la ejecución con su experiencia técnica han sido diferenciales para lograr materializar nuestros proyectos digitales."
+        },
+        {
+          "name": "Julián Alvarez",
+          "position": "CEO at LogixBoard",
+          "image": "test1",
+          "description": "DreamCode se destaca por dos aspectos clave. Primero, su radical transparencia nos da confianza de que estamos en las mejores manos. Segundo, su notable perspicacia comercial les permite comprender nuestras necesidades técnicas y ser impulsores de nuestras decisiones y objetivos comerciales."
+        }
+      ]
+    }
+  },
+  "servicePage": {
+    "title_banner_Services": "Soluciones tecnológicas a la \n<0>medida</0>",
+    "descri_banner_Services": "Nos especializamos en ofrecer servicios rentables e integrales. Contamos con el talento humano de un grupo de ingenieros altamente calificados en Java, Spring, Framework, Javascript, Angular, Oracle, MySQL y AWS.",
+    "service_soft_title": "Desarrollo de software a la medida",
+    "service_soft_description": "Ofrecemos servicios de desarrollo de software bajo la modalidad de nearshore outsourcing y con una amplia gama de especialidades: desarrollo de aplicaciones empresariales web, móviles, locales y nativas de la nube, ajuste rendimiento de las aplicaciones y refactorización de sistemas heredados. Seguimos la metodología de desarrollo SCRUM otorgando a los clientes agilidad en la obtención de los servicios, mantenimiento sencillo y un mayor rendimiento.",
+    "service_data_title": "Base de datos",
+    "service_data_description": "Brindamos recursos estratégicos y tácticos para las organizaciones que requieran un complemento de servicios de soporte. Contribuimos a la reducción de la complejidad del manejo de información crítica, de forma flexible e incrementando el rendimiento de las empresas. Nuestra gama de servicios integra diseño de arquitectura, migración, respaldo/recuperación, monitoreo y ajuste de rendimiento. Nuestras plataformas y tecnologías son Oracle, MySQL y Amazon Relational Database Service (RDS).",
+    "service_techn_title": "Consultoría tecnológica",
+    "service_techn_description": "Prestamos servicios de asesoría y orientación personalizada en la integración de herramientas tecnológicas empresariales. Presentando soluciones en función del modelo empresarial de nuestros clientes. Brindamos evaluación de aplicaciones, creamos arquitectura de software y acompañamos en la trasformación de la interfaz web/diseño y desarrollo de aplicaciones backend.",
+    "service_mobile_title": "Aplicaciones móviles y web",
+    "service_mobile_description": "Somos impulsadores del crecimiento empresarial y como líderes del desarrollo web y móvil creamos aplicaciones que trasforman y brindan el valor agregado a las organizaciones. Conceptualización de software, diseño arquitectura, Diseño UI/UX, migración de aplicaciones y portabilidad, optimización de aplicaciones en cualquier plataforma y apoyo de organizaciones en la innovación digital.",
+    "service_staff_title": "Staff Augmentation en desarrollo de software",
+    "service_staff_description": "Optimiza recursos e impulsa tu proyecto de software con un equipo de ingeniería de calidad superior. Disponemos de talento humano bilingüe altamente calificado bajo la modalidad de outsourcing en: \n",
+    "service_items": [
+      "\n- Desarrollo Backend",
+      "- Desarrollo web y móvil",
+      "- Desarrollo de pruebas automatizadas",
+      "- Arquitectura de Software",
+      "- Servicios de Bases de Datos"
+    ],
+    "ServContactBanner": {
+      "ServiceBannerTitle": "Contáctanos",
+      "ServiceBannerDescrip": "Conéctate y alcancemos juntos tu idea",
+      "DownloadBrochure": "Descarga nuestro brochure y conoce más",
+      "brochureEnglish": "Brochure Inglés",
+      "brochureSpanish": "Brochure Español"
+    }
+  },
+  "forms": {
+    "form_title": "Dejar Mensaje",
+    "form_input_name": "Nombre Completo",
+    "form_input_email": "Correo Electrónico",
+    "form_input_company": "Empresa",
+    "form_input_celular": "Celular ",
+    "form_input_location": "Ubicación",
+    "form_label_file_name": "Adjunta tu CV",
+    "form_input_file": "CV  ",
+    "form_label_file_valid": "Archivo Subido con Exito",
+    "form_select_fluently": "¿Hablas inglés con fluidez?",
+    "form_option_yes": "Si",
+    "form_input_rol": "¿En que rol estas más interesado?",
+    "form_label_address": "¿Dónde se encuentra tu empresa?",
+    "form_label_service_option": "¿ En que servicio estas interesado?",
+    "form_option_develop": "Desarrollo de aplicaciones móviles y web",
+    "form_option_business": "Desarrollo de aplicaciones empresariales",
+    "form_option_staff": "Staff augmentation en desarrollo de software",
+    "form_option_information": "Consultoría en tecnología informática",
+    "form_option_database": "Servicios de afinamiento y administración de Base de datos",
+    "form_message": "Cuéntanos un poco más acerca de tu idea/ proyecto",
+    "form_label_policy": "He leído y acepto la <1>Política de Privacidad</1>",
+    "form_btn_send": "Enviar Mensaje",
+    "form_text_modal": "Gracias por conectarte con nosotros, el formulario fue diligenciado éxitosamente.",
+    "form_text_error": "Por favor, complete el ReCAPTCHA antes de enviar el formulario."
+  },
+  "aboutPage": {
+    "story_about": {
+      "story_title_banner": "Somos líderes tecnológicos \navanzando hacia el futuro",
+      "story_description_banner": "Creemos en el desarrollo de la tecnología y la transformación digital como el futuro de los negocios, el crecimiento de las compañías y el mundo que nos rodea.",
+      "story_title_birth": "Desde el 2013",
+      "story_description_birth": "Nacimos en Cali Colombia como una compañía enfocada en el desarrollo de software y otros servicios en tecnología bajo la modalidad nearshore, somos la fuerza humana que impulsa la transformación y el crecimiento tecnológico de las empresas.",
+      "story_offices_text": "Hoy contamos con oficinas en San Francisco Estados Unidos, Bogotá y Cali Colombia",
+      "story_talent_human": "Desde el inicio hemos promovido el crecimiento exponencial de nuestro equipo, empezamos con 6 soñadores, hoy somos más de 120 DreamCoders soñando y transformando el futuro.",
+      "story_build_title": "Seguimos construyendo historia",
+      "story_build_description": "Nos enfocamos en apoyar el crecimiento profesional de todos nuestros colaboradores, ingenieros y desarrolladores a nivel nacional e internacional, logrando garantizar a todos nuestros clientes el cumplimiento de sus objetivos de negocio. Evolucionamos y avanzamos en el uso de las tecnologías y conocimiento de las mismas. Un futuro lleno de innovación y transformación para las compañías."
+    },
+    "what-do-we-think": {
+      "title": "¿Qué pensamos como compañía experta en desarrollo de software?",
+      "item_projects": "Los proyectos de tecnología no deben ser un dolor de cabeza para las empresas",
+      "item_must_focus": "Las empresas deben focalizar su energía en el core de su negocio",
+      "item_revolutionize": "Las empresas pueden revolucionar su modelo de negocio a través de la transformación tecnológica"
+    },
+    "about_clients_title": "Nuestros clientes",
+    "about_clients_descrip": "Hemos apoyado y construido grandes proyectos con empresas en Estados Unidos y Latinoamérica. Entre estos se destacan :",
+    "values_about": {
+      "values_subtitle": "Estamos comprometidos con:",
+      "values_innovation": "Innovación tecnológica",
+      "values_innovation_descrip": "Estamos en constante renovación y ampliación de los procesos productivos, comprendiendo que son elementos claves para la competitividad y la transformación a nivel empresarial, incidiendo de forma directa en la prestación de servicios de calidad y a la vanguardia.",
+      "values_performance": "Alto performance",
+      "values_performance_descrip": "Nos enfocamos en la satisfacción de nuestros clientes. Contamos con metodologías y talento humano cualificado que crea, orienta y asume los retos y necesidades del hoy.",
+      "values_motivation": "Las personas primero",
+      "values_motivation_descrip": "DreamCode es una compañía que cuida a sus colaboradores. El bienestar de las personas es el primer y más importante criterio en cada decisión."
+    },
+    "team_about": {
+      "team_title": "Somos equipo",
+      "team_horacio_name": "Gerente General, Socio",
+      "team_horacio_descrip": "Con más de 24 años de experiencia, Horacio se desempeñó como arquitecto técnico principal de una de las empresas de software más grandes del sistema de facturación en América Latina. Participó en grandes proyectos para empresas de telecomunicaciones y servicios públicos, lo que le otorga una sólida experiencia en Oracle RDBMS.",
+      "team_francisco_name": "Director de Ingeniería , Socio",
+      "team_francisco_descrip": "Con más de 22 años de experiencia en el desarrollo de aplicaciones de misión crítica para empresas de telecomunicaciones. Ha estado involucrado en la especificación, diseño, arquitectura, desarrollo y ejecución de varios proyectos de software para empresas de renombre en América Latina. actualmente lidera el proceso de arquitectura, diseño y desarrollo de software.",
+      "team_jonathan_name": "Gerente de Desarrollo de Software",
+      "team_jonathan_descrip": "Ingeniero de Software con más de 9 años de experiencia en el ciclo de vida del desarrollo de software. Se ha enfocado en la construcción de aplicaciones comerciales y la especificación, diseño, arquitectura, desarrollo y ejecución de proyectos de software para empresas de telecomunicaciones y cable en América Latina. En DreamCode, lidera el equipo de desarrollo utilizando Scrum como metodología de desarrollo",
+      "team_leonardo_name": "Gerente de Demanda"
+    }
+  },
+  "contactsPage": {
+    "banner_about": {
+      "contact_title_banner": "Conectamos tu idea con el futuro ¡Estamos listos para escucharte!",
+      "contact_description_banner": "Envíanos un mensaje para entender cómo podemos alcanzar tus desafíos de negocio y que quisieras que lográramos juntos"
+    },
+    "contact_our_office": "Nuestras Oficinas"
+  },
+  "newsletter": {
+    "newsletter_title": "Suscríbete a\n<1>DreamBlog</1>",
+    "newsletter_description": "Conoce las últimas tendencias en desarrollo de software y contenido de interés en tecnología.",
+    "newsletter_info": "*Puedes actualizar tu preferencia de suscripción en cualquier momento",
+    "newsletter_btn": "SUSCRÍBETE",
+    "message_success": "¡Gracias por suscribirse!"
+  },
+  "dreamcoders": {
+    "dreamcoders_description": "Transformamos para crecer",
+    "talents_title": "Estamos en constante movimiento,\n<1>creamos un futuro que convierte lo invisible en visible, somos protagonistas de la materialización de ideas, somos:</1>",
+    "talents_humans_title": "Humanos",
+    "talents_humans_description": "con nuestro entorno y el otro",
+    "talents_Innovators_title": "Innovadores",
+    "talents_Innovators_description": "en la creación y desarrollo de soluciones destacadas",
+    "talents_Agile_title": "Ágiles",
+    "talents_Agile_description": "en la realización de proyectos",
+    "talents_Motivated_title": "Motivados",
+    "talents_Motivated_description": "con propósito en el desarrollo de nuestro talento y experiencia",
+    "talents_Dreamers_title": "Soñadores",
+    "talents_Dreamers_description": "que convierten ideas en realidad",
+    "dreamcoders_testimonials": [
+      {
+        "testimonial": "Ha sido una oportunidad que no quieres desaprovechar, un camino de aprendizaje y realizacion profesional, donde trabajar se convierte en un medio para cumplir metas y desafios, desarrollar habilidades y ser reconocido por cada avance.",
+        "position": "Diseñador y creativo",
+        "name": "Ered "
+      },
+      {
+        "testimonial": "Me gusta trabajar en DreamCode porque puedo poner en práctica mis conocimientos y crecer competitivamente. Puedo desarrollar y potenciar mis talentos y mis debilidades tomarlas como retos y desafíos.",
+        "position": "Ingeniero WebMaster",
+        "name": "Juan "
+      },
+      {
+        "testimonial": "En DreamCode cada día trae un nuevo desafío; aquí puedo visualizar y trazar un camino lleno de oportunidades, logros, reconocimientos y crecimiento a todo nivel. En otras palabras, me siento en el lugar indicado",
+        "position": "Ingeniera de procesos",
+        "name": "Viviana "
+      },
+      {
+        "testimonial": "Trabajar en DreamCode ha sido una experiencia enriquecedora, donde he podido aplicar mis conocimientos y experiencia, adquirir nuevos aprendizajes y crecer a nivel profesional y personal.",
+        "position": "Líder de Talento Humano",
+        "name": "Eliana "
+      }
+    ],
+    "dreamcoders_testimonials_title": "Lo que opinan los DreamCoders:"
+  },
+  "careers": {
+    "banner_primary_title": "Únete y desarrolla\n<1>tu propósito en DreamCode</1>",
+    "banner_primary_subtitle": "Transforma para crecer",
+    "banner_primary_text": "Impulsamos el cambio y avanzamos con ingenio hacia el futuro, nuestro compromiso son las personas y su bienestar, sobresalimos por la entrega de valor y crecimiento integral de todo nuestro equipo humano.",
+    "title_opportunities": "Descubre oportunidades de empleo",
+    "banner_opportunities": "OPORTUNIDADES DE EMPLEO",
+    "remote": "Remoto",
+    "apply": "Quiero Aplicar",
+    "id_video": "O5HTilfrw1g",
+    "url_video": "https://www.youtube.com/embed/O5HTilfrw1g?playlist=O5HTilfrw1g&loop=1&autoplay=1&autohide=1&controls=0",
+    "ours_dreamcoders_title": "Nuestros DreamCoders creen que trabajar aquí es",
+    "ours_dreamcoders": [
+      {
+        "name": "Andres",
+        "position": "Líder de Desarrollo",
+        "picture": "DreamCoders-Andres.jpg",
+        "verb": "Crecer"
+      },
+      {
+        "name": "Lorena",
+        "position": "Ingeniera QA",
+        "picture": "DreamCoders-Lorena.jpg",
+        "verb": "Ingeniar"
+      },
+      {
+        "name": "Anderson",
+        "position": "Ingeniera QA",
+        "picture": "DreamCoders-Anderson.jpg",
+        "verb": "Transformar"
+      },
+      {
+        "name": "Lina",
+        "position": "Ingeniera de Desarrollo",
+        "picture": "DreamCoders-Lina.jpg",
+        "verb": "Aprender"
+      }
+    ]
+  },
+  "profile_job": {
+    "profile_form_title": "Sueña para transformar el futuro",
+    "profile_rol": "Tu rol será",
+    "profile_how_you_can": "¿Cómo podrás lograrlo?",
+    "profile_modality": "Modalidad del trabajo: ",
+    "profile_subtitle": "Convertimos en realidad los sueños de las compañías, especialistas en servicios tecnológicos nearshore, utilizamos las metodologías y prácticas más eficientes para el desarrollo de software.",
+    "profile_expert_living": "Viviendo y haciendo con pasión todo lo que haces",
+    "profile_expert_imagining": "Imaginando y creando posibilidades donde los demás solo ven obstáculos",
+    "profile_expert_assuming": "Asumiendo la retroalimentación como una oportunidad de crecer y aprender",
+    "profile_expert_focusing": "Enfocándote al logro y al cumplimiento de los objetivos",
+    "advantage_title": "En DreamCode",
+    "profile_advantage": {
+      "advantage_flexibility": "Te desenvolverás en un entorno ágil y flexible",
+      "advantage_future": "Impulsarás tu carrera hacia el futuro del desarrollo de software",
+      "advantage_innovation": "Trabajarás con las tecnologías más avanzadas",
+      "advantage_diversity": "Desarrollarás tu potencial atendiendo diferentes sectores e industrias",
+      "advantage_impact": "Generarás impacto en proyectos de escala mundial",
+      "advantage_update": "Estarás actualizado frente a las más recientes tendencias",
+      "advantage_comfort": "En algunos casos trabajarás 100% remoto desde el lugar donde te sientas más cómodo",
+      "advantage_mentoring": "Aprenderás de los DreamCoders que han desarrollado soluciones de un nivel superior"
+    }
+  },
+  "great-place": {
+    "title_banner": "EL 99% DE NUESTROS\n<1>DREAMCODERS DICEN</1>\nQUE SOMOS <3>UN GRAN \n<1>LUGAR PARA \n </1> <1>TRABAJAR</1></3>",
+    "btn_link_home": "Conoce más sobre este reconocimiento",
+    "2023": "Este año por primera vez participamos y obtuvimos la certificación de Great Place To Work, fuimos catalogados como una de las mejores empresas para trabajar en Colombia. El 99% de nuestros colaboradores indican que somos un excelente lugar para trabajar, cifra que marca la diferencia con respecto a otras empresas en la categoría TI del país, que han alcanzado un 86% de satisfacción de sus colaboradores. \n\n Nuestros DreamCoders reconocen que su experiencia dentro de la compañía es altamente satisfactoria, resaltan un ambiente laboral agradable y lleno de bienestar, donde las personas son el primer y más importante criterio en cada decisión. Nos sentimos orgullosos de lo que dicen nuestros colaboradores, conoce porque somos un gran lugar para trabajar:",
+    "culture_title": "Una cultura que prioriza a las personas",
+    "culture_description": "DreamCode es una compañía que cuida a sus colaboradores, como parte de su esencia siempre ha tenido un interés genuino por el bienestar de su equipo. Las personas constituyen el factor más valioso y determinante para hacer las cosas con propósito y perspectiva hacia el futuro. \n\n El 98% de nuestros colaboradores sienten que reciben un buen trato, independiente de su posición dentro de la organización, así mismo un 95% afirma que somos un lugar psicológica y emocionalmente saludable para trabajar. \n\n “Siento que realmente se preocupan por el personal, son detallistas y en las ocasiones en que compartimos de manera presencial, el trato es muy personal y especial” \n\n “Es una compañía que se preocupa por el bienestar emocional de cada uno, haciendo cómoda su estadía y su paso por la misma en cualquiera que sea el cargo.”",
+    "working_title": "Trabajar en DreamCode es motivo de orgullo",
+    "working_description": "Ser parte de una compañía que permite crecer, reconoce el esfuerzo y trabajo de las personas, un lugar donde los sueños de sus colaboradores tienen importancia, es una razón de peso para sentir orgullo; esto representa satisfacción y refleja una conexión especial entre la organización y sus integrantes, por eso resaltamos que el 97% de nuestros DreamCoders afirman: sentirse orgullosos cuando dicen que trabajan aquí y nos recomendarían con convicción a sus amigos y familiares. \n\n “Es una compañía donde el factor humano es muy evidente, un lugar donde trabajar se hace placentero, donde reconocen tu trabajo y lo valoran profundamente, ha sido la mejor compañía en la que he trabajado, no he conocido lugares así para crecer profesionalmente y personalmente.” \n\n “En DreamCode te dan la oportunidad de proponer y ejecutar tu trabajo al nivel más alto que puedas. ¡No te limitan, te impulsan!”",
+    "recognizing_title": "Reconocer el talento de nuestro equipo",
+    "recognizing_description": "El reconocimiento al esfuerzo y labor que hacen los DreamCoders es parte fundamental de la cultura organizacional, es evidente que, al exaltar y valorar el buen trabajo, indudablemente el equipo es motivado a seguir haciendo bien las cosas e inspirado en todo lo que puede alcanzar con su talento. Es por esto que el 93% de nuestros colaboradores dicen que se les reconoce el trabajo bien hecho y su esfuerzo adicional. \n\n “Esta empresa ha sido de las mejores en la que he estado, porque reconocen el esfuerzo del trabajo que se hace día a día con el cliente.”",
+    "leadership_title": "Un liderazgo humano y cercano ",
+    "leadership_description": "En DreamCode la clave del liderazgo es tener una relación cercana con las personas, un liderazgo basado en la confianza mutua con el equipo de trabajo. Nuestros líderes transmiten la seguridad necesaria para que sus equipos sean autónomos, expresan un interés especial por las personas y su desarrollo dentro de la compañía. \n\n Para DreamCode la confianza se fortalece cuando los colaboradores perciben que sus líderes son accesibles, incentivan, consideran y responden con interés a sus sugerencias e ideas y se aseguran de que todos tengan la oportunidad de recibir un reconocimiento especial. \n\n Es por esto que el 91% de los DreamCoders está de acuerdo con que sus líderes son accesibles y es fácil hablar con ellos, así mismo un 95% dice que sus líderes confían en que pueden hacer un buen trabajo sin tener que supervisarlos continuamente, por último, un 93 % afirma que sus líderes muestran un interés sincero por ellos como personas y no como empleados.  \n\n “Son muy humanos, se preocupan primero por uno como persona y sus necesidades” \n\n “Se le da la oportunidad al colaborador de mostrar sus skills de liderazgo, se le da la oportunidad al colaborador de equivocarse, por norma general siempre resulta algo bueno de esas situaciones, los jefes se sienten cercanos, no existe mucha burocracia para entablar una comunicación con ellos” \n\n “La confianza que da a los colaboradores para realizar las actividades confiando en las capacidades de cada uno”",
+    "environment_title": "Un entorno de trabajo formidable",
+    "environment_description": "En DreamCode sus colaboradores encuentran un entorno de trabajo que promueve su bienestar integral, un espacio donde tienen un balance entre su vida personal y profesional. La organización siempre busca ofrecer un entorno donde todos se sientan a gusto, una experiencia laboral satisfactoria y humana. \n\n Es por esto que destacamos que el 94% de nuestros colaboradores dicen que tienen beneficios especiales y únicos en DreamCode, por otro lado, el 92% afirma que aquí se les anima a equilibrar su vida profesional con su vida personal.  \n\n “Excelente ambiente y beneficios para sus colaboradores mantienen siempre en un buen nivel la motivación de los equipos de trabajo” \n\n “El ambiente laboral permite que uno rinda en el trabajo sin descuidar la familia, el desarrollo personal y las relaciones con otras personas.” ",
+    "collaboration_title": "Colaboración y equipo",
+    "collaboration_description": "Nuestro talento humano se relaciona y trabaja bajo una cultura colaborativa, todos aportan sus ideas y construyen en pro de un objetivo superior. Se resalta con orgullo las habilidades de nuestros colaboradores, el empeño por cumplir los sueños de nuestros clientes y disposición frente a los diferentes desafíos que se presentan. Es por esto que el 97 % de los DreamCoders dicen que: se puede contar con la colaboración de los demás y se sienten orgullosos cuando ven lo que logran como equipo. \n\n “Si el colaborador tiene obstáculos puede buscar ayuda en sus compañeros y si el inconveniente es a más alta escala puede hablar siempre hablar con los jefes y llegar a una solución.”\n\n “Es muy motivante que participemos en proyectos importantes para empresas reconocidas. Contamos con clientes con un nivel de exigencia alto que nos apoyan en el cumplimiento de las metas y el éxito de los proyectos”. "
+  },
+  "benefits": {
+    "banner_title": "Beneficios Dream Team",
+    "banner_subTitle": "Somos una compañía, que trabaja y disfruta la vida",
+    "banner_text": "Promovemos el desarrollo profesional y personal de nuestro equipo, hacemos de cada día de trabajo un espacio de bienestar y valor para todos.",
+    "benefits_tab_title": "Conoce los beneficios de ser parte de nosotros",
+    "benefits_list": [
+      {
+        "benefit": "Medicina prepagada",
+        "img": "img-benefits-health.jpg"
+      },
+      {
+        "benefit": "Seguro de vida",
+        "img": "img-benefits-life-insurance.jpg"
+      },
+      {
+        "benefit": "Espacios de integración para todos",
+        "img": "img-benefits-integration-spaces.jpg"
+      },
+      {
+        "benefit": "Desayuno cumpleaños",
+        "img": "img-benefits-breakfast.jpg"
+      },
+      {
+        "benefit": "Aniversario DreamCode",
+        "img": "img-benefits-anniversary.jpg"
+      },
+      {
+        "benefit": "Bonificación extralegal por resultados",
+        "img": "img-benefits-bonus.jpg"
+      },
+      {
+        "benefit": "Licencia por matrimonio",
+        "img": "img-benefits-license.jpg"
+      },
+      {
+        "benefit": "Regalo por pregrado",
+        "img": "img-benefits-undergraduate.jpg"
+      },
+      {
+        "benefit": "Regalo por nacimiento de hijo",
+        "img": "img-benefits-gift-for-your-son.jpg"
+      },
+      {
+        "benefit": "Capacitaciones y cursos",
+        "img": "img-benefits-training.jpg"
+      },
+      {
+        "benefit": "Kit de bienvenida",
+        "img": "img-benefits-kit.jpg"
+      }
+    ]
+  },
+  "devops": {
+    "banner_title": "¿Qué es DevOps? Estrategia efectiva de fusión de dos equipos",
+    "banner_description": "Por definición, DevOps describe un proceso de desarrollo de software y un cambio de cultura organizacional que acelera la entrega de software de mayor calidad al automatizar e integrar los esfuerzos de los equipos de desarrollo y operaciones de TI, dos grupos que tradicionalmente practicaban por separado o en silos.",
+    "Dev_meaning": "Los Desarrolladores centran sus esfuerzos en 'distribuir el código'. Los cambios y mejoras en los sistemas de producción y las fallas consiguientes en la prestación del servicio se consideran parte de esta prisa por hacer llegar el último y mejor código a los consumidores.",
+    "Ops_meaning": "Los grupos de Operaciones, por otro lado, son 'reactivos'. Se centran en la gestión de servicios y la respuesta a incidentes. Los equipos que apoyan las operaciones tienden a utilizar modelos de organización estrechamente alineados con ITSM e ITIL.",
+    "how_devops_works_title": "¿Cómo funciona DevOps ?",
+    "how_devops_works_text": "Bajo un modelo de DevOps, los equipos de desarrollo y operaciones ya no están 'aislados'. A veces, estos dos equipos se fusionan en un solo equipo donde los ingenieros trabajan durante todo el ciclo de vida de la aplicación, desde el desarrollo y la prueba hasta la implementación y las operaciones, y desarrollan una gama de habilidades que no se limitan a una sola función. \nEn algunos modelos de DevOps, los equipos de control de calidad y seguridad también pueden integrarse más estrechamente con el desarrollo y las operaciones y durante todo el ciclo de vida de la aplicación. Cuando la seguridad es el centro de atención de todos en un equipo de DevOps, esto a veces se denomina DevSecOps.",
+    "BenefitsDevOps": {
+      "Title": "Beneficios de DevOps",
+      "Benefits1Title": "Velocidad",
+      "Benefits1Descrip": "Muévase a gran velocidad para que pueda innovar para los clientes más rápido, adaptarse mejor a los mercados cambiantes y ser más eficiente para impulsar los resultados comerciales. El modelo DevOps permite a sus desarrolladores y equipos de operaciones lograr estos resultados",
+      "Benefits2Title": "Entrega rápida",
+      "Benefits2Descrip": "Aumente la frecuencia y el ritmo de los lanzamientos para que pueda innovar y mejorar su producto más rápidamente. La integración y la entrega continuas son prácticas que automatizan el proceso de lanzamiento del software, desde la construcción hasta la implementación",
+      "Benefits3Title": "Fiabilidad",
+      "Benefits3Descrip": "Garantice la calidad de las actualizaciones de las aplicaciones y los cambios en la infraestructura para que pueda entregar de manera confiable a un ritmo más rápido mientras mantiene una experiencia positiva para los usuarios finales",
+      "Benefits4Title": "Escala",
+      "Benefits4Descrip": "Opere y administre su infraestructura y procesos de desarrollo a escala. La automatización y la consistencia lo ayudan a administrar sistemas complejos o cambiantes de manera eficiente y con un riesgo reducido",
+      "Benefits5Title": "Colaboración mejorada",
+      "Benefits5Descrip": "Construya equipos más efectivos bajo un modelo cultural de DevOps, que enfatiza valores como la propiedad y la responsabilidad. Los desarrolladores y los equipos de operaciones colaboran estrechamente, comparten muchas responsabilidades y combinan sus flujos de trabajo",
+      "Benefits6Title": "Seguridad",
+      "Benefits6Descrip": "Muévase rápidamente mientras mantiene el control y preserva el cumplimiento. Puede adoptar un modelo DevOps sin sacrificar la seguridad mediante el uso de políticas de cumplimiento automatizadas, controles detallados y técnicas de administración de la configuración"
+    },
+    "PracticesDevOps": {
+      "DevOpsTitle": "Integración continua",
+      "DevOpsDescrip": "La integración continua es una práctica de desarrollo de software donde los desarrolladores combinan sus cambios de código en un repositorio central, después de lo cual se ejecutan compilaciones y pruebas automatizadas. Los objetivos clave de la integración continua son encontrar y corregir errores más rápido, mejorar la calidad del software y reducir el tiempo para las nuevas actualizaciones",
+      "DevOpsTitle2": "Entrega continua",
+      "DevOpsDescrip2": "La entrega continua es una práctica de desarrollo de software en la que los cambios de código se crean, se prueban y se preparan automáticamente para su lanzamiento a producción. Esto se expande en la integración continua por medio de la implementación de todos los cambios necesarios del código en un entorno de prueba y / o un entorno de producción después la etapa de construcción "
+    }
+  },
+  "scrum": {
+    "banner_title": "Metodología Scrum: ¿Qué es, cómo funciona?",
+    "banner_description": "Scrum es una metodología ágil utilizada en el desarrollo de Software, basada en procesos iterativos e incrementales. Scrum es un marco ágil adaptable, rápido, flexible y eficaz que está diseñado para entregar valor al cliente durante todo el desarrollo del proyecto.",
+    "ScrumEvents": {
+      "Title": "Eventos de Scrum",
+      "Descrip": "Son bloques de tiempo para crear regularidad y minimizar la necesidad de reuniones innecesarias e indefinidas en Scrum.",
+      "event1": "Planificación de Sprint",
+      "event1Paragraph": "El plan de sprint es creado por todos los miembros del equipo Scrum en colaboración. En esta ceremonia se toman todas las historias de usuarios priorizadas y se decide cuáles esprintar en función del objetivo del sprint y la capacidad del equipo. \n\nDefine qué se puede entregar en el Incremento resultante del Sprint que comienza y cómo se hará el trabajo necesario para entregar el Incremento.",
+      "event2": "Scrum diario",
+      "event2Paragraph": "Es una reunión diaria, de máximo 15 minutos, con todos los miembros del equipo de desarrollo para discutir el avance que se ha hecho hacia el objetivo Sprint y planificar el trabajo para el día siguiente. \n\nLuego, cada miembro respondió a los otros miembros del equipo Estas o preguntas similares: ¿He cumplido el compromiso que hice ayer? ¿A qué compromiso me comprometeré hoy? ¿Veo algún impedimento para lograrlo?",
+      "event3": "Revisión de Sprint",
+      "event3Paragraph": "Se trata de una reunión informal, no de seguimiento. Al final del Sprint, se realiza una revisión del Sprint para inspeccionar el Incremento y adaptar la Lista de Productos. \n\nDurante la revisión de Sprint, el equipo y las partes interesadas colaboran para determinar las siguientes cosas que se podrían hacer para optimizar el valor. Todo el equipo Scrum asiste y las partes interesadas están invitadas.",
+      "event4": "Sprint retrospectiva",
+      "event4Paragraph": "Es una oportunidad para que el equipo de Scrum se inspeccione y cree un plan de mejoras que se abordarán durante el próximo Sprint. \n\nEl propósito de la Retrospectiva del Sprint es Inspeccionar cómo fue el último Sprint en términos de personas, relaciones, procesos y herramientas; Identificar y ordenar los elementos más importantes que salieron bien y las posibles mejoras y, Crear un plan para implementar mejoras en la forma en que el Equipo Scrum realiza su trabajo."
+    },
+    "ScrumTeam": {
+      "Title": "Equipo Scrum",
+      "Descrip": "Consiste en un Product owner, el equipo de Desarrollo y un Scrum Master. Es autoorganizado y multifuncional. Entregan productos de forma iterativa e incremental",
+      "Team1": "Propietario del producto",
+      "Team1Descrip": "Es la persona que conoce y comprende las necesidades de los usuarios, conoce el negocio de la cabeza a los pies y es responsable de transmitir ese conocimiento al equipo de desarrollo (o al equipo de soluciones)",
+      "Team2": "Equipo de desarrollo",
+      "Team2Descrip": "Está formado por desarrolladores, que ejecutan el trabajo complejo más allá del código. Realizan actividades de proyecto para crear y entregar una vista previa del producto terminado en cada sprint.",
+      "Team3": "Scrum Master",
+      "Team3Descrip": "Es un líder que está al servicio del Scrum Team y de la organización, ayudándoles a entender y vivir la agilidad. Conoce el estado del proyecto, cuida los eventos y que el equipo es multifuncional"
+    },
+    "ScrumArtifacts": {
+      "Title": "Artefactos en Scrum",
+      "Descrip": "Representan trabajo o valor de diversas formas que son útiles para brindar transparencia y oportunidades de inspección y adaptación",
+      "Artf1": "Product Backlog",
+      "Artf1Descrip": "Es una lista ordenada de todo lo que se sabe que es necesario en el producto. Es la única fuente de requisitos para cualquier cambio que se realice en el producto. El propietario del producto es responsable de la lista de productos, incluida la su contenido, disponibilidad y pedidos. La Lista de Productos evoluciona a medida que lo hacen el producto y el entorno en el que se utilizará. Cambiando constantemente para identificar lo que el producto necesita para ser adecuado, competitivo y útil.",
+      "Artf2": "Backlog Sprint",
+      "Artf2Descrip": "Es el conjunto de elementos de la lista de productos seleccionados para el Sprint, más un plan para entregar el incremento del producto y lograr el objetivo del Sprint. Hace visible todo el trabajo que el Equipo de Desarrollo identifica como necesario para lograr el Objetivo del Sprint. Para garantizar la mejora continua, la Lista de tareas pendientes del Sprint incluye al menos una mejora de proceso de alta prioridad identificada en la Retrospectiva inmediatamente anterior.",
+      "Artf3": "Incremento",
+      "Artf3Descrip": "Es la suma de todos los elementos de la Lista de producto completados durante el Sprint. Recordemos que Scrum es liviano y fácil de entender, lo que no es tan fácil en mantenerse consciente de su esencia y no dejarse caer en el común error de aplicar una serie de prácticas solo por aplicarlas."
+    }
+  },
+  "blog": {
+    "subtitle_blog": "Quédate en el futuro",
+    "description_blog": "Contenido de valor del presente y desarrollo del mañana",
+    "searchField": "Explora nuestro contenido..."
+  },
+  "staff": {
+    "banner_staffAug": {
+      "title": "Descubre como \n hacer <1>realidad</1> tus ideas de <1>transformación</1> \n <1>tecnológica</1> con talento especializado en TI",
+      "sub_title": "Los mejores desarrolladores de software en LATAM ayudando a que tus proyectos tengan éxito.",
+      "text_img": "Staff Augmentation - Custom Software Development: flexibilidad y crecimiento para las compañías."
+    },
+    "folder_staffAug": {
+      "we_are": "SOMOS \nEXPERTOS EN:",
+      "item_app": "Apps nativas en la nube",
+      "item_devops": "Procesos DevOps",
+      "item_stack": "Desarrollo Full Stack",
+      "item_micro": "Diseño de Microservicios",
+      "item_software": "Arquitectura de software",
+      "item_frontend": "Desarrollo Web Front–end",
+      "item_api": "Diseño basado\n en API",
+      "item_agil": "Software ágil ",
+      "btn_talk": "Hablemos"
+    },
+    "video_part": {
+      "title": "Una década de experiencia haciendo realidad los sueños en tecnología de las compañías",
+      "sub_title": "Conoce nuestro caso de éxito con Seguros Bolívar"
+    },
+    "good_place": {
+      "title": "Somos una compañía que cuida a sus colaboradores, las personas son el primer y más importante criterio en cada decisión. El 99% de nuestros colaboradores dicen que Somos un Gran Lugar para Trabajar.",
+      "btn_good": "Conoce más aquí "
+    },
+    "our_tech_talent": {
+      "title": "Nuestro talento tech",
+      "items_talents": [
+        {
+          "title": "Es innovador en la creación y desarrollo de soluciones destacadas"
+        },
+        {
+          "title": "Trabaja bajo una cultura colaborativa"
+        },
+        {
+          "title": "Es ágil en la realización de proyectos"
+        },
+        {
+          "title": "Tiene un alto desempeño en la ejecución de los objetivos comerciales"
+        },
+        {
+          "title": "Genera valor a través del compromiso y la cohesión "
+        },
+        {
+          "title": "Posee el conocimiento, la experiencia técnica y humana, a favor de los procesos de transformación"
+        },
+        {
+          "title": "Facilita el trabajo y los procesos de adaptación tecnológica "
+        }
+      ]
+    },
+    "landing_form": {
+      "title": "Contáctanos",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "company": "Empresa",
+      "phone": "Teléfono",
+      "address": "¿Dónde se encuentra tu empresa?",
+      "titleServiceOpc": "¿ En que servicio estas interesado?",
+      "message": "Ingresa tu mensaje...",
+      "privacyPolicy": "Al completar este formulario, aceptas que estás de acuerdo con la política de confidencialidad de DreamCode ",
+      "txt_privacyPolicy": "He leído y acepto la ",
+      "btn": "Enviar Mensaje",
+      "form_text_modal": "Gracias por conectarte con nosotros, el formulario fue diligenciado éxitosamente.",
+      "form_text_error": "Por favor, complete el ReCAPTCHA antes de enviar el formulario."
+    }
+  }
+}
