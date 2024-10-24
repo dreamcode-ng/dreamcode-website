@@ -17,6 +17,7 @@ export default function About() {
       </Head>
       <main >
       <h1 className='text-center pt-4'>{t('homePage.bannerHome.btn_slider_one')} Home</h1>
+      <h2>ESTO ES UN CAMBIO</h2>
       <p>{t('locale')}</p>
 
       </main>
