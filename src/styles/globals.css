@@ -22,6 +22,7 @@
 main { background-color: var(--background-color)!important; transition: background-color 250ms ease-in-out;}
 
 
+
 html,
 body {
   max-width: 100vw;
@@ -31,7 +32,10 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Jost", sans-serif;
+  -moz-font-family: "Jost", sans-serif; 
+  -webkit-font-family: "Jost", sans-serif; 
+  -o-font-family: "Jost", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -60,4 +64,235 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+/*=== TEXT ===*/
+
+h1, h2, h3, h4, h5, h6, a, p, li, .f_p {
+  font-family: "Jost", sans-serif;
+  -moz-font-family: "Jost", sans-serif; 
+  -webkit-font-family: "Jost", sans-serif; 
+  -o-font-family: "Jost", sans-serif;
+
+
+}
+
+
+figure { margin: 0 0 0 !important; }
+.z-index { z-index: 0;}
+.z-index-1 { z-index: 1;}
+.z-index-9 { z-index: 9999;}
+
+
+/*=========== TAMAÑO TEXTO ==============*/
+.f--size-90 { font-size: 90px;}
+.f--size-80 { font-size: 80px;}
+.f--size-70 { font-size: 70px;}
+.f--size-60 { font-size: 60px;}
+.f--size-50 { font-size: 50px;}
+.f--size-40 { font-size: 40px;}
+.f--size-30 { font-size: 30px;}
+.f--size-25 { font-size: 25px;}
+.f--size-20 { font-size: 20px;}
+.f--size-18 { font-size: 18px;}
+.f--size-15 { font-size: 15px;}
+.f--size-12 { font-size: 12px;}
+.f--size-0 { font-size: 0px !important;}
+
+@media screen and (max-width:512px){
+  .f-sm-35 { font-size: 35px;}
+  .f-sm-30 { font-size: 30px;}
+  .f-sm-25 { font-size: 25px;}
+  .f-sm-20 { font-size: 20px;}
+  .f-sm-18 { font-size: 18px;}
+  .f-sm-15 { font-size: 15px;}
+  .f-sm-12 { font-size: 12px;}
+  .p-sm { padding: 0 !important;}
+}
+/*=========== font-weight ==============*/
+.f_400 {font-weight: 400 !important;}
+.f_500 {font-weight: 500 !important;}
+.f_600 {font-weight: 600 !important;}
+.f_700 {font-weight: 700 !important;}
+.f_800 {font-weight: 800 !important;}
+
+
+/*=========== ANCHO DE TEXTO ==============*/
+.l_height60 {line-height: 60px;}
+.l_height10 { line-height: 10px; }
+.l_height09 { line-height: 0.9; }
+.l_height_p { line-height: 28px; }
+.l_height { line-height: 1.9em; }
+
+/*=========== COLOR TEXT ==============*/
+.t_color {color: var(--title-text-color);}
+.p_color {color: var(--paragraph-text-color)!important;}
+.w_color {color: #FFFFFF !important;}
+.m_color {color: #00FFFF !important;}
+.b_color {color: #606060 !important;}
+.pink_color {color: #9529F9 !important;}
+.orange_color {color: #F7AC40 !important;}
+
+/*---- Background-Color -----*/
+.bg_t_color {background-color: var(--title-text-color);transition: background-color 250ms ease-in-out;}
+.bg_black { background-color: #000000;}
+.bg_dark { background-color: #0c1721}
+.-bg-section { background-color: var(--background-color)!important; transition: background-color 250ms ease-in-out;}
+
+.swiper-slide, .post-list article {
+  content-visibility: auto;
+}
+
+/*---- PADDING -----*/
+.mt_20 { margin-top: 20px; }
+.mt_40 { margin-top: 40px; }
+.mt_60 { margin-top: 60px; }
+.mt_80 { margin-top: 80px; }
+.mt_100 { margin-top: 100px; }
+
+.mb_20 { margin-bottom: 20px; }
+.mb_30 { margin-bottom: 30px; }
+.mb_40 { margin-bottom: 40px; }
+.mb_50 { margin-bottom: 50px; }
+.mb_60 { margin-bottom: 60px; }
+.mb_70 { margin-bottom: 70px; }
+.mb_90 { margin-bottom: 90px; }
+
+
+.pl_20 { padding-left: 20px; }
+.pl_30 { padding-left: 30px; }
+.pl_40 { padding-left: 40px; }
+.pl_50 { padding-left: 50px; }
+.pl_70 { padding-left: 70px; }
+.pl_100 { padding-left: 100px; }
+.pl_120 { padding-left: 120px; }
+/**/
+.pr_120 { padding-right: 120px; }
+.pr_50 { padding-right: 50px; }
+.pr_20 { padding-right: 20px; }
+.pr_0 { padding-right: 0px; }
+/**/
+.px_50 { padding-left: 50px !important; padding-right: 50px !important;}
+.py_20 { padding-top: 20px !important; padding-bottom: 20px !important;}
+.mx_20 { margin-left: 20px !important; margin-right: 20px !important;}
+.py_40 { padding-top: 40px !important; padding-bottom: 40px !important;}
+.py_50 { padding-top: 50px !important; padding-bottom: 50px !important;}
+.py_60 { padding-top: 60px !important; padding-bottom: 60px !important;}
+
+.w-40 { width: 40%;}
+.w-30 { width: 30%;}
+.vh-80 {height: 80vh;}
+/*==================== Position Absolute  ================================*/
+
+.left-0 { left: 0!important;}
+.right-0 { right: 0!important;}
+.top-0 { top: 0!important;}
+.bottom-0 { bottom: 0!important;}
+
+/*==================== Modal Form  ================================*/
+.sec_pad { padding: 80px 0 30px;}
+.sec--area { padding: 40px 15px;}
+
+.btn, .btn:focus, .btn:hover, a, a:focus, a:hover, button, button:focus, button:hover {
+  text-decoration: none !important;
+  outline: none;
+}
+
+/*====================================================*/
+/*--Para que el salto de linea funcione en json--*/
+.line-break {
+  white-space: pre-line;  
+  vertical-align: bottom;
+}
+
+.border-2px {
+  border: 2px solid #dee2e6;
+}
+
+.b_radious {
+  border-radius: 1.25rem!important;
+}
+/*==========RESPONSIVE===========*/
+/*Mobil*/
+@media screen and (max-width:512px){
+  .sm-w-75{width: 75%;}
+  .sm-vh-50 {height: 50vh;}
+  .sm-vh-80 {height: 80vh;}
+  .sm-vh-100 {height: 100vh;}
+  
+}
+/*Tablet*/
+@media (min-width: 513px) and (max-width:821px){
+  .ms-vh-50 {height: 50vh;}
+  .ms-vh-80 {height: 80vh;}
+  .ms-vh-100 {height: 100vh;}
+}
+.nav-item + .nav-item {margin-left: 20px;}
+.nav-link { font-weight: 700 !important;}
+.nav-item>.nav-link , .dropdown-item{
+  padding: 0;
+  color: var(--paragraph-text-color)!important;
+  transition: color .3s ease 0s;
+  position: relative;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: transparent;
+  font-weight: 600;
+}
+#menu .nav-link:focus, #menu .nav-link:hover {
+  color: var(--title-text-color)!important;
+}
+.error--two-area {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  min-height: 750px;
+}
+
+
+
+
+
+  /* ====== BOTONES ===== */
+
+  .read--more-btn {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+  }
+
+  .read--more-btn:before {
+    content: "";
+    width: 0;
+    height: 1px;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transition: width 0.2s linear;
+}
+
+  .read--more-btn:hover:before {
+    width: 100%;
+    right: auto;
+    left: 0;
+    background: #fff;
+}
+
+/*  =====  */
+
+.form-control:focus,  input[type="text"] ,  input[type="email"] ,   input[type="number"],  input[type="tel"]   {
+  background-color: transparent !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
 }

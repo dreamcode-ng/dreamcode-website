@@ -16,7 +16,7 @@ export default function Services() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main >
-      <h1 className='text-center pt-4'>{t('homePage.bannerHome.btn_slider_one')} Home</h1>
+      <h1 className='text-center pt-4'>{t('homePage.bannerHome.btn_slider_one')} Service</h1>
       <p>{t('locale')}</p>
 
       </main>
