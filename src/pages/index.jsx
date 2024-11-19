@@ -20,6 +20,7 @@ export default function Home() {
         <h1 className='text-center pt-4'>{t('homePage.bannerHome.btn_slider_one')} Home</h1>
           <p className='text-center'>{t('components.read_more')}</p>
           <p>{t('locale')}</p>
+          <p>Hola</p>
           <Banner />
       </main>
     </>
