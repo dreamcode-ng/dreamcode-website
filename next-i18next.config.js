@@ -4,7 +4,8 @@ const path = require('path');
 module.exports = {
   i18n: {
     defaultLocale: 'es',
-    locales: ['en', 'es'],
+    locales: ['es', 'en'],
   },
+  react: { useSuspense: false },
   localePath: path.resolve('./public/locales'), // Ruta a tus archivos de traducción
 };

@@ -11,7 +11,7 @@ import MenuLinks from './MenuLinks';
 function Navbar () {
 
   return (
-    <header className={`navbar navbar-expand-lg -bg-section px-3  ${styles.header_area}`}>
+    <header className={`navbar fixed-top navbar-expand-lg -bg-section px-3  ${styles.header_area}`}>
       <div className="container">
         <Link className="navbar-brand" href="/" passHref>
           <Image 
@@ -27,14 +27,13 @@ function Navbar () {
           <span className="navbar-toggler-icon"></span>
         </button>
         <nav 
-          className="collapse navbar-collapse justify-content-end" 
-          id="navbarNavDropdown">
+          className="collapse navbar-collapse justify-content-end"  id="navbarNavDropdown">
           <MenuLinks />
           <MenuButtons />
-          
-          <LangSwitcher />
-          <ThemeSwitch />
-
+          <ul className='navbar-nav' id='switch'>
+            <LangSwitcher />
+            <ThemeSwitch />
+          </ul>     
         </nav>
       </div>
     </header>

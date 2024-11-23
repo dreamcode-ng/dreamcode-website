@@ -1,0 +1,81 @@
+{
+    "meta_datos": {
+        "meta_title_Home": "Custom Software Development - IT Staff Augmentation - Nearshore",
+        "meta_description_Home": "Software Development Specialists, We Provide IT Talent for the United States and Latin America."
+    },
+    "bannerHome": {
+        "titleBannerHome": "<0>Business ideas in</0> Software development",
+        "subtitleBannerHome": "Faciliting the processes\n of<1> technological adhesion\n</1> of companies, <3>evolving</3> with them at the pace of the markets.",
+        "btn_slider_home": "Know more",
+        "btn_slider_one": "More information"
+    },
+    "service_home": {
+        "service_title": "Staff Augmentation for organizations",
+        "service_subtitle": "Nearshore and offshore software development services, we are experts in creating high performance products, based on agile methodologies and processes for companies.",
+        "service_subt": "We are experts in creating high-performance technological solutions",
+        "read_more": "Read More",
+        "appTitle": "Web and Mobile Application ",
+        "appDescrip": "We are drivers of business growth and as leaders in web and mobile development we create applications that transform and provide added value to organizations.",
+        "baseTitle": "Database Services",
+        "baseDescrip": "We provide strategic and tactical resources for organizations that require a complement of support services.",
+        "consultoriaTitle": "Technology Consulting",
+        "consultoriaDescrip": "We provide personalized advice and guidance services in the integration of business technology tools.",
+        "servitems": [
+            {
+                "id": 1,
+                "planet": "mercury",
+                "servTitle": "Web and Mobile Application ",
+                "servDescrip": "We are drivers of business growth and as leaders in web and mobile development we create applications that transform and provide added value to organizations."
+            },
+            {
+                "id": 2,
+                "planet": "neptune",
+                "servTitle": "Database Services",
+                "servDescrip": "We provide strategic and tactical resources for organizations that require a complement of support services."
+            },
+            {
+                "id": 3,
+                "planet": "venus",
+                "servTitle": "Technology Consulting",
+                "servDescrip": "We provide personalized advice and guidance services in the integration of business technology tools."
+            }
+        ]
+    },
+    "process_home": {
+        "process_title": "Efficient methodologies and practices for software development",
+        "process_subtitle": "All our processes are centralized in the user, we deliver value to the client throughout the development of their projects, dynamism and flexibility.",
+        "scrum_description": "Scrum is an agile development methodology used in the Software development, based on iterative and incremental processes, an adaptable, fast and efficient framework.",
+        "devops_description": " DevOps is a software development process and organizational culture change that accelerates the delivery of quality software by automating and integrating teams.",
+        "read_more": "Read More"
+    },
+    "staff_home": {
+        "title": "At DreamCode we believe that \ndreams are they build and materialize together",
+        "subtitle": "How do we do it?",
+        "text": "We integrate ourselves into the <1>fulfillment of the business vision</1> of organizations <3>facilitating its growth and promoting</3> technological transformation processes with <5>specialized IT talent.</5>",
+        "know_more": "Contact us"
+    },
+    "testimonios": {
+        "testim_title": "We build ideas with:",
+        "testim_subtitle": "What they say speaks of our work",
+        "testimoniosItems": [
+            {
+                "name": "Diego Prada",
+                "image": "test2",
+                "position": "Co-founder and CTO. Global Networks Solutions",
+                "description": "As an outstanding partner to GNS is everything related to cloud software development. Additionally, they give us the support we need with good response times and SLAs."
+            },
+            {
+                "name": "Iván Mauricio Pérez",
+                "image": "test3",
+                "position": "Digital Portfolio Manager - Seguros Bolívar",
+                "description": "With DreamCode we have consolidated a dynamic of work and successful technological creation. Their ability to understand our business objectives, contribute from the ideation and guide the execution with their technical experience have been differential to achieve our digital projects materialize."
+            },
+            {
+                "name": "Julián Alvarez",
+                "position": "CEO at LogixBoard",
+                "image": "test1",
+                "description": "What sets DreamCode apart are two fundamental differences. First, they are radically transparent, giving us the certein that we take the best option. Also, they have incredible business acumen, allowing them to understand our technical needs, And even more important, the core business drivers behind our decisions and goals."
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "meta_datos": {
+        "meta_title_Home": "Empresa de Desarrollo de Software a medida - IT Staff Augmentation",
+        "meta_description_Home": "Empresa especialistas en Desarrollo de software, proveemos talento TI  para Estados Unidos y Latinoamérica "
+    },
+    "bannerHome": {
+        "titleBannerHome": "<0>Ideas de negocio en</0> Desarrollo de Software",
+        "subtitleBannerHome": "Facilitando los procesos\n de<1> adhesión tecnologica\n</1> de las compañías, <3>evolucionando</3> con ellas al ritmo de los mercados.",
+        "btn_slider_home": "Quiero saber más ",
+        "btn_slider_one": "Más información "
+    },
+    "service_home": {
+        "service_title": "Staff Augmentation para las organizaciones",
+        "service_subtitle": "Servicios de desarrollo de software nearshore/offshore, somos expertos en la creación de productos de alto performance , basados en metodologías y procesos agiles para las compañías.",
+        "service_subt": "Somos expertos en la creación de soluciones tecnológicas de alto performance",
+        "read_more": "Leer más",
+        "consultoriaTitle": "Consultoría tecnológica",
+        "consultoriaDescrip": "Prestamos servicios de asesoría y orientación personalizada en la integración de herramientas tecnológicas empresariales.",
+        "baseTitle": "Servicio de base de datos",
+        "baseDescrip": "Brindamos recursos estratégicos y tácticos para las organizaciones que requieran un complemento de servicios de soporte.",
+        "appTitle": "Servicio de aplicaciones \nmóviles y web",
+        "appDescrip": "Somos impulsadores del crecimiento empresarial y como líderes del desarrollo web y móvil creamos aplicaciones que trasforman y brindan el valor agregado a las organizaciones.",
+        "servitems": [
+            {
+                "id": 3,
+                "planet": "venus",
+                "servTitle": "Consultoría tecnológica",
+                "servDescrip": "Prestamos servicios de asesoría y orientación personalizada en la integración de herramientas tecnológicas empresariales."
+            },
+            {
+                "id": 2,
+                "planet": "neptune",
+                "servTitle": "Servicios de base de datos",
+                "servDescrip": "Brindamos recursos estratégicos y tácticos para las organizaciones que requieran un complemento de servicios de soporte."
+            },
+            {
+                "id": 1,
+                "planet": "mercury",
+                "servTitle": "Servicios de aplicaciones móviles y web",
+                "servDescrip": "Somos impulsadores del crecimiento empresarial y como líderes del desarrollo web y móvil creamos aplicaciones que trasforman y brindan el valor agregado a las organizaciones."
+            }
+        ]
+    },
+    "process_home": {
+        "process_title": "Metodologías y prácticas eficientes para el desarrollo de software",
+        "process_subtitle": "Todos nuestros procesos están centralizados en el usuario, entregamos valor al cliente durante todo el desarrollo de sus proyectos, dinamismo y flexibilidad.",
+        "scrum_description": "Scrum es una metodología ágil utilizada en el desarrollo de Software, basada en procesos iterativos e incrementales, un marco adaptable, rápido, flexible y eficaz.",
+        "devops_description": "DevOps es un proceso de desarrollo de software y un cambio de cultura organizacional que acelera la entrega de software de mayor calidad al automatizar e integrar dos equipos.",
+        "read_more": "Leer más"
+    },
+    "staff_home": {
+        "title": "En DreamCode creemos que los sueños se\n construyen y materializan en conjunto",
+        "subtitle": "¿Cómo lo hacemos? ",
+        "text": "Nos integramos al <1>cumplimiento de la visión de negocio</1> de las organizaciones <3>facilitando su crecimiento e impulsando los procesos</3> de transformación tecnológica con <5>talento TI especializado.</5>",
+        "know_more": "Contáctanos"
+    },
+    "testimonios": {
+        "testim_title": "Construimos ideas con:",
+        "testim_subtitle": "Lo que ellos dicen habla de nuestro trabajo",
+        "testimoniosItems": [
+            {
+                "name": "Diego Prada",
+                "image": "test2",
+                "position": "Co-founder y CTO. Global Networks Solutions",
+                "description": "Como un sólido y excelente socio para GNS son todo lo relacionado con el desarrollo de software en la nube. Además, nos brindan el soporte que necesitamos con muy buenos tiempos de respuesta y SLA."
+            },
+            {
+                "name": "Iván Mauricio Pérez",
+                "image": "test3",
+                "position": "Gerente Portafolio Digital - Seguros Bolívar",
+                "description": "Junto a DreamCode hemos consolidado una dinámica de trabajo y creación tecnológica exitosa. Su capacidad para entender nuestros objetivos de negocio, aportar desde la ideación y guiar la ejecución con su experiencia técnica han sido diferenciales para lograr materializar nuestros proyectos digitales."
+            },
+            {
+                "name": "Julián Alvarez",
+                "position": "CEO at LogixBoard",
+                "image": "test1",
+                "description": "DreamCode se destaca por dos aspectos clave. Primero, su radical transparencia nos da confianza de que estamos en las mejores manos. Segundo, su notable perspicacia comercial les permite comprender nuestras necesidades técnicas y ser impulsores de nuestras decisiones y objetivos comerciales."
+            }
+        ]
+    }
+}

@@ -14,11 +14,11 @@ export default function LangSwitcher() {
   };
 
     return (
-            <div className="nav-item dropdown pl_20 pr_20">
+            <li className="nav-item dropdown pl_20 pr_20">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <MdLanguage />
               </a>
-              <ul className="dropdown-menu ">
+              <ul className="dropdown-menu -bg-section">
                 <li>
                   <button 
                     className="dropdown-item" 
@@ -38,7 +38,7 @@ export default function LangSwitcher() {
                   </button>
                 </li>
               </ul>
-            </div>
+            </li>
     )
   }
   

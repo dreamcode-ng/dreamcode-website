@@ -8,14 +8,14 @@ export default function MenuButtons() {
     const locale = i18n.language;
 
     return (
-        <ul className="navbar-nav flex-direction-row justify-content-center">
+        <ul className="navbar-nav flex-direction-row justify-content-center" id='btn-menu'>
             <li className="nav-item">
-              <Link href="/blog" className={`nav-link ${styles.btn_get}`}>
+              <Link href="/blog" className={`nav-link text-center overflow-hidden bg-transparent ${styles.btn_get}`}>
                 DreamBlog
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/careers" className={`nav-link ${styles.btn_get}`}>
+              <Link href="/careers" className={`nav-link text-center overflow-hidden bg-transparent ${styles.btn_get}`}>
                 {locale === 'en' ? 'Careers' : 'Carreras'}
               </Link>
             </li>

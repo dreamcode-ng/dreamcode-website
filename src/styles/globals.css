@@ -19,7 +19,7 @@
   --bg--slider-item: #0E161C;
 }
 
-main { background-color: var(--background-color)!important; transition: background-color 250ms ease-in-out;}
+main { margin-top: 60px; background-color: var(--background-color)!important; transition: background-color 250ms ease-in-out;}
 
 
 
@@ -240,9 +240,7 @@ figure { margin: 0 0 0 !important; }
   background-color: transparent;
   font-weight: 600;
 }
-#menu .nav-link:focus, #menu .nav-link:hover {
-  color: var(--title-text-color)!important;
-}
+
 .error--two-area {
   display: flex;
   align-items: center;

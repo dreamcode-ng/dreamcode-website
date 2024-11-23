@@ -10,13 +10,13 @@ export default function ThemeSwitch() {
 
     return (
         
-        <ul className="navbar-nav">
+
             <li className="nav-item dropdown">
                 <button onClick={toggleTheme} className={style.btn_dark_mode}>
                 {theme ?  <BiSun /> : <BiMoon /> }
                 </button> 
             </li>
-        </ul>
+
 
     )
   }
