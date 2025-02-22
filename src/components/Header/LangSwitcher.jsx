@@ -1,5 +1,4 @@
 import { MdLanguage } from "react-icons/md";
-import style from './menu.module.css';
 import { useRouter } from 'next/router';
 
 
@@ -14,31 +13,26 @@ export default function LangSwitcher() {
   };
 
     return (
-            <li className="nav-item dropdown pl_20 pr_20">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <MdLanguage />
-              </a>
-              <ul className="dropdown-menu -bg-section">
-                <li>
+            <li className="nav-item btn-lang">
+              { locale === 'en' ? 
                   <button 
-                    className="dropdown-item" 
+                    className="dropdown-item w_color" 
                     onClick={() => changeLanguage('es')}
                     disabled={locale === 'es'}
                   >
-                     {locale === 'en' ? 'Spanish' : 'Español'}
+                    Es
                   </button>
-                </li>
-                <li>
+                  :
                   <button 
-                    className="dropdown-item" 
+                    className="dropdown-item w_color" 
                     onClick={() => changeLanguage('en')}
                     disabled={locale === 'en'}
                   >
-                    {locale === 'en' ? 'English' : 'Inglés'}
+                    En
                   </button>
+              } 
                 </li>
-              </ul>
-            </li>
+
     )
   }
   

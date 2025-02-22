@@ -1,13 +1,17 @@
 // components/Layout.jsx
-import Navbar from "./Header/Navbar";
 import Footer from "./Footer";
+import Nav from "./Nav";
+
 
 const Layout = ({ children }) => {
+
+
+
     return (
       <>
-        <Navbar />
-          {children}
-        {/* <Footer /> */}
+        <Nav />
+            {children}
+        <Footer />
       </>
     );
   };

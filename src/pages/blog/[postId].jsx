@@ -19,8 +19,8 @@ const Post = () => {
   if (!post) return <NotFound />;
 
   return (
-    <main>
-      <h1>{post.title}</h1>
+    <main className='vh-100'>
+      <h1 className='w_color' >{post.title}</h1>
       
       <Markdown>{post.content}</Markdown>
 

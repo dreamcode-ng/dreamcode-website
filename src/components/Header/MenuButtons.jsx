@@ -1,25 +1,29 @@
 import Link from 'next/link';
-import { useTranslation } from 'next-i18next';
-import styles from './menu.module.css'
 
 export default function MenuButtons() {
 
-    const { i18n } = useTranslation();
-    const locale = i18n.language;
-
     return (
-        <ul className="navbar-nav flex-direction-row justify-content-center" id='btn-menu'>
-            <li className="nav-item">
-              <Link href="/blog" className={`nav-link text-center overflow-hidden bg-transparent ${styles.btn_get}`}>
-                DreamBlog
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link href="/careers" className={`nav-link text-center overflow-hidden bg-transparent ${styles.btn_get}`}>
-                {locale === 'en' ? 'Careers' : 'Carreras'}
-              </Link>
-            </li>
-        </ul> 
+      <div className="collapse sub-menu w-100" id="collapseExample">
+          <div className="p-4 bg_secondary">
+            <ul className="navbar-nav justify-content-center">
+              <li className="nav-item">
+                <Link className="nav-link w_color" href="/staff-augmentation">Staff Augmentation</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link w_color" href="/software-development">Desarrollo de software</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link w_color" href="/systems-modernization">Modernización de sistemas</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link w_color" href="/database-management">Gestión de base de datos</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link w_color" href="/it-consulting">Consultoria TI</Link>
+              </li>
+            </ul>
+          </div>
+      </div>
     )
   }
   

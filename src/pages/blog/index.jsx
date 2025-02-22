@@ -12,7 +12,7 @@ const Blog = () => {
 
   return (
     <div>
-      <h1>Blog</h1>
+      <h1 className='w_color' >Blog</h1>
       <ul>
         {posts.map((post) => (
           <li key={post.id}>

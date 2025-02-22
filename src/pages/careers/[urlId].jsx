@@ -39,8 +39,8 @@ let isActive = true;
 
 
   return (
-    <main>
-      <h1>{name}</h1>
+    <main className='vh-100'>
+      <h1 className='w_color' >{name}</h1>
       <p>{description} </p>
 
     </main>

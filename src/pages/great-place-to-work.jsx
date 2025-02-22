@@ -12,7 +12,7 @@ export default function Great() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=''>
-        <h1 className=''>Pagina Great</h1>
+        <h1 className='w_color'>Pagina Great</h1>
       </main>
     </>
   )

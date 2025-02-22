@@ -11,8 +11,8 @@ const Blog = () => {
   const listJob = lang === 'en' ? listJobsEn : listJobsEs;
 
   return (
-    <main>
-      <h1>Careers</h1>
+    <main className='vh-100'>
+      <h1 className='w_color' >Careers</h1>
       <ul>
         {listJob.map((job) => (
           <li key={job.id}>

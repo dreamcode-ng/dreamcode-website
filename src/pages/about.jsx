@@ -15,8 +15,8 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-      <h1 className='text-center pt-4'>{t('homePage.bannerHome.btn_slider_one')} About</h1>
+      <main className='vh-100'>
+      <h1 className='w_color text-center pt-4'> About</h1>
       <p>{t('locale')}</p>
 
       </main>

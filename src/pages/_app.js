@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState(true);
   const toggleTheme = () => { setTheme(!theme) };
 
     return (
