@@ -1,0 +1,71 @@
+.banner-home { padding-top: 20vh;}
+.banner-home .welcome { background-color: #070708;}
+.banner-home .welcome div { background-color: #131316;}
+
+/* Desktop */
+@media screen and (min-width:900px){
+
+}
+/* Mobile */
+@media screen and (max-width:900px){
+
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(-15deg); }
+    40% { transform: rotate(10deg); }
+    60% { transform: rotate(-10deg); }
+    80% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .wave-container:hover .wave-hand {
+    animation: wave 0.8s ease-in-out;
+  }
+
+
+
+  
+  .custom-cursor {
+    position: fixed;
+    z-index: 0;
+    filter: blur(100px);
+    width: 100px;
+    height: 100px;
+    background-color: #027c82;
+    border-radius: 40%;
+    transform: translate(-50%, -50%); /* Centra el círculo en el mouse */
+    transition: transform 0.1s ease;
+  }
+  
+  
+
+.background-grid {
+    position: absolute;
+    inset: 0;
+    background-color: #141414; /* Fondo oscuro */
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), 
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px; /* Tamaño de la cuadrícula */
+    pointer-events: none; /* No interfiere con clics */
+    z-index: -1;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0));
+
+  }
+  
+  .glow-effect {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(0, 255, 255, 0.5) 0%, transparent 70%);
+    filter: blur(100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+  
