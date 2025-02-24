@@ -5,8 +5,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import Link from 'next/link';
 import Mouse from '@/components/Mouse';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-//import Lottie from "lottie-react";
-//import animationDreamcode from "@/assets/animations/animation-dreamcode.json";
+import Banner from '@/components/Banner/Banner';
 
 export default function Home() {
   
@@ -21,11 +20,9 @@ export default function Home() {
 
     <div className="position-reñative h-auto ">
       <div className="background-grid"></div>
-      {/* <div className="glow-effect"></div> */}
         <div className='banner-home d-flex align-items-center justify-content-center text-white text-center '>
-      <Mouse>
           
-          <div className='z-index-1 container pb-5'>
+          <div className='container pb-5'>
             <div className="row align-items-center justify-content-center">
               <div className="col-lg-12 d-flex flex-column align-items-center text-center wave-container">         
                 <div className="d-flex align-items-center welcome text-white rounded-pill px-2 py-2 shadow-lg " style={{ maxWidth: "300px" }}>
@@ -42,7 +39,26 @@ export default function Home() {
             </div>
           </div> 
 
-        </Mouse >
+
+        </div>
+        <div class="container-dc container  mt-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <Banner />
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <Banner />
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <Banner />
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <Banner />
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <Banner />
+            </div>
+          </div>
         </div>
 
       </div>

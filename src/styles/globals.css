@@ -3,6 +3,10 @@
   --bg-secondary: #1A1A1A;
   --color-border: #262626;
   --primary-color: #3BF7E4;
+  --r-top: 0px;
+  --r-right: 12px;
+  --r-bottom: 12px;
+  --r-left: 12px;
 }
 
 /*Modo Dark*/
@@ -11,6 +15,7 @@
   --bg-secondary: #1A1A1A;
   --color-border: #262626;
   --primary-color: #3BF7E4;
+  
 
 }
 

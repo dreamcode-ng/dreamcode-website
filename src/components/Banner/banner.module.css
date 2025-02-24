@@ -1,3 +1,45 @@
-.banner {
-    color: rgb(57, 128, 104);
+
+
+  .cardd {
+    overflow: hidden;
+    border: none;
+    background-color: var(--bg-primary);
+    width: 100%;
+    height: 237px;
+    border: double 1.3px transparent;
+    border-radius: var(--r-top) var(--r-right) var(--r-bottom) var(--r-left);
+    background-image: linear-gradient(#141414, #141414), 
+                      linear-gradient(140deg, #3BF7E4 20%, #292929 40%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: relative;
+  }
+
+  .cardd div div {
+    width: 80px; /* Ajusta el tamaño del icono */
+    height: auto;
+    float: right; /* Alinea a la derecha */
+    z-index: 2; /* Asegura que el icono esté por encima de la iluminación */
+    position: relative;
 }
+
+
+  .cardd::before {
+    content: "";
+    position: absolute;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 95px;
+    background: linear-gradient(to bottom right, #40fff2, transparent);
+    border-radius: 0 0 100px 0;
+    transform: translate(-20px, -20px);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+
+
+
+  
