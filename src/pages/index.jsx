@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import Link from 'next/link';
 import Mouse from '@/components/Mouse';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Banner from '@/components/Banner/Banner';
+import SolutionsCard from '@/components/SolutionsCard/Card';
 
 export default function Home() {
   
@@ -41,22 +41,32 @@ export default function Home() {
 
 
         </div>
-        <div class="container-dc container  mt-5">
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <Banner />
+        <div className="container-dc container  mt-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <SolutionsCard 
+                title="Desarrollo de software"
+              />
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <Banner />
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <SolutionsCard 
+                title="Desarrollo de software"
+              />
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <Banner />
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <SolutionsCard 
+                title="Desarrollo de software"
+              />
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <Banner />
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <SolutionsCard 
+                title="Desarrollo de software"
+              />
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <Banner />
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <SolutionsCard 
+                title="Desarrollo de software"
+              />
             </div>
           </div>
         </div>

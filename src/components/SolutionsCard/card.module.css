@@ -1,6 +1,6 @@
 
 
-  .cardd {
+  .card {
     overflow: hidden;
     border: none;
     background-color: var(--bg-primary);
@@ -15,16 +15,16 @@
     position: relative;
   }
 
-  .cardd div div {
-    width: 80px; /* Ajusta el tamaño del icono */
+  .card .icon {
+    width: 80px; 
     height: auto;
-    float: right; /* Alinea a la derecha */
-    z-index: 2; /* Asegura que el icono esté por encima de la iluminación */
+    float: right; 
+    z-index: 2;
     position: relative;
 }
 
 
-  .cardd::before {
+  .card::before {
     content: "";
     position: absolute;
     filter: blur(10px);
