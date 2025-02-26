@@ -5,7 +5,10 @@ module.exports = {
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en'],
+    localeDetection: true,
   },
   react: { useSuspense: false },
-  localePath: path.resolve('./public/locales'), // Ruta a tus archivos de traducción
+  reloadOnPrerender: process.env.NODE_ENV === 'development',
+  localePath: path.resolve('./public/locales'),
+  
 };

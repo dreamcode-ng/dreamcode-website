@@ -2,14 +2,7 @@
 .banner-home .welcome { background-color: #070708;}
 .banner-home .welcome div { background-color: #131316;}
 
-/* Desktop */
-@media screen and (min-width:900px){
 
-}
-/* Mobile */
-@media screen and (max-width:900px){
-
-}
 
 @keyframes wave {
     0% { transform: rotate(0deg); }
@@ -68,4 +61,77 @@
     pointer-events: none;
     z-index: -1;
   }
+
+
+
+
+  /* Redefine Future*/
+  /* Contenedor principal */
+  .redefine {
+    padding: 100px 150px;
+    border-radius: 20px;
+    border: 1px solid var(--color-border);
+    background-color: #19191987;
+  }
+
+  /* Desktop */
+@media screen and (min-width:900px){
+  .redefine {
+    padding: 100px 130px;
+  }
+
+}
+/* Mobile */
+@media screen and (max-width:900px){
+  .redefine {
+    padding: 100px 35px;
+}
+.tecno .row {
+  flex-direction: column-reverse;
+}
+}
+
+/* Texto principal */
+.redefine-text {
+  font-size: 41px;
+  font-family: "Jost", sans-serif;
+  color: #3bf7e4;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.redefine::before {
+  content: ""; /* Necesario para que el ::after funcione */
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 270px;
+  height: 350px;
+  background-image: url("../assets/iconos/CuartoCirculo.svg"); /* Ruta del SVG */
+  background-size: contain; /* Ajusta el tamaño de la imagen */
+  background-repeat: no-repeat;
+}
+
+
+
+/*-- tecno adap  */
+
+.tecno .tecno-img > div {
+  border-radius: 12px;
+  background-image: url("../assets/iconos/Hondas.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid #44B8B6;
+}
+
+.tecno .tecno-img svg {
+  width: 80% !important;
+  height: auto;
+}
+
+
+
+
+
+
   

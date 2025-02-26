@@ -8,7 +8,7 @@ import { useInView } from "react-intersection-observer";
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 // Importación de la animación
-import animationDreamcode from "@/assets/animations/animation-dreamcode.json";
+import animationDreamcode from "@/assets/animations/animation-data.json";
 
 const SolutionsCard = ({ title, description }) => {
   const { ref, inView } = useInView({
@@ -25,7 +25,6 @@ const SolutionsCard = ({ title, description }) => {
           <span className="fw-medium text-secondary">talento experto</span>.
         </p>
         <div className={styles.icon}>
-          {/* Solo carga Lottie cuando el componente es visible */}
           {inView && <Lottie animationData={animationDreamcode} />}
         </div>
       </div>

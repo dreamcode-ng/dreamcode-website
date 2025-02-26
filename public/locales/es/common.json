@@ -82,5 +82,10 @@
         ]
       }
     ]
+  },
+  "service_home": {
+    "wave": "Te damos la bienvenida al futuro",
+    "service_title": "esarrolladores de \n<1>software</1>",
+    "service_subtitle": "Servicios de desarrollo de software nearshore/offshore, somos expertos en la creación de productos de alto performance , basados en metodologías y procesos agiles para las compañías."
   }
 }
