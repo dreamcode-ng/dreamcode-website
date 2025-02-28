@@ -7,8 +7,6 @@ import { createContext, useState, useEffect } from "react";
 import { appWithTranslation } from 'next-i18next';
 import nextI18nextConfig from '../../next-i18next.config'; // Importar configuración
 import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 
 export const ThemeContext = createContext(null);
 

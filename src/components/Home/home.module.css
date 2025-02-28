@@ -1,0 +1,8 @@
+.clients img {
+    width: 100%;
+    height: auto !important;
+}
+
+.clients .clientsSlider div {
+    align-items: center;
+}

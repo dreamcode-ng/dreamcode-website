@@ -7,21 +7,23 @@ import { useInView } from "react-intersection-observer";
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 // Importa todas las animaciones
-import animationDreamcode from "@/assets/animations/animacion-cubo.json";
-import animationOne from "@/assets/animations/animation-one.json";
-import animationTwo from "@/assets/animations/animation-two.json";
-import animationThree from "@/assets/animations/animation-three.json";
-import animationFour from "@/assets/animations/animation-four.json";
-import animationFive from "@/assets/animations/animation-five.json";
+import animationCube from "@/assets/animations/animation-cube.json";
+import animationCircle from "@/assets/animations/animation-circle.json";
+import animationCode from "@/assets/animations/animation-code.json";
+import animationData from "@/assets/animations/animation-data.json";
+import animationGraphic from "@/assets/animations/animation-graphic.json";
+import animationRocket from "@/assets/animations/animation-rocket.json";
+import animationUsers from "@/assets/animations/animation-users.json";
 
 // Mapeo de animaciones
 const animations = {
-  dreamcode: animationDreamcode,
-  one: animationOne,
-  two: animationTwo,
-  three: animationThree,
-  four: animationFour,
-  five: animationFive,
+  cube: animationCube,
+  circle: animationCircle,
+  code: animationCode,
+  data: animationData,
+  graphic: animationGraphic,
+  rocket: animationRocket,
+  users: animationUsers,
 };
 
 export default function AnimationUse({ animationName }) {

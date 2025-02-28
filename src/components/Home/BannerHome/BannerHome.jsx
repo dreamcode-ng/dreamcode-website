@@ -17,7 +17,8 @@ function BannerHome({ title, wave }) {
                 <p className="ms-2 me-3 f-lg-14 fw-bold mb-0">
                     {wave}
                 </p>
-            </div>       
+            </div>     
+
             <h1 className="display-1 f_500 py-4">
                 Desarroladores de <br></br><strong>Software</strong>
             </h1>

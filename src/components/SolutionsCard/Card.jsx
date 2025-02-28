@@ -1,35 +1,23 @@
-"use client";
 import React from "react";
 import styles from "@/components/SolutionsCard/card.module.css";
-import dynamic from "next/dynamic";
-import { useInView } from "react-intersection-observer";
+import AnimationUse from "@/assets/animations/AnimationUse";
 
-// Carga dinámica de Lottie para que solo se importe en el cliente
-const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
-
-// Importación de la animación
-import animationDreamcode from "@/assets/animations/animation-data.json";
-
-const SolutionsCard = ({ title, description }) => {
-  const { ref, inView } = useInView({
-    triggerOnce: true, // Solo se ejecuta una vez
-    threshold: 0.3, // Se activa cuando el 30% del componente es visible
-  });
+const SolutionsCard = ({ title, description, animationName }) => {
 
   return (
-    <div ref={ref} className={`${styles.card} text-white my-3`}>
-      <div className="card-body pt-5 ps-5 pe-3">
-        <h2 className="card-title mb-3 f-lg-25 f_600">{title}</h2>
-        <p className="card-text text-start f-lg-18">
-          Amplía la capacidad de tu equipo con{" "}
-          <span className="fw-medium text-secondary">talento experto</span>.
-        </p>
-        <div className={styles.icon}>
-          {inView && <Lottie animationData={animationDreamcode} />}
+    <div className="col-lg-4 col-md-6 col-sm-12">
+      <div  className={`${styles.card} text-white my-3`}>
+        <div className={`${styles.cardBody } `}>
+          <h2 className=" mb-3 f-lg-25 f_600">{title}</h2>
+          <p className=" text-start f-lg-14">
+            {description}
+          </p>
+          <div className={styles.icon}>
+            <AnimationUse animationName={animationName} />
+          </div>
         </div>
       </div>
     </div>
   );
-};
-
+}
 export default SolutionsCard;

@@ -67,12 +67,7 @@
 
   /* Redefine Future*/
   /* Contenedor principal */
-  .redefine {
-    padding: 100px 150px;
-    border-radius: 20px;
-    border: 1px solid var(--color-border);
-    background-color: #19191987;
-  }
+
 
   /* Desktop */
 @media screen and (min-width:900px){
@@ -90,7 +85,12 @@
   flex-direction: column-reverse;
 }
 }
-
+.redefine {
+  padding: 100px 150px;
+  border-radius: 20px;
+  border: 1px solid var(--color-border);
+  background-color: #19191987;
+}
 /* Texto principal */
 .redefine-text {
   font-size: 41px;
@@ -98,6 +98,7 @@
   color: #3bf7e4;
   text-align: center;
   word-wrap: break-word;
+  z-index: 2;
 }
 
 .redefine::before {
@@ -105,9 +106,10 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 1;
   width: 270px;
   height: 350px;
-  background-image: url("../assets/iconos/CuartoCirculo.svg"); /* Ruta del SVG */
+  background-image: url("../assets/iconos/CuartoCirculoLazy.svg"); /* Ruta del SVG */
   background-size: contain; /* Ajusta el tamaño de la imagen */
   background-repeat: no-repeat;
 }
