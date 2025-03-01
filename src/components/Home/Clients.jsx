@@ -36,17 +36,10 @@ const ClientsLogo = ({ image }) => (
 const ClientsSlider = ({ reverse }) => (
   <Swiper
     spaceBetween={50}
+    slidesPerView={3}
     allowTouchMove={false}
     autoHeight={true}
     breakpoints={{
-      640: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
       1024: {
         slidesPerView: 7,
         spaceBetween: 50,
