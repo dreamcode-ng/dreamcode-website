@@ -1,0 +1,18 @@
+.containerCircule {
+    border-radius: 20px;
+    border: 1px solid var(--color-border);
+    background-color: #19191987;
+}
+
+.containerCircule::before {
+    content: ""; /* Necesario para que el ::after funcione */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    width: 270px;
+    height: 350px;
+    background-image: url("../../assets/iconos/CuartoCirculoLazy.svg"); /* Ruta del SVG */
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    background-repeat: no-repeat;
+}

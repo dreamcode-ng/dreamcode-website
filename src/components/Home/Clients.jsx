@@ -38,7 +38,20 @@ const ClientsSlider = ({ reverse }) => (
     spaceBetween={50}
     allowTouchMove={false}
     autoHeight={true}
-    slidesPerView={7}
+    breakpoints={{
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 7,
+        spaceBetween: 50,
+      },
+    }}
     effect="slide"
     speed={2000}
     loop={true}
@@ -65,7 +78,7 @@ export default function Clients() {
   return (
     <div className={`${style.clients}`}>
         <div className="pb-4">
-            <h2 className="f-lg-40 w_color text-center">Detrás del desarrollo de proyectos tecnológicos exitosos, siendo un equipo con estas marcas:</h2>
+            <h2 className="f-lg-40 f-sm-25 w_color text-center">Detrás del desarrollo de proyectos tecnológicos exitosos, siendo un equipo con estas marcas:</h2>
         </div>
         <div className="mt-5">
             <ClientsSlider reverse={false} />

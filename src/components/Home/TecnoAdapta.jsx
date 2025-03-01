@@ -1,12 +1,12 @@
 import React from 'react';
-import dynamic from "next/dynamic";
 import Link from 'next/link';
 import AnimationUse from '@/assets/animations/AnimationUse';
-
+import style from '@/components/Home/home.module.css';
+import { ButtonIcon } from '../Buttons/Buttons';
 
 function TecnoAdapta() {
   return (
-    <div className="tecno position-relative py-5 text-center">
+    <div className={`${style.tecno} position-relative py-5 text-center`}>
         <div className="d-flex flex-column align-items-center justify-content-center gap-3 ">
             <div className="row">
                 <div className="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
@@ -52,12 +52,10 @@ function TecnoAdapta() {
                         <p className="f-lg-18 text-start p_color">
                         En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.
                         </p>
-                        <div className='mt-5'>
-                            <Link href="/blog" className="btn-dc  btn-lg">Contáctanos →</Link>
-                        </div>
+                        <ButtonIcon link="/blog" text="Contáctanos →" />
                     </div>
                 </div>
-                <div className="col-12 col-md-6 tecno-img">
+                <div className={`col-12 col-md-6 ${style.tecno_img}`}>
                     <div className=" d-flex align-items-center justify-content-center">
                         <AnimationUse animationName="cube" />
                     </div>

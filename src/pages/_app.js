@@ -16,17 +16,13 @@ function MyApp({ Component, pageProps }) {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
-  const [theme, setTheme] = useState(true);
-  const toggleTheme = () => { setTheme(!theme) };
 
     return (
-          <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            <div data-theme={theme ? "dark" : "light"}>
+          <>
               <Layout>
                   <Component {...pageProps} />
               </Layout>
-            </div>
-          </ThemeContext.Provider>
+          </>
     );
 }
 

@@ -62,78 +62,92 @@
     z-index: -1;
   }
 
-
-
-
-  /* Redefine Future*/
-  /* Contenedor principal */
-
-
-  /* Desktop */
-@media screen and (min-width:900px){
-  .redefine {
-    padding: 100px 130px;
+  .banner-containerrr {
+    width: 100%;
+    background: url("/img/home/our-dreamCoders.jpg") right center / 50% auto no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .banner-imagerrr img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .banner-textrrr {
+    border-radius: 20px 0px 80px 20px;
+    background: var(--bg-secondary);  
+    height: 90%;
+    z-index: 2;
+    position: relative;
   }
 
-}
-/* Mobile */
-@media screen and (max-width:900px){
-  .redefine {
-    padding: 100px 35px;
-}
-.tecno .row {
-  flex-direction: column-reverse;
-}
-}
-.redefine {
-  padding: 100px 150px;
-  border-radius: 20px;
-  border: 1px solid var(--color-border);
-  background-color: #19191987;
-}
-/* Texto principal */
-.redefine-text {
-  font-size: 41px;
-  font-family: "Jost", sans-serif;
-  color: #3bf7e4;
-  text-align: center;
-  word-wrap: break-word;
-  z-index: 2;
-}
+  .banner-container {
+    z-index: 9999;
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    /* justify-content: center; */
+    background: url("/img/home/our-dreamCoders.jpg") no-repeat;
+    border-radius: 20px;
+  }
 
-.redefine::before {
-  content: ""; /* Necesario para que el ::after funcione */
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  width: 270px;
-  height: 350px;
-  background-image: url("../assets/iconos/CuartoCirculoLazy.svg"); /* Ruta del SVG */
-  background-size: contain; /* Ajusta el tamaño de la imagen */
-  background-repeat: no-repeat;
-}
+  .content-column {
+    
+    background: var(--bg-secondary);  
+    z-index: 2;
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Para escritorio: La imagen solo ocupa el 50% del ancho */
+  @media (min-width: 992px) {
+    .banner-container {
+      background-position: right center;
+      background-size: 50% 100%;
+    }
+    .content-column {
+      padding: 40px 50px 70px 40px!important;
+      border-radius: 20px 0px 80px 20px;    
+      height: fit-content;
+    }
+  }
+  
+  /* Para móvil: La imagen ocupa el 100% del ancho y queda arriba */
+  @media (max-width: 991px) {
+    .banner-container {
+      background-position: top center;
+      background-size: 100% 55%;
+      text-align: center;
+    }
 
+    .banner-container .row {
+      flex-direction: column-reverse;
+    }
 
+    .content-column {
+      padding: 20px !important;
+      height: 50%;
+      border-radius: 20px;}
+  
+    .image-column {
+      height: 240px;
+      width: 100%;
+    }
+  }
+  
 
-/*-- tecno adap  */
+  
 
-.tecno .tecno-img > div {
-  border-radius: 12px;
-  background-image: url("../assets/iconos/Hondas.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: 1px solid #44B8B6;
-}
-
-.tecno .tecno-img svg {
-  width: 80% !important;
-  height: auto;
-}
-
-
-
-
-
-
+  
+  
   

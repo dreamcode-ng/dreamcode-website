@@ -2,6 +2,7 @@
   --bg-primary: #141414;
   --bg-secondary: #1A1A1A;
   --color-border: #262626;
+  
   --primary-color: #3BF7E4;
   --r-top: 0px;
   --r-right: 12px;
@@ -19,7 +20,6 @@
 
 }
 
-main { padding-top: 60px; background-color: var(--bg-primary)!important; transition: background-color 250ms ease-in-out;}
 
 html,
 body {
@@ -79,6 +79,10 @@ h1, h2, h3, h4, h5, h6, a, p, li, .f_p {
   max-width: 1200px !important;
 }
 
+.icon svg {
+  width: 60%;
+}
+
 figure { margin: 0 0 0 !important; }
 .z-index { z-index: 0;}
 .z-index-1 { z-index: 1;}
@@ -91,6 +95,7 @@ figure { margin: 0 0 0 !important; }
 .f-lg-70 { font-size: 70px;}
 .f-lg-60 { font-size: 60px;}
 .f-lg-50 { font-size: 50px;}
+.f-lg-45 { font-size: 45px;}
 .f-lg-40 { font-size: 40px;}
 .f-lg-30 { font-size: 30px;}
 .f-lg-25 { font-size: 25px;}
@@ -124,7 +129,7 @@ figure { margin: 0 0 0 !important; }
 /*=========== COLOR TEXT ==============*/
 .w_color {color: #FFFFFF !important;}
 .m_color {color: #3BF7E4 !important;}
-.p_color {color: #999 !important;}
+.p_color {color: #b3b3b3 !important;}
 
 /*---- Background-Color -----*/
 .bg_primary { background-color: var(--bg-primary)}
