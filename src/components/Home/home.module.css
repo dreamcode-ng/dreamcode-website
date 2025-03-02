@@ -3,13 +3,88 @@
     position: relative;
 }
 
-.experience {
+.experience, .form {
   padding: 80px;
 }
 
 .ourDreamcoders {
   padding: 50px;
 }
+
+/* ---- Blog ---*/
+.cardPost {
+  padding: 25px;
+  background-color: var(--bg-secondary);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border: 1px var(--color-border) solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; 
+  gap: 35px;
+  display: inline-flex;
+}
+
+.cardPost img {
+  border-radius: 12px;
+}
+
+.cardPost .cardContent {
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 30px;
+}
+
+.cardContent > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.cardContent .cardTags {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.cardTags div .bg_secondary {
+  padding: 8px 16px; /* padding-top/bottom: 8px, padding-left/right: 16px */
+  background: #1A1A1A;
+  border-radius: 68px;
+  border: 1px solid #262626;
+  display: flex; /* Asegura que justifyContent y alignItems funcionen */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* -- Form ---*/
+
+
+.form input {
+  border-radius: 1000px;
+  padding: 14px 10px !important;
+  border: 1px solid var(--color-border);
+  background: var(--bg-secondary);
+}
+
+.form textarea {
+  border-radius: 20px;
+  padding: 14px 10px !important;
+  border: 1px solid var(--color-border);
+  background: var(--bg-secondary);
+}
+
+.form input:invalid {
+  border: 1px solid #ffffff !important;
+  background-image: none !important;
+}
+
 
 /* ---- Tecno Adapta ---*/
 /*-- tecno adap  */

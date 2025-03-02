@@ -5,19 +5,21 @@ import ContainerCircule from "@/components/Containers/Containers";
 
 const RedefineFuture = () => {
   return (
-    <ContainerCircule className={style.redefine}>
-      <div className="d-flex flex-column align-items-center justify-content-center gap-3 ">
-        <div className="text-center f-lg-40 m_color mb-3">
-          <h2> <span className="fw-bold">Redefinimos </span>
-            el futuro de los negocios a <br></br>través de la tecnología
-          </h2>
+    <div className="container-dc container py-5">
+      <ContainerCircule className={style.redefine}>
+        <div className="d-flex flex-column align-items-center justify-content-center gap-3 ">
+          <div className="text-center f-lg-40 m_color mb-3">
+            <h2> <span className="fw-bold">Redefinimos </span>
+              el futuro de los negocios a <br></br>través de la tecnología
+            </h2>
+          </div>
+          <div className="">
+              <p className="w_color fs-5">
+                <Link href='/about' className='w_color'>Contáctanos →</Link></p>
+          </div>
         </div>
-        <div className="">
-            <p className="w_color fs-5">
-              <Link href='/about' className='w_color'>Contáctanos →</Link></p>
-        </div>
-      </div>
-    </ContainerCircule>    
+      </ContainerCircule>    
+    </div>
   );
 };
 

@@ -16,7 +16,7 @@ function ExperienceRocket() {
               </h2>
               <p className="text-center f-lg-20 p_color text-lg-start">
               En las industrias Retail, Telecomunicaciones, Seguros, Fintech, Tecnología.</p>
-              <ButtonIcon link="/blog" text="Contáctanos →" />
+              <ButtonIcon link="/blog" text="Ver más +" />
               
             </div>
             <div className="col-12 col-lg-4">

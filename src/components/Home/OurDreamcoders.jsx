@@ -8,7 +8,7 @@ import Image from 'next/image';
 function OurDreamcoders() {
   return (
     
-    <div className="container-dc container mt-5">
+    <div className="container-dc container py-5">
         <ContainerCircule className={style.ourDreamcoders}>
 
             
@@ -27,7 +27,7 @@ function OurDreamcoders() {
                 <div className="banner-container d-flex">
       <div className="row g-0">
         {/* Columna 1: Texto y Botón */}
-        <div className="col-sm-12 col-md-12 col-lg-8 content-column ">
+        <div className="col-sm-12 col-md-12 col-lg-7 content-column ">
             <h2 className="f-lg-45 f-sm-25 text-white text-center text-lg-start">
                 Nuestros <span className="f_800 m_color">DreamCoders</span> dicen que somos un excelente lugar para trabajar
             </h2>
