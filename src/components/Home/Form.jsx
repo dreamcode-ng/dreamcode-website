@@ -1,5 +1,5 @@
 import React from 'react'
-import ContainerCircule from '../Containers/Containers'
+import ContainerCircule from '../Containers/ContainersCircule'
 import style from './home.module.css';
 import stilos from '@/components/Buttons/buttons.module.css';
 import Link from 'next/link';

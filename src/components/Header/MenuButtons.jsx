@@ -4,7 +4,7 @@ export default function MenuButtons() {
 
     return (
       <div className="collapse sub-menu w-100" id="collapseExample">
-          <div className="p-4 bg_secondary">
+          <div className="p-4 -bg-secondary">
             <ul className="navbar-nav justify-content-center">
               <li className="nav-item">
                 <Link className="nav-link w_color" href="/staff-augmentation">Staff Augmentation</Link>

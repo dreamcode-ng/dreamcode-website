@@ -1,7 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import style from "@/components/Home/home.module.css";
-import ContainerCircule from "@/components/Containers/Containers";
+import ContainerCircule from "@/components/Containers/ContainersCircule";
 
 const RedefineFuture = () => {
   return (

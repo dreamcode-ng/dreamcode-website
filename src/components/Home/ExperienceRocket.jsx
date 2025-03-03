@@ -1,5 +1,5 @@
 import React from 'react'
-import ContainerCircule from "@/components/Containers/Containers";
+import ContainerCircule from "@/components/Containers/ContainersCircule";
 import AnimationUse from '@/assets/animations/AnimationUse';
 import style from './home.module.css';
 import { ButtonIcon } from '../Buttons/Buttons';
@@ -7,7 +7,7 @@ import { ButtonIcon } from '../Buttons/Buttons';
 
 function ExperienceRocket() {
   return (
-      <div className="container-dc container mt-5">
+      <div className="container-dc container py-5">
         <ContainerCircule className={style.experience}>
           <div className=" row align-items-center">
             <div className="col-12 col-lg-8">

@@ -4,6 +4,7 @@
   --color-border: #262626;
   --color-paragraph: #B3B3B3;
   --white: #FFFFFF;
+  --dark: #070708;
   
   --primary-color: #3BF7E4;
   --r-top: 0px;
@@ -15,13 +16,12 @@
 /*Modo Dark*/
 [data-theme="dark"] {
   --white: #FFFFFF;
+  --dark: #070708;
   --bg-primary: #141414;
   --bg-secondary: #1A1A1A;
   --color-border: #262626;
   --primary-color: #3BF7E4;
   --color-paragraph: #B3B3B3;
-
-  
 
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 body {
-  background-color: var(--bg-primary)!important;
+  background-color: var(---bg-primary)!important;
   font-family: "Jost", sans-serif;
   -moz-font-family: "Jost", sans-serif; 
   -webkit-font-family: "Jost", sans-serif; 
@@ -137,8 +137,9 @@ figure { margin: 0 0 0 !important; }
 .p_color {color: var(--color-paragraph) !important;}
 
 /*---- Background-Color -----*/
-.bg_primary { background-color: var(--bg-primary)}
-.bg_secondary { background-color: var(--bg-secondary)}
+.-bg-primary { background-color: var(---bg-primary)}
+.-bg-secondary { background-color: var(--bg-secondary)}
+.-bg-dark { background-color: var(--dark)}
 
 .swiper-slide, .post-list article {
   content-visibility: auto;

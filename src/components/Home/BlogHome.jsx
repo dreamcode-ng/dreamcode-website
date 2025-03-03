@@ -29,11 +29,11 @@ function CardDos () {
                 <h3 className='w_color f-lg-25 f_500' >
                   ReactJS o React Native, ¿cuál elegir para tu proyecto?</h3>
                 <div className={`${style.cardTags}`} >
-                    <div className="bg_secondary d-flex ">
+                    <div className="-bg-secondary d-flex ">
                         <div className="text-center p_color f_300 f-lg-12">
                           Location: 5 min</div>
                     </div>
-                    <div className="bg_secondary d-flex ">
+                    <div className="-bg-secondary d-flex ">
                         <div className="text-center p_color f_300 f-lg-12">
                           Diciembre 8, 2023</div>
                     </div>

@@ -69,7 +69,7 @@ const ClientsSlider = ({ reverse }) => (
 // Componente principal con ambos sliders
 export default function Clients() {
   return (
-    <div className="container-dc container  py-5">
+    <div className="container-dc container py-5">
       <div className={`${style.clients}`}>
           <div className="pb-4">
               <h2 className="f-lg-40 f-sm-25 w_color text-center">Detrás del desarrollo de proyectos tecnológicos exitosos, siendo un equipo con estas marcas:</h2>

@@ -13,7 +13,7 @@ function Nav() {
 
   return (
     <>
-      <nav className="navbar sticky-top navbar-expand-md bg_secondary">
+      <nav className="navbar sticky-top navbar-expand-md -bg-secondary">
         <div className="container container-dc">
           <Link className="navbar-brand pt-0" href="/" passHref>
             <Image 

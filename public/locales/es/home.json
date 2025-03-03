@@ -1,11 +1,11 @@
 {
+    "wave": "Te damos la bienvenida al futuro",
     "meta_datos": {
         "meta_title_Home": "Empresa de Desarrollo de Software a medida - IT Staff Augmentation",
         "meta_description_Home": "Empresa especialistas en Desarrollo de software, proveemos talento TI  para Estados Unidos y Latinoamérica "
     },
-    "service_home": {
-        "wave": "Te damos la bienvenida al futuro",
-        "service_title": "Desarrolladores de \n<0>software</0>",
+    "title": "Desarrolladores de \n<0>software</0>",
+    "home": {
         "service_subtitle": "Servicios de desarrollo de software nearshore/offshore, somos expertos en la creación de productos de alto performance , basados en metodologías y procesos agiles para las compañías."
     }
 }

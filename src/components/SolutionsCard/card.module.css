@@ -3,7 +3,7 @@
   .card {
     overflow: hidden;
     border: none;
-    background-color: var(--bg-primary);
+    background-color: var(---bg-primary);
     width: auto;
     border: double 1.3px transparent;
     border-radius: var(--r-top) var(--r-right) var(--r-bottom) var(--r-left);
