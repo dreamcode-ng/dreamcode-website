@@ -5,6 +5,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import ContainerMain from '@/components/Containers/ContainerMain';
 import BannerPrincipal from '@/components/Banners/BannerPrincipal';
 import ContainerAnimation from '@/components/Containers/ContainerAnimation';
+import TalentBox from '@/components/Recicly/TalentBox';
 
 export default function Staff() {
 
@@ -26,7 +27,8 @@ export default function Staff() {
             title={'Tecnología que se adapta a tus necesidades'}
             text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
             animation='users' />  
-      </ContainerMain>            
+      </ContainerMain>
+      <TalentBox />         
     </>
   )
 }

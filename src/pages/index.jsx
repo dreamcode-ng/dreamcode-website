@@ -16,7 +16,13 @@ import { useTranslation } from "react-i18next";
 
 export default function Home() {
 
-  const { t } = useTranslation('home');
+  const { t , ready } = useTranslation('home');
+
+  if (!ready) {
+    console.log('Please');
+    
+  }
+
 
     
   return (
@@ -52,7 +58,7 @@ export default function Home() {
 export const getStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['home'])), 
+      ...(await serverSideTranslations(locale, ['home','common'])), 
       
     },
   };

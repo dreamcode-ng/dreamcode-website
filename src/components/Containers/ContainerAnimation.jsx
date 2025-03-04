@@ -11,7 +11,7 @@ function ContainerAnimation ({ title, text, animation}) {
                 <div className="d-flex flex-column align-items-center justify-content-center gap-3 ">
                     <div className="row">
                         <div className="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
-                            <div className="tecno-text text-start mb-3 mt-5">
+                            <div className="text-start mb-3 mt-5">
                                 <svg width="69" height="30" viewBox="0 0 69 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_1_822)">
                                 <path d="M15 30.0165C23.2843 30.0165 30 23.3008 30 15.0165C30 6.73225 23.2843 0.0166016 15 0.0166016C6.71573 0.0166016 0 6.73225 0 15.0165C0 23.3008 6.71573 30.0165 15 30.0165Z" fill="#666666"/>
@@ -56,7 +56,7 @@ function ContainerAnimation ({ title, text, animation}) {
                             </div>
                         </div>
                         <div className={`col-12 col-md-6 ${style.animation_img}`}>
-                            <div className=" d-flex align-items-center justify-content-center">
+                            <div className="h-100 d-flex align-items-center justify-content-center">
                                 <AnimationUse animationName={animation} />
                             </div>
                         </div>

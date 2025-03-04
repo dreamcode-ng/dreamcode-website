@@ -2,10 +2,11 @@ import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import '@/styles/Services.module.css'
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-
+import BannerStories from '@/components/StoriesCustomers/BannerStories/BannerStories';
+import StoriesCustomers from '@/components/StoriesCustomers/Customers/StoriesCustomers';
 export default function Projects() {
 
-  const { t } = useTranslation('projects');
+  const { t } = useTranslation('stories');
 
   return (
     <>
@@ -13,11 +14,13 @@ export default function Projects() {
         title={t('projects.title')}
         description={t('projects.subtitle')}
         url="" />
-      <main className='vh-100'>
-      <h1 className='w_color text-center pt-4'>Projects</h1>
-      <p>{t('locale')}</p>
+      <BannerStories 
+        title_banner={t('title_banner')}
+        btn_banner={t('btn_banner')}
+        subtitle_banner={t('subtitle_banner')}
+        text_banner={t('text_banner')} />
+      <StoriesCustomers />
 
-      </main>
     </>
   )
 }
@@ -26,7 +29,7 @@ export const getStaticProps = async ({ locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['projects'])),
+      ...(await serverSideTranslations(locale, ['stories'])),
     },
   };
 };

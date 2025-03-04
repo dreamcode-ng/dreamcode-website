@@ -19,15 +19,23 @@
 
 /* - Animation Container - */
 .animation_container .animation_img > div {
+    width: 100%;
     border-radius: 12px;
     background-image: url("../../assets/iconos/Hondas.svg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid #44B8B6;
   }
+
+@media screen and (min-width:900px){
+    .animation_container .animation_img > div { height: 500px; }
+}
+@media (max-width: 991px) {
+    .animation_container > div > div { flex-direction: column-reverse !important;}
+}
   
 .animation_container .animation_img svg {
-    width: 80% !important;
+    width: 80% ;
     height: auto;
 }
 

@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.experience, .form {
+.experience, .form{
   padding: 80px;
 }
 
@@ -151,7 +151,6 @@
   /* Mobile */
   @media screen and (max-width:900px){
     .redefine { padding: 100px 35px; }
-    .tecno div > div { flex-direction: column-reverse; }
     .ourDreamcoders { padding: 20px; }
   }
   

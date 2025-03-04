@@ -1,0 +1,133 @@
+.banner_stories .banner__img img {
+    width: 500px;
+    margin-bottom: 35px;
+    position: relative;
+    z-index: 1;
+}
+
+.btn__stories {
+    border: 1px solid #9DB6BA;
+    border-radius: 35px;
+    background: #142735;
+    padding: 13px 30px;
+    transition: all 0.4s ease;
+    height: auto;
+
+}
+
+
+  /*---Responsive---*/
+/*Mobil*/
+@media screen and (max-width:512px){
+    .btn__stories {
+        margin: 40px 0 0px;
+    }
+}
+/*Tablet*/
+@media (min-width: 513px) and (max-width:821px){
+    .btn__stories {
+        margin: 40px 0 30px;
+    }
+}
+/*Desktop*/
+@media screen and (min-width:813px){
+    .btn__stories {
+        margin: 40px 0;
+    }
+}
+
+.stories_customers .swiper-pagination-bullet {
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+    margin: 0 9px;
+    background: #00A1A9;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+  }
+  .stories_customers p, .stories_customers h3 {
+    color: white;
+  }
+  .stories_customers .swiper-slide {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  
+  .stories_customers .item_storie {
+    padding: 90px 0;
+  }
+  
+  .stories_customers .swiper-pagination {
+    text-align: left;
+  }
+  
+  .stories_customers .item_storie:nth-child(even) {
+    display: flex;
+    flex-direction: row; /* Dirección por defecto */
+  }
+  
+  .stories_customers .item_storie:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse; /* Dirección intercalada */
+  }
+  
+    .logo_container {
+      position: relative; /* Necesario para posicionar los elementos hijos */
+    }
+  
+  .light_effect {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00A1A9;
+    filter: blur(180px);
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: lighten;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  /*Mobil*/
+  @media screen and (max-width:512px){
+    .stories_customers .container .item_storie {
+      display: flex;
+      flex-direction: column-reverse !important;
+    }
+    .stories_customers .item_storie {
+      padding: 50px 0;
+    }
+    .logo_container {
+      padding-bottom: 90px;
+    }
+  }
+  
+  /*Tablet*/
+  @media (min-width: 513px) and (max-width:821px){
+    .stories_customers .container .item_storie {
+      display: flex;
+      flex-direction: column-reverse !important;
+    }
+    .stories_customers .item_storie {
+      padding: 50px 0;
+    }
+    .logo_container {
+      padding-bottom: 90px;
+    }
+  }
+  
+  /*Desktop*/
+    @media screen and (min-width:813px){
+        .profile--slider div .text-center {
+            padding: 0 50px;    }
+        .stories_customers .item_storie {
+          padding: 90px 0;
+        }
+    }
+

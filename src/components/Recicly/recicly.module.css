@@ -1,0 +1,6 @@
+.talent_box { padding: 60px; }
+
+
+@media (max-width: 991px) {
+    .talent_box { padding: 60px 30px; margin: 0;}
+}
