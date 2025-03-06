@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 import '@/styles/layout.css';
 import '@/styles/home.css';
-import '@/styles/temporaly.css';
+import '@/styles/tem.css';
 import Layout from '@/components/Layout';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createContext, useState, useEffect } from "react";

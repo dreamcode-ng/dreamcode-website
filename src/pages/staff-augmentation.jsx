@@ -6,6 +6,12 @@ import ContainerMain from '@/components/Containers/ContainerMain';
 import BannerPrincipal from '@/components/Banners/BannerPrincipal';
 import ContainerAnimation from '@/components/Containers/ContainerAnimation';
 import TalentBox from '@/components/Recicly/TalentBox';
+import LineTime from '@/components/Recicly/LineTime';
+import Challenges from '@/components/Recicly/Challenges';
+import ConsultingProcess from '@/components/Recicly/ConsultingProcess';
+import { Card, Title, Button } from "@/components/Recicly/Recicly";
+
+
 
 export default function Staff() {
 
@@ -28,6 +34,10 @@ export default function Staff() {
             text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
             animation='users' />  
       </ContainerMain>
+      <LineTime />
+      <ConsultingProcess />
+      <Challenges />
+
       <TalentBox />         
     </>
   )

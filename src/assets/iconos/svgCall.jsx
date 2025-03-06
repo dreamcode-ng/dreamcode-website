@@ -1,10 +1,4 @@
 export const StarIcon = (props) => (
-    <svg {...props} viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 2L15 9H22L16 14L18 21L12 17L6 21L8 14L2 9H9L12 2Z" />
-    </svg>
-  );
-  
-  export const HeartIcon = () => (
     <svg width="69" height="30" viewBox="0 0 69 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0_1_822)">
         <path d="M15 30.0165C23.2843 30.0165 30 23.3008 30 15.0165C30 6.73225 23.2843 0.0166016 15 0.0166016C6.71573 0.0166016 0 6.73225 0 15.0165C0 23.3008 6.71573 30.0165 15 30.0165Z" fill="#666666"/>
@@ -39,5 +33,5 @@ export const StarIcon = (props) => (
         </clipPath>
         </defs>
     </svg>
-  );
+);
   

@@ -2,15 +2,8 @@
 
   .card {
     overflow: hidden;
-    border: none;
     background-color: var(---bg-primary);
-    width: auto;
-    border: double 1.3px transparent;
     border-radius: var(--r-top) var(--r-right) var(--r-bottom) var(--r-left);
-    background-image: linear-gradient(#141414, #141414), 
-                      linear-gradient(140deg, #3BF7E4 20%, #292929 40%);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
     position: relative;
   }
 
