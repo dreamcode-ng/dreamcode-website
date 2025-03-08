@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './home.module.css';
-import { ButtonIcon } from '../Buttons/Buttons';
+import { ButtonIcon } from '@/components/UI/Buttons/Buttons';
 import postlistEn from "@/assets/posts/postsEn.json"
 import postlistEs from "@/assets/posts/postsEs.json"
 import { useTranslation } from 'react-i18next';
@@ -63,7 +63,7 @@ const { i18n } = useTranslation();
           <CardDos />
           <CardDos />
       </div>            
-      <ButtonIcon className="text-center" link="/blog" text="Ver más +" />
+      <ButtonIcon className="align-items-center" link="/blog" text="Ver más +" />
       
 
     </div>

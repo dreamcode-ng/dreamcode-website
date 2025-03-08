@@ -1,13 +1,14 @@
 import React from 'react'
-import ContainerCircule from "@/components/Containers/ContainersCircule";
+import ContainerCircule from "@/components/UI/Containers/ContainersCircule";
+import ContainerSection from '@/components/UI/Containers/ContainerSection'
 import AnimationUse from '@/assets/animations/AnimationUse';
 import style from './home.module.css';
-import { ButtonIcon } from '../Buttons/Buttons';
+import { ButtonIcon } from '../UI/Buttons/Buttons';
 
 
 function ExperienceRocket() {
   return (
-      <div className="container-dc container py-5">
+      <ContainerSection>
         <ContainerCircule className={style.experience}>
           <div className=" row align-items-center">
             <div className="col-12 col-lg-8">
@@ -16,7 +17,7 @@ function ExperienceRocket() {
               </h2>
               <p className="text-center f-lg-20 p_color text-lg-start">
               En las industrias Retail, Telecomunicaciones, Seguros, Fintech, Tecnología.</p>
-              <ButtonIcon link="/blog" text="Ver más +" />
+              <ButtonIcon className="align-items-start" link="/blog" text="Ver más +" />
               
             </div>
             <div className="col-12 col-lg-4">
@@ -28,7 +29,7 @@ function ExperienceRocket() {
 
 
 
-      </div>
+      </ContainerSection>
   )
 }
 

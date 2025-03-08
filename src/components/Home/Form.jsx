@@ -1,10 +1,10 @@
 import React from 'react'
-import ContainerCircule from '../Containers/ContainersCircule'
+import ContainerCircule from '../UI/Containers/ContainersCircule'
 import style from './home.module.css';
-import stilos from '@/components/Buttons/buttons.module.css';
+import stilos from '@/components/UI/Buttons/buttons.module.css';
 import Link from 'next/link';
 
-import { ButtonIcon } from '../Buttons/Buttons';
+//import { d } from '../Buttons/Buttons';
 
 function Form() {
   return (

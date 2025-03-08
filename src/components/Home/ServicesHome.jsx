@@ -1,5 +1,6 @@
 import React from 'react';
-import SolutionsCard from '@/components/SolutionsCard/Card';
+import SolutionsCard from '@/components/UI/SolutionsCard/Card';
+import ContainerSection from '@/components/UI/Containers/ContainerSection'
 
 
 function ServicesHome() {
@@ -7,7 +8,7 @@ function ServicesHome() {
 let description = "Gestiona tu información de manera eficiente, llevando la productividad y la toma de decisiones a nuevos niveles."
 
   return (
-    <div className="container-dc container py-5">
+    <ContainerSection>
         <div className="row justify-content-center">
             <h2 className='w_color text-center display-2 f_700 pb-5'>Nuestras soluciones</h2>
             <SolutionsCard 
@@ -31,7 +32,7 @@ let description = "Gestiona tu información de manera eficiente, llevando la pro
                 description={description}
                 animationName="code" />
         </div>
-    </div>
+    </ContainerSection>
   )
 }
 

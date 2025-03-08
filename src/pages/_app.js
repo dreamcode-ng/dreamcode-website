@@ -1,8 +1,8 @@
 import '@/styles/globals.css';
 import '@/styles/layout.css';
 import '@/styles/home.css';
-import '@/styles/tem.css';
-import Layout from '@/components/Layout';
+import '@/styles/common.css';
+import Layout from '@/components/UI/Layout';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createContext, useState, useEffect } from "react";
 import { appWithTranslation } from 'next-i18next';

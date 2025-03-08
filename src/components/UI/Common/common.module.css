@@ -1,0 +1,11 @@
+.container_box { gap: 35px; padding: 20px 0px; }
+.container_box:nth-of-type(2) { border-top: 1px solid #fff; }
+
+/* - Desktop - */
+@media (min-width: 992px) {
+.container_box div + div { border-left: 1px solid #fff; }
+}
+/* - Mobil - */
+@media (max-width: 991px) {
+.container_box div + div  { border-top: 1px solid #fff; padding-top: 35px;}
+}

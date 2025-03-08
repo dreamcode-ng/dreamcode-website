@@ -1,11 +1,12 @@
 import React from "react";
 import Link from 'next/link';
 import style from "@/components/Home/home.module.css";
-import ContainerCircule from "@/components/Containers/ContainersCircule";
+import ContainerCircule from "@/components/UI/Containers/ContainersCircule";
+import ContainerSection from '@/components/UI/Containers/ContainerSection'
 
 const RedefineFuture = () => {
   return (
-    <div className="container-dc container py-5">
+    <ContainerSection>
       <ContainerCircule className={style.redefine}>
         <div className="d-flex flex-column align-items-center justify-content-center gap-3 ">
           <div className="text-center f-lg-40 m_color mb-3">
@@ -19,7 +20,7 @@ const RedefineFuture = () => {
           </div>
         </div>
       </ContainerCircule>    
-    </div>
+    </ContainerSection>
   );
 };
 

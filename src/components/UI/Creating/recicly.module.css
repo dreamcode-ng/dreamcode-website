@@ -1,0 +1,134 @@
+.talent { padding: 60px; }
+/* - Desktop - */
+@media (min-width: 992px) {
+.talent_box { height: 250px;}
+}
+/* - Mobil - */
+@media (max-width: 991px) {
+.talent { padding: 60px 30px; margin: 0;}
+.talent_box { height: auto; }
+}
+
+
+/*///// LINE TIME ///////////////////////////////////////////////////////////*/
+
+.timeline { padding: 60px 100px; }
+@media (max-width: 991px) {
+.timeline { padding: 0px 15px; }
+}
+
+.timeline_row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .content_box {
+    border-radius: 12px;
+    transition: 0.4s ease;
+  }
+
+  .content_box > div {
+    padding: 16px 34px;
+  }
+  
+  .content_box:hover {
+    box-shadow: 0 0 20px var(--primary-color);
+  }
+  
+  .content_box::before {
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+  
+  @media (min-width: 992px) {
+    .timeline_box {
+      border-top: 3px solid var(--primary-color);
+      flex-direction: row;
+    }
+    .content_box {
+      margin: 2rem 0;}
+    .content_box::before {
+      left: 50px;
+      top: -50px;
+    }
+  }
+  
+  /* Mobil */
+  @media (max-width: 991px) {
+    .timeline_box {
+      border-left: 3px solid var(--primary-color);
+      flex-direction: column;
+    }
+    .content_box {
+      margin-left: 2rem;}
+    .content_box::before {
+      left: -50px;
+      top: 50px;
+    }
+  }
+
+
+/* --- Challenge --- */
+  
+.challenge {
+    padding: 10px;
+}
+
+.challenge_box > div > div:nth-child(1) {
+  border: double 1.3px transparent;
+  background-image: linear-gradient(#141414, #141414), 
+                    linear-gradient(320deg, #3BF7E4 20%, #292929 40%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.challenge_box svg {
+  margin: 5px;
+}
+
+.challenge_box {
+    padding: 30px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+    background: var(--bg-secondary);
+}
+
+.challenge_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+  }
+  
+  
+@media (max-width: 991px) {
+.challenge_row {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+} 
+.challenge_row div:nth-child(1) {
+    grid-column: span 2;
+}
+}
+
+
+
+/* --  consulting process --*/
+
+
+.consulting_content {
+  padding: 30px 40px !important;
+}
+
+.consulting_content .icon > div {
+  border-radius: 20px;
+  border: 1px solid var(--primary-color);
+}
+
+  
