@@ -1,6 +1,6 @@
 import React from 'react'
 import ContainerCircule from "@/components/UI/Containers/ContainersCircule";
-import ContainerSection from '@/components/UI/Containers/ContainerSection'
+import ContainerSection from '@/components/UI/Containers/ContainerSection';
 import AnimationUse from '@/assets/animations/AnimationUse';
 import style from './home.module.css';
 import { ButtonIcon } from '../UI/Buttons/Buttons';

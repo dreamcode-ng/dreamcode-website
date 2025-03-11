@@ -10,7 +10,7 @@ function OurDreamcoders() {
     
     <ContainerSection>
         <ContainerCircule className={style.ourDreamcoders}>
-          <div className="banner-container d-flex">
+          <div className="banner-container d-flex position-relative w-100 z-index-9">
             <div className="row g-0">
               <div className="col-sm-12 col-md-12 col-lg-7 content-column ">
                   <h2 className="f-lg-45 f-sm-25 text-white text-center text-lg-start">

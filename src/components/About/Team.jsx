@@ -8,6 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function Team() {
   return (
       <ContainerSection>
+        <h2 className='m_color text-center display-3 f_700 pb-5'>Somos Equipo</h2>
         <div className={`${styles.team_row} `}>
 
             <TeamItem />

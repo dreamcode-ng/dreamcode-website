@@ -26,11 +26,7 @@
   } */
 
   .banner-container {
-    z-index: 9999;
-    width: 100%;
     min-height: 450px;
-    display: flex;
-    /* justify-content: center; */
     background: url("/img/home/our-dreamCoders.jpg") no-repeat;
     border-radius: 20px;
   }
@@ -51,6 +47,7 @@
     }
     .content-column {
       padding: 40px 50px 70px 40px!important;
+      width: 52%;
       border-radius: 20px 0px 80px 20px;    
       height: fit-content;
     }

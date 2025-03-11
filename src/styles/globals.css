@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, a, p, li, .f_p {
   -moz-font-family: "Jost", sans-serif; 
   -webkit-font-family: "Jost", sans-serif; 
   -o-font-family: "Jost", sans-serif;
-
+  z-index: 999;
 
 }
 

@@ -2,8 +2,8 @@
 import ContainerSection from '@/components/UI/Containers/ContainerSection'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import style from "@/components/Home/home.module.css";
 import { Autoplay } from "swiper/modules";
+import style from "@/components/Home/home.module.css";
 import Image from "next/image";
 
 // Lista de logos

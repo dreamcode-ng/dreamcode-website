@@ -1,6 +1,6 @@
   .imageBox {
-    padding: 50px 50px 0px 50px !important;
-    border-radius: 50px 50px 20px 20px !important;
+    padding: 45px 45px 0px 45px !important;
+    border-radius: 45px 45px 20px 20px !important;
     display: inline-block;
   }
   .imageBox img { border-radius: 50px 50px 0px 0px; }
@@ -18,11 +18,12 @@
     .second_row p { border-right: 1px solid #3BF7E4; }
   }
 
-  /* --- TEAM ---- */
+  /* ----------------- TEAM -------------------------- */
 
   .team_row {
     display: grid;
-    gap: 8px;
+    row-gap: 30px;
+    column-gap: 32px;
   }
 
   
@@ -44,11 +45,6 @@
   .team_row div { grid-column: span 2 / span 2;  }
   .team_row div:nth-child(5){ grid-column-start: 2;}
   }
-
-
-  
-
-
   .team_row > div {
     border-radius: 12px;
     border: 1px solid var(--color-border);
@@ -59,5 +55,31 @@
     width: 100%;
     height: auto;
   }
+
+  /*  --- SLIDER ---*/
   
+
+  .sliderAbout {
+    padding: 80px 60px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .sliderAbout .swiper-slide-active p {
+    font-weight: 800;
+}
+
+  /*-- MOBIL--*/
+  @media (max-width: 891px) {
+    .sliderAbout {
+      padding: 40px 20px;
+    }
+  }
+    
+/*-- DESKTOP--*/
+  @media (min-width: 892px) {
+
+  }
+ 
 

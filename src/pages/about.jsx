@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import DreamcodeSection from '@/components/About/DreamcodeSection';
 import Team from '@/components/About/Team';
+import SliderAbout from '@/components/About/SliderAbout';
 
 export default function About() {
 
@@ -19,6 +20,7 @@ export default function About() {
       </Head>
       <DreamcodeSection />
       <Team />
+      <SliderAbout />
       
     </>
   )

@@ -4,7 +4,6 @@ import { useTranslation } from 'next-i18next';
 
 function Wave({ className , text , icon, icon_class}) {
 
-  const { t } = useTranslation('home');
   
 
   return (
