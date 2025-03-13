@@ -1,7 +1,10 @@
 "use client";
-
+import listJobsEn from '../../assets/jobs/enJobs.json';
+import listJobsEs from '../../assets/jobs/esJobs.json';
 import { useEffect, useState } from "react";
 import style from './careers.module.css';
+import CardJobs from './Card';
+import Form from '@/components/Home/Form';
 import ContainerSection from "../UI/Containers/ContainerSection";
 
 export default function TabCareers() {
@@ -11,23 +14,15 @@ export default function TabCareers() {
 
   return (
     <ContainerSection>
-        { jobs ? <Este /> : <Oeste />}
-        <button onClick={() => setJob(!jobs)}>Toggle</button>
+        { jobs ? <CardJobs /> : <Form />}
+        <br></br>
+        <button onClick={() => setJob(!jobs)}>Si no hay ofertas</button>
 
         
     </ContainerSection>
   )
 }
 
-function Este() {
-    return (
-        <div>Tenemos</div>
-    )
-}
 
-function Oeste() {
-    return(
-        <div>No tenemo</div>
-    )
-}
+
 

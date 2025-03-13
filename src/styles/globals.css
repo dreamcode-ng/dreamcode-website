@@ -43,6 +43,10 @@ body {
 p {
   color: var(--color-paragraph);
 }
+
+#contactForm input::placeholder {
+  color: #666;
+}
 .navbar-toggler , .navbar-toggler:focus {
   border: none !important;
   box-shadow: none !important;
@@ -214,9 +218,10 @@ figure { margin: 0 0 0 !important; }
   .ms-vh-100 {height: 100vh;}
 }
 
-.form-control:focus,  input[type="text"] ,  input[type="email"] ,   input[type="number"],  input[type="tel"]   {
-  background-color: transparent !important;
+.form-control:focus,  input[type="text"]::placeholder ,  input[type="email"]::placeholder , #contactForm textarea::placeholder  {
+  color: #666;
 }
+
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,

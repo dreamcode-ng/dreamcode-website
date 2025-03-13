@@ -49,6 +49,7 @@ export default function Home() {
           <ExperienceRocket />
           <OurDreamcoders />
           <BlogHome />
+          <Form />
       </main>
     </>
   )

@@ -1,0 +1,128 @@
+.text {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+}
+.vectorIcon {
+    width: 21.6px;
+    position: relative;
+    height: 16.6px;
+}
+.textParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.button {
+    border-radius: 28px;
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px 20px;
+    gap: 6px;
+}
+.frameParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading {
+    align-self: stretch;
+    position: relative;
+    font-size: 30px;
+    line-height: 150%;
+    font-weight: 600;
+    color: #3bf7e4;
+}
+
+.experienciaEnReact2 {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.git {
+    margin: 0;
+}
+.paragraph {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 500;
+    color: #999;
+}
+.container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.button1 {
+    align-self: stretch;
+    border-radius: 82px;
+    background-color: #3bf7e4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 30px;
+    font-size: 14px;
+    color: #1c1c1c;
+}
+
+.card {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 0px 12px #3bf7e4;
+    border-radius: 12px;
+    background-color: #141414;
+    border: 1px solid #3bf7e4;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 50px;
+    gap: 40px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Jost;
+}
+
+
+@media (max-width: 891px) {
+    .cardContent {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+  }
+    
+/*-- DESKTOP--*/
+  @media (min-width: 892px) {
+    .cardContent {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+  }
+

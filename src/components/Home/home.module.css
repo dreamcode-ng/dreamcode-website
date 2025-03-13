@@ -87,26 +87,15 @@
 
 
 /* -- Form ---*/
-
-
-.form input {
-  border-radius: 1000px;
-  padding: 14px 10px !important;
-  border: 1px solid var(--color-border);
-  background: var(--bg-secondary);
-}
-
-.form textarea {
-  border-radius: 20px;
-  padding: 14px 10px !important;
-  border: 1px solid var(--color-border);
-  background: var(--bg-secondary);
-}
-
-.form input:invalid {
-  border: 1px solid #ffffff !important;
+.form input[type="checkbox"] { padding: 0 !important; margin-bottom: 3px;}
+.form input:invalid, .form input , .form textarea{
+  padding: 14px 20px ;
   background-image: none !important;
+  border-radius: 20px;
+  border: 1px solid var(--color-border) !important;
+  background: var(--bg-secondary);
 }
+
 
 
 /* ---- Tecno Adapta ---*/
@@ -152,6 +141,9 @@
   @media screen and (max-width:900px){
     .redefine { padding: 100px 35px; }
     .ourDreamcoders { padding: 20px; }
+    .form{ padding: 50px 30px; }
+     
   }
+  
   
   
