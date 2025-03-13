@@ -2,7 +2,7 @@
 metaTitle: What a Data Scientist and why practically all companies can have one?
 meta_description: Today organizations are increasingly taking advantage of Data Scientists to unlock the business power that lies within Big Data.
 title: Who is the Data Scientist and why company should have one?
-read: 5 -10 min
+read: 5-10min
 date: June 22, 2022
 url: data-scientist-why-companies-should-have-one
 category: innovation

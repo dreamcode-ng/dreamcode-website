@@ -2,7 +2,7 @@
 metaTitle: 5 digital security practices to develop highly reliable software.
 meta_description: The digital security of applications starts right when the development project begins, not when it has been finalized and is about to be launched.
 title: 5 digital security practices to develop highly reliable software
-read: 5 -10 min
+read: 5-10min
 date: October 02, 2022
 url: 5-digital-security-practices-to-develop-highly-reliable-software-apps
 category: innovation

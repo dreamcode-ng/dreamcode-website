@@ -2,7 +2,7 @@
 metaTitle: How profitable is AI-assisted application development for companies?
 meta_description: AI assisted application development is an approach that uses the techniques and capabilities of AI-based systems to take over the process of designing, programming and deploying applications.
 title: How profitable is AI-assisted application development for companies?
-read: 5 - 10 min
+read: 5-10min
 date: July 30, 2023
 url: how-profitable-is-AI-assisted-app-development-for-companies
 category: innovation

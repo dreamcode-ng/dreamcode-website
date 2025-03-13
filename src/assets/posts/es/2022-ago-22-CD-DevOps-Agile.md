@@ -2,7 +2,7 @@
 metaTitle: CI/CD, DevOps y Agile, ¿Cuándo una metodología de desarrollo de software es mejor que las otras?
 meta_description: Cómo están compuestas estas tres sofisticadas prácticas para la producción de software y cuáles son sus características funcionales.
 title: CI/CD, DevOps y Agile, ¿Cuándo una metodología de desarrollo de software es mejor que las otras?
-read: 5 -10 min
+read: 5-10min
 date: August 22, 2022
 url: CI-CD-DevOps-Agile-when-is-one-methodology-better-than-the-others
 category: innovation

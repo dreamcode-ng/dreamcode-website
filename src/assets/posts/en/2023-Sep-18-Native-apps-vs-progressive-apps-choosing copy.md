@@ -2,7 +2,7 @@
 metaTitle: Native apps VS progressive apps, how to choose the best?
 meta_description: Native apps VS progressive apps, a complex decision that would allow companies to improve engagement and user experience by developing their own apps directly for mobile devices.
 title: Native apps VS progressive apps, how to choose the best?
-read: 5 - 10 min
+read: 5-10min
 date: September 18, 2023
 url: native-apps-vs-progressive-apps-choosing-the-best-one-for-your-technology-initiative
 category: innovation

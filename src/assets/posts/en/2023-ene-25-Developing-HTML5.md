@@ -2,7 +2,7 @@
 metaTitle: Developing HTML5 apps
 meta_description: HTML5 is the option for companies and programmers seeking technological innovation through the development of efficient, sustainable, scalable and, above all, low-cost web or mobile applications. Moreover, in practice it is a fluent and complete language that provides everything needed to produce digital solutions of high commercial value
 title: Developing HTML5 apps
-read: 5 - 10 min
+read: 5-10min
 date: January 25, 2023
 url: developing-HTML5-apps
 category: innovation

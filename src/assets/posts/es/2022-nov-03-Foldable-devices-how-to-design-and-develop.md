@@ -2,7 +2,7 @@
 metaTitle: Dispositivos plegables, ¿Cómo diseñar y desarrollar sus aplicaciones? (IA)
 meta_description: Para el 2023, se espera que haya aproximadamente 30 millones de móviles plegables en el mercado global, según Gartner.
 title: Dispositivos plegables, ¿Cómo diseñar y desarrollar sus aplicaciones? (IA)
-read: 5 -10 min
+read: 5-10min
 date: November 03, 2022
 url: foldable-devices-how-to-design-and-develop-their-applications
 category: innovation

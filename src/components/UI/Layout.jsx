@@ -1,5 +1,5 @@
 // components/Layout.jsx
-//import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 import Nav from "./Nav";
 
 
@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
       <>
         <Nav />
             {children}
+        <Footer />
       </>
     );
   };

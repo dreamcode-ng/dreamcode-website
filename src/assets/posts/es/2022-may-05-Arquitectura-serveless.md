@@ -2,7 +2,7 @@
 metaTitle: Arquitectura Serverless, transformando el desarrollo de los negocios
 meta_description: El modelo de arquitectura serverless y su impacto en el desarrollo de aplicaciones y la tecnología.
 title: Arquitectura Serverless, el modelo de cloud computing que está transformando el desarrollo tecnológico en los negocios
-read: 5 -10 min
+read: 5-10min
 date: May 5, 2022
 url: serverless-architecture-cloud-computing-model-transforming-business-web-development
 category: up-to-date

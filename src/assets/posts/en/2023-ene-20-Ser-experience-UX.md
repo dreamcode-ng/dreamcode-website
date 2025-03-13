@@ -2,7 +2,7 @@
 metaTitle: User Experience (UX) in software development
 meta_description: The user experience (UX) has positioned itself as a competitive advantage both for companies seeking technology solutions oriented to their customers, and for those who need internal use applications focused on their employees
 title: User Experience (UX) in software development
-read: 5 - 10 min
+read: 5-10min
 date: January 22, 2023
 url: user-experience-UX-as-cornerstone-for-application-development
 category: innovation

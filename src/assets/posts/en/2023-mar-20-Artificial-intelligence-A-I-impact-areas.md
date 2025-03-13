@@ -2,7 +2,7 @@
 metaTitle: Artificial intelligence (AI) impact areas in the business arena of 2023
 meta_description: Artificial intelligence (AI) has had a significant impact on the business world in recent years, but at the beginning of this year it became a relevant trend that has captured the world's attention so far in 2023
 title: Artificial intelligence (AI) impact areas in the business arena of 2023
-read: 5 - 10 min
+read: 5-10min
 date: March 20, 2023
 url: artificial-intelligence-A-I-impact-areas-in-the-business-arena-of-2023
 category: innovation

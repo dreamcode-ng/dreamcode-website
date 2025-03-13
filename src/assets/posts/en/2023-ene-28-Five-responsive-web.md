@@ -2,7 +2,7 @@
 metaTitle: Five responsive web design approaches that enhance business branding
 meta_description: Businesses need websites that fully meet the needs and capabilities of the devices from which their customers access them. This is a standard that all programmers oriented to mobile development cannot fail to meet
 title: Five responsive web design approaches that enhance business branding
-read: 5 - 10 min
+read: 5-10min
 date: January 28, 2023
 url: five-responsive-web-design-approaches-that-enhance-business-branding
 category: innovation

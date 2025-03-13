@@ -2,7 +2,7 @@
 metaTitle: Desarrollo de apps con HTML5
 meta_description: HTML5 es una opción innovadora para el desarrollo eficiente, sostenible y económico de aplicaciones web y móviles. Es un lenguaje completo y fluido que proporciona todas las herramientas necesarias para crear soluciones digitales de alto valor comercial.
 title: Desarrollo de apps con HTML5
-read: 5 - 10 min
+read: 5-10min
 date: January 25, 2023
 url: developing-HTML5-apps
 category: innovation

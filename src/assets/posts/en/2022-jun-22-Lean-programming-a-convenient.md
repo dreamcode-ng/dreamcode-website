@@ -2,7 +2,7 @@
 metaTitle: Lean Programming, a convenient software development practice inherited from the business world
 meta_description: Understand what Lean Programming means and why it is so valuable in the technology industry.
 title: Lean Programming, a convenient software development practice inherited from the business world.
-read: 5 -10 min
+read: 5-10min
 date: June 22, 2022
 url: lean-programming-a-convenient-software-development-practice-inherited-from-the-business-world
 category: innovation

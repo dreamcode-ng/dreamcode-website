@@ -2,7 +2,7 @@
 metaTitle: Tendencias en el desarrollo y el diseño de apps que se impondrán en el 2024
 meta_description: Pronosticar el 2024 es esperar que las tendencias propuestas este año, logren promover una serie de micro revoluciones tecnológicas en múltiples áreas, todas con el potencial de reconfigurar tanto el desarrollo de aplicaciones como nuestra interacción con estas herramientas.
 title: Tendencias en el desarrollo y el diseño de apps que se impondrán en el 2024
-read: 5 - 10 min
+read: 5-10min
 date: December 08, 2023
 url: app-development-and-design-trends-that-will-prevail-in-2024
 category: innovation

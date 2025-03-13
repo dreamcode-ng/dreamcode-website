@@ -2,7 +2,7 @@
 metaTitle: Los 5 mejores lenguajes de programación para el desarrollo móvil.
 meta_description: Desarrollar aplicaciones pone a prueba nuestra experticia, el éxito está en crear productos diferenciales y útiles que atraigan y beneficien a la mayor cantidad de usuarios posibles.
 title: Pros and cons of the Los 5 mejores lenguajes de programación para el desarrollo móvil
-read: 5 -10 min
+read: 5-10min
 date: October 02, 2022
 url: pros-and-cons-the-top-5-programming-languages-for-mobile-development
 category: innovation

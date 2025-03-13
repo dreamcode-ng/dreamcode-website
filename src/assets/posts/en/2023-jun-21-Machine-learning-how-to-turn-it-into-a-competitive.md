@@ -2,7 +2,7 @@
 metaTitle: Machine Learning, how to turn it into a competitive leverage for your company?
 meta_description: Machine Learning based developments have gained relevance in various commercial scenarios and this is partly thanks to the recent boom in Artificial Intelligence (AI).
 title: Machine Learning, how to turn it into a competitive leverage for your company?
-read: 5 - 10 min
+read: 5-10min
 date: June 21, 2023
 url: machine-learning-how-to-turn-it-into-a-competitive-leverage-for-your-company
 category: innovation

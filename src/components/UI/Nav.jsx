@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import LangSwitcher from './Header/LangSwitcher';
+import MenuButtons from './Header/MenuButtons';
 import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
-import MenuButtons from './Header/MenuButtons';
 
 
 

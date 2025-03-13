@@ -2,7 +2,7 @@
 metaTitle: 4 phases of the application development workflow
 meta_description: Application development workflow is highly refined process that is based on four basic stages in order to provide technological solutions of the highest level .
 title: The 4 phases of the application development workflow
-read: 5 -10 min
+read: 5-10min
 date: August 22, 2022
 url: the-4-phases-of-the-application-development-workflow
 category: innovation

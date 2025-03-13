@@ -2,7 +2,7 @@
 metaTitle: Technical documentation in software development and its models
 meta_description: Technical documentation is the ideal form that we as software development professionals should use to share timely information related to the creation of software and its stages.
 title: Technical documentation in software development and its models
-read: 5 -10 min
+read: 5-10min
 date: October 02, 2022
 url: technical-documentation-in-software-development-and-its-models
 category: innovation

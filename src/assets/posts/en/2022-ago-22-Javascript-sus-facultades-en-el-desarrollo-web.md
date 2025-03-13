@@ -2,7 +2,7 @@
 metaTitle: JavaScript and its power on web and application development
 meta_description: JavaScript is the most popular programming language worldwide and here we'll review its advantages on app development.
 title: JavaScript and its power on web and application development
-read: 5 -10 min
+read: 5-10min
 date: August 22, 2022
 url: javascript-its-power-on-web-and-application-development
 category: innovation

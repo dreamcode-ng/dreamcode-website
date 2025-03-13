@@ -2,7 +2,7 @@
 metaTitle: Apps nativas VS apps progresivas, ¿cuál es la mejor?
 meta_description: Apps nativas VS apps progresivas, una compleja situación empresarial que impacta directamente en la participación y la experiencia de usuario por medio aplicaciones corporativas para dispositivos móviles.
 title: Apps nativas VS apps progresivas, ¿cuál es la mejor?
-read: 5 - 10 min
+read: 5-10min
 date: September 18, 2023
 url: native-apps-vs-progressive-apps-choosing-the-best-one-for-your-technology-initiative
 category: innovation

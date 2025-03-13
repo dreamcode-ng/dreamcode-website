@@ -2,7 +2,7 @@
 metaTitle: JavaScript y sus facultades en la industria del desarrollo web y de aplicaciones
 meta_description: JavaScript es el lenguaje de programación más popular entre desarrolladores web a nivel mundial el cual recientemente ha demostrado ser viable también para el desarrollo móvil.
 title: JavaScript y sus facultades en la industria del desarrollo web y de aplicaciones
-read: 5 -10 min
+read: 5-10min
 date: August 22, 2022
 url: javascript-its-power-on-web-and-application-development
 category: innovation

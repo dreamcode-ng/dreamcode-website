@@ -2,7 +2,7 @@
 metaTitle: Aplicaciones web progresivas y su popularidad
 meta_description: Las aplicaciones web progresivas son las soluciones de software que integran la estructura visual y funcional de las aplicaciones tradicionales (nativas), su infraestructura y operatividad están soportadas en la tecnología web actual.
 title: Aplicaciones web progresivas, ¿Por qué tan populares?
-read: 5 -10 min
+read: 5-10min
 date: November 02, 2022
 url: progressive-web-applications-why-so-popular
 category: innovation

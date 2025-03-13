@@ -2,7 +2,7 @@
 metaTitle: App development and design trends that will prevail in 2024
 meta_description: To forecast 2024 is to expect that these trends will promote a series of technological micro-revolutions in multiple areas, all with the potential to reshape both the development of applications and our interaction with these tools.
 title: App development and design trends that will prevail in 2024
-read: 5 - 10 min
+read: 5-10min
 date: December 08, 2023
 url: app-development-and-design-trends-that-will-prevail-in-2024
 category: innovation

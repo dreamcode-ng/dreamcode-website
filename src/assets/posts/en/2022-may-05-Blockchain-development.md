@@ -2,7 +2,7 @@
 metaTitle: Blockchain and the apps development for the digital economy
 meta_description: Discover what Blockchain is, the technology behind Bitcoin and other developments that are gaining more ground every day in the financial world
 title: Blockchain, the financial application development technology that seeks to digitize the economy
-read: 5 -10 min
+read: 5-10min
 date: May 5, 2022
 url: blockchain-development-of-financial-applications-for-the-digitization-of-the-economy
 category: transformation

@@ -1,0 +1,46 @@
+
+    .footer_area {
+        border-top: 0.1px solid #e9ecf36b;
+        border-bottom: 0.1px solid #e9ecf36b;
+    }
+    .footer_area img { width: auto !important;}
+    .footer_area > .footer_top { padding: 80px 0 50px; }
+    .footer_widget a, .footer_area li { color: #999; }
+    .footer_top .footer_widget li a:hover , .footer_top .footer_widget .widget-wrap p a:hover,
+    .footer_bottom li a:hover {
+      color: var(--primary-color) !important;
+    }
+  
+    /*==================== redesSociales ================================*/
+    
+    .social_icon svg {
+      width: 24px;
+      height: 24px;
+      text-align: center;
+      transition: all 0.2s linear;
+      display: inline-block;
+    }
+  
+    .social_iconos a:hover {
+      color: var(--primary-color);
+    }
+  
+    /*==========RESPONSIVE===========*/
+  /*Mobil*/
+  @media screen and (max-width:512px){
+
+  }
+  /*Tablet*/
+  @media (min-width: 513px) and (max-width:821px){
+  
+  }
+  /*Desktop*/
+  @media screen and (min-width:813px){
+  
+  }
+
+
+  
+
+  
+  

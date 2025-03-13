@@ -2,7 +2,7 @@
 metaTitle: Qué tan viable es para las empresas desarrollar apps usando IA
 meta_description: El desarrollo de aplicaciones asistido por inteligencia artificial (IA) es un enfoque que utiliza las técnicas y las capacidades de los sistemas basados en esta tecnología para asumir el proceso de diseñar, programar y desplegar aplicaciones.
 title: Qué tan viable es para las empresas desarrollar apps usando IA
-read: 5 - 10 min
+read: 5-10min
 date: July 30, 2023
 url: how-profitable-is-AI-assisted-app-development-for-companies
 category: innovation

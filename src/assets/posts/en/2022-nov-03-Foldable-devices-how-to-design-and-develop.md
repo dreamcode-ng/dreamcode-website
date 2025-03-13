@@ -2,7 +2,7 @@
 metaTitle: Foldable devices; How to design and develop their applications?
 meta_description: A new trend in the global smart phone market is that of foldable cell phones, and their acceptance is growing at such an accelerated pace that it is expected, according to Gartner, that by 2023 there will be around 30 million units in the world.
 title: Foldable devices; How to design and develop their applications?
-read: 5 -10 min
+read: 5-10min
 date: November 03, 2022
 url: foldable-devices-how-to-design-and-develop-their-applications
 category: innovation

@@ -2,7 +2,7 @@
 metaTitle: Application development trends that we will see in 2023
 meta_description: Keeping us informed about the most relevant technological trends allow us to establish a roadmap in order to find growth in our markets
 title: Application development trends that we will see in 2023
-read: 5 - 10 min
+read: 5-10min
 date: December 20, 2022
 url: application-development-trends-that-we-will-see-in-2023
 category: innovation

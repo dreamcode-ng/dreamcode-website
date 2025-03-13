@@ -2,7 +2,7 @@
 metaTitle: APIs as bridges to better customer relationships
 meta_description: Learn what APIs are and how they can improve business competitive advantages
 title: APIs as business bridges to better business-to-customer relationships
-read: 5 -10 min
+read: 5-10min
 date: June 22, 2022
 url: APIs-as-business-bridges-to-better-business-to-customer-relationships
 category: innovation

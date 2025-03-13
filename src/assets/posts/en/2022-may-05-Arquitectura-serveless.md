@@ -2,7 +2,7 @@
 metaTitle: Serverless architecture, transforming business development
 meta_description: The serverless architecture model and its impact on application development and technology.
 title: Serverless architecture, the cloud computing model that is transforming business technological development
-read: 5 -10 min
+read: 5-10min
 date: May 5, 2022
 url: serverless-architecture-cloud-computing-model-transforming-business-web-development
 category: up-to-date

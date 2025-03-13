@@ -2,7 +2,7 @@
 metaTitle: 2022 and the technological reach of digital transformation
 meta_description: 2022 has been a year in which businesses have had to make crucial technological decisions in order to adapt to the accelerated technological transformation resulting from mandatory universal digitization.
 title: 2022 and the technological reach of digital transformation
-read: 5 - 10 min
+read: 5-10min
 date: December 19, 2022
 url: 2022-and-the-technological-reach-of-digital-transformation
 category: innovation

@@ -2,7 +2,7 @@
 metaTitle: Cinco planteamientos del diseño web responsive que favorecen el posicionamiento de marca empresarial
 meta_description: Las empresas precisan sitios web que den satisfacción total a las necesidades y capacidades de los dispositivos desde los que sus clientes acceden. Esta es una norma que todos los programadores orientados al desarrollo móvil no pueden dejar de cumplir.
 title: ¿Qué es diseño de interfaces de usuario por voz?
-read: 5 -10 min
+read: 5-10min
 date: November 02, 2022
 url: what-is-voice-driven-user-interface-design
 category: innovation

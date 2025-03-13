@@ -2,7 +2,7 @@
 metaTitle: Habilidades clave para destacar tu perfil como desarrollador de aplicaciones
 meta_description: Convertirse en programador de aplicaciones es una de las mejores decisiones profesionales que actualmente puedes tomar, la industria tecnológica está en constante crecimiento, en esta siempre podrás encontrar áreas para la innovación y el desarrollo.
 title: Habilidades clave para destacar tu perfil como desarrollador de aplicaciones
-read: 5 - 10 min
+read: 5-10min
 date: March 20, 2023
 url: key-skills-to-highlight-your-profile-as-an-application-developer
 category: innovation

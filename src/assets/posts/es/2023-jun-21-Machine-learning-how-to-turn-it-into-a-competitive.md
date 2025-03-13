@@ -2,7 +2,7 @@
 metaTitle: Machine Learning, ¿cómo transformarlo en una ventaja competitiva para tu empresa?
 meta_description: Los desarrollos basados en Machine Learning han ganado relevancia en diversos escenarios comerciales, esto se debe al reciente auge que ha experimentado la Inteligencia Artificial (IA).
 title: Machine Learning, ¿cómo transformarlo en una ventaja competitiva para tu empresa?
-read: 5 - 10 min
+read: 5-10min
 date: June 21, 2023
 url: machine-learning-how-to-turn-it-into-a-competitive-leverage-for-your-company
 category: innovation

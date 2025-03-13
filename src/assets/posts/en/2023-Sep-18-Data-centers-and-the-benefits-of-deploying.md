@@ -2,7 +2,7 @@
 metaTitle: Data Centers and the benefits of deploying one for your business
 meta_description: Securing the storage, management and availability of data is a critical objective for today's business and data centers could be the best strategic ally to achieve it.
 title: Data Centers and the benefits of deploying one for your business
-read: 5 - 10 min
+read: 5-10min
 date: September 18, 2023
 url: data-centers-and-the-benefits-of-deploying-one-on-your-business
 category: innovation

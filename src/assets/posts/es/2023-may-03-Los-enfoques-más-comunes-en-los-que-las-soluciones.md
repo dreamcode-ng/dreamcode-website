@@ -2,7 +2,7 @@
 metaTitle: Enfoques comunes en los que las soluciones empresariales de alto nivel cobran relevancia
 meta_description: Las soluciones de alto nivel pueden ser una gran opción para tu empresa ante problemas latentes y de alta complejidad en las diversas áreas de tu operación, su valor resulta determinante para el éxito empresarial tanto inmediato como futuro.
 title: Los enfoques más comunes en los que las soluciones empresariales de alto nivel cobran mayor relevancia
-read: 5 - 10 min
+read: 5-10min
 date: May 03, 2023
 url: the-most-common-approaches-in-which-high-level-enterprise-solutions-are-most-relevant
 category: innovation

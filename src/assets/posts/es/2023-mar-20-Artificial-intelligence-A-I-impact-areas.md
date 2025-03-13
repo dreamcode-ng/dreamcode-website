@@ -2,7 +2,7 @@
 metaTitle: Áreas de impacto de la inteligencia artificial (IA) en el mundo de los negocios del 2023
 meta_description: IA ha logrado transformar la manera en la que las empresas operan, mejorando la eficiencia, la personalización, el análisis de datos, la seguridad y la innovación en los negocios.
 title: Áreas de impacto de la inteligencia artificial (IA) en el mundo de los negocios del 2023
-read: 5 - 10 min
+read: 5-10min
 date: March 20, 2023
 url: artificial-intelligence-A-I-impact-areas-in-the-business-arena-of-2023
 category: innovation

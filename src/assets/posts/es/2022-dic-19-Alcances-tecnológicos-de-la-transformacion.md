@@ -2,7 +2,7 @@
 metaTitle: 2022 y los alcances tecnológicos de la transformación digital
 meta_description: El 2022 ha sido un año en el que los negocios han tenido que tomar decisiones tecnológicas cruciales para lograr adaptarse a la transformación tecnológica acelerada producto de la digitalización universal obligatoria.
 title: 2022 y los alcances tecnológicos de la transformación digital
-read: 5 - 10 min
+read: 5-10min
 date: December 19, 2022
 url: 2022-and-the-technological-reach-of-digital-transformation
 category: innovation

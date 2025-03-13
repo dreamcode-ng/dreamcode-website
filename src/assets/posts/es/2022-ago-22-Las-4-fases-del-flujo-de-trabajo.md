@@ -2,7 +2,7 @@
 metaTitle: 4 fases del flujo de trabajo en el desarrollo de aplicaciones
 meta_description: El flujo del desarrollo de aplicaciones es un proceso altamente depurado y ordenado el cual se plantea en cuatro etapas fundamentales que aseguran soluciones tecnológicas del más alto nivel.
 title: The 4 fases del flujo de trabajo en el desarrollo de aplicaciones
-read: 5 -10 min
+read: 5-10min
 date: August 22, 2022
 url: the-4-phases-of-the-application-development-workflow
 category: innovation

@@ -2,7 +2,7 @@
 metaTitle: Tendencias del desarrollo de aplicaciones que veremos en el 2023
 meta_description: Mantenernos informados sobre las tendencias tecnológicas más relevantes nos permite trazar una ruta para dirigir los esfuerzos que nos traerán crecimiento en nuestros mercados.
 title: Tendencias del desarrollo de aplicaciones que veremos en el 2023
-read: 5 - 10 min
+read: 5-10min
 date: December 20, 2022
 url: application-development-trends-that-we-will-see-in-2023
 category: innovation

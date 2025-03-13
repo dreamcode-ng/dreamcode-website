@@ -2,7 +2,7 @@
 metaTitle: La experiencia de usuario (UX) en el desarrollo de software
 meta_description: La experiencia de usuario (UX) ha logrado posicionarse como una ventaja competitiva tanto para empresas que buscan soluciones tecnológicas orientadas a sus clientes, como para las que precisan aplicaciones de uso interno enfocadas en sus colaboradores.
 title: La experiencia de usuario (UX) como pilar para el desarrollo de aplicaciones
-read: 5 - 10 min
+read: 5-10min
 date: January 22, 2023
 url: user-experience-UX-as-cornerstone-for-application-development
 category: innovation

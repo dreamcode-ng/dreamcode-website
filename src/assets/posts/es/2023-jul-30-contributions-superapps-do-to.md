@@ -2,7 +2,7 @@
 metaTitle: ¿Qué aportan las 'SuperApps' a los negocios?
 meta_description: El concepto central detrás de las superapps es entregar valor por medio de una experiencia de usuario más conveniente, intuitiva y eficiente. Esto se traduce en eficiencia, precisión y seguridad tanto para empresas como para usuarios.
 title: ¿Qué aportan las 'SuperApps' a los negocios?
-read: 5 - 10 min
+read: 5-10min
 date: July 30, 2023
 url: contributions-superapps-do-to-the-business-world
 category: innovation

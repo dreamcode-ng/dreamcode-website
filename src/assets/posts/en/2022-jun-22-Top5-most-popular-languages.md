@@ -2,7 +2,7 @@
 metaTitle: Top 5 most popular languages for Artificial Intelligence (AI) programming
 meta_description: To develop the full potential of artificial intelligence, both companies and developers need to make the right decisions about the programming languages to implement in their next software solutions.
 title: Top 5 most popular languages for Artificial Intelligence (AI) programming
-read: 5 -10 min
+read: 5-10min
 date: June 22, 2022
 url: top5-most-popular-languages-for-artificial-intelligence-programming
 category: innovation

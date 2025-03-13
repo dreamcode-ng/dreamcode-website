@@ -11,12 +11,24 @@ import TalentBox from '@/components/UI/Creating/TalentBox';
 import LineTime from '@/components/UI/Creating/LineTime';
 import Challenges from '@/components/UI/Creating/Challenges';
 import ConsultingProcess from '@/components/UI/Creating/ConsultingProcess';
+import { AccordionSection , AccordioChild } from '@/components/UI/Accordion/Accordion';
 
 
 
 export default function Staff() {
 
   const { t } = useTranslation();
+  const data = {
+    accordion: [
+      {
+        name: "Accordion Pagina Servicios",
+        items: [
+          { titlle: "services", description: "Solutions for the news generation" },
+          { titlle: "about", description: "History in the challenge for the world" }
+        ]
+      }
+    ]
+  };
 
   return (
     <>
@@ -35,6 +47,10 @@ export default function Staff() {
             text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
             animation='users' />  
       </ContainerGrill>
+      <AccordionSection 
+        title="Desde la evaluación hasta la consolidación de un equipo TI"
+        items={data.accordion[0].items}
+      />
       <LineTime />
       <Wave 
         className=" -bg-secondary"

@@ -2,7 +2,7 @@
 metaTitle: ReactJS or React Native, which one to choose for your project?
 meta_description: ReactJS and React Native are two well-known technologies that share the same component-based development approach, but are built for applications with divergent contexts. Understanding this is critical to creating applications with high growth potential.
 title: ReactJS or React Native, which one to choose for your project?
-read: 5 - 10 min
+read: 5-10min
 date: December 08, 2023
 url: reactjs-or-reactnative-which-one-to-choose-for-your-project
 category: innovation

@@ -2,7 +2,7 @@
 metaTitle: Data Centers y los beneficios de implementar uno en tu negocio
 meta_description: Asegurar el almacenamiento, administración y disponibilidad de los datos es un objetivo crítico para los negocios, los data center podrían ser el un gran aliado estratégico para alcanzarlo.
 title: Data Centers y los beneficios de implementar uno en tu negocio
-read: 5 - 10 min
+read: 5-10min
 date: September 18, 2023
 url: data-centers-and-the-benefits-of-deploying-one-on-your-business
 category: innovation

@@ -2,7 +2,7 @@
 metaTitle: 5G y el inicio de la era de la realidad aumentada y otras tecnologías subyacentes.
 meta_description: 5G es el nuevo estándar global para redes móviles que busca una interconectividad total, desde máquinas y vehículos hasta dispositivos y objetos en prácticamente todos los sectores.
 title: La tecnología 5G como el inicio de la era de la realidad aumentada y otras tecnologías subyacentes
-read: 5 -10 min
+read: 5-10min
 date: November 03, 2022
 url: 5G-the-beginning-of-the-era-of-augmented-reality-and-underlying-technologies
 category: innovation

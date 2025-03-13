@@ -2,7 +2,7 @@
 metaTitle: What contributions do 'SuperApps' to the business world?
 meta_description: In short, the core concept behind superapps is to deliver value through a more convenient, intuitive and efficient user experience. This translates into efficiency, accuracy and security for both businesses and users.
 title: What contributions do 'SuperApps' to the business world?
-read: 5 - 10 min
+read: 5-10min
 date: July 30, 2023
 url: contributions-superapps-do-to-the-business-world
 category: innovation

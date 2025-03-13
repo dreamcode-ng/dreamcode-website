@@ -2,7 +2,7 @@
 metaTitle: ChatGPT y su entrada disruptiva en la industria tecnológica y los negocios
 meta_description: ChatGPT se define como una plataforma de chatbot basada en inteligencia artificial pero no fue hasta este año, el 2023, cuando su tercera iteración (ChatGPT 3) dio un salto definitivo en su evolución, convirtiéndose en una herramienta disruptiva para la industria y los negocios.
 title: ChatGPT y su entrada disruptiva en la industria tecnológica y los negocios of 2023
-read: 5 - 10 min
+read: 5-10min
 date: June 22, 2023
 url: chatgpt-and-its-disruptive-entry-into-the-technology-industry-and-business
 category: innovation
