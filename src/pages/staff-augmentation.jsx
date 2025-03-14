@@ -71,7 +71,7 @@ export default function Staff() {
       <CirculeList 
         title={data.circuleList[0].title}
         dataList={data.circuleList[0].datalist}/>  
-      <IconList />
+      <IconList title="Principales tecnologías con las que trabajamos"/>
       <TalentBox />
     </>
   )
