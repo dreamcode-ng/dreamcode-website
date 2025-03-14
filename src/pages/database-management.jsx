@@ -5,6 +5,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
 import BannerPrincipal from '@/components/UI/Banners/BannerPrincipal';
 import ContainerAnimation from '@/components/UI/Containers/ContainerAnimation';
+import LineTime from '@/components/UI/Creating/LineTime';
 
 export default function DatabaseManagement() {
 
@@ -25,6 +26,7 @@ export default function DatabaseManagement() {
             text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
             animation='data' />  
       </ContainerGrill> 
+       <LineTime />
     </>
   )
 }

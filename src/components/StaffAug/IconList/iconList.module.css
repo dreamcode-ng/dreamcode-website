@@ -1,0 +1,61 @@
+
+
+.benefits_item {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}   
+
+.benefits_item div {
+    border: 1px solid var(--primary-color);
+    border-radius: 35px;
+    background: transparent    ;
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+}
+
+.benefits_item div:hover { background: var(--primary-color); }
+.benefits_item div:hover h3 { color: var(--bg-primary) !important;}
+  
+  /*==========RESPONSIVE===========*/
+  /*Mobil*/
+  @media screen and (max-width:350px){
+    .banner_benefics .col-lg-8 h3 {
+      font-size: 20px;
+    }
+    .benefits_item div {
+        height: 60px;
+        }
+  }
+  @media (min-width: 351px) and (max-width:512px){
+    .banner_benefics .col-lg-8 h3 {
+      font-size: 20px;
+    }
+    .benefits_item div {
+      height: 60px;
+      padding: 15px 25px ;
+    }
+    .col-bf-6 {
+      flex: 0 0 auto;
+      max-width: 50%;
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+    }
+  
+    .col-bf-6:nth-child(3n) {
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+    
+  }
+  /*Tablet*/
+  @media (min-width: 513px) and (max-width:821px){
+  
+  }
+  /*Desktop*/
+  @media screen and (min-width:813px){
+  }
+  
+  
+  
+  

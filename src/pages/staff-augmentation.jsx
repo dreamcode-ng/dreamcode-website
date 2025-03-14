@@ -8,10 +8,9 @@ import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
 import BannerPrincipal from '@/components/UI/Banners/BannerPrincipal';
 import ContainerAnimation from '@/components/UI/Containers/ContainerAnimation';
 import TalentBox from '@/components/UI/Creating/TalentBox';
-import LineTime from '@/components/UI/Creating/LineTime';
-import Challenges from '@/components/UI/Creating/Challenges';
-import ConsultingProcess from '@/components/UI/Creating/ConsultingProcess';
 import { AccordionSection , AccordioChild } from '@/components/UI/Accordion/Accordion';
+import CirculeList from '@/components/UI/CirculeList/CirculeList';
+import IconList from '@/components/StaffAug/IconList/IconList';
 
 
 
@@ -21,13 +20,32 @@ export default function Staff() {
   const data = {
     accordion: [
       {
-        name: "Accordion Pagina Servicios",
         items: [
-          { titlle: "services", description: "Solutions for the news generation" },
-          { titlle: "about", description: "History in the challenge for the world" }
+          { title: "1. Definición de necesidades del proyecto:", 
+            description: "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería." },
+          { title: "2. Definición de necesidades del proyecto:", 
+            description: "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería." }
+        ],
+        name: "Desde la evaluación hasta la consolidación de un equipo TI"
+      }
+    ],
+    circuleList: [
+      {
+        title: "Todo un equipo calificado en:",
+        datalist: [ 
+          "Arquitectura de software",
+          "Control de calidad manual y automatizado", 
+          "Control de calidad manual ", 
+          "Arquitectura de software",
+          "Control de calidad manual y automatizado", 
+          "Arquitectura de software",
+          "Control de calidad manual y automatizado", 
+          "Arquitectura de software"
         ]
       }
     ]
+    
+  
   };
 
   return (
@@ -48,21 +66,13 @@ export default function Staff() {
             animation='users' />  
       </ContainerGrill>
       <AccordionSection 
-        title="Desde la evaluación hasta la consolidación de un equipo TI"
-        items={data.accordion[0].items}
-      />
-      <LineTime />
-      <Wave 
-        className=" -bg-secondary"
-        text="Conectemos 👋"
-        icon_class="-bg-cian"
-        icon={<FaLinkedin />} />
-
-      <ConsultingProcess />
-      <Challenges />
+        title={data.accordion[0].name}
+        items={data.accordion[0].items} />
+      <CirculeList 
+        title={data.circuleList[0].title}
+        dataList={data.circuleList[0].datalist}/>  
+      <IconList />
       <TalentBox />
-
-
     </>
   )
 }
