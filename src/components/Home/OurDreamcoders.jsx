@@ -16,7 +16,7 @@ function OurDreamcoders() {
                   <h2 className="f-lg-45 f-sm-25 text-white text-center text-lg-start">
                       Nuestros <span className="f_800 m_color">DreamCoders</span> dicen que somos un excelente lugar para trabajar
                   </h2>
-                  <ButtonIcon className="align-items-start" link="/blog" text="Ver más +" />
+                  <ButtonIcon className="align-items-start mt-5" link="/blog" text="Ver más +" />
                 </div>
               <div className="col-sm-12 col-md-12 col-lg-5 image-column"></div>
             </div>

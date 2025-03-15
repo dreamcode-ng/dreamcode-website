@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import style from './iconList.module.css';
 import ContainerSection from '../../UI/Containers/ContainerSection';
@@ -26,22 +27,14 @@ export default function CirculeList({ title }) {
                     <div className='row justify-content-center gap-5'>     
                         {
                             icons.map((Icon, i) => (
-                                <CirculeListItem 
-                                    key={i}
-                                    icon={<Icon color="#999" size={60}/>} />
+                                <div key={i} className='col-lg-auto col'>
+                                    <Icon color="#999" size={60}/>
+                                </div>
                             ))
                         }                  
                     </div>
                 </div>
             </div>
         </ContainerSection>
-    );
-}
-
-function CirculeListItem({ icon }) {
-    return (  
-        <div className='col-lg-auto col'>
-                {icon}
-        </div>
     );
 }

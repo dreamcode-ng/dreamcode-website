@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const ButtonIcon = ({ link, text, className }) => {
   return (
-    <div className={`d-flex flex-column  ${className} mt-5`}>
+    <div className={`d-flex flex-column  ${className}`}>
         <Link href={link} className={`${style.btnIcon} text-dark f-lg-18 f_600 rounded-pill px-4 py-3`}>{text}</Link>
     </div>
   )

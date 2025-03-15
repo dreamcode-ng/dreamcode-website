@@ -5,6 +5,8 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
 import BannerPrincipal from '@/components/UI/Banners/BannerPrincipal';
 import ContainerAnimation from '@/components/UI/Containers/ContainerAnimation';
+import Specialize from '@/components/SoftwareDev/Specializes/Specialize';
+import BannerSlider from '@/components/SoftwareDev/BannerSlider/BannerSlider';
 
 export const getStaticProps = async ({ locale }) => {
   
@@ -35,7 +37,9 @@ export default function SoftwareDevelopment() {
             title={'Tecnología que se adapta a tus necesidades'}
             text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
             animation='code' />  
-      </ContainerGrill>  
+      </ContainerGrill>
+      <Specialize title="En esto nos especializamos"/>
+      <BannerSlider />
     </>
   )
 }

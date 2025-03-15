@@ -53,11 +53,11 @@
 }
 
 .cardTags div div {
-  padding: 8px 12px; /* padding-top/bottom: 8px, padding-left/right: 16px */
+  padding: 8px 12px; 
   background: #1A1A1A;
   border-radius: 68px;
   border: 1px solid #262626;
-  display: flex; /* Asegura que justifyContent y alignItems funcionen */
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;

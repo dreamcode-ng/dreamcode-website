@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 
 
-function CardDos ( { image, title, read, date, url, content}) {
+function CardItem ( { image, title, read, date, url, content}) {
 
   return (
     <div className="col-lg-4 col-md-6 col-sm-12">
@@ -64,7 +64,7 @@ export default function BlogHome() {
         {
           postlist.slice(0, 3).map((post, i) => {
             return (
-              <CardDos key={i} 
+              <CardItem key={i} 
                 image={post.imglink}
                 title={post.title}
                 read={post.read}
@@ -77,7 +77,7 @@ export default function BlogHome() {
           })
         }
       </div>            
-      <ButtonIcon className="align-items-center" link="/blog" text="Ver más +" />
+      <ButtonIcon className="align-items-center mt5" link="/blog" text="Ver más +" />
       
 
     </div>

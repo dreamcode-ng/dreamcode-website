@@ -62,7 +62,7 @@ function Form() {
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4">
-                                <ButtonIcon className="align-items-lg-end align-items-center" link="/blog" text="Empieza ahora  →" />
+                                <ButtonIcon className="align-items-lg-end mt-5 align-items-center" link="/blog" text="Empieza ahora  →" />
                             </div>
                         </div>
                         {/* <div className="mb-3 form-check ">
