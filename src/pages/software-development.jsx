@@ -7,6 +7,8 @@ import BannerPrincipal from '@/components/UI/Banners/BannerPrincipal';
 import ContainerAnimation from '@/components/UI/Containers/ContainerAnimation';
 import Specialize from '@/components/SoftwareDev/Specializes/Specialize';
 import BannerSlider from '@/components/SoftwareDev/BannerSlider/BannerSlider';
+import BannerVideo from '@/components/SoftwareDev/BannerVideo/BannerVideo';
+import Form from '@/components/UI/Form/Form';
 
 export const getStaticProps = async ({ locale }) => {
   
@@ -40,6 +42,8 @@ export default function SoftwareDevelopment() {
       </ContainerGrill>
       <Specialize title="En esto nos especializamos"/>
       <BannerSlider />
+      <BannerVideo />
+      <Form />
     </>
   )
 }

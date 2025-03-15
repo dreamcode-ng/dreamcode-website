@@ -4,7 +4,7 @@ import listJobsEs from '../../assets/jobs/esJobs.json';
 import { useEffect, useState } from "react";
 import style from './careers.module.css';
 import CardJobs from './Card';
-import Form from '@/components/Home/Form';
+import Form from '@/components/UI/Form/Form';
 import ContainerSection from "../UI/Containers/ContainerSection";
 
 export default function TabCareers() {

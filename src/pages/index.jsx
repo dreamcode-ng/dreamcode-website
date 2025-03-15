@@ -9,7 +9,7 @@ import Clients from '@/components/Home/Clients';
 import ExperienceRocket from '@/components/Home/ExperienceRocket';
 import OurDreamcoders from '@/components/Home/OurDreamcoders';
 import BlogHome from '@/components/Home/BlogHome';
-import Form from '@/components/Home/Form';
+import Form from '@/components/UI/Form/Form';
 import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
 import { useTranslation } from "react-i18next";
 
