@@ -5,6 +5,11 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
 import BannerPrincipal from '@/components/UI/Banners/BannerPrincipal';
 import ContainerAnimation from '@/components/UI/Containers/ContainerAnimation';
+import Form from '@/components/UI/Form/Form';
+import ConsultingProcess from '@/components/UI/Creating/ConsultingProcess';
+import HowMigrate from '@/components/SystemsMod/HowMigrate';
+import { URL_YOUTUBE_SQUARE } from '@/assets/Constants';
+import BannerVideo from '@/components/UI/BannerVideo/BannerVideo';
 
 export default function SystemsModernization() {
 
@@ -24,7 +29,17 @@ export default function SystemsModernization() {
             title={'Tecnología que se adapta a tus necesidades'}
             text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
             animation='graphic' />  
-      </ContainerGrill>   
+      </ContainerGrill>
+      <ConsultingProcess 
+        title="Avanza con un sistema moderno"
+        subtile="¿Cómo lo hacemos posible?" />
+      <HowMigrate />
+      <BannerVideo
+        withSubtile
+        subtitle="Cómo SquareTrade reimaginó su infraestructura"
+        title="Descubre cómo hicimos realidad la super app Bolívar Conmigo"
+        url={URL_YOUTUBE_SQUARE} />
+      <Form />  
     </>
   )
 }

@@ -1,4 +1,4 @@
-.container_box { gap: 35px; padding: 20px 0px; }
+.container_box { gap: 35px; padding: 25px 0px; }
 .container_box:nth-of-type(2) { border-top: 1px solid #fff; }
 
 /* - Desktop - */

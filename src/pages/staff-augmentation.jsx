@@ -11,6 +11,7 @@ import TalentBox from '@/components/UI/Creating/TalentBox';
 import { AccordionSection , AccordioChild } from '@/components/UI/Accordion/Accordion';
 import CirculeList from '@/components/UI/CirculeList/CirculeList';
 import IconList from '@/components/StaffAug/IconList/IconList';
+import Form from '@/components/UI/Form/Form';
 
 
 
@@ -73,7 +74,7 @@ export default function Staff() {
         dataList={data.circuleList[0].datalist}/>  
       <IconList title="Principales tecnologías con las que trabajamos"/>
       <TalentBox />
-      
+      <Form />
     </>
   )
 }

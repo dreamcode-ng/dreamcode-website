@@ -7,6 +7,7 @@ import BannerPrincipal from '@/components/UI/Banners/BannerPrincipal';
 import ContainerAnimation from '@/components/UI/Containers/ContainerAnimation';
 import Challenges from '@/components/UI/Creating/Challenges';
 import ConsultingProcess from '@/components/UI/Creating/ConsultingProcess';
+import Form from '@/components/UI/Form/Form';
 
 
 export default function itConsulting() {
@@ -21,15 +22,19 @@ export default function itConsulting() {
         url="" />
       <ContainerGrill>
         <BannerPrincipal 
-          title="Desarrollo de software"
-          subtitle="Convierte tus ideas en soluciones digitales de alto impacto" />
+          title="Consultoría TI"
+          subtitle="Convierte tus desafíos tecnológicos en logros tangibles" />
           <ContainerAnimation 
-            title={'Tecnología que se adapta a tus necesidades'}
-            text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
+            title={'Convierte tus desafíos tecnológicos en logros tangibles'}
+            text={'Alineamos tu infraestructura tecnológica con las tendencias actuales del sector. Analizamos escenarios clave para facilitar decisiones estratégicas y rentables guiando el mantenimiento y desarrollo de tus sistemas, mejorando el uso de recursos y asegurando un crecimiento digital sostenible.'}
             animation='circle' />  
       </ContainerGrill>
       <Challenges />
-      <ConsultingProcess />
+      <ConsultingProcess 
+        withNumber
+        title="Un proceso completo en consultoría" />
+
+      <Form />
 
     </>
   )

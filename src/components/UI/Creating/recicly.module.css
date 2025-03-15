@@ -1,7 +1,6 @@
 .talent { padding: 60px; }
 /* - Desktop - */
 @media (min-width: 992px) {
-.talent_box { height: 250px;}
 }
 /* - Mobil - */
 @media (max-width: 991px) {

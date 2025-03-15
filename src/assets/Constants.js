@@ -6,3 +6,6 @@ export const RECAPTCHA_SITEKEY = '6Le64SIfAAAAAEoQdq4n9_iMt8dGeqWeYgJzs5qe';
 export const URL_WHATSAPP = 'https://wa.me/573152206211';
 export const URL_YOUTUBE_CAREERS = 'https://www.youtube.com/embed/O5HTilfrw1g?playlist=O5HTilfrw1g&loop=1&autoplay=1&autohide=1&controls=0';
 export const ID_GOOGLE_ANALYTICS = 'UA-194698672-1';
+export const URL_YOUTUBE_SQUARE = "https://www.youtube.com/embed/KWcKeJDUriY?si=K9MZ_H7HnaL4E-B-";
+export const URL_YOUTUBE_BOLIVAR = "https://www.youtube.com/embed/r3-nGMCka-o?si=Sx-H7uaV_bWf1UXY";
+

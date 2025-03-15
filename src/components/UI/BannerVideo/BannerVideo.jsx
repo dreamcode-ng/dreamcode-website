@@ -2,13 +2,14 @@ import ContainerSection from '@/components/UI/Containers/ContainerSection';
 import React from 'react';
 import style from './bannerVideo.module.css';
 
-function BannerVideo() {
+function BannerVideo( { withSubtile = false, title, subtitle, url}) {
   return (
         <div className={style.bannerVideo}>
             <div className='container-dc container'>
                 <div className='row d_flex align-items-center justify-content-center gap-5'>
                     <div className='col-lg-6 col-md-7 col-sm-12'>
-                        <h2 className='text-center m_color '>Descubre cómo hicimos realidad la super app Bolívar Conmigo</h2>
+                        <h2 className='text-center m_color'>{title}</h2>
+                        { withSubtile && <p className='mt_20 text-center f-lg-18 f_500 p_color'>{subtitle}</p>}
                     </div>
                     <div className='col-lg-12 col-md-7 col-sm-12'>
                         <iframe className={style.video_info}
@@ -18,7 +19,7 @@ function BannerVideo() {
                         title="Sueña para transformar el futuro." 
                         width="770" 
                         height="360" 
-                        src="https://www.youtube.com/embed/r3-nGMCka-o?si=Sx-H7uaV_bWf1UXY" >
+                        src={url} >
                         </iframe>
                     </div>
                 </div>
