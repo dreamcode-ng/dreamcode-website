@@ -11,7 +11,7 @@
 
 /*///// LINE TIME ///////////////////////////////////////////////////////////*/
 
-.timeline { padding: 60px 100px; }
+.timeline { padding: 60px 100px 0px; }
 @media (max-width: 991px) {
 .timeline { padding: 0px 15px; }
 }

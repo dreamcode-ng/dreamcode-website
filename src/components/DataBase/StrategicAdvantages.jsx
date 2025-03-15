@@ -3,36 +3,31 @@ import SolutionsCardItem from '@/components/UI/SolutionsCard/Card';
 import ContainerSection from '@/components/UI/Containers/ContainerSection'
 
 
-function ServicesHome() {
+function StrategicAdvantages() {
 
-let description = "Gestiona tu información de manera eficiente, llevando la productividad y la toma de decisiones a nuevos niveles."
+let description = "Escalamos tus infraestructuras de datos de forma ágil, asegurando que su crecimiento no afecte el rendimiento ni la disponibilidad."
 
   return (
     <ContainerSection>
         <div className="row justify-content-center">
-            <h2 className='w_color text-center display-2 f_700 pb-5'>Nuestras soluciones</h2>
-            <SolutionsCardItem
-                withAnimation 
-                title="Staff Augmentation"
+            <h2 className='w_color text-center display-5 f_700 pb-5'>Ventajas estratégicas a través de tus datos</h2>
+            <SolutionsCardItem 
+                title="Rendimiento en tiempo real:"
                 description={description}
                 animationName="code" />
-            <SolutionsCardItem
-                withAnimation 
-                title="Desarrollo de software"
+            <SolutionsCardItem 
+                title="Disponibilidad 24/7:"
                 description={description}
                 animationName="code" />
-            <SolutionsCardItem
-                withAnimation 
+            <SolutionsCardItem 
                 title="Modernización de sistemas"
                 description={description}
                 animationName="code" />
-            <SolutionsCardItem
-                withAnimation 
+            <SolutionsCardItem 
                 title="Gestión de bases de datos"
                 description={description}
                 animationName="code" />        
-            <SolutionsCardItem
-                withAnimation 
+            <SolutionsCardItem 
                 title="Consultoría tecnológica"
                 description={description}
                 animationName="code" />
@@ -41,4 +36,4 @@ let description = "Gestiona tu información de manera eficiente, llevando la pro
   )
 }
 
-export default ServicesHome;
+export default StrategicAdvantages;
