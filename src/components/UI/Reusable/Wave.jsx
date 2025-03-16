@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTranslation } from 'next-i18next';
 
 
 function Wave({ className , text , icon, icon_class}) {

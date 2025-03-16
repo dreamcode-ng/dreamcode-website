@@ -2,10 +2,10 @@ import React from 'react';
 import style from './circuleList.module.css';
 import ContainerSection from '../Containers/ContainerSection';
 
-export default function CirculeList( { title , dataList}) {
+export default function CirculeList( { title , dataList, className}) {
   return (
         <ContainerSection>
-            <div className={`${style.circuleList}`}>
+            <div className={`${style.circuleList} ${className}`}>
                 <div className='my-5'>
                     <h2 className='text-center f-lg-40 m_color'>{title}</h2>
                 </div>

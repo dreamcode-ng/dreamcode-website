@@ -56,7 +56,7 @@
     height: auto;
   }
 
-  /*  --- SLIDER ---*/
+  /* ----------------- SLIDER -------------------------- */
   
 
   .sliderAbout {
@@ -81,5 +81,11 @@
   @media (min-width: 892px) {
 
   }
+
+
+    /* ----------------- TALENT -------------------------- */
+
+    .talents img { width: auto !important; }
+    .talents h4, .talents p { top: -40px; position: relative;}
  
 

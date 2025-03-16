@@ -1,0 +1,51 @@
+.infoCardWithImage { padding: 50px; }
+.banner_container {
+    min-height: 450px;
+    background: url("/img/home/our-dreamCoders.jpg") no-repeat;
+    border-radius: 20px;
+}
+
+.index { background: url("/img/home/our-dreamCoders.jpg") no-repeat; }
+.index { background: url("/img/about/our-future-pertenece.png") no-repeat; }
+
+  .content_column {
+    background: var(--bg-secondary);  
+    z-index: 2;
+    width: 100%;
+    position: relative;
+  }
+
+  @media (min-width: 992px) {
+    .banner_container {
+      background-position: right center;
+      background-size: auto 100%;
+    }
+    .content_column {
+      padding: 40px 50px 70px 40px!important;
+      width: 52%;
+      border-radius: 20px 0px 80px 20px;    
+      height: fit-content;
+    }
+  }
+  @media (max-width: 991px) {
+    .infoCardWithImage { padding: 20px; }
+    .banner_container {
+      background-position: top center;
+      background-size: 100% auto;
+      text-align: center;
+    }
+
+    .banner_container > div {
+      flex-direction: column-reverse;
+    }
+
+    .content_column {
+      padding: 20px !important;
+      height: 50%;
+      border-radius: 20px;}
+  
+    .image_column {
+      height: 240px;
+      width: 100%;
+    }
+  }

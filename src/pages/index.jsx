@@ -7,7 +7,7 @@ import RedefineFuture from '@/components/Home/RedefineFuture';
 import ContainerAnimation from '@/components/UI/Containers/ContainerAnimation';
 import Clients from '@/components/Home/Clients';
 import ExperienceRocket from '@/components/Home/ExperienceRocket';
-import OurDreamcoders from '@/components/Home/OurDreamcoders';
+import OurDreamcoders from '@/components/UI/InfoCardWithImage/InfoCardWithImage';
 import BlogHome from '@/components/Home/BlogHome';
 import Form from '@/components/UI/Form/Form';
 import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
@@ -47,7 +47,9 @@ export default function Home() {
           <Clients />
           <ServicesHome />
           <ExperienceRocket />
-          <OurDreamcoders />
+          <OurDreamcoders 
+            withButton 
+            title="Nuestros dicen que somos un excelente lugar para trabajar" />
           <BlogHome />
           <Form />
       </main>

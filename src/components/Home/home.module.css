@@ -7,9 +7,6 @@
   padding: 80px;
 }
 
-.ourDreamcoders {
-  padding: 50px;
-}
 
 /* ---- Blog ---*/
 .cardPost {
@@ -131,7 +128,6 @@
   /* Mobile */
   @media screen and (max-width:900px){
     .redefine { padding: 100px 35px; }
-    .ourDreamcoders { padding: 20px; }
      
   }
   

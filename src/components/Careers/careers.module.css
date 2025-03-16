@@ -1,0 +1,14 @@
+.BannerBenefits > div {
+    border-radius: 27px;
+    padding: 0px 40px;
+    border: 1px solid #999;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.BannerBenefits img {
+    width: auto;
+    z-index: 99;
+    transform: scaleX(-1);
+}

@@ -29,7 +29,7 @@ function CardItem ({ name }) {
           					<p className={styles.git}>Metodologías ágiles</p>
         				</div>
 						<div className={styles.button1}>
-								<div className="w_color f_500 position-relative">Quiero aplicar</div>
+								<div className="d_color f_500 position-relative">Quiero aplicar</div>
 						</div>
       			</div>
     		</div>);
@@ -41,8 +41,8 @@ export default function CardJobs() {
 	const listJob = lang === 'en' ? listJobsEn : listJobsEs;
 	
 	return (
-		<>
-			<div className={`${styles.cardContent} d-grid grid text-center gap-3`}>		
+		<>		
+			<div className={`${styles.cardContent} d-grid grid text-center gap-4`}>		
 				{
 					listJob.map((job) => (
 						<CardItem key={job.id}

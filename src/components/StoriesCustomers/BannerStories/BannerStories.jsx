@@ -9,7 +9,7 @@ function BannerStories({ subtitle_banner, text_banner, btn_banner, title_banner}
     
 
   return (
-    <section className={`${style.banner_stories} -bg-dark line-break banner min-vh-100 text-center`} id=''>
+    <section className={`${style.banner_stories} line-break banner min-vh-100 text-center`} id=''>
         <div className="container">
             <div className="row align-items-center justify-content-center">  
                 <div className='mt-4 mb-5 w-100'>
@@ -18,9 +18,7 @@ function BannerStories({ subtitle_banner, text_banner, btn_banner, title_banner}
                     </h2>
                     <a href="/customer-stories#form-contact" className={`${style.btn__stories} text-white`}>
                         {btn_banner}
-                    </a>
-
-                    
+                    </a>    
                 </div>
                 <div className="col-lg-7 mt-4 text-start">
                     <div>
@@ -36,8 +34,6 @@ function BannerStories({ subtitle_banner, text_banner, btn_banner, title_banner}
                 <div className="col-lg-5" >
                     <figure className={style.banner__img} >
                         <Image src="/img/stories-customers/banner-stories-customers-DreamCode.png" alt="Customers DreamCode Software" width={500} height={430} loading='lazy' />       
-                        {/* <div className={style.light_effect}></div> */}
-
                     </figure>
                 </div>          
             </div>

@@ -33,7 +33,6 @@ export default function itConsulting() {
       <ConsultingProcess 
         withNumber
         title="Un proceso completo en consultoría" />
-
       <Form />
 
     </>

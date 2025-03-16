@@ -76,23 +76,6 @@
       position: relative; /* Necesario para posicionar los elementos hijos */
     }
   
-  .light_effect {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #00A1A9;
-    filter: blur(180px);
-    border-radius: 50%;
-    position: absolute;
-    mix-blend-mode: lighten;
-    will-change: transform;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
   
   /*Mobil*/
   @media screen and (max-width:512px){
@@ -124,10 +107,13 @@
   
   /*Desktop*/
     @media screen and (min-width:813px){
-        .profile--slider div .text-center {
-            padding: 0 50px;    }
         .stories_customers .item_storie {
           padding: 90px 0;
         }
     }
+
+
+
+    
+  
 

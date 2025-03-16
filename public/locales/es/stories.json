@@ -8,7 +8,7 @@
         {
             "title": "Target",
             "subtitle": "Sueño de negocio: Connected Commerce - PAM",
-            "text": "Desarrollamos una plataforma de software que le permite a Target Corp. vender servicios conectados (planes de telefonía móvil, suscripciones a servicios de streaming de video y tv por cable) desde sus tiendas físicas y en línea de una manera ágil y rápida, sin fricción para los compradores. El módulo PAM (Provisioning and Activation Management), permite a Target integrarse con los proveedores del servicio a través de tecnologías de vanguardia como APIs. Hoy Target Corp es líder en el segmento gracias a la innovación de esta plataforma con más de US$40M de ingresos en cada Black Friday.",
+            "text": "Desarrollamos una plataforma de software que le permite a Target Corp. vender servicios conectados (planes de telefonía móvil, suscripciones a servicios de streaming de video y tv por cable) desde sus tiendas físicas y en línea de una manera ágil y rápida, sin fricción para los compradores. \n El módulo PAM (Provisioning and Activation Management), permite a Target integrarse con los proveedores del servicio a través de tecnologías de vanguardia como APIs. Hoy Target Corp es líder en el segmento gracias a la innovación de esta plataforma con más de US$40M de ingresos en cada Black Friday.",
             "image": "target_logo.svg",
             "isSlider": false
         },

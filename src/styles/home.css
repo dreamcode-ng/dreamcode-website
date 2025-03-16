@@ -25,56 +25,6 @@
     z-index: -1;
   } */
 
-  .banner-container {
-    min-height: 450px;
-    background: url("/img/home/our-dreamCoders.jpg") no-repeat;
-    border-radius: 20px;
-  }
-
-  .content-column {
-    
-    background: var(--bg-secondary);  
-    z-index: 2;
-    width: 100%;
-    position: relative;
-  }
-  
-  /* Para escritorio: La imagen solo ocupa el 50% del ancho */
-  @media (min-width: 992px) {
-    .banner-container {
-      background-position: right center;
-      background-size: 50% 100%;
-    }
-    .content-column {
-      padding: 40px 50px 70px 40px!important;
-      width: 52%;
-      border-radius: 20px 0px 80px 20px;    
-      height: fit-content;
-    }
-  }
-  
-  /* Para móvil: La imagen ocupa el 100% del ancho y queda arriba */
-  @media (max-width: 991px) {
-    .banner-container {
-      background-position: top center;
-      background-size: 100% 55%;
-      text-align: center;
-    }
-
-    .banner-container .row {
-      flex-direction: column-reverse;
-    }
-
-    .content-column {
-      padding: 20px !important;
-      height: 50%;
-      border-radius: 20px;}
-  
-    .image-column {
-      height: 240px;
-      width: 100%;
-    }
-  }
   
 
   
