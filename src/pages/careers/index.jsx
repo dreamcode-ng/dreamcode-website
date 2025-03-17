@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import Link from 'next/link';
 import listJobsEn from '../../assets/jobs/enJobs.json';
 import listJobsEs from '../../assets/jobs/esJobs.json';
@@ -53,7 +53,7 @@ const Blog = () => {
       <ContainerSection>     
         <ContainerCircule className="px_50 py_60">
           <h2 className='w_color text-center mb-5'>Descubre por qué nuestros <span>DreamCoders</span> eligen trabajar aquí.</h2>
-          <ButtonIcon className="align-items-center mt5" link="/blog" text="Leer más +" />
+          <ButtonIcon className="align-items-center mt-5" link="/blog" text="Leer más +" />
         </ContainerCircule>
       </ContainerSection>  
       

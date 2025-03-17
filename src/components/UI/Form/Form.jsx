@@ -5,15 +5,18 @@ import { ButtonIcon } from '@/components/UI/Buttons/Buttons';
 import style from './form.module.css';
 
 
-function Form () {
+function Form ( { noTitle }) {
   return (
     <ContainerSection >
-        <div className='py-5'>
-            <h2 className='m_color f-lg-40 text-center'>
-                Conectamos tus ideas con el futuro
-            </h2>
-            <p className='p_color f-lg-20 text-center mb-5'>¿Qué proyecto tienes en mente?</p>
-        </div>
+        {
+            !noTitle &&
+            <div className='py-5'>
+                <h2 className='m_color f-lg-40 text-center'>
+                    Conectamos tus ideas con el futuro
+                </h2>
+                <p className='p_color f-lg-20 text-center mb-5'>¿Qué proyecto tienes en mente?</p>
+            </div>
+        }
         <ContainerCircule className={style.form}>
             <div className="row justify-content-center">
                 <div className="col-lg-12 col-sm-12 col-md-12">    

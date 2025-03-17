@@ -4,7 +4,7 @@ import Wave from '@/components/UI/Reusable/Wave';
 import { useTranslation, Trans } from 'react-i18next';
 
 
-function BannerHome({ withWave = false , title , subtitle, className}) {
+function BannerHome({ withWave = false , withLink = false,  title , subtitle, classP, link}) {
 
         const { t } = useTranslation('home');
 
@@ -21,18 +21,20 @@ function BannerHome({ withWave = false , title , subtitle, className}) {
                         className="flex-row-reverse -bg-dark"
                         icon_class="-bg-secondary "
                         icon="👋"
-                        text="We welcome you to the future
-"
+                        text="We welcome you to the future"
                     />}
                 
                 <h1 className="display-1 f_500 py-4">
                     {title}
                 </h1>
-                <p className="m_color fs-5">
-                    <Link href='/about' className='m_color'>
-                        {subtitle}
-                    </Link>
-                </p>
+                <p className={`${ withLink ? "p_color" : "m_color" } fs-4 w-75`}>{subtitle}</p>
+                {
+                     withLink 
+                     && 
+                    <p className="m_color fs-5">
+                        <Link href='/about' className='m_color'>{link}</Link>
+                    </p>
+                }
             </div>
         </div>
         </div> 

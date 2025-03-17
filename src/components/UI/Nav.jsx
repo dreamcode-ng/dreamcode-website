@@ -66,6 +66,9 @@ function Nav() {
                 <li className="nav-item">
                   <Link className="nav-link f_400 w_color" href="/careers">Carreras</Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link f_400 w_color" href="/blog">DreamBlog</Link>
+                </li>
             </ul>
             <ul className="navbar-nav nav mb-2 mb-lg-0">
               <li>

@@ -35,8 +35,9 @@ export default function Home() {
         <ContainerGrill>
             <BannerPrincipal 
               withWave
+              withLink
               title="Desarrolladores de software"
-              subtitle="Nuestra experiencia →"/>
+              link="Nuestra experiencia →"/>
 
             <RedefineFuture />
         </ContainerGrill>            

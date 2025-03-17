@@ -1,0 +1,37 @@
+.banner_blog {
+    background: url("/img/blog/elipse-dreamcode.svg") no-repeat scroll center top;
+    background-size: cover;
+    
+  }
+
+
+  /*==========RESPONSIVE===========*/
+/*Mobil*/
+@media screen and (max-width:512px){
+    .banner_blog h1 {
+      font-size: 40px;
+      margin-bottom: 0;
+    }
+  
+    .banner_blog > div{
+      height: 250px;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 513px) and (max-width:821px){
+    .banner_blog > div {
+      height: 400px;
+    }
+  
+    .banner_blog h1 {
+      font-size: 60px;
+      margin-bottom: 0;
+    }
+}
+/*Desktop*/
+@media screen and (min-width:821px){
+    .banner_blog > div {
+      height: 550px;
+    }
+}

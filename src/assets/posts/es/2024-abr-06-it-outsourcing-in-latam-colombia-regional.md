@@ -1,7 +1,7 @@
 ---
 metaTitle: Outsourcing IT en Colombia potencia regional en el mercado de los servicios tecnológicos
 meta_description: Países como Brasil, México, y ahora Colombia, se han convertido en una gran fuente de recursos humanos tecnológicos gracias a su generación de profesionales calificados y a su afinidad con los valores occidentales para los negocios.
-title: Outsourcing IT en LATAM, Colombia como nueva potencia regional en el mercado de los servicios tecnológicos especializados
+title: Outsourcing IT en LATAM, Colombia, nueva potencia en servicios tecnológicos
 read: 5min
 date: April 6, 2024
 url: it-outsourcing-in-latam-colombia-regional-powerhouse-in-the-technology-services-market

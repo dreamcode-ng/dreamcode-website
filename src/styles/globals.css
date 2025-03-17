@@ -132,7 +132,7 @@ figure { margin: 0 0 0 !important; }
 .d_color {color: var(--dark) !important;}
 
 /*---- Background-Color -----*/
-.-bg-primary { background-color: var(---bg-primary)}
+.-bg-primary { background-color: var(--bg-primary)}
 .-bg-secondary { background-color: var(--bg-secondary)}
 .-bg-cian { background-color: #44B8B6 }
 .-bg-dark { background-color: var(--dark)}

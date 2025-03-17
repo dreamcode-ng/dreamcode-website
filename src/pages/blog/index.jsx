@@ -1,26 +1,24 @@
 // pages/blog/index.jsx
-import Link from 'next/link';
-import postlistEn from '../../assets/posts/postsEn.json';
-import postlistEs from '../../assets/posts/postsEs.json';
-import { useTranslation } from 'next-i18next';
+import React from 'react';
+import Head from 'next/head';
+//import { useTranslation } from 'next-i18next';
+import BannerBlog from '@/components/Blog/BannerBlog';
+import TabBlog from '@/components/Blog/TabBlog';
 
 const Blog = () => {
 
-  const { i18n } = useTranslation();
-  const lang = i18n.language;
-  const posts = lang === 'en' ? postlistEn : postlistEs;
 
   return (
-    <div>
-      <h1 className='w_color' >Blog</h1>
-      <ul>
-        {posts.map((post) => (
-          <li key={post.id}>
-            <Link href={`/blog/${post.url}`}>{post.title}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <>
+    <Head>
+      <title>Blog</title>
+      <meta name="description" content="About" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+      <BannerBlog />
+      <TabBlog />
+    </>
   );
 };
 
