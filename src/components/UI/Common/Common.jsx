@@ -18,3 +18,10 @@ export const BoxChild = ({ children, className = "" }) => {
 };
 
 
+export const ImageBox = ({}) => {
+  return (
+    <></>
+  )
+}
+
+

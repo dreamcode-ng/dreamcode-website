@@ -1,0 +1,19 @@
+.imageBox {
+    padding: 45px 45px 0px 45px !important;
+    border-radius: 45px 45px 20px 20px !important;
+    display: inline-block;
+  }
+  .first_row, .second_row { padding: 50px 0;}
+  .imageBox img { border-radius: 50px 50px 0px 0px; }
+  .first_row .content, .second_row .content { padding: 35px 20px; }
+
+  @media (max-width: 891px) {
+    .first_row .content, .second_row .content { border-top: 1px solid #3BF7E4;  }
+    .second_row { flex-direction: column-reverse };
+  }
+    
+/*-- DESKTOP--*/
+  @media (min-width: 892px) {
+    .first_row .content { border-left: 1px solid #3BF7E4; }
+    .second_row .content { border-right: 1px solid #3BF7E4; }
+  }
