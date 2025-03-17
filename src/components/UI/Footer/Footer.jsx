@@ -40,14 +40,14 @@ export default function Footer() {
                       <Widget                                 
                         titleWidget="About Us" >
                             <li>Solutions</li>
-                            <li>Solutions</li>
-                            <li>Solutions</li>
+                            <li>Contact Us</li>
+                            <li>Politicas de Privacidad</li>
                       </Widget>                     
                       <Widget                                 
                         titleWidget="Careers" >
                           
                             <li>Why DreamCode?</li>
-                            <li>Why DreamCode?</li>
+                            <li>Job opportunities</li>
                       </Widget>
                   </div>
               </div>

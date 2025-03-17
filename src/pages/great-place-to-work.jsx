@@ -2,6 +2,7 @@ import ContainerSection from '@/components/UI/Containers/ContainerSection'
 import OurDreamcoders from '@/components/UI/InfoCardWithImage/InfoCardWithImage'
 import Head from 'next/head';
 import ReasonsWork from '@/components/Great/ReasonsWork';
+import Form from '@/components/UI/Form/Form';
 
 
 
@@ -25,7 +26,7 @@ export default function Great() {
           </h3>
       </ContainerSection>
       <ReasonsWork />
-
+      <Form noTitle />
       </main>
     </>
   )

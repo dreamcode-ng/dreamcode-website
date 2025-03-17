@@ -79,7 +79,7 @@
   
   /*Mobil*/
   @media screen and (max-width:512px){
-    .stories_customers .container .item_storie {
+    .stories_customers .item_storie {
       display: flex;
       flex-direction: column-reverse !important;
     }
