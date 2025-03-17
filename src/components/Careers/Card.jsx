@@ -1,4 +1,4 @@
-import styles from './Card.module.css';
+import styles from './card.module.css';
 import { FaLocationDot } from "react-icons/fa6";
 import { BiWifi } from "react-icons/bi";
 import listJobsEn from '../../assets/jobs/enJobs.json';

@@ -1,3 +1,4 @@
+import OurDreamcoders from '@/components/UI/InfoCardWithImage/InfoCardWithImage'
 import Head from 'next/head'
 
 
@@ -12,7 +13,10 @@ export default function Great() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=''>
-        <h1 className='w_color'>Pagina Great</h1>
+      <OurDreamcoders 
+            isAbout
+            text="Estamos convencidos de que la innovación y el cambio digital definen los negocios, fomentan el desarrollo y reconfiguran el entorno global." 
+            title="El futuro nos pertenece, lo estamos construyendo con tecnología que conecta y transforma" /> 
       </main>
     </>
   )
