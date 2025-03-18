@@ -5,15 +5,15 @@
 }
 
 .containerCircule::before {
-    content: ""; /* Necesario para que el ::after funcione */
+    content: ""; 
     position: absolute;
     top: 0;
     right: 0;
     z-index: 0;
     width: 270px;
     height: 350px;
-    background-image: url("../../../assets/iconos/CuartoCirculoLazy.svg"); /* Ruta del SVG */
-    background-size: contain; /* Ajusta el tamaño de la imagen */
+    background-image: url("../../../assets/iconos/CuartoCirculoLazy.svg");
+    background-size: contain; 
     background-repeat: no-repeat;
 }
 
@@ -40,7 +40,7 @@
 }
 
 
-/* - Background Main - */
+/* - Background Main Cuadricula - */
 .background_main {
     position: absolute;
     inset: 0;

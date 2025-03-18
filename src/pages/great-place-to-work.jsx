@@ -18,8 +18,7 @@ export default function Great() {
       <main className=''>
       <OurDreamcoders 
             isAbout
-            text="Estamos convencidos de que la innovación y el cambio digital definen los negocios, fomentan el desarrollo y reconfiguran el entorno global." 
-            title="El futuro nos pertenece, lo estamos construyendo con tecnología que conecta y transforma" /> 
+            title="Nuestros DreamCoders dicen que somos un excelente lugar para trabajar" /> 
       <ContainerSection>
           <h3 className='w_color'>
           Nuestros DreamCoders reconocen que su experiencia dentro de la compañía es altamente satisfactoria, resaltan un ambiente laboral agradable y lleno de bienestar, donde las personas son el primer y más importante criterio en cada decisión. Nos sentimos orgullosos de lo que dicen nuestros colaboradores, conoce porque somos un excelente lugar para trabajar:

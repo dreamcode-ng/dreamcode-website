@@ -1,12 +1,11 @@
 .infoCardWithImage { padding: 50px; }
 .banner_container {
     min-height: 450px;
-    background: url("/img/home/our-dreamCoders.jpg") no-repeat;
     border-radius: 20px;
 }
 
 .index { background: url("/img/home/our-dreamCoders.jpg") no-repeat; }
-.index { background: url("/img/about/our-future-pertenece.png") no-repeat; }
+.about { background: url("/img/about/our-future-pertenece.png") no-repeat; }
 
   .content_column {
     background: var(--bg-secondary);  
