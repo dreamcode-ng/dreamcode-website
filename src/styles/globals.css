@@ -32,7 +32,7 @@ body {
 }
 
 body {
-  background-color: var(---bg-primary)!important;
+  background-color: var(--bg-primary)!important;
   font-family: "Jost", sans-serif;
   -moz-font-family: "Jost", sans-serif; 
   -webkit-font-family: "Jost", sans-serif; 
