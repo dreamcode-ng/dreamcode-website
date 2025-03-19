@@ -81,9 +81,7 @@
             }
         ]
     },
-    "home": {
-        "wave": "We welcome you to the future",
-        "service_title": "Software \n<0>developers</0>",
-        "service_subtitle": "Nearshore and offshore software development services, we are experts in creating high performance products, based on agile methodologies and processes for companies."
-    }
+    "nameTitle": "This is your name",
+    "userMessagesUnread_one": "Hello <1>{{name}}</1>, you have {{count}} unread message. <5>Go to message</5>.",
+    "userMessagesUnread_other": "Hello <1>{{name}}</1>, you have {{count}} unread messages.  <5>Go to messages</5>."
 }

@@ -2,9 +2,14 @@ import Head from 'next/head';
 import BannerPrincipal from '@/components/UI/Banners/BannerPrincipal';
 import Form from '@/components/UI/Form/Form';
 import Office from '@/components/Contact/Office'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation, Trans } from 'next-i18next';
 
 
-export default function Great() {
+export default function Contact() {
+
+    const { t } = useTranslation('stories');
+
 
 const titleContact = <>Conectamos tu idea con el futuro <span className='m_color'> ¡Estamos listos para escucharte!</span></>
 
@@ -28,3 +33,13 @@ const titleContact = <>Conectamos tu idea con el futuro <span className='m_color
     </>
   )
 }
+
+
+export const getStaticProps = async ({ locale }) => {
+  
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['stories'])),
+    },
+  };
+};

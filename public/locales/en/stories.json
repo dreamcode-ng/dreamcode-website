@@ -1,5 +1,6 @@
 {
-    "title_banner": "Our projects turned \ninto success stories",
+    "title_banner": "Our projects turned <0>into success stories</0>",
+    "content": "Lorem ipsum <lnk>Blog.</lnk>",
     "btn_banner": "Contact us",
     "subtitle_banner": "We have a team with extensive experience in various industries: ",
     "text_banner": "Banking, insurance, retail, telecommunications, and technology services.",

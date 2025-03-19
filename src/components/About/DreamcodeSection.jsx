@@ -18,7 +18,7 @@ const DreamcodeSection = () => {
           <div className="p-0 col-md-5">   
             <ContainerCircule className={styles.imageBox}>
               <Image
-                src="/img/about/entorno-formidable.jpg"
+                src="/img/great-place/entorno-formidable.jpg"
                 width={600}
                 height={500}
                 alt="Office"

@@ -12,7 +12,7 @@ function BannerBlog() {
                     </div>
                 </div>
             </div>
-            <h2 className='m_color f-lg-35 f-sm-20 text-center mb-4 f_700' >Contenido que te conecta al presente y te inspira para el futuro</h2>
+            <h2 className='m_color f-lg-30 f-sm-20 text-center mb-4 f_700' >Contenido que te conecta al presente y te inspira para el futuro</h2>
     </section>
   )
 }
