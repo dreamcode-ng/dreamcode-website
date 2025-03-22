@@ -1,0 +1,72 @@
+{
+    "subtitle": "Convierte tus ideas en resultados tangibles con el talento especializado que necesitas",
+    "title_animation": "Sumar talento TI a tu equipo te permite escalar tus capacidades rápidamente y asegurar la ejecución precisa de tus proyectos.",
+    "subtitle_animation": "Nos integramos ágilmente a tu cultura organizacional, actuando como aliados que refuerzan tu innovación y optimizan la eficiencia en cada etapa.",
+    "btn_aniamtion": "Amplia tu equipo",
+    "title_accordion": "Desde la evaluación hasta la consolidación de un equipo TI",
+    "item_accordion": [
+        {
+            "title": "1. Definición de necesidades del proyecto:",
+            "description": "Trabajamos contigo para entender los requisitos del proyecto y determinar las habilidades y los perfiles adecuados para el equipo."
+        },
+        {
+            "title": "2. Reclutamiento y selección del talento:",
+            "description": "Buscamos en nuestro equipo interno o abrimos nuevas búsquedas, evaluamos y seleccionamos a los candidatos adecuados, asegurándonos de que sus habilidades encajen perfectamente con las necesidades de tu equipo."
+        },
+        {
+            "title": "3. Evaluación técnica:",
+            "description": "Los candidatos preseleccionados son evaluados mediante pruebas técnicas específicas, luego se coordinan entrevistas para que puedas evaluar a los perfiles más relevantes, asegurando que sus habilidades técnicas y su compatibilidad cultural sean las adecuadas."
+        },
+        {
+            "title": "4. Integración y onboarding al equipo",
+            "description": "Una vez seleccionados, los miembros del equipo se integran rápidamente al tuyo mediante un proceso de onboarding, adaptándose a tus procesos, herramientas y cultura organizacional."
+        },
+        {
+            "title": "5. Seguimiento durante del proyecto",
+            "description": "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería."
+        }
+    ],
+    "title_list": "Todo un equipo calificado en:",
+    "item_list": [
+        "Desarrollo móvil",
+        "Desarrollo Front- end ",
+        "Desarrollo Back- end",
+        "Desarrollo Full stack",
+        "Control de calidad manual y automatizado",
+        "Arquitectura de software",
+        "Cloud computing",
+        "Metodologías ágiles"
+    ],
+    "title_icons": "Principales tecnologías con las que trabajamos",
+    "title_talent": "Nuestro talento TECH",
+    "data_talent": [
+        {
+            "image": "talent-agile",
+            "description": "Es ágil en la realización de proyectos"
+        },
+        {
+            "image": "talent-adaptation",
+            "description": "Facilita el trabajo y los procesos de adaptación tecnológica"
+        },
+        {
+            "image": "talent-valor",
+            "description": "Genera valor a través del compromiso y la cohesión"
+        },
+        {
+            "image": "talent-innovation",
+            "description": "Posee el conocimiento, la experiencia técnica y humana, a favor de los procesos de transformación"
+        },
+        {
+            "image": "talent-transformation",
+            "description": "Es innovador en la creación y desarrollo de soluciones destacadas"
+        },
+        {
+            "image": "talent-performance",
+            "description": "Tiene un alto desempeño en la ejecución de los objetivos comerciales"
+        },
+        {
+            "image": "talent-valor",
+            "description": "Trabaja bajo una cultura corporativa"
+        }
+    ]
+}

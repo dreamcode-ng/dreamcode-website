@@ -1,0 +1,72 @@
+{
+    "subtitle": "Turn your ideas into tangible results with the specialized talent you need.",
+    "title_animation": "Adding IT talent to your team allows you to quickly scale your capabilities and ensure the precise execution of your projects. ",
+    "subtitle_animation": ". We seamlessly integrate into your organizational culture, acting as partners who reinforce your innovation and optimize efficiency at every stage. ",
+    "btn_aniamtion": "Expand your team",
+    "title_accordion": "From evaluation to team consolidation",
+    "item_accordion": [
+        {
+            "title": "1. Defining project needs:",
+            "description": "We work with you to understand the project requirements and determine the necessary skills and profiles for the team."
+        },
+        {
+            "title": "2. Talent recruitment and selection:",
+            "description": "We search within our internal team or open new recruitment efforts, assess and select the right candidates, ensuring their skills align perfectly with your team’s needs."
+        },
+        {
+            "title": "3. Technical evaluation:",
+            "description": "Pre-selected candidates are tested with specific technical assessments, followed by interviews so you can evaluate the most relevant profiles, ensuring their technical skills and cultural compatibility are a match."
+        },
+        {
+            "title": "4. Team integration and onboarding:",
+            "description": "Once selected, team members are quickly integrated into yours through an onboarding process, adapting to your processes, tools, and organizational culture."
+        },
+        {
+            "title": "5. Project monitoring:",
+            "description": "Continuous monitoring ensures team members stay aligned with project objectives, making adjustments as needed, with ongoing support from HR and engineering."
+        }
+    ],
+    "title_list": "A qualified team in:",
+    "item_list": [
+        "Mobile Development",
+        "Front-end Development",
+        "Back-end Development",
+        "Full-stack Development",
+        "Manual and Automated Quality Control",
+        "Software Architecture",
+        "Cloud Computing",
+        "Agile Methodologies"
+    ],
+    "title_icons": "Main technologies we work with",
+    "title_talent": "Our TECH Talent",
+    "data_talent": [
+        {
+            "image": "talent-agile",
+            "description": "He is agile in project execution"
+        },
+        {
+            "image": "talent-adaptation",
+            "description": "He facilitates work and technological adaptation processes"
+        },
+        {
+            "image": "talent-valor",
+            "description": "He generates value through commitment and cohesion"
+        },
+        {
+            "image": "talent-innovation",
+            "description": "He has the knowledge, technical and human experience to support transformation processes"
+        },
+        {
+            "image": "talent-transformation",
+            "description": "He is innovative in the creation and development of outstanding solutions"
+        },
+        {
+            "image": "talent-performance",
+            "description": "He has high performance in the execution of business objectives"
+        },
+        {
+            "image": "talent-valor",
+            "description": "He works under a corporate culture"
+        }
+    ]
+}

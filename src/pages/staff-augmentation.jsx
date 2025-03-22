@@ -17,37 +17,10 @@ import Form from '@/components/UI/Form/Form';
 
 export default function Staff() {
 
-  const { t } = useTranslation();
-  const data = {
-    accordion: [
-      {
-        items: [
-          { title: "1. Definición de necesidades del proyecto:", 
-            description: "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería." },
-          { title: "2. Definición de necesidades del proyecto:", 
-            description: "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería." }
-        ],
-        name: "Desde la evaluación hasta la consolidación de un equipo TI"
-      }
-    ],
-    circuleList: [
-      {
-        title: "Todo un equipo calificado en:",
-        datalist: [ 
-          "Arquitectura de software",
-          "Control de calidad manual y automatizado", 
-          "Control de calidad manual ", 
-          "Arquitectura de software",
-          "Control de calidad manual y automatizado", 
-          "Arquitectura de software",
-          "Control de calidad manual y automatizado", 
-          "Arquitectura de software"
-        ]
-      }
-    ]
-    
-  
-  };
+  const { t } = useTranslation('staff');
+  const item_accordion = t('item_accordion', { returnObjects: true }) ;
+  const item_list = t('item_list', { returnObjects: true });
+  const data_talent = t('data_talent', { returnObjects: true });
 
   return (
     <>
@@ -60,21 +33,21 @@ export default function Staff() {
       <ContainerGrill>
         <BannerPrincipal 
           title="Staff Augmentation"
-          subtitle="Convierte tus ideas en resultados tangibles con el talento especializado que necesitas" />
+          subtitle={t('subtitle')} />
           <ContainerAnimation 
-            title={'Sumar talento TI a tu equipo te permite escalar tus capacidades rápidamente y asegurar la ejecución precisa de tus proyectos.'}
-            text={'Nos integramos ágilmente a tu cultura organizacional, actuando como aliados que refuerzan tu innovación y optimizan la eficiencia en cada etapa.'}
-            btn="Amplia tu equipo →"
+            title={t('title_animation')}
+            text={t('subtitle_animation')}
+            btn={t('btn_aniamtion')}
             animation='users' />  
       </ContainerGrill>
       <AccordionSection 
-        title={data.accordion[0].name}
-        items={data.accordion[0].items} />
+        title={t('title_accordion')}
+        items={item_accordion} />
       <CirculeList 
-        title={data.circuleList[0].title}
-        dataList={data.circuleList[0].datalist}/>  
-      <IconList title="Principales tecnologías con las que trabajamos"/>
-      <TalentBox />
+        title={t('title_list')}
+        dataList={item_list}/>  
+      <IconList title={t('title_icons')}/>
+      <TalentBox data={data_talent} />
       <Form />
     </>
   )

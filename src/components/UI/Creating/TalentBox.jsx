@@ -1,14 +1,13 @@
+"use client"
 import React from 'react';
 import style from './recicly.module.css';
 import ContainerCircule from '@/components/UI/Containers/ContainersCircule';
 import Image from 'next/image';
 import { BoxContainer , BoxChild } from '@/components/UI/Common/Common';
 import ContainerSection from '@/components/UI/Containers/ContainerSection'
-import { FaPeopleArrows } from "react-icons/fa";
 
 function TalentBoxChild ({ image , description }) {
 
-  
   return (
     <BoxChild>
         <div className={`pb-3`}>
@@ -19,7 +18,12 @@ function TalentBoxChild ({ image , description }) {
   )
 }
 
-export default function TalentBox() {
+export default function TalentBox({ data }) {
+
+  const firstHalf = data.slice(0, 3); 
+  const secondHalf = data.slice(3);    
+
+
   return (
     <ContainerSection>
       <ContainerCircule className={style.talent}>
@@ -28,29 +32,26 @@ export default function TalentBox() {
                 <h2 className="f-lg-25 m_color">Nuestro talento 
                 <span className="f_700"><br></br> TECH</span></h2>       
             </BoxChild>
-            <TalentBoxChild 
-              image="talent-valor"
-              description="Es ágil en la realización de proyectos" />
-            <TalentBoxChild 
-              image="talent-valor"
-              description="Es ágil en la realización de proyectos" />
-            <TalentBoxChild 
-              image="talent-valor"
-              description="Es ágil en la realización de proyectos" />
+            {
+              firstHalf.map((talent, index) => (
+              <TalentBoxChild 
+                key={index} 
+                image={talent.image} 
+                description={talent.description} 
+              />
+              ))
+            }
         </BoxContainer>
         <BoxContainer className={style.talent_box}>         
-          <TalentBoxChild 
-            image="talent-valor"
-            description="Es ágil en la realización de proyectos" />
-          <TalentBoxChild 
-            image="talent-valor"
-            description="Es ágil en la realización de proyectos" />
-          <TalentBoxChild 
-            image="talent-valor"
-            description="Es ágil en la realización de proyectos" />
-          <TalentBoxChild 
-            image="talent-valor"
-            description="Es ágil en la realización de proyectos" />
+          {
+            secondHalf.map((talent, index) => (
+              <TalentBoxChild 
+                key={index} 
+                image={talent.image} 
+                description={talent.description} 
+              />
+            ))
+          }
         </BoxContainer>
       </ContainerCircule>
     </ContainerSection>
