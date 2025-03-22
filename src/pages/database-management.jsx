@@ -55,7 +55,7 @@ export const getStaticProps = async ({ locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['DatabaseManagement'])),
+      ...(await serverSideTranslations(locale, ['data', 'layout', 'form' ])),
     },
   };
 };

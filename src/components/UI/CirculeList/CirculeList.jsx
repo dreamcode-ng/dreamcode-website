@@ -7,7 +7,7 @@ export default function CirculeList( { title , dataList, className}) {
         <ContainerSection>
             <div className={`${style.circuleList} ${className}`}>
                 <div className='my-5'>
-                    <h2 className='text-center f-lg-40 m_color'>{title}</h2>
+                    <h2 className='text-center f-lg-40 m_color f_800'>{title}</h2>
                 </div>
                 <div className="container my-2">
                     <div className='row justify-content-center'>                       

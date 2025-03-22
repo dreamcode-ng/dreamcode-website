@@ -6,9 +6,8 @@
     .footer_area img { width: auto !important;}
     .footer_area > .footer_top { padding: 80px 0 50px; }
     .footer_widget a, .footer_area li { color: #999; }
-    .footer_top .footer_widget li a:hover , .footer_top .footer_widget .widget-wrap p a:hover,
-    .footer_bottom li a:hover {
-      color: var(--primary-color) !important;
+    .footer_widget a:hover {
+      color: #fff !important;
     }
   
     /*==================== redesSociales ================================*/

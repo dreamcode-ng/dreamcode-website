@@ -15,7 +15,7 @@ export const getStaticProps = async ({ locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['home'])),
+      ...(await serverSideTranslations(locale, ['software', 'layout', 'form'])),
     },
   };
 };
@@ -38,6 +38,7 @@ export default function SoftwareDevelopment() {
           subtitle="Convierte tus ideas en soluciones digitales de alto impacto" />
           <ContainerAnimation 
             title={'Tecnología que se adapta a tus necesidades'}
+            btn="Hablemos de tu proyecto"
             text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
             animation='code' />  
       </ContainerGrill>

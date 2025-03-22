@@ -1,11 +1,49 @@
 {
+    "locale": "en",
     "wave": "We welcome you to the future",
-    "meta_datos": {
-        "meta_title_Home": "Custom Software Development - IT Staff Augmentation - Nearshore",
-        "meta_description_Home": "Software Development Specialists, We Provide IT Talent for the United States and Latin America."
-    },
-    "title": "Software \n<0>developers</0>",
-    "home": {
-        "service_subtitle": "Nearshore and offshore software development services, we are experts in creating high performance products, based on agile methodologies and processes for companies."
-    }
+    "title_home": "Software <1>developers</1>",
+    "text_link": "Our experience →",
+    "redefine1": "We redefine",
+    "redefine2": "the future of business through technology",
+    "btn_banner": "Contact us",
+    "title_animation": "Technology that adapts to your business",
+    "subtile_animation": "At DreamCode, we help companies transform their operations, optimize processes, and adapt to the future. We create innovative solutions that drive growth, efficiency, and competitiveness, always aligned with the unique needs of each client.",
+    "btn_animation": "Let's talk",
+    "our_solution": "Our solutions",
+    "solutions": [
+        {
+            "title": "Staff Augmentation",
+            "description": "Expand your team's capacity with expert talent.",
+            "icon": "users"
+        },
+        {
+            "title": "Software Development",
+            "description": "Revolutionize your business with unique web and mobile solutions.",
+            "icon": "code"
+        },
+        {
+            "title": "System Modernization",
+            "description": "Stay ahead with modern and efficient tools.",
+            "icon": "graphic"
+        },
+        {
+            "title": "Database Management",
+            "description": "Manage your information efficiently, taking productivity and decision-making to new levels.",
+            "icon": "data"
+        },
+        {
+            "title": "Technology Consultingt",
+            "description": "Design the continuous growth of your business with expert vision.",
+            "icon": "circle"
+        }
+    ],
+    "client_slider": "Behind the success of tech projects, working with these brands:",
+    "title_experience1": "Over 11 years of experience ",
+    "title_experience2": "building solutions",
+    "text_experience": "in the Retail, Telecommunications, Insurance, Fintech, and Technology industries.",
+    "btn_read_more": "See more +",
+    "our_dreamcoders": "Our <1>DreamCoders</1> say we're an excellent place to work.",
+    "blog_title": "Stay ahead in the future ",
+    "form_title": "We connect your ideas with the future",
+    "form_subtitle": "What project do you have in mind?"
 }

@@ -19,9 +19,6 @@ export default function Projects() {
         description={t('projects.subtitle')}
         url="" />
       <ContainerSection>
-          <Trans i18nKey="title_banner">
-          Our projects turned <span className='w_color'>into success stories</span>
-          </Trans>
         <BannerStories 
           title_banner={t('title_banner')}
           btn_banner={t('btn_banner')}

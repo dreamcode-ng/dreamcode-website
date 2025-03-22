@@ -5,7 +5,7 @@ import ContainerSection from '@/components/UI/Containers/ContainerSection'
 import { ButtonIcon } from '../Buttons/Buttons';
 
 
-function OurDreamcoders( { withButton = false, isAbout = false , text, title  }) {
+function OurDreamcoders( { withButton = false, isAbout = false , text, link, title , btn }) {
   return (
     
     <ContainerSection>
@@ -17,7 +17,7 @@ function OurDreamcoders( { withButton = false, isAbout = false , text, title  })
                       {title}
                   </h2>
                   { withButton ?  
-                    <ButtonIcon className="align-items-lg-start mt-5 align-items-center" link="/blog" text="Ver más +" />
+                    <ButtonIcon className="align-items-lg-start mt-5 align-items-center" link={link} text={btn} />
                     : <p className='f-lg-18 f_300 p_color'>{text}</p> }
                 </div>
               <div className={`col-sm-12 col-md-12 col-lg-5 ${style.image_column}`}></div>

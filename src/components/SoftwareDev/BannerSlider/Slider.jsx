@@ -36,7 +36,7 @@ export default function SliderWords() {
           sliderWords.map((item, index) => {
             return (
               <SwiperSlide key={index}>
-                <h3 className='bg-dark w_color'>{item}</h3>
+                <h3 className='bg-dark w_color f_800'>{item}</h3>
               </SwiperSlide>
             )
           })

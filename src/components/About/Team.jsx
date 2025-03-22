@@ -10,7 +10,6 @@ export default function Team() {
       <ContainerSection>
         <h2 className='m_color text-center display-3 f_700 pb-5'>Somos Equipo</h2>
         <div className={`${styles.team_row} `}>
-
             <TeamItem name="Horacio Borrero" position="Gerente General, Socio" image="Horacio" link="" />
             <TeamItem name="Francisco Chaves" position="Director de Ingeniería, Socio" image="Francisco" link="" />
             <TeamItem name="Jonathan Ortiz" position="Gerente de Desarrollo de Software" image="Jonathan" link="" />
@@ -26,12 +25,12 @@ export default function Team() {
 
 function TeamItem ( { name , position , image, link}) {
     return (
-        <div className=' d-flex align-items-center flex-column p-3 '>
-          <Image src={`/img/about/team/${image}.png`} width={1920} height={100} alt='' />
+        <div className=' d-flex align-items-center flex-column p-3 img-fluid'>
+          <Image src={`/img/about/team/${image}.png`} width={250} height={337} alt='' />
           <div className='d-flex flex-column gap-3 w-100'>
             <div className="d-flex flex-column align-items-center gap-2">
-              <h3 className="text-center f-ls-20 f_600 w_color">Francisco Chaves</h3>
-              <p className="text-center f-ls-18 f_500 p_color">Director de Ingeniería, Socio</p>
+              <h3 className="text-center f-ls-20 f_600 w_color">{name}</h3>
+              <p className="text-center f-ls-18 f_500 p_color">{position}</p>
             </div>
             <Wave 
               className=" -bg-secondary"

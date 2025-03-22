@@ -1,0 +1,9 @@
+.IconList svg {
+    color: #999;
+}
+
+.IconList svg:hover {
+    color: #fff;
+    scale: 1.2;
+    transition: all 0.4s ease;
+}

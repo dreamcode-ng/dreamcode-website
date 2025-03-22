@@ -9,7 +9,7 @@ import { TbBrandKotlin, TbBrandReactNative  } from "react-icons/tb";
 import { SiCucumber, SiSelenium, SiApachekafka, SiFlutter } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
-export default function CirculeList({ title }) {
+export default function IconList ({ title }) {
 
     const icons = [
         FaReact, FaAngular, FaJava, FaPython, FaNode, FaAws, FaPhp,
@@ -19,7 +19,7 @@ export default function CirculeList({ title }) {
 
     return (
         <ContainerSection>
-            <div className={`${style.circuleList}`}>
+            <div className={`${style.IconList}`}>
                 <div className='mb-5'>
                     <h2 className='text-center f-lg-40 w_color'>{title}</h2>
                 </div>
@@ -28,7 +28,7 @@ export default function CirculeList({ title }) {
                         {
                             icons.map((Icon, i) => (
                                 <div key={i} className='col-lg-auto col'>
-                                    <Icon color="#999" size={60}/>
+                                    <Icon size={60}/>
                                 </div>
                             ))
                         }                  

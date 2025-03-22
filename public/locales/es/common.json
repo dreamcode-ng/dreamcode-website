@@ -1,18 +1,16 @@
 {
-  "locale": "es",
-  "page": {
-    "home": "Home",
-    "projects": "Proyectos",
-    "about": "Nosotros",
-    "blog": "Blog",
-    "contact": "Contacto",
-    "careers": "Carreras",
-    "gwt": "GPTW",
-    "consulting": "Consultoría",
-    "data": "Gestión de bases de datos",
-    "system": "Modernización Sistemas",
-    "software": "Desarrollo de Software"
-  },
+  "locale": "es com",
+  "home": "Home",
+  "projects": "Proyectos",
+  "about": "Nosotros",
+  "blog": "Blog",
+  "contact": "Contacto",
+  "careers": "Carreras",
+  "gwt": "GPTW",
+  "consulting": "Consultoría",
+  "data": "Gestión de bases de datos",
+  "system": "Modernización Sistemas",
+  "software": "Desarrollo de Software",
   "components": {
     "read_more": "Leer Más"
   },

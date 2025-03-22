@@ -1,41 +1,29 @@
 import React from 'react';
 import SolutionsCardItem from '@/components/UI/SolutionsCard/Card';
 import ContainerSection from '@/components/UI/Containers/ContainerSection'
+import { useTranslation } from 'next-i18next';
 
 
 function ServicesHome() {
 
-let description = "Gestiona tu información de manera eficiente, llevando la productividad y la toma de decisiones a nuevos niveles."
+  const { t } = useTranslation('home');
+  const serviceslist = t('solutions', { returnObjects: true }) 
+  
 
   return (
     <ContainerSection>
         <div className="row justify-content-center">
-            <h2 className='w_color text-center display-2 f_700 pb-5'>Nuestras soluciones</h2>
-            <SolutionsCardItem
-                withAnimation 
-                title="Staff Augmentation"
-                description={description}
-                animationName="code" />
-            <SolutionsCardItem
-                withAnimation 
-                title="Desarrollo de software"
-                description={description}
-                animationName="code" />
-            <SolutionsCardItem
-                withAnimation 
-                title="Modernización de sistemas"
-                description={description}
-                animationName="code" />
-            <SolutionsCardItem
-                withAnimation 
-                title="Gestión de bases de datos"
-                description={description}
-                animationName="code" />        
-            <SolutionsCardItem
-                withAnimation 
-                title="Consultoría tecnológica"
-                description={description}
-                animationName="code" />
+            <h2 className='w_color text-center display-2 f_700 pb-5'>{t('our_solution')}</h2>
+            {
+                serviceslist.map((item, i ) => (
+                    <SolutionsCardItem
+                    key={i}
+                    withAnimation 
+                    title={item.title}
+                    description={item.description}
+                    animationName={item.icon} />
+                ))
+            }
         </div>
     </ContainerSection>
   )

@@ -1,6 +1,7 @@
 {
-    "title_banner": "Nuestros proyectos hechos <0> casos de éxito</0>",
-    "content": "Esto va en español ipsum <lnk>Blog.</lnk>",
+    "locale": "es st",
+    "title_banner": "Nuestros proyectos\n hechos casos de éxito",
+    "text": "Desarrolladores de \n<0>software</0>",
     "btn_banner": "Contáctanos",
     "subtitle_banner": "Contamos con un equipo con amplia experiencia en diferentes industrias: ",
     "text_banner": "Banca, seguros, retail, telecomunicaciones, servicios tecnológicos.",

@@ -1,5 +1,0 @@
-{
-    "nameTitle": "Este es tu nombre",
-    "userMessagesUnread_one": "Hola <1>{{name}}</1>, tienes {{count}} mensajes sin leer. <5>Ir a mensajes</5>.",
-    "userMessagesUnread_other": "Hola <1>{{name}}</1>, tienes {{count}} mensajes sin leer. <5>Ir a mensajes</5>."
-}

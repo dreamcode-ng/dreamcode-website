@@ -62,8 +62,9 @@ export default function Staff() {
           title="Staff Augmentation"
           subtitle="Convierte tus ideas en resultados tangibles con el talento especializado que necesitas" />
           <ContainerAnimation 
-            title={'Tecnología que se adapta a tus necesidades'}
-            text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
+            title={'Sumar talento TI a tu equipo te permite escalar tus capacidades rápidamente y asegurar la ejecución precisa de tus proyectos.'}
+            text={'Nos integramos ágilmente a tu cultura organizacional, actuando como aliados que refuerzan tu innovación y optimizan la eficiencia en cada etapa.'}
+            btn="Amplia tu equipo →"
             animation='users' />  
       </ContainerGrill>
       <AccordionSection 
@@ -83,7 +84,7 @@ export const getStaticProps = async ({ locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common'])),
+      ...(await serverSideTranslations(locale, ['staff', 'layout', 'form'])),
     },
   };
 };

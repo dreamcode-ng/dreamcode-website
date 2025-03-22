@@ -4,7 +4,6 @@
     overflow: hidden;
     background-color: var(--bg-primary);
     border-radius: var(--r-top) var(--r-right) var(--r-bottom) var(--r-left);
-    position: relative;
   }
 
   .card .cardBody {
@@ -12,12 +11,15 @@
   }
 
   .card .icon {
-    width: 90px; 
-    height: auto;
+
     float: right; 
     z-index: 2;
     position: relative;
 }
+
+.card .icon svg {
+  width: 90px !important; 
+  height: 70px !important; }
 
 
   .card::before {

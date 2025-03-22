@@ -1,11 +1,49 @@
 {
+    "locale": "es hom",
     "wave": "Te damos la bienvenida al futuro",
-    "meta_datos": {
-        "meta_title_Home": "Empresa de Desarrollo de Software a medida - IT Staff Augmentation",
-        "meta_description_Home": "Empresa especialistas en Desarrollo de software, proveemos talento TI  para Estados Unidos y Latinoamérica "
-    },
-    "title": "Desarrolladores de \n<0>software</0>",
-    "home": {
-        "service_subtitle": "Servicios de desarrollo de software nearshore/offshore, somos expertos en la creación de productos de alto performance , basados en metodologías y procesos agiles para las compañías."
-    }
+    "title_home": "Desarrolladores de <1>software</1>",
+    "title": "Desarrolladores de",
+    "title2": "software",
+    "text_link": "Nuestra experiencia →",
+    "redefine1": "Redefinimos",
+    "redefine2": "el futuro de los negocios a \ntravés de la tecnología",
+    "btn_banner": "Contáctanos",
+    "title_animation": "Tecnología que se adapta a tus necesidades",
+    "subtile_animation": "En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.",
+    "btn_animation": "Hablemos",
+    "our_solution": "Nuestras soluciones",
+    "solutions": [
+        {
+            "title": "Staff Augmentation",
+            "description": "Amplia la capacidad de tu equipo con talento experto.",
+            "icon": "users"
+        },
+        {
+            "title": "Desarrollo de software",
+            "description": "Revoluciona tu negocio con soluciones web y móvil únicas.",
+            "icon": "code"
+        },
+        {
+            "title": "Modernización de sistemas",
+            "description": "Mantente a la vanguardia con herramientas modernas y eficientes.",
+            "icon": "graphic"
+        },
+        {
+            "title": "Gestión de bases de datos",
+            "description": "Gestiona tu información de manera eficiente, llevando la productividad y la toma de  decisiones a nuevos niveles.",
+            "icon": "data"
+        },
+        {
+            "title": "Consultoría tecnológica",
+            "description": "Proyecta el crecimiento continuo de tu empresa con la visión experta.",
+            "icon": "circle"
+        }
+    ],
+    "client_slider": "Detrás del desarrollo de proyectos tecnológicos exitosos, siendo un equipo con estas marcas:",
+    "title_experience1": "+ de 11 años de experiencia",
+    "title_experience2": "construyendo soluciones",
+    "text_experience": "En las industrias Retail, Telecomunicaciones, Seguros, Fintech, Tecnología.",
+    "btn_read_more": "Ver más +",
+    "our_dreamcoders": "Nuestros <1>DreamCoders</1> dicen que somos un excelente lugar para trabajar",
+    "blog_title": "Quédate en el futuro"
 }

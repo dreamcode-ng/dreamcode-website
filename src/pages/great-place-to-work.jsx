@@ -3,6 +3,7 @@ import OurDreamcoders from '@/components/UI/InfoCardWithImage/InfoCardWithImage'
 import Head from 'next/head';
 import ReasonsWork from '@/components/Great/ReasonsWork';
 import Form from '@/components/UI/Form/Form';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 
 
@@ -30,3 +31,13 @@ export default function Great() {
     </>
   )
 }
+
+
+export const getStaticProps = async ({ locale }) => {
+  
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['great', 'layout', 'form'])),
+    },
+  };
+};

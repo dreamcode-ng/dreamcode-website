@@ -4,10 +4,11 @@ import LangSwitcher from './Header/LangSwitcher';
 import MenuButtons from './Header/MenuButtons';
 import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
+import { withTranslation } from 'react-i18next';
 
 
 
-function Nav() {
+function Nav({ t }) {
 
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
@@ -52,19 +53,19 @@ function Nav() {
                     href="#collapseExample" 
                     role="button" 
                     aria-expanded="false" 
-                    aria-controls="collapseExample">Soluciones</Link>
+                    aria-controls="collapseExample">{t('solutions')}</Link>
                 </li>
                 {
                   isMobile ? <MenuButtons /> : ''
                 }
                 <li className="nav-item">
-                  <Link className="nav-link f_400 w_color" href="/projects">Proyectos</Link>
+                  <Link className="nav-link f_400 w_color" href="/projects">{t('projects')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link f_400 w_color" href="/about">Nosotros</Link>
+                  <Link className="nav-link f_400 w_color" href="/about">{t('about')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link f_400 w_color" href="/careers">Carreras</Link>
+                  <Link className="nav-link f_400 w_color" href="/careers">{t('careers')}</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link f_400 w_color" href="/blog">DreamBlog</Link>
@@ -72,7 +73,7 @@ function Nav() {
             </ul>
             <ul className="navbar-nav nav mb-2 mb-lg-0">
               <li>
-                  <button className="btn" type="submit">Habla con Nosotros</button>
+                  <Link href="#form-primary" className="btn" type="submit">{t('letstalk')}</Link>
               </li>
               <LangSwitcher />
             </ul>
@@ -89,4 +90,4 @@ function Nav() {
   )
 }
 
-export default Nav;
+  export default withTranslation('layout')(Nav);

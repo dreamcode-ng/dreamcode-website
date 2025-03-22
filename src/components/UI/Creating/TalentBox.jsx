@@ -4,8 +4,11 @@ import ContainerCircule from '@/components/UI/Containers/ContainersCircule';
 import Image from 'next/image';
 import { BoxContainer , BoxChild } from '@/components/UI/Common/Common';
 import ContainerSection from '@/components/UI/Containers/ContainerSection'
+import { FaPeopleArrows } from "react-icons/fa";
 
 function TalentBoxChild ({ image , description }) {
+
+  
   return (
     <BoxChild>
         <div className={`pb-3`}>

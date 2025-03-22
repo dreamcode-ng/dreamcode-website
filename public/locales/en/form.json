@@ -1,0 +1,17 @@
+{
+    "locale": "en",
+    "form_title": "We connect your ideas with the future",
+    "form_subtitle": "What project do you have in mind?",
+    "form_input_name": "Name",
+    "form_input_email": "E-mail",
+    "form_input_company": "Company",
+    "form_input_country": "Country",
+    "form_message": "What goal do you want to achieve? ",
+    "form_placeholder_name": "First and last name",
+    "form_placeholder_company": "Company name",
+    "form_placeholder_country": "Country name",
+    "form_placeholder_message": "I want to create a web application...",
+    "form_policy": "Privacy policy",
+    "form_label_policy": "I have read and accept the ",
+    "form_btn": "Get started now →"
+}

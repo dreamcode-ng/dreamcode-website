@@ -8,7 +8,7 @@ import ContainerSection from '../UI/Containers/ContainerSection';
 
 export default function BlogHome() {
 
-  const { t , i18n} = useTranslation();
+  const { t , i18n} = useTranslation('home');
   let lang = i18n.language;
   const postlist = lang === 'en' ? postlistEn : postlistEs;
 
@@ -20,8 +20,8 @@ export default function BlogHome() {
 
   return (
     <ContainerSection>
-        <h2 className='m_color f-lg-40 text-start'>DreamBlog</h2>
-        <p className='p_color f-lg-20 text-start mb-5'>Quédate en el futuro</p>
+        <h2 className='m_color f-lg-40 text-start f_800'>DreamBlog</h2>
+        <p className='p_color f-lg-20 text-start mb-5'>{t('blog_title')}</p>
         <div className="row justify-content-center">
           {
             postlist.slice(0, 3).map((post, i) => {
@@ -39,7 +39,7 @@ export default function BlogHome() {
             })
           }
         </div>            
-        <ButtonIcon className="align-items-center mt-5" link="/blog" text="Ver más +" />
+        <ButtonIcon className="align-items-center mt-5" link="/blog" text={t('btn_read_more')} />
     </ContainerSection>
     
   )

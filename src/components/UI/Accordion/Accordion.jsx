@@ -30,7 +30,7 @@ export const AccordionSection = ( { title, items }) => {
         <ContainerSection > 
             <div className="d-flex justify-content-center">
                 <div className='col-lg-6 col-sm-12'>
-                    <h2 className='text-center w_color f-lg-30 f-sm-25 mb-5'>{title}</h2>
+                    <h2 className='text-center w_color f-lg-40 f-sm-25 mb-5'>{title}</h2>
                     {
                         items.map((item, index) => (
                             <AccordionChild key={index} title={item.title} description={item.description} />
