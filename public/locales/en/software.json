@@ -47,16 +47,14 @@
     "we_achieved:": "What we achieved:",
     "title_slider": "Software development for your business",
     "btn_slider": "Start now",
-    "slider_words": [
-        "Increase competitiveness",
-        "Maximize operational efficiency",
-        "Strengthen customer experience",
-        "Automate tasks",
-        "Optimize costs",
-        "Improve processes",
-        "Innovate in products/services",
-        "Solve challenges",
-        "Evolve in the market"
-    ],
+    "Increase": "Increase competitiveness",
+    "Maximize": "Maximize operational efficiency",
+    "Strengthen": "Strengthen customer experience",
+    "Automate": "Automate tasks",
+    "Optimize": "Optimize costs",
+    "Improve": "Improve processes",
+    "Innovate": "Innovate in products/services",
+    "Solve": "Solve challenges",
+    "Evolve": "Evolve in the market",
     "title_video": "Discover how we made the Bolívar Conmigo Super App a reality"
 }

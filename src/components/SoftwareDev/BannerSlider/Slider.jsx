@@ -11,7 +11,6 @@ export default function SliderWords() {
   
     const { t } = useTranslation('software');
     const words = t('slider_words', { returnObjects: true });
-  console.log(words);
   
 
   return (
@@ -23,9 +22,33 @@ export default function SliderWords() {
         modules={[EffectFlip, Autoplay]}
         className={style.slider_words}
       >
-        {
-          words.map((item, i) =>{return(<SwiperSlide key={i}><h3 className='bg-dark w_color f_800'>{item}</h3></SwiperSlide>)})
-        }
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Increase')}</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Maximize')}</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Strengthen')}</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Automate')}</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Optimize')}</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Improve')}</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Innovate')}</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Solve')}</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h3 className='bg-dark w_color f_800'>{t('Evolve')}</h3>
+        </SwiperSlide>
       </Swiper>
     </>
   );
