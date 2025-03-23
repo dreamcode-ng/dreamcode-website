@@ -1,0 +1,60 @@
+{
+    "title_primary": "Desarrollo de software",
+    "subtitle": "Convierte tus ideas en soluciones digitales de alto impacto",
+    "title_animation": "Desarrollamos aplicaciones web y móviles a la medida, diseñadas para resolver los desafíos específicos de tu negocio y prepararlo para el futuro.",
+    "subtitle_animation": "Creamos software personalizado que optimiza procesos, genera nuevas oportunidades y refuerza tu competitividad. Con plataformas flexibles y escalables, fortalecemos tu capacidad de adaptarte, crecer y generar valor sostenible a largo plazo.",
+    "btn_animation": "Hablemos de tu proyecto",
+    "title_specialize": "En esto nos especializamos",
+    "items_specialize": [
+        {
+            "title": "Desarrollo de aplicaciones móviles",
+            "paragraph_one": "Creamos aplicaciones móviles nativas y multiplataforma para iOS y Android, diseñadas para cumplir los objetivos estratégicos de tu negocio. Utilizamos tecnologías de vanguardia que garantizan un rendimiento superior, maximizan la eficiencia de los recursos y proporcionan una experiencia de usuario fluida y fácil de usar.",
+            "paragraph_two": "Soluciones móviles ágiles, seguras y escalables que fortalecen la conexión entre tu negocio y tus clientes, mejorando la interacción y ampliando tu presencia digital en diversas plataformas.",
+            "icons": [
+                "FaAndroid",
+                "FaApple"
+            ]
+        },
+        {
+            "title": "Desarrollo de aplicaciones Web",
+            "paragraph_one": "Diseñamos aplicaciones web que agilizan la gestión de datos y mejoran la experiencia de usuario. Nuestras soluciones optimizan procesos y aumentan la eficiencia operativa.",
+            "paragraph_two": "Plataformas que se integran con otros sistemas, mejoran la colaboración y proporcionan una experiencia fluida que evoluciona conforme a las necesidades de tu negocio.",
+            "icons": [
+                "FaLaptopCode",
+                "MdOutlineLanguage"
+            ]
+        },
+        {
+            "title": "Integraciones de Sistemas",
+            "paragraph_one": "La integración de plataformas y sistemas internos optimizan procesos y mejoran el rendimiento general de tu organización, así mismo facilita la colaboración entre equipos, agiliza la toma de decisiones y mejora el flujo de trabajo en todos los niveles.",
+            "paragraph_two": "Soluciones eficientes que aumentan la productividad, reducen tiempos operativos y mejoran la eficiencia general, impulsando el rendimiento de tu empresa mediante una integración ágil.",
+            "icons": [
+                "FaCubes"
+            ]
+        },
+        {
+            "title": "Automatización de procesos",
+            "paragraph_one": "Optimiza tus procesos operativos eliminando tareas manuales y repetitivas, incrementa la eficacia y reduce costos. Facilitamos el flujo de trabajo liberando recursos para que tu equipo pueda centrarse en actividades de mayor valor.",
+            "paragraph_two": "Mayor eficiencia operativa, reducción de tiempos y una organización más ágil, lista para responder rápidamente a las demandas del mercado.",
+            "icons": [
+                "MdAutoMode"
+            ]
+        }
+    ],
+    "btn_specialize": "Hablemos →",
+    "we_achieved:": "Lo que logramos:",
+    "title_slider": "Con el desarrollo de software tu negocio",
+    "btn_slider": "Empieza ahora",
+    "slider_words": [
+        "Aumentar la competitividad",
+        "Maximizar la eficiencia operativa",
+        "Fortalecer la experiencia del cliente",
+        "Automatizar tareas",
+        "Optimizar costes",
+        "Mejorar los procesos",
+        "Innovar en productos/servicios",
+        "Resolver retos",
+        "Evolucionar en el mercado"
+    ],
+    "title_video": "Descubre cómo hicimos realidad la super app Bolívar Conmigo"
+}

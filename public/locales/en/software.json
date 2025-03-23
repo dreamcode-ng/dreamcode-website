@@ -1,0 +1,62 @@
+{
+    "title_primary": "Software Development",
+    "subtitle": "Turn your ideas into high-impact digital solutions.",
+    "title_animation": "We develop custom web and mobile applications designed to solve your business’s specific challenges and prepare it for the future.",
+    "subtitle_animation": "We create tailored software that optimizes processes, generates new opportunities, and strengthens your competitiveness. With flexible, scalable platforms, we enhance your ability to adapt, grow, and create long-term sustainable value.",
+    "btn_animation": "Let's talk about your project",
+    "title_specialize": "Our Expertise",
+    "items_specialize": [
+        {
+            "title": "Mobile Application Development",
+            "paragraph_one": "We create native and cross-platform mobile apps for iOS and Android, designed to meet your business’s strategic goals. We use cutting-edge technologies that ensure superior performance, maximize resource efficiency, and provide a seamless, user-friendly experience.",
+            "paragraph_two": "Agile, secure, and scalable mobile solutions that strengthen the connection between your business and customers, improving interaction and expanding your digital presence across platforms.",
+            "icons": [
+                "FaLaptopCode",
+                "MdOutlineLanguage"
+            ]
+        },
+        {
+            "title": "Web Application Development",
+            "paragraph_one": "We design web applications that streamline data management and enhance user experience. Our solutions optimize processes and boost operational efficiency.",
+            "paragraph_two": "Platforms that integrate with other systems, improve collaboration, and provide a seamless experience that evolves with your business needs.",
+            "icons": [
+                "FaLaptopCode",
+                "MdOutlineLanguage"
+            ]
+        },
+        {
+            "title": "Integrations",
+            "paragraph_one": "The integration of platforms and internal systems optimizes processes and enhances overall organizational performance. It also facilitates team collaboration, speeds up decision-making, and improves workflow at all levels.",
+            "paragraph_two": "Efficient solutions that increase productivity, reduce operational time, and enhance overall efficiency, boosting your company's performance through agile integration.",
+            "icons": [
+                "FaLaptopCode",
+                "MdOutlineLanguage"
+            ]
+        },
+        {
+            "title": "Process Automation",
+            "paragraph_one": "Optimize your operational processes by eliminating manual and repetitive tasks, increase effectiveness, and reduce costs. We streamline workflows, freeing up resources so your team can focus on higher-value activities.",
+            "paragraph_two": "Greater operational efficiency, reduced time, and a more agile organization ready to quickly respond to market demands.",
+            "icons": [
+                "FaLaptopCode",
+                "MdOutlineLanguage"
+            ]
+        }
+    ],
+    "btn_specialize": "Let's talk",
+    "we_achieved:": "What we achieved:",
+    "title_slider": "Software development for your business",
+    "btn_slider": "Start now",
+    "slider_words": [
+        "Increase competitiveness",
+        "Maximize operational efficiency",
+        "Strengthen customer experience",
+        "Automate tasks",
+        "Optimize costs",
+        "Improve processes",
+        "Innovate in products/services",
+        "Solve challenges",
+        "Evolve in the market"
+    ],
+    "title_video": "Discover how we made the Bolívar Conmigo Super App a reality"
+}

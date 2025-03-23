@@ -24,7 +24,9 @@ export const getStaticProps = async ({ locale }) => {
 
 export default function SoftwareDevelopment() {
 
-  const { t } = useTranslation('home');
+  const { t } = useTranslation('software');
+  const specialize = t('items_specialize', { returnObjects: true });
+
 
   return (
     <>
@@ -34,18 +36,21 @@ export default function SoftwareDevelopment() {
         url="" />
       <ContainerGrill>
         <BannerPrincipal 
-          title="Desarrollo de software"
-          subtitle="Convierte tus ideas en soluciones digitales de alto impacto" />
+          title={t('title_primary')}
+          subtitle={t('subtitle')} />
           <ContainerAnimation 
-            title={'Tecnología que se adapta a tus necesidades'}
-            btn="Hablemos de tu proyecto"
-            text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
+            title={t('title_animation')}
+            btn={t('btn_animation')}
+            text={t('subtitle_animation')}
             animation='code' />  
       </ContainerGrill>
-      <Specialize title="En esto nos especializamos"/>
+      <Specialize 
+        btn={t('btn_specialize')}
+        title={t('title_specialize')} 
+        data={specialize}/>
       <BannerSlider />
       <BannerVideo 
-        title="Descubre cómo hicimos realidad la super app Bolívar Conmigo"
+        title={t('title_video')}
         url={URL_YOUTUBE_BOLIVAR}
         />
       <Form />
