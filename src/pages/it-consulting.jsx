@@ -12,7 +12,9 @@ import Form from '@/components/UI/Form/Form';
 
 export default function itConsulting() {
 
-  const { t } = useTranslation('ItConsulting');
+  const { t } = useTranslation('consulting');
+  const challenge = t('items_challenge', { returnObjects: true });
+
 
   return (
     <>
@@ -22,17 +24,28 @@ export default function itConsulting() {
         url="" />
       <ContainerGrill>
         <BannerPrincipal 
-          title="Consultoría TI"
-          subtitle="Convierte tus desafíos tecnológicos en logros tangibles" />
+          title={t('title_primary')}
+          subtitle={t('subtitle')} />
           <ContainerAnimation 
-            title={'Convierte tus desafíos tecnológicos en logros tangibles'}
-            text={'Alineamos tu infraestructura tecnológica con las tendencias actuales del sector. Analizamos escenarios clave para facilitar decisiones estratégicas y rentables guiando el mantenimiento y desarrollo de tus sistemas, mejorando el uso de recursos y asegurando un crecimiento digital sostenible.'}
+            title={t('title_animation')}
+            text={t('subtitle_animation')}
+            btn={t('btn_animation')}
             animation='circle' />  
       </ContainerGrill>
-      <Challenges />
+      <Challenges 
+        title={t('title_challenge')}
+        data={challenge}/>
       <ConsultingProcess 
         withNumber
-        title="Un proceso completo en consultoría" />
+        title={t('title_process')}
+        title_one={t('diagnosis')}
+        title_two={t('strategic')}
+        title_three={t('implementation')}
+        title_four={t('monitoring')}
+        description_one={t('diagnosis_description')}
+        description_two={t('strategic_description')}
+        description_three={t('implementation_description')}
+        description_four={t('monitoring_description')} />
       <Form />
 
     </>
@@ -43,7 +56,7 @@ export const getStaticProps = async ({ locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['itConsulting', 'layout', 'form'])),
+      ...(await serverSideTranslations(locale, ['consulting', 'layout', 'form'])),
     },
   };
 };

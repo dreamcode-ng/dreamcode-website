@@ -21,47 +21,36 @@ import ContainerSection from '@/components/UI/Containers/ContainerSection'
       </div>
     )
   }
-export default function Challenges() {
+  
+  const iconMap = {
+    FaBuildingFlag,
+    HiMiniCubeTransparent,
+    BsPersonFillDown,
+    FaObjectUngroup,
+    FaArrowUpRightDots,
+    MdSupportAgent,
+    SiSpringsecurity,
+    RiApps2AddFill,
+    VscServerProcess
+  };
+export default function Challenges({ title, data}) {
   return (
     <ContainerSection>
+        <h2 className="text-center f-lg-40 w_color mb-5">{title}</h2>
         <div className={`${style.challenge} position-relative box_shadow`}>
             <div className={`${style.challenge_row} `}>
-                <ChallengeCards 
-                    icon={<FaBuildingFlag size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
-                <ChallengeCards 
-                    icon={<HiMiniCubeTransparent size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
-                <ChallengeCards 
-                    icon={<BsPersonFillDown size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
-                <ChallengeCards 
-                    icon={<FaObjectUngroup size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
-                <ChallengeCards 
-                    icon={<FaArrowUpRightDots size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
-                <ChallengeCards 
-                    icon={<MdSupportAgent size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
-                <ChallengeCards 
-                    icon={<SiSpringsecurity size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
-                <ChallengeCards 
-                    icon={<RiApps2AddFill size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
-                <ChallengeCards 
-                    icon={<VscServerProcess size={28} color='#3BF7E4' />}
-                    description="Desalineación entre estrategia tecnológica y objetivos de negocio"
-                />
+                {
+                data.map((challenge, index) => {
+                    const IconComponent = iconMap[challenge.icon]; // Obtener el icono correcto
+
+                    return (
+                    <ChallengeCards
+                        key={index}
+                        icon={<IconComponent size={28} color="#3BF7E4" />}
+                        description={challenge.description}
+                    />
+                    );
+                })}
             </div>          
         </div>
     </ContainerSection>

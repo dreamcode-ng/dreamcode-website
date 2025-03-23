@@ -1,0 +1,66 @@
+{
+    "title_primary": "Gestión de bases de datos",
+    "subtitle": "Convierte tu flujo de datos en procesos inteligentes y dinámicos",
+    "title_animation": "Gestionamos la eficiencia de tu infraestructura de datos, asegurando su óptimo funcionamiento mediante monitoreo continuo y un respaldo confiable.",
+    "subtitle_animation": "Somos expertos en arquitectura, diseño, migración, monitoreo, recuperación y optimización de recursos, mejorando la operatividad de tus plataformas.",
+    "btn_animation": "Comienza ahora",
+    "title_strategics": "Ventajas estratégicas a través de tus datos",
+    "strategics": [
+        {
+            "title": "Rendimiento en tiempo real:",
+            "description": "Mejoramos continuamente el desempeño de tus bases de datos para que tus sistemas siempre operen a la máxima velocidad."
+        },
+        {
+            "title": "Disponibilidad 24/7:",
+            "description": "Implementamos soluciones que garantizan la accesibilidad de tus sistemas, sin que factores externos la limiten."
+        },
+        {
+            "title": "Protección integral de datos:",
+            "description": "Mantenemos tus datos seguros con encriptación avanzada y cumplimiento total de normativas internacionales."
+        },
+        {
+            "title": "Crecimiento sin fricciones:",
+            "description": "Escalamos tus infraestructuras de datos de forma ágil, asegurando que su crecimiento no afecte el rendimiento ni la disponibilidad."
+        },
+        {
+            "title": "Recuperación instantánea y sin interrupciones:",
+            "description": "Minimizamos el impacto de cualquier falla con una recuperación rápida y sin pérdida de información."
+        }
+    ],
+    "title_accordion": "Nuestras habilidades tecnológicas",
+    "items_accordion": [
+        {
+            "title": "RDBMS: Adaptabilidad y alto rendimiento",
+            "description": "Administra bases de datos relacionales con la opción de implementarlas localmente o en la nube, asegurando alta disponibilidad y operatividad constante."
+        },
+        {
+            "title": "NoSQL: Flexibilidad y crecimiento sostenible",
+            "description": "Gestiona datos no estructurados y distribuidos, adaptándote ágilmente a las demandas del negocio mientras maximizas la eficiencia y la capacidad de expansión."
+        },
+        {
+            "title": "Caché distribuido: Agilidad y desempeño mejorado",
+            "description": "Acelera el acceso a los datos mediante almacenamiento en memoria, mejorando el tiempo de respuesta y aliviando la carga en tu infraestructura."
+        },
+        {
+            "title": "IMDBs: Velocidad y respuesta instantánea",
+            "description": "Accede a tus datos al instante utilizando la memoria RAM para procesar información en tiempo real, asegurando una respuesta rápida."
+        }
+    ],
+    "line_items": [
+        {
+            "number": "01",
+            "title": "Gestión Integral:",
+            "description": "Administración y protección de tus datos."
+        },
+        {
+            "number": "02",
+            "title": "Operaciones Continuas:",
+            "description": "Monitoreo y mantenimiento que garantizan estabilidad."
+        },
+        {
+            "number": "03",
+            "title": "Optimización Avanzada:",
+            "description": "Mejora constante que maximiza el desempeño"
+        }
+    ]
+}

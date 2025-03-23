@@ -1,0 +1,55 @@
+{
+    "title_primary": "Database Management",
+    "subtitle": "Turn your technological challenges into tangible achievements.",
+    "title_animation": "We align your technology infrastructure with current industry trends.",
+    "subtitle_animation": "We analyze key scenarios to facilitate strategic and cost-effective decisions, guiding the maintenance and development of your systems, improving resource use, and ensuring sustainable digital growth.",
+    "btn_animation": "Talk to an expert",
+    "title_challenge": "We help you solve these challenges",
+    "items_challenge": [
+        {
+            "icon": "FaBuildingFlag",
+            "description": "Misalignment between technology strategy and business objectives"
+        },
+        {
+            "icon": "HiMiniCubeTransparent",
+            "description": "Digital transformation"
+        },
+        {
+            "icon": "BsPersonFillDown",
+            "description": "Limited experience in software development and deployment"
+        },
+        {
+            "icon": "FaObjectUngroup",
+            "description": "Modernization of legacy systems"
+        },
+        {
+            "icon": "FaArrowUpRightDots",
+            "description": "Scalability and flexibility of IT infrastructure"
+        },
+        {
+            "icon": "MdSupportAgent",
+            "description": "Support for complex software systems"
+        },
+        {
+            "icon": "SiSpringsecurity",
+            "description": "Cybersecurity and data protection"
+        },
+        {
+            "icon": "RiApps2AddFill",
+            "description": "Integration of systems and applications"
+        },
+        {
+            "icon": "VscServerProcess",
+            "description": "Process optimization and automation"
+        }
+    ],
+    "title_process": "A complete consulting process",
+    "diagnosis": "Diagnosis",
+    "diagnosis_description": "We begin with a comprehensive analysis of your company’s current state, identifying key areas for improvement and potential challenges. With this information, we design a strategy that connects technology with your business objectives.",
+    "strategic": "Strategic Planning",
+    "strategic_description": "We develop a detailed plan that defines the scope, necessary resources, and the team involved in each stage. We establish a clear execution approach, ensuring a solid foundation for successful implementation.",
+    "implementation": "Implementation and Collaboration",
+    "implementation_description": "Implementation and Collaboration",
+    "monitoring": "Continuous Improvement",
+    "monitoring_description": "Once the solutions are implemented, we continue adapting the processes to ensure your company keeps growing and remains competitive."
+}

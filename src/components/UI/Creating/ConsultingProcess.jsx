@@ -16,9 +16,7 @@ function StepItem({ number, title, description, withNumber = false }) {
   );
 }
 
-export default function ConsultingProcess({ withNumber = false , subtile, title}) {
-  let description =
-    "Comenzamos con un análisis integral del estado actual de tu empresa, identificando áreas clave de mejora y posibles desafíos. Con esta información, diseñamos una estrategia que conecta la tecnología con los objetivos de tu negocio.";
+export default function ConsultingProcess({ withNumber = false , subtile, title, title_one, title_two, title_three, title_four, description_one, description_two, description_three, description_four }) {
 
   return (
     <ContainerSection>
@@ -35,12 +33,12 @@ export default function ConsultingProcess({ withNumber = false , subtile, title}
             <div className={`col-lg-8 col-md-12 col-sm-12`}>
               <div className={`${style.consulting_content} box_shadow`}>
                 <BoxContainer>
-                  <StepItem number="1" title="Planificación estratégica" description={description} withNumber={withNumber} />
-                  <StepItem number="2" title="Análisis de procesos" description={description} withNumber={withNumber} />
+                  <StepItem number="1" title={title_one} description={description_one} withNumber={withNumber} />
+                  <StepItem number="2" title={title_two} description={description_two} withNumber={withNumber} />
                 </BoxContainer>
                 <BoxContainer className={style.talent_box}>
-                  <StepItem number="3" title="Desarrollo de soluciones" description={description} withNumber={withNumber} />
-                  <StepItem number="4" title="Implementación y seguimiento" description={description} withNumber={withNumber} />
+                  <StepItem number="3" title={title_three} description={description_three} withNumber={withNumber} />
+                  <StepItem number="4" title={title_four} description={description_four} withNumber={withNumber} />
                 </BoxContainer>
               </div>
             </div>

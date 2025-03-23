@@ -1,0 +1,55 @@
+{
+    "title_primary": "Consultoría TI",
+    "subtitle": "Convierte tus desafíos tecnológicos en logros tangibles",
+    "title_animation": "Convierte tus desafíos tecnológicos en logros tangibles",
+    "subtitle_animation": "Alineamos tu infraestructura tecnológica con las tendencias actuales del sector. Analizamos escenarios clave para facilitar decisiones estratégicas y rentables guiando el mantenimiento y desarrollo de tus sistemas, mejorando el uso de recursos y asegurando un crecimiento digital sostenible.",
+    "btn_animation": "Hablar con un experto",
+    "title_challenge": "Te ayudamos a resolver estos desafíos:",
+    "items_challenge": [
+        {
+            "icon": "FaBuildingFlag",
+            "description": "Desalineación entre estrategia tecnológica y objetivos de negocio"
+        },
+        {
+            "icon": "HiMiniCubeTransparent",
+            "description": "Transformación digital"
+        },
+        {
+            "icon": "BsPersonFillDown",
+            "description": "Experiencia limitada en desarrollo y despliegue de software"
+        },
+        {
+            "icon": "FaObjectUngroup",
+            "description": "Modernización de sistemas heredados"
+        },
+        {
+            "icon": "FaArrowUpRightDots",
+            "description": "Escalabilidad y flexibilidad de la infraestructura TI"
+        },
+        {
+            "icon": "MdSupportAgent",
+            "description": "Soporte para sistemas de software complejos"
+        },
+        {
+            "icon": "SiSpringsecurity",
+            "description": "Seguridad cibernética y protección de datos"
+        },
+        {
+            "icon": "RiApps2AddFill",
+            "description": "Integración de sistemas y aplicaciones"
+        },
+        {
+            "icon": "VscServerProcess",
+            "description": "Optimización de procesos y automatización"
+        }
+    ],
+    "title_process": "Un proceso completo en consultoría",
+    "diagnosis": "Diagnóstico",
+    "diagnosis_description": "Comenzamos con un análisis integral del estado actual de tu empresa, identificando áreas clave de mejora y posibles desafíos. Con esta información, diseñamos una estrategia que conecta la tecnología con los objetivos de tu negocio.",
+    "Strategic": "Planificación estratégica",
+    "Strategic_description": "Desarrollamos un plan detallado que define el alcance, los recursos necesarios y el equipo que estará involucrado en cada etapa. Establecemos un enfoque claro de ejecución, asegurando una base sólida para una implementación exitosa.",
+    "implementation": "Implementación y colaboración",
+    "implementation_description": "Trabajamos estrechamente contigo en cada fase de la implementación, con un equipo altamente capacitado que ajusta el proceso según sea necesario para garantizar una transición fluida y resultados efectivos.",
+    "monitoring": "Mejora continua",
+    "monitoring_description": "Una vez implementadas las soluciones, seguimos adaptando los procesos para asegurar que tu empresa siga creciendo y se mantenga competitiva."
+}

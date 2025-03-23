@@ -12,19 +12,11 @@ import Form from '@/components/UI/Form/Form';
 
 export default function DatabaseManagement() {
 
-  const { t } = useTranslation('DatabaseManagement');
-  const data = {
-    accordion: [
-      {
-        items: [
-          { title: "1. Definición de necesidades del proyecto:", 
-            description: "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería." },
-          { title: "2. Definición de necesidades del proyecto:", 
-            description: "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería." }
-        ],
-        name: "Desde la evaluación hasta la consolidación de un equipo TI"
-      }
-    ]}
+  const { t } = useTranslation('data');
+  const items_accordion = t('items_accordion', { returnObjects: true }) ;
+  const line_items = t('line_items', { returnObjects: true }) ;
+  const strategics = t('strategics', { returnObjects: true }) ;
+
 
   return (
     <>
@@ -34,18 +26,21 @@ export default function DatabaseManagement() {
         url="" />
       <ContainerGrill>
         <BannerPrincipal 
-          title="Gestión de bases de datos"
-          subtitle="Convierte tu flujo de datos en procesos inteligentes y dinámicos" />
+          title={t('title_primary')}
+          subtitle={t('subtitle')} />
           <ContainerAnimation 
-            title={'Tecnología que se adapta a tus necesidades'}
-            text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
+            title={t('title_animation')}
+            text={t('subtitle_animation')}
+            btn={t('btn_animation')}
             animation='data' />  
       </ContainerGrill> 
-      <StrategicAdvantages />
+      <StrategicAdvantages 
+        title={t('title_strategics')} 
+        data={strategics}/>
       <AccordionSection 
-        title={data.accordion[0].name}
-        items={data.accordion[0].items} />
-      <LineTime />
+        title={t('title_accordion')}
+        items={items_accordion} />
+      <LineTime data={line_items}/>
       <Form />
     </>
   )

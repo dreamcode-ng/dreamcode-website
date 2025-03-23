@@ -13,31 +13,46 @@ import BannerVideo from '@/components/UI/BannerVideo/BannerVideo';
 
 export default function SystemsModernization() {
 
-  const { t } = useTranslation();
+  const { t } = useTranslation('modernization');
+  const data = t('how_migration_items', { returnObjects: true }) ;
+
+
 
   return (
     <>
       <MetaDecorator 
-        title={t('systems-modernization.title')}
-        description={t('systems-modernization.subtitle')}
+        title=""
+        description=""
         url="" />
       <ContainerGrill>
         <BannerPrincipal 
-          title="Systems's Modernization"
-          subtitle="Convierte tus sistemas heredados en soluciones rápidas y efectivas." />
+          title={t('title_primary')}
+          subtitle={t('subtitle')} />
           <ContainerAnimation 
-            title={'Tecnología que se adapta a tus necesidades'}
-            text={'En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.'}
+            title={t('title_animation')}
+            text={t('subtitle_animation')}
+            btn={t('btn_animation')}
             animation='graphic' />  
       </ContainerGrill>
       <ConsultingProcess 
-        title="Avanza con un sistema moderno"
-        subtile="¿Cómo lo hacemos posible?" />
-      <HowMigrate />
+        title={t('title_modern_system')}
+        subtile={t('subtile_modern_system')}
+        title_one={t('initial_title')}
+        title_two={t('strategic_title')}
+        title_three={t('controlled_title')}
+        title_four={t('optimization_title')}
+        description_one={t('initial_description')}
+        description_two={t('strategic_description')}
+        description_three={t('controlled_description')}
+        description_four={t('optimization_description')}
+        />
+      <HowMigrate 
+        title={t('how_migratiom_title')}
+        dataList={data}/>
       <BannerVideo
         withSubtile
-        subtitle="Cómo SquareTrade reimaginó su infraestructura"
-        title="Descubre cómo hicimos realidad la super app Bolívar Conmigo"
+        subtitle={t('title_video')}
+        title={t('subtitle_video')}
         url={URL_YOUTUBE_SQUARE} />
       <Form />  
     </>
@@ -48,7 +63,7 @@ export const getStaticProps = async ({ locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['system', 'layout', 'form' ])),
+      ...(await serverSideTranslations(locale, ['modernization', 'layout', 'form' ])),
     },
   };
 };

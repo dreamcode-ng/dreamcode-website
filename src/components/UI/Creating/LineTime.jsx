@@ -16,29 +16,22 @@ function LineTimeCard( {title, number, description}) {
 }
 
 
-export default function LineTime() {
+export default function LineTime({ data}) {
   return (
     <ContainerSection>
         <div className={`${style.timeline} position-relative`}>
             <div className="container">
                 <div className={style.timeline_row}>
                     <div className={`${style.timeline_box} d-flex gap-4`}>
-                        <LineTimeCard 
-                            number="01"
-                            title="Gestión Integral:"
-                            description="Administración y protección de tus datos."
-                        />
-                        <LineTimeCard 
-                            number="02"
-                            title="Operaciones Continuas:"
-                            description="Monitoreo y mantenimiento que garantizan estabilidad."
-                        />
-                        <LineTimeCard 
-                            number="03"
-                            title="Optimización Avanzada:"
-                            description="Mejora constante que maximiza el desempeño."
-                        />
-                        
+                        {
+                            data.map((item, index) => (
+                                <LineTimeCard 
+                                    key={index}
+                                    number={item.number}
+                                    title={item.title}
+                                    description={item.description} />
+                            ))
+                        }                        
                     </div>
                 </div>
             </div>

@@ -37,7 +37,7 @@ export default function Staff() {
           <ContainerAnimation 
             title={t('title_animation')}
             text={t('subtitle_animation')}
-            btn={t('btn_aniamtion')}
+            btn={t('btn_animation')}
             animation='users' />  
       </ContainerGrill>
       <AccordionSection 

@@ -1,0 +1,27 @@
+{
+    "title_primary": "System Modernization",
+    "subtitle": "Turn your legacy systems into fast and effective solutions.",
+    "title_animation": "We reinvent your infrastructure, improving its performance and preparing it for future challenges.",
+    "subtitle_animation": "We update and optimize platforms and technological solutions at risk of obsolescence, incorporating modern tools that make it easier to adapt to new industry demands.",
+    "btn_animation": "Take the next step",
+    "title_modern_system": "Move forward with a modern system",
+    "subtile_modern_system": "How do we make it possible?",
+    "initial_title": "Initial Evaluation:",
+    "initial_description": "We conduct a detailed diagnosis of your current infrastructure to identify key areas for improvement and the specific requirements of your business. This allows us to design a personalized migration strategy.",
+    "strategic_title": "Strategic Planning: ",
+    "strategic_description": "We create a step-by-step migration plan, ensuring that each phase is secure, efficient, and aligned with your business objectives. We plan timelines and resources to avoid interruptions and minimize risks.",
+    "controlled_title": "Controlled Migration: ",
+    "controlled_description": "We carry out the migration gradually and in a controlled manner, ensuring that critical systems continue functioning without disruption. Each stage is closely monitored to minimize impact on your operations.",
+    "optimization_title": "Optimization and Continuous Support: ",
+    "optimization_description": "After migration, we ensure your infrastructure is optimized for maximum performance. We provide ongoing support to address any challenges and guarantee that the system remains updated and efficient.",
+    "how_migratiom_title": "How migration can transform your business:",
+    "how_migration_items": [
+        "Streamlines your infrastructure for the future",
+        "Connects you with new technologies",
+        "Optimizes operations with advanced platforms",
+        "Redesigns your infrastructure for scalable growth",
+        "Ensures security and resilience for new challenges"
+    ],
+    "title_video": "Innovation in action: ",
+    "subtitle_video": "How SquareTrade reimagined its infrastructure"
+}

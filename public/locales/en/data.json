@@ -1,0 +1,66 @@
+{
+    "title_primary": "Database Management",
+    "subtitle": "Turn your data flow into intelligent and dynamic processes.",
+    "title_animation": "We manage the efficiency of your data infrastructure, ensuring optimal performance through continuous monitoring and reliable backup. ",
+    "subtitle_animation": "We are experts in architecture, design, migration, monitoring, recovery, and resource optimization, enhancing the operability of your platforms.",
+    "btn_animation": "Start now",
+    "title_strategics": "Strategic advantages through your data",
+    "strategics": [
+        {
+            "title": "Real-time performance: ",
+            "description": "We continuously improve your database performance so your systems always run at maximum speed."
+        },
+        {
+            "title": "24/7 availability:",
+            "description": "We implement solutions that ensure your systems are accessible without external limitations."
+        },
+        {
+            "title": "Comprehensive data protection: ",
+            "description": "We keep your data secure with advanced encryption and full compliance with international regulations."
+        },
+        {
+            "title": "Seamless growth: ",
+            "description": "We scale your data infrastructure efficiently, ensuring that growth doesn’t affect performance or availability."
+        },
+        {
+            "title": "Instant, uninterrupted recovery: ",
+            "description": "We minimize the impact of any failure with quick recovery and no data loss."
+        }
+    ],
+    "title_accordion": "Our technological skills",
+    "items_accordion": [
+        {
+            "title": "RDBMS: Adaptability and high performance",
+            "description": "Manage relational databases with the option to deploy them on-premise or in the cloud, ensuring high availability and constant operability."
+        },
+        {
+            "title": "NoSQL: Flexibility and sustainable growth",
+            "description": "Manage unstructured and distributed data, adapting quickly to business demands while maximizing efficiency and scalability."
+        },
+        {
+            "title": "Distributed cache: Agility and improved performance",
+            "description": "Accelerate data access through in-memory storage, improving response time and reducing the load on your infrastructure."
+        },
+        {
+            "title": "IMDBs: Speed and instant response",
+            "description": ""
+        }
+    ],
+    "line_items": [
+        {
+            "number": "01",
+            "title": "Comprehensive Management",
+            "description": "Administration and protection of your data"
+        },
+        {
+            "number": "02",
+            "title": "Continuous Operations: ",
+            "description": "Monitoring and maintenance ensuring stability"
+        },
+        {
+            "number": "03",
+            "title": "Advanced Optimization: ",
+            "description": "Ongoing improvement maximizing performance"
+        }
+    ]
+}
