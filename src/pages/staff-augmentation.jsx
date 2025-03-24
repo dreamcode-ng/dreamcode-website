@@ -1,6 +1,5 @@
-import Head from 'next/head';
-import { FaLinkedin } from "react-icons/fa";
-import Wave from '@/components/UI/Reusable/Wave';
+import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
+
 import '@/styles/Staff.module.css'
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -25,12 +24,10 @@ export default function Staff() {
 
   return (
     <>
-      <Head>
-        <title>Staff</title>
-        <meta name="description" content="Staff" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaDecorator 
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="staff-augmentation" />
       <ContainerGrill>
         <BannerPrincipal 
           title={title}

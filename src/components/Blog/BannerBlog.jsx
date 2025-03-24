@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 function BannerBlog() {
 
-  const { t } = useTranslation();
+  const { t } = useTranslation('blog');
 
   return (
     <section className={`d-flex flex-column align-items-center ${style.banner_blog}`} id="blog">

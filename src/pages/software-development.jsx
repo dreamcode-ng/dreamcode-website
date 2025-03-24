@@ -31,9 +31,9 @@ export default function SoftwareDevelopment() {
   return (
     <>
       <MetaDecorator 
-        title={t('projects.title')}
-        description={t('projects.subtitle')}
-        url="" />
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="software-development" />
       <ContainerGrill>
         <BannerPrincipal 
           title={t('title_primary')}

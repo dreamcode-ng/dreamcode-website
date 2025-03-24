@@ -21,9 +21,9 @@ export default function DatabaseManagement() {
   return (
     <>
       <MetaDecorator 
-        title={t('DatabaseManagement.title')}
-        description={t('DatabaseManagement.subtitle')}
-        url="" />
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="database-management" />
       <ContainerGrill>
         <BannerPrincipal 
           title={t('title_primary')}

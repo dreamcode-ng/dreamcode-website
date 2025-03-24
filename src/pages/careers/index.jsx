@@ -1,6 +1,4 @@
-import Head from 'next/head';
-import listJobsEn from '../../assets/jobs/enJobs.json';
-import listJobsEs from '../../assets/jobs/esJobs.json';
+import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import { Trans, useTranslation } from "react-i18next";
 import TabCareers from '@/components/Careers/TabCareers';
 import CirculeList from '@/components/UI/CirculeList/CirculeList';
@@ -19,12 +17,10 @@ export default function Careers() {
 
   return (
     <>
-      <Head>
-        <title>Careers</title>
-        <meta name="description" content="About" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaDecorator 
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="contact" />
       <TabCareers 
         title={t('title_tab')}
         subtitle={t('subtitle_tab')}/>
@@ -34,7 +30,7 @@ export default function Careers() {
         description={t('banner_description')} />
       <CirculeList 
         title={t('title_benefits')}
-        dataList={benefits}/>
+        dataList={Array.isArray(benefits) ? benefits : Object.values(benefits)}/>
       <ContainerSection>     
         <ContainerCircule className="px_50 py_60">
           <h2 className='w_color text-center mb-5'>

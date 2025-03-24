@@ -21,9 +21,9 @@ export default function SystemsModernization() {
   return (
     <>
       <MetaDecorator 
-        title=""
-        description=""
-        url="" />
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="systems-modernization" />
       <ContainerGrill>
         <BannerPrincipal 
           title={t('title_primary')}

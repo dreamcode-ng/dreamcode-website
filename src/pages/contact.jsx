@@ -1,3 +1,5 @@
+
+import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import Head from 'next/head';
 import BannerPrincipal from '@/components/UI/Banners/BannerPrincipal';
 import Form from '@/components/UI/Form/Form';
@@ -13,12 +15,10 @@ export default function Contact() {
 
   return (
     <>
-      <Head>
-        <title>Contact</title>
-        <meta name="description" content="Great" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaDecorator 
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="contact" />
       <main > 
         <BannerPrincipal 
           withLink

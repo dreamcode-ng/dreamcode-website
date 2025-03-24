@@ -23,8 +23,8 @@ export default function Home() {
   return (
     <>
       <MetaDecorator 
-        title="meta_datos.meta_title_Home"
-        description="meta_datos.meta_description_Home"
+        title={t('meta_title')}
+        description={t('meta_description')}
         url="" />
       <main>
         <ContainerGrill>

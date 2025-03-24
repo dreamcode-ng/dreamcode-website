@@ -1,4 +1,5 @@
 // pages/blog/[postId].jsx
+import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import { useRouter } from 'next/router';
 import postlistEn from '@/assets/posts/postsEn.json';
 import postlistEs from '@/assets/posts/postsEs.json';
@@ -23,60 +24,66 @@ export default function Post () {
   if (!post) return <NotFound />;
 
   return (   
-    <article className="">
-      <figure className={style.post_img}>
-          <Image 
-            className="img-fluid" 
-            src={(`/img/posts/${post.imglink}`)} 
-            width={1200}
-            height={600}
-            alt={post.title} title={post.title} 
-            loading="lazy" />
-      </figure>
-      <div className="container">
-          <div className="row">
-              <div className="col-lg-1 col-sm-12"></div>
-              <div className="col-lg-10">
-                <Breadcrumb 
-                  sectionClass='mb-4'
-                  url='/blog'
-                  inicio='Dreamblog'
-                  namePage={post.title}/>
+    <>
+      <MetaDecorator 
+      title={t('meta_title')}
+      description={t('meta_description')}
+      url="contact" />
+      <article className="">
+        <figure className={style.post_img}>
+            <Image 
+              className="img-fluid" 
+              src={(`/img/posts/${post.imglink}`)} 
+              width={1200}
+              height={600}
+              alt={post.title} title={post.title} 
+              loading="lazy" />
+        </figure>
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-1 col-sm-12"></div>
+                <div className="col-lg-10">
+                  <Breadcrumb 
+                    sectionClass='mb-4'
+                    url='/blog'
+                    inicio='Dreamblog'
+                    namePage={post.title}/>
 
-                  <div className="mb_50">
-                      <div className={style.post_content}>
-                          <h1 className="f_p f-lg-40 f_600 m_color mt-3">{post.title}</h1>
-                          <div className={`${style.entry_post_info} mb-2 text-capitalize`}>
-                              <code>{post.date}</code>
-                              <code>{post.read}</code>
-                              <code>{post.category}</code>                                                        
-                          </div>
-                          <div className="mt-4 f_p"> 
-                            <Markdown>{post.content}</Markdown> 
-                            <Markdown
-                                options={{
-                                overrides: {
-                                    a: {
-                                    component: ({ children, ...props }) => (
-                                        <a {...props} target="_blank" rel="noopener noreferrer">
-                                        {children}
-                                        </a>
-                                    ),
-                                    },
-                                },
-                                }}
-                            >
-                                {post.content}
-                            </Markdown>
+                    <div className="mb_50">
+                        <div className={style.post_content}>
+                            <h1 className="f_p f-lg-40 f_600 m_color mt-3">{post.title}</h1>
+                            <div className={`${style.entry_post_info} mb-2 text-capitalize`}>
+                                <code>{post.date}</code>
+                                <code>{post.read}</code>
+                                <code>{post.category}</code>                                                        
                             </div>
-                      </div>
-                  </div>
-              </div>
-              <div className="col-lg-1">
-              </div>
-          </div>
-      </div>
-    </article>  
+                            <div className="mt-4 f_p"> 
+                              <Markdown>{post.content}</Markdown> 
+                              <Markdown
+                                  options={{
+                                  overrides: {
+                                      a: {
+                                      component: ({ children, ...props }) => (
+                                          <a {...props} target="_blank" rel="noopener noreferrer">
+                                          {children}
+                                          </a>
+                                      ),
+                                      },
+                                  },
+                                  }}
+                              >
+                                  {post.content}
+                              </Markdown>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-1">
+                </div>
+            </div>
+        </div>
+      </article>  
+    </>
   );
 };
 

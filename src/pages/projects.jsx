@@ -13,9 +13,9 @@ export default function Projects() {
   return (
     <>
       <MetaDecorator 
-        title={t('projects.title')}
-        description={t('projects.subtitle')}
-        url="" />
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="projects" />
       <ContainerSection>
         <BannerStories />
       </ContainerSection>

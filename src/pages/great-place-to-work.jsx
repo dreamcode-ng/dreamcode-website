@@ -1,3 +1,5 @@
+
+import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import ContainerSection from '@/components/UI/Containers/ContainerSection'
 import OurDreamcoders from '@/components/UI/InfoCardWithImage/InfoCardWithImage'
 import Head from 'next/head';
@@ -16,12 +18,10 @@ export default function Great() {
   
   return (
     <>
-      <Head>
-        <title>Great</title>
-        <meta name="description" content="Great" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaDecorator 
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="great-place-to-work" />
       <main className=''>
       <OurDreamcoders 
             isAbout

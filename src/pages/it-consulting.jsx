@@ -19,9 +19,9 @@ export default function itConsulting() {
   return (
     <>
       <MetaDecorator 
-        title={t('it-consulting.title')}
-        description={t('it-consulting.subtitle')}
-        url="" />
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="it-consulting" />
       <ContainerGrill>
         <BannerPrincipal 
           title={t('title_primary')}

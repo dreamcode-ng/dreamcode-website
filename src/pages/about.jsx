@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import '@/styles/About.module.css'
 import { useTranslation } from "react-i18next";
 import { Trans } from 'react-i18next';
@@ -15,12 +15,10 @@ export default function About() {
 
   return (
     <>
-      <Head>
-        <title>About</title>
-        <meta name="description" content="About" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaDecorator 
+        title={t('meta_title')}
+        description={t('meta_description')}
+        url="about" />
       <InfoCardWithImage 
         title={            
           <Trans i18nKey="title_primary" ns="about">

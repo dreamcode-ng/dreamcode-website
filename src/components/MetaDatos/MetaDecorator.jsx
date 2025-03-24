@@ -13,9 +13,10 @@ import { useTranslation } from 'next-i18next';
         <meta property="og:title" content= {title} />
         <meta property="og:url" content={`https://dreamcodesoft.com/${lang}/${url}`} />
         <meta property="og:type" content={type}></meta>
-        <link rel="canonical" href={`https://dreamcodesoft.com/${url}`} />
         <meta property="og:description" content= {description} />
         <meta name="description" content={description} />
+        <link rel="alternate" hrefLang={`${lang}`} href={`https://dreamcodesoft.com/${lang}/`} />
+        <link rel="canonical" href={`https://dreamcodesoft.com/${url}`} />
       </Head>
     )
   }

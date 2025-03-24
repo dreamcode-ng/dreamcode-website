@@ -1,7 +1,8 @@
 // pages/blog/[urlId].jsx
+import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import { useRouter } from 'next/router';
-import listJobsEn from '../../assets/jobs/enJobs.json';
-import listJobsEs from '../../assets/jobs/esJobs.json';
+import listJobsEn from '@/assets/jobs/enJobs.json';
+import listJobsEs from '@/assets/jobs/esJobs.json';
 import { useTranslation } from 'react-i18next';
 import NotFound from './../404';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

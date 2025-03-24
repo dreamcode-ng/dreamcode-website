@@ -18,7 +18,7 @@ export default function TabCareers({ title, subtitle}) {
         <div className='pt-3 mt-5'>
           { jobs ? <CardJobs /> : <FormCareers />}
           <br></br>
-          <button onClick={() => setJob(!jobs)}>{ jobs ? "Si no hay ofertas" : "Si si hay ofertas"}</button>
+          {/* <button onClick={() => setJob(!jobs)}>{ jobs ? "Si no hay ofertas" : "Si si hay ofertas"}</button> */}
         </div>
 
         

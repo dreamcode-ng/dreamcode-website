@@ -1,5 +1,6 @@
 {
-    "locale": "es hom",
+    "meta_title": "Desarrolladores de software | Desarrollo a la medida | DreamCode",
+    "meta_description": "En DreamCode diseñamos y desarrollamos proyectos tecnológicos integrales, transformando ideas en soluciones efectivas para organizaciones de todas las industrias",
     "wave": "Te damos la bienvenida al futuro",
     "title_home": "Desarrolladores de \n<1>software</1>",
     "text_link": "Nuestra experiencia →",
@@ -28,7 +29,7 @@
         },
         {
             "title": "Gestión de bases de datos",
-            "description": "Gestiona tu información de manera eficiente, llevando la productividad y la toma de  decisiones a nuevos niveles.",
+            "description": "Gestiona tu información de manera eficiente, llevando la productividad y la toma de decisiones a nuevos niveles.",
             "icon": "data"
         },
         {
