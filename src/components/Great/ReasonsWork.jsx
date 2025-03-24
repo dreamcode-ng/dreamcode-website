@@ -3,9 +3,14 @@ import ContainerSection from '../UI/Containers/ContainerSection';
 import styles from './greatPlace.module.css'
 import Image from 'next/image';
 import ContainerCircule from '../UI/Containers/ContainersCircule';
+import { useTranslation } from 'react-i18next';
 
 
 export default function ReasonsWork() {
+
+  const { t } = useTranslation('gptw');
+
+  
   return (
     
         <ContainerSection>
@@ -24,26 +29,22 @@ export default function ReasonsWork() {
               </div>
               <div className="p-0 col-md-7 d-flex align-items-center">
                 <div className={styles.content}>
-                    <h3 className='m_color'>Una cultura que prioriza a las personas</h3>
-                    <p className="f_500 f-lg-18">
-                        DreamCode es una empresa de software que cuida a sus colaboradores, como parte de su esencia siempre ha tenido un interés genuino por el bienestar de su equipo. Las personas constituyen el factor más valioso y determinante para hacer las cosas con propósito y perspectiva hacia el futuro.  Nuestros colaboradores dicen que reciben un buen trato, independiente de su posición dentro de la organización, así mismo afirma que somos un lugar psicológica y emocionalmente saludable para trabajar.  “Siento que realmente se preocupan por el personal, son detallistas y en las ocasiones en que compartimos de manera presencial, el trato es muy personal y especial”  “Es una compañía que se preocupa por el bienestar emocional de cada uno, haciendo cómoda su estadía y su paso por la misma en cualquiera que sea el cargo.”
-                    </p>
+                    <h3 className='m_color mb-4'>{t('culture_title')}</h3>
+                    <p className="f_500 f-lg-18">{t('culture_description')}</p>
                 </div>
               </div>
             </div>
             <div className={`${styles.second_row} row position-relative mt-5`}>
               <div className="p-0 col-md-7 d-flex align-items-center">
                 <div className={styles.content}>
-                    <h3 className='m_color'>Una cultura que prioriza a las personas</h3>
-                    <p className="f_500 f-lg-18">
-                        DreamCode es una empresa de software que cuida a sus colaboradores, como parte de su esencia siempre ha tenido un interés genuino por el bienestar de su equipo. Las personas constituyen el factor más valioso y determinante para hacer las cosas con propósito y perspectiva hacia el futuro.  Nuestros colaboradores dicen que reciben un buen trato, independiente de su posición dentro de la organización, así mismo afirma que somos un lugar psicológica y emocionalmente saludable para trabajar.  “Siento que realmente se preocupan por el personal, son detallistas y en las ocasiones en que compartimos de manera presencial, el trato es muy personal y especial”  “Es una compañía que se preocupa por el bienestar emocional de cada uno, haciendo cómoda su estadía y su paso por la misma en cualquiera que sea el cargo.”
-                    </p>
+                    <h3 className='m_color mb-4'>{t('working_title')}</h3>
+                    <p className="f_500 f-lg-18">{t('working_description')}</p>
                 </div>
               </div>
               <div className="p-0 col-md-5">
                 <ContainerCircule className={`${styles.imageBox}`}>
                 <Image
-                    src="/img/great-place/motivo-orgullo.png"
+                    src="/img/great-place/motivo-orgullo.jpg"
                     width={600}
                     height={500}
                     alt="Office"
@@ -56,7 +57,7 @@ export default function ReasonsWork() {
               <div className="p-0 col-md-5">   
                 <ContainerCircule className={styles.imageBox}>
                   <Image
-                    src="/img/great-place/reconocer-talento.png"
+                    src="/img/great-place/reconocer-talento.jpg"
                     width={600}
                     height={500}
                     alt="Office"
@@ -66,20 +67,16 @@ export default function ReasonsWork() {
               </div>
               <div className="p-0 col-md-7 d-flex align-items-center">
                 <div className={styles.content}>
-                    <h3 className='m_color'>Una cultura que prioriza a las personas</h3>
-                    <p className="f_500 f-lg-18">
-                        DreamCode es una empresa de software que cuida a sus colaboradores, como parte de su esencia siempre ha tenido un interés genuino por el bienestar de su equipo. Las personas constituyen el factor más valioso y determinante para hacer las cosas con propósito y perspectiva hacia el futuro.  Nuestros colaboradores dicen que reciben un buen trato, independiente de su posición dentro de la organización, así mismo afirma que somos un lugar psicológica y emocionalmente saludable para trabajar.  “Siento que realmente se preocupan por el personal, son detallistas y en las ocasiones en que compartimos de manera presencial, el trato es muy personal y especial”  “Es una compañía que se preocupa por el bienestar emocional de cada uno, haciendo cómoda su estadía y su paso por la misma en cualquiera que sea el cargo.”
-                    </p>
+                  <h3 className='m_color mb-4'>{t('recognizing_title')}</h3>
+                  <p className="f_500 f-lg-18">{t('recognizing_description')}</p>
                 </div>
               </div>
             </div>
             <div className={`${styles.second_row} row position-relative mt-5`}>
               <div className="p-0 col-md-7 d-flex align-items-center">
                 <div className={styles.content}>
-                    <h3 className='m_color'>Una cultura que prioriza a las personas</h3>
-                    <p className="f_500 f-lg-18">
-                        DreamCode es una empresa de software que cuida a sus colaboradores, como parte de su esencia siempre ha tenido un interés genuino por el bienestar de su equipo. Las personas constituyen el factor más valioso y determinante para hacer las cosas con propósito y perspectiva hacia el futuro.  Nuestros colaboradores dicen que reciben un buen trato, independiente de su posición dentro de la organización, así mismo afirma que somos un lugar psicológica y emocionalmente saludable para trabajar.  “Siento que realmente se preocupan por el personal, son detallistas y en las ocasiones en que compartimos de manera presencial, el trato es muy personal y especial”  “Es una compañía que se preocupa por el bienestar emocional de cada uno, haciendo cómoda su estadía y su paso por la misma en cualquiera que sea el cargo.”
-                    </p>
+                  <h3 className='m_color mb-4'>{t('leadership_title')}</h3>
+                  <p className="f_500 f-lg-18">{t('leadership_description')}</p>
                 </div>
               </div>
               <div className="p-0 col-md-5">
@@ -108,20 +105,16 @@ export default function ReasonsWork() {
               </div>
               <div className="p-0 col-md-7 d-flex align-items-center">
                 <div className={styles.content}>
-                    <h3 className='m_color'>Una cultura que prioriza a las personas</h3>
-                    <p className="f_500 f-lg-18">
-                        DreamCode es una empresa de software que cuida a sus colaboradores, como parte de su esencia siempre ha tenido un interés genuino por el bienestar de su equipo. Las personas constituyen el factor más valioso y determinante para hacer las cosas con propósito y perspectiva hacia el futuro.  Nuestros colaboradores dicen que reciben un buen trato, independiente de su posición dentro de la organización, así mismo afirma que somos un lugar psicológica y emocionalmente saludable para trabajar.  “Siento que realmente se preocupan por el personal, son detallistas y en las ocasiones en que compartimos de manera presencial, el trato es muy personal y especial”  “Es una compañía que se preocupa por el bienestar emocional de cada uno, haciendo cómoda su estadía y su paso por la misma en cualquiera que sea el cargo.”
-                    </p>
+                  <h3 className='m_color mb-4'>{t('environment_title')}</h3>
+                  <p className="f_500 f-lg-18">{t('environment_description')}</p>
                 </div>
               </div>
             </div>
             <div className={`${styles.second_row} row position-relative mt-5`}>
               <div className="p-0 col-md-7 d-flex align-items-center">
                 <div className={styles.content}>
-                    <h3 className='m_color'>Una cultura que prioriza a las personas</h3>
-                    <p className="f_500 f-lg-18">
-                        DreamCode es una empresa de software que cuida a sus colaboradores, como parte de su esencia siempre ha tenido un interés genuino por el bienestar de su equipo. Las personas constituyen el factor más valioso y determinante para hacer las cosas con propósito y perspectiva hacia el futuro.  Nuestros colaboradores dicen que reciben un buen trato, independiente de su posición dentro de la organización, así mismo afirma que somos un lugar psicológica y emocionalmente saludable para trabajar.  “Siento que realmente se preocupan por el personal, son detallistas y en las ocasiones en que compartimos de manera presencial, el trato es muy personal y especial”  “Es una compañía que se preocupa por el bienestar emocional de cada uno, haciendo cómoda su estadía y su paso por la misma en cualquiera que sea el cargo.”
-                    </p>
+                  <h3 className='m_color mb-4'>{t('collaboration_title')}</h3>
+                  <p className="f_500 f-lg-18">{t('collaboration_description')}</p>
                 </div>
               </div>
               <div className="p-0 col-md-5">

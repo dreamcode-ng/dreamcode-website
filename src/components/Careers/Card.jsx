@@ -8,7 +8,7 @@ import { useTranslation } from 'next-i18next';
 function CardItem ({ name }) {
   	return (
     		<div className={`${styles.card} g-col-6`}>
-      			<div className="d-flex w-100 flex-column align-items-start justify-content-start gap-4 ">
+      			<div className="d-flex w-100 flex-column align-items-start justify-content-start gap-3 ">
           					<div className={styles.frameParent}>
             						<div className={styles.textParent}>
               							<div className="w_color f_500 position-relative">Remoto</div>

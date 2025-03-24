@@ -11,14 +11,14 @@ export default function CirculeList( { title , dataList, className}) {
                 </div>
                 <div className="container my-2">
                     <div className='row justify-content-center'>                       
-                        {
+                        {/* {
                             dataList.map((item, i) => (
                                 <CirculeListItem 
                                     key={i}
                                     text={item}
                                 />
                             ))
-                        }
+                        } */}
                     </div>
                 </div>
             </div>

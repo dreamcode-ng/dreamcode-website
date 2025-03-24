@@ -1,0 +1,7 @@
+.breadcrumb {
+    display: flex;
+    padding: 2rem 0 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    justify-content: flex-start;
+  }

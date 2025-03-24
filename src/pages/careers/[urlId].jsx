@@ -2,11 +2,12 @@
 import { useRouter } from 'next/router';
 import listJobsEn from '../../assets/jobs/enJobs.json';
 import listJobsEs from '../../assets/jobs/esJobs.json';
-import { useTranslation } from 'next-i18next';
-import Markdown from 'markdown-to-jsx';
-import NotFound from './../404'
+import { useTranslation } from 'react-i18next';
+import NotFound from './../404';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-const Post = () => {
+
+export default function Offert () {
 
   // Obtiene el urlId de la URL
   const router = useRouter();
@@ -47,4 +48,11 @@ let isActive = true;
   );
 };
 
-export default Post;
+export const getStaticProps = async ({ locale }) => {
+  
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['jobs' , 'layout', 'form'])),
+    },
+  };
+};

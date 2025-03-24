@@ -24,12 +24,12 @@ export default function Contact() {
           withLink
           title={
             <Trans i18nKey="title_contact" ns="contact">
-              <span className='m_color'>Conectamos tu idea con el futuro </span> ¡Estamos listos para escucharte!
+              <span className='m_color f_500'>Conectamos tu idea con el futuro </span> ¡Estamos listos para escucharte!
             </Trans>
           }
           link={t('btn_talk')}
           subtitle={t('subtitle')}/>
-        <Office />
+        <Office title={t('title_office')}/>
         <Form noTitle />
       </main>
     </>
