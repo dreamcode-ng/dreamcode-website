@@ -19,7 +19,7 @@ export default function Offert () {
   const lang = i18n.language;
   const listJobs = lang === 'en' ? listJobsEn : listJobsEs;
 
-let isActive = true;
+  let isActive = true;
 
         const jobsColors = ['color1', 'color2', 'color3', 'color4'];
 
@@ -53,7 +53,7 @@ export const getStaticProps = async ({ locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['jobs' , 'layout', 'form'])),
+      ...(await serverSideTranslations(locale, ['common' , 'layout', 'form'])),
     },
   };
 };
