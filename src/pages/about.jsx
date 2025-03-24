@@ -1,5 +1,4 @@
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
-import '@/styles/About.module.css'
 import { useTranslation } from "react-i18next";
 import { Trans } from 'react-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
