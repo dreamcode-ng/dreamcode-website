@@ -1,6 +1,4 @@
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
-
-import '@/styles/Staff.module.css'
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
