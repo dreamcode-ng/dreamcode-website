@@ -1,4 +1,3 @@
-// pages/blog/[urlId].jsx
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import { useRouter } from 'next/router';
 import listJobsEn from '@/assets/jobs/enJobs.json';
@@ -7,53 +6,63 @@ import { useTranslation } from 'react-i18next';
 import NotFound from './../404';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-
-export default function Offert () {
-
-  // Obtiene el urlId de la URL
+export default function Offert({ job }) {
   const router = useRouter();
-  const { urlId } = router.query; 
 
-  // Obtiene idioma
-  const { i18n } = useTranslation();
-  const lang = i18n.language;
-  const listJobs = lang === 'en' ? listJobsEn : listJobsEs;
+  // Si la página aún se está generando, mostramos un loading
+  if (router.isFallback) {
+    return <p>Cargando...</p>;
+  }
 
-  let isActive = true;
+  // Si el trabajo no existe, mostramos una página 404
+  if (!job) {
+    return <NotFound />;
+  }
 
-        const jobsColors = ['color1', 'color2', 'color3', 'color4'];
-
-      listJobs.forEach((listJobs, index) => {
-          listJobs.color = jobsColors[index % jobsColors.length];
-      });
-    
-    let getProfile;
-    if (isActive) {
-      getProfile = listJobs.find(job => job.url === urlId);
-    }
-      
-    if (!getProfile || !isActive){
-      return <NotFound />;
-    }
-
-    const { name , description, color, experts, rol, modality } = getProfile;
-
-
+  const { name, description } = job;
 
   return (
     <main className='vh-100'>
-      <h1 className='w_color' >{name}</h1>
-      <p>{description} </p>
-
+      <h1 className='w_color'>{name}</h1>
+      <p>{description}</p>
     </main>
   );
+}
+
+// 🔹 Define las rutas que deben ser pre-generadas
+export const getStaticPaths = async () => {
+  const listJobsEs = require('@/assets/jobs/esJobs.json');
+  const listJobsEn = require('@/assets/jobs/enJobs.json');
+
+  // Unimos los jobs de ambos idiomas
+  const allJobs = [...listJobsEs, ...listJobsEn];
+
+  const paths = allJobs.map(job => ({
+    params: { urlId: job.url }, // Asegúrate de que 'job.url' coincide con la URL dinámica
+  }));
+
+  return {
+    paths,
+    fallback: true, // O 'blocking' si quieres SSR en nuevas rutas
+  };
 };
 
-export const getStaticProps = async ({ locale }) => {
-  
+// 🔹 Obtiene los datos del trabajo basado en la URL
+export const getStaticProps = async ({ params, locale }) => {
+  const listJobsEs = require('@/assets/jobs/esJobs.json');
+  const listJobsEn = require('@/assets/jobs/enJobs.json');
+
+  // Detectar idioma
+  const listJobs = locale === 'en' ? listJobsEn : listJobsEs;
+
+  // Buscar el trabajo por URL
+  const job = listJobs.find(job => job.url === params.urlId) || null;
+
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common' , 'layout', 'form'])),
+      job,
+      ...(await serverSideTranslations(locale, ['common', 'layout', 'form'])),
     },
+    revalidate: 10, // Opcional: ISR para actualizar cada 10s
   };
 };
