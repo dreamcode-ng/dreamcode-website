@@ -9,7 +9,7 @@ function HowMigrate({ title, dataList}) {
         <div className='row d_flex align-items-center justify-content-center'>
             <div className='col-lg-8'>
                 <ContainerCircule className="px-5 py_60">
-                    <h2 className='f-lg-35 m_color mb_40 z-index'>{title}</h2>
+                    <h2 className='f-lg-35 f_800 m_color mb_40 z-index'>{title}</h2>
                     <ul>
                         {
                             dataList.map((item, i) => {

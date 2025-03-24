@@ -9,7 +9,7 @@ function BannerVideo( { withSubtile = false, title, subtitle, url}) {
                 <div className='row d_flex align-items-center justify-content-center gap-5'>
                     <div className='col-lg-6 col-md-7 col-sm-12'>
                         <h2 className='text-center m_color f_800'>{title}</h2>
-                        { withSubtile && <p className='mt_20 text-center f-lg-18 f_500 p_color'>{subtitle}</p>}
+                        { withSubtile && <p className='mt_20 text-center f-lg-18 f_800 p_color'>{subtitle}</p>}
                     </div>
                     <div className='col-lg-12 col-md-7 col-sm-12'>
                         <iframe className={style.video_info}

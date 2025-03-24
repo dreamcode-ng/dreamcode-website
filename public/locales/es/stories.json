@@ -4,20 +4,20 @@
     "text": "Desarrolladores de \n<0>software</0>",
     "btn_banner": "Contáctanos",
     "subtitle_banner": "Contamos con un equipo con amplia experiencia en diferentes industrias: ",
-    "text_banner": "Banca, seguros, retail, telecomunicaciones, servicios tecnológicos.",
+    "text_banner": "Fintech, seguros, retail, telecomunicaciones, servicios tecnológicos.",
     "subtitle_stories": "Aquí te contamos un poco más del trabajo\n con algunos de nuestros clientes",
     "customers_stories": [
         {
             "title": "Target",
             "subtitle": "Sueño de negocio: Connected Commerce - PAM",
-            "text": "Desarrollamos una plataforma de software que le permite a Target Corp. vender servicios conectados (planes de telefonía móvil, suscripciones a servicios de streaming de video y tv por cable) desde sus tiendas físicas y en línea de una manera ágil y rápida, sin fricción para los compradores. \n El módulo PAM (Provisioning and Activation Management), permite a Target integrarse con los proveedores del servicio a través de tecnologías de vanguardia como APIs. Hoy Target Corp es líder en el segmento gracias a la innovación de esta plataforma con más de US$40M de ingresos en cada Black Friday.",
+            "text": "Desarrollamos una plataforma de software que le permite a Target Corp. vender servicios conectados (planes de telefonía móvil, suscripciones a servicios de streaming de video y tv por cable) desde sus tiendas físicas y en línea de una manera ágil y rápida, sin fricción para los compradores. \n\n El módulo PAM (Provisioning and Activation Management), permite a Target integrarse con los proveedores del servicio a través de tecnologías de vanguardia como APIs. Hoy Target Corp es líder en el segmento gracias a la innovación de esta plataforma con más de US$40M de ingresos en cada Black Friday.",
             "image": "target_logo.svg",
             "isSlider": false
         },
         {
             "title": "SquareTrade",
             "subtitle": "Sueño de negocio: SourceRoot migration to microservice architecture",
-            "text": "SquareTrade es líder mundial en venta de seguros para dispositivos móviles, provee servicios de garantía extendida a 140 millones de clientes alrededor del mundo. DreamCode dispone de equipos ágiles para el desarrollo del proyecto SRE (SourceRoot Retirement), con el cual se pretende generar un 20% adicional de revenue anual. Integramos equipos interdiciplinados de ingeniería combinando desarrollo de software con certificación de calidad, con el fin de realizar la migración de la arquitectura que soporta la operación de Squaretrade, de su sistema legacy a microservicios integrados unos con otros manteniendo así la operación y desmontando por completo el sistema monolito que correspondía al legacy.",
+            "text": "SquareTrade es líder mundial en venta de seguros para dispositivos móviles, provee servicios de garantía extendida a 140 millones de clientes alrededor del mundo. DreamCode dispone de equipos ágiles para el desarrollo del proyecto SRE (SourceRoot Retirement), con el cual se pretende generar un 20% adicional de revenue anual. \n\nIntegramos equipos interdiciplinados de ingeniería combinando desarrollo de software con certificación de calidad, con el fin de realizar la migración de la arquitectura que soporta la operación de Squaretrade, de su sistema legacy a microservicios integrados unos con otros manteniendo así la operación y desmontando por completo el sistema monolito que correspondía al legacy.",
             "image": "squaretrade_logo.svg",
             "isSlider": false
         },
@@ -39,7 +39,14 @@
         {
             "title": "Sequoia",
             "subtitle": "Sueño de negocio: Apple TradeIn Platform",
-            "text": "Desarrollamos una plataforma de comercio que habilita la entrega de  los celulares proporcionados por los clientes de Apple como parte de pago por sus nuevos dispositivos, a través de esta plataforma se prueban y evalúan para ser revendidos en diferentes mercados alrededor del mundo. La plataforma se integra con Apple para soportar el complejo proceso de comercialización de dispositivos móviles (notificaciones de recepción de dispositivos, envío, conciliación, facturación, pruebas y re-venta), usando tecnologías como computación en la nube y analítica de datos, hoy Sequoia opera en diversos países en los 4 continentes.",
+            "text": "Desarrollamos una plataforma de comercio que habilita la entrega de  los celulares proporcionados por los clientes de Apple como parte de pago por sus nuevos dispositivos, a través de esta plataforma se prueban y evalúan para ser revendidos en diferentes mercados alrededor del mundo. \n\nLa plataforma se integra con Apple para soportar el complejo proceso de comercialización de dispositivos móviles (notificaciones de recepción de dispositivos, envío, conciliación, facturación, pruebas y re-venta), usando tecnologías como computación en la nube y analítica de datos, hoy Sequoia opera en diversos países en los 4 continentes.",
+            "image": "sequoia_logo.svg",
+            "isSlider": false
+        },
+        {
+            "title": "Banco Falabella",
+            "subtitle": "Crédito de consumo en línea",
+            "text": "Colaboramos en el desarrollo de un crédito de consumo en línea con desembolso inmediato, accesible a través de la plataforma web y de la aplicación móvil. \n\nNuestra participación incluyó la integración con la Registraduría y servicios de centrales de riesgo, asegurando procesos seguros y confiables. \n\nAdemás, brindamos soporte y mejoras en el desarrollo de procesos relacionados con tarjetas de crédito, incluyendo la gestión de plataformas de pago.",
             "image": "sequoia_logo.svg",
             "isSlider": false
         }

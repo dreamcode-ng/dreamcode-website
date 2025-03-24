@@ -5,7 +5,7 @@ import { useTranslation } from "next-i18next";
 import style from '@/components/StoriesCustomers/stories.module.css'
 
 
-function BannerStories({ subtitle_banner, text_banner, btn_banner, title_banner}) {
+function BannerStories() {
 
     const { t } = useTranslation('stories');
     
@@ -17,7 +17,7 @@ function BannerStories({ subtitle_banner, text_banner, btn_banner, title_banner}
                     <h1 className="mt-4 mb-5 f-lg-50 m_color f_600">
                         {t('title_banner')}
                     </h1>
-                    <a href="/customer-stories#form-contact" className={`${style.btn__stories} text-white`}>
+                    <a href="/customer-stories#form-contact" className={`${style.btn__stories} f_500`}>
                         {t('btn_banner')}
                     </a>    
                 </div>

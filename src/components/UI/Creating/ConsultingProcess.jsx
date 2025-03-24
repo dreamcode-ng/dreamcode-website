@@ -27,7 +27,7 @@ export default function ConsultingProcess({ withNumber = false , subtile, title,
               <div className="text-start mb-3 mt-5">
                 <StarIcon />
                 <h2 className="mt-3 m_color text-start">{title}</h2>
-                {!withNumber && <p className="f_700 w_color">{subtile}</p>}
+                {!withNumber && <p className="f_800 w_color">{subtile}</p>}
               </div>
             </div>
             <div className={`col-lg-8 col-md-12 col-sm-12`}>

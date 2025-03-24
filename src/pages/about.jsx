@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import '@/styles/About.module.css'
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from "react-i18next";
+import { Trans } from 'react-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import DreamcodeSection from '@/components/About/DreamcodeSection';
 import Team from '@/components/About/Team';
@@ -10,8 +11,7 @@ import Talents from '@/components/About/Talents';
 
 export default function About() {
 
-  const { t } = useTranslation();
-  const texto = "Estamos convencidos de que la innovación y el cambio digital definen los negocios, fomentan el desarrollo y reconfiguran el entorno global."
+  const { t } = useTranslation('about');
 
   return (
     <>
@@ -22,8 +22,11 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <InfoCardWithImage 
-        text={texto}
-        title="El futuro nos pertenece, lo estamos construyendo con tecnología que conecta y transforma" />
+        title={            
+          <Trans i18nKey="title_primary" ns="about">
+            El futuro nos pertenece, lo estamos construyendo con tecnología que <span className='m_color f_800'>conecta </span>y <span className='m_color f_800'>transforma</span>
+          </Trans>}
+        text={t('subtitle')} />
       <DreamcodeSection />
       <Team />
       <SliderAbout />

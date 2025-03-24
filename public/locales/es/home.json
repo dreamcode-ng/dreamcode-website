@@ -1,9 +1,7 @@
 {
     "locale": "es hom",
     "wave": "Te damos la bienvenida al futuro",
-    "title_home": "Desarrolladores de <1>software</1>",
-    "title": "Desarrolladores de",
-    "title2": "software",
+    "title_home": "Desarrolladores de \n<1>software</1>",
     "text_link": "Nuestra experiencia →",
     "redefine1": "Redefinimos",
     "redefine2": "el futuro de los negocios a \ntravés de la tecnología",

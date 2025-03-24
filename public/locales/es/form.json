@@ -13,5 +13,13 @@
     "form_placeholder_message": "Quiero crear una app web...",
     "form_policy": "Política de Privacidad",
     "form_label_policy": "He leído y acepto la ",
-    "form_btn": "Empieza ahora →"
+    "form_btn": "Empieza ahora →",
+    "form_careers": "No tenemos puestos vacantes\n en este momento",
+    "form_subtitle_careers": "Sin embargo puedes diligenciar este formulario y nuestro equipo\n lo agregará a nuestra base de datos",
+    "form_input_position": "Posición",
+    "form_careers_placeholder_message": "Escribe aquí...",
+    "form_careers_message": "Mensaje",
+    "text_lindekin": "Nos gustaría que adjuntaras tu perfil de LinkedIn",
+    "input_lindekin": "Perfil de LinkedIn",
+    "form_careers_btn": "Enviar"
 }

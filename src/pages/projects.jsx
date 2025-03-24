@@ -1,16 +1,14 @@
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import '@/styles/Services.module.css';
-import { Trans } from 'react-i18next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import BannerStories from '@/components/StoriesCustomers/BannerStories/BannerStories';
 import StoriesCustomers from '@/components/StoriesCustomers/Customers/StoriesCustomers';
 import ContainerSection from '@/components/UI/Containers/ContainerSection';
+import Form from '@/components/UI/Form/Form';
 export default function Projects() {
 
   const { t } = useTranslation('stories');
-
-  
 
   return (
     <>
@@ -19,16 +17,12 @@ export default function Projects() {
         description={t('projects.subtitle')}
         url="" />
       <ContainerSection>
-        <BannerStories 
-          title_banner={t('title_banner')}
-          btn_banner={t('btn_banner')}
-          subtitle_banner={t('subtitle_banner')}
-          text_banner={t('text_banner')} />
-      
+        <BannerStories />
       </ContainerSection>
       <ContainerSection>
         <StoriesCustomers />
       </ContainerSection>
+      <Form />
 
     </>
   )
@@ -38,7 +32,7 @@ export const getStaticProps = async ({ locale }) => {
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['stories'])),
+      ...(await serverSideTranslations(locale, ['stories','layout', 'form'])),
     },
   };
 };

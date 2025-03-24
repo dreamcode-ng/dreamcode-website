@@ -46,7 +46,7 @@ function ContentSection ({ title, subtitle, text, image, isSlider, paragraph} ) 
         <div className={`${style.item_storie} row align-items-center`}>
           <div className="col-lg-6">
             <h2 className="m_color f-lg-30 mb-3">{title}</h2>
-            <h3 className="f-lg-18"><strong>{subtitle}</strong></h3>
+            <h3 className="f-lg-20 mb-3"><strong>{subtitle}</strong></h3>
             {isSlider ? (
               <Swiper            
                 loop={true}

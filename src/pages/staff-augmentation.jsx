@@ -21,6 +21,7 @@ export default function Staff() {
   const item_accordion = t('item_accordion', { returnObjects: true }) ;
   const item_list = t('item_list', { returnObjects: true });
   const data_talent = t('data_talent', { returnObjects: true });
+  let title = "Staff \nAugmentation";
 
   return (
     <>
@@ -32,7 +33,7 @@ export default function Staff() {
       </Head>
       <ContainerGrill>
         <BannerPrincipal 
-          title="Staff Augmentation"
+          title={title}
           subtitle={t('subtitle')} />
           <ContainerAnimation 
             title={t('title_animation')}

@@ -6,9 +6,10 @@ import { Pagination, Autoplay } from "swiper/modules";
 import { IoRocketOutline } from "react-icons/io5";
 import styles from './sliderItem.module.css'
 import Image from 'next/image';
+import { useTranslation } from "react-i18next";
 
 
-function SliderItems () {
+function SliderItems ({ text }) {
     return (
         <div className="d-flex gap-3 flex-column align-items-center">
             <div className='w-100 position-relative d-flex flex-row align-items-center justify-content-start gap-2'>
@@ -16,16 +17,17 @@ function SliderItems () {
                 <Image className={styles.icon} alt="" src="/img/about/icon-slider.svg" width={44} height={44}/>
                 <div className={styles.line} />
             </div>
-            <p className="text-center w_color f-lg-25 ">
-                La tecnología debe ser un facilitador, no un obstáculo para las empresas
-            </p>
+            <p className="text-center w_color f-lg-20 ">{text}</p>
             <IoRocketOutline color='#3BF7E4' size={30} />
         </div>
     )
 }
 
 
-export default function SliderItem() {
+export default function SliderItem( ) {
+
+  const { t } = useTranslation('about');
+  
   return (
     <>
             <Swiper
@@ -54,21 +56,15 @@ export default function SliderItem() {
                 modules={[Autoplay, Pagination]}
                 className=" py-4 "
                 >
-
                 <SwiperSlide >                          
-                    <SliderItems />
+                  <SliderItems text={t('slider_technology')}/>
                 </SwiperSlide>
                 <SwiperSlide >                          
-                    <SliderItems />
+                  <SliderItems text={t('slider_organizations')}/>
                 </SwiperSlide>
                 <SwiperSlide >                          
-                    <SliderItems />
+                  <SliderItems text={t('slider_adoption')}/>
                 </SwiperSlide>
-                <SwiperSlide >                          
-                    <SliderItems />
-                </SwiperSlide>
-
-
         </Swiper>
     </>
   )
