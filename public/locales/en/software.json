@@ -13,8 +13,8 @@
             "paragraph_one": "We create native and cross-platform mobile apps for iOS and Android, designed to meet your business’s strategic goals. We use cutting-edge technologies that ensure superior performance, maximize resource efficiency, and provide a seamless, user-friendly experience.",
             "paragraph_two": "Agile, secure, and scalable mobile solutions that strengthen the connection between your business and customers, improving interaction and expanding your digital presence across platforms.",
             "icons": [
-                "FaLaptopCode",
-                "MdOutlineLanguage"
+                "FaAndroid",
+                "FaApple"
             ]
         },
         {
@@ -31,8 +31,7 @@
             "paragraph_one": "The integration of platforms and internal systems optimizes processes and enhances overall organizational performance. It also facilitates team collaboration, speeds up decision-making, and improves workflow at all levels.",
             "paragraph_two": "Efficient solutions that increase productivity, reduce operational time, and enhance overall efficiency, boosting your company's performance through agile integration.",
             "icons": [
-                "FaLaptopCode",
-                "MdOutlineLanguage"
+                "FaCubes"
             ]
         },
         {
@@ -40,8 +39,7 @@
             "paragraph_one": "Optimize your operational processes by eliminating manual and repetitive tasks, increase effectiveness, and reduce costs. We streamline workflows, freeing up resources so your team can focus on higher-value activities.",
             "paragraph_two": "Greater operational efficiency, reduced time, and a more agile organization ready to quickly respond to market demands.",
             "icons": [
-                "FaLaptopCode",
-                "MdOutlineLanguage"
+                "MdAutoMode"
             ]
         }
     ],

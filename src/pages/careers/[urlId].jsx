@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import listJobsEn from '@/assets/jobs/enJobs.json';
 import listJobsEs from '@/assets/jobs/esJobs.json';
 import { useTranslation } from 'react-i18next';
+import BannerPrimary from '@/components/Position/BannerPrimary';
 import NotFound from './../404';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
@@ -22,10 +23,13 @@ export default function Offert({ job }) {
   const { name, description } = job;
 
   return (
-    <main className='vh-100'>
-      <h1 className='w_color'>{name}</h1>
-      <p>{description}</p>
-    </main>
+    <>
+      <BannerPrimary 
+        name={name}
+        years=""
+        english=""
+        location="" />
+    </>
   );
 }
 

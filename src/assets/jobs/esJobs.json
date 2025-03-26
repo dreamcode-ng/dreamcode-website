@@ -1,5 +1,22 @@
 [
     {
+        "id": 0,
+        "name": "Desarrollador Backend",
+        "years": "3 años de experiencia",
+        "english": "inglés intermedio (B2+)",
+        "location": "Cali",
+        "modality": "Presencial",
+        "experts": [
+            "Angular",
+            "Typescript",
+            "MySQL",
+            "Design patterns",
+            "Metodologías ágiles"
+        ],
+        "rol": "Resolverás problemas proponiendo ideas y soluciones que garanticen resultados grandiosos. Debes contribuir a la mejora continua del software, esto supone la escritura de un código limpio, óptimo, eficiente y disp.",
+        "url": "desarrollador-backend"
+    },
+    {
         "id": 1,
         "name": "Desarrollador Java",
         "description": "Queremos construir con un profesional apasionado por la creación de aplicaciones escalables y con un alto desempeño",

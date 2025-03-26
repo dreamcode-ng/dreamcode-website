@@ -20,7 +20,7 @@ export default function LangSwitcher() {
                     onClick={() => changeLanguage('es')}
                     disabled={locale === 'es'}
                   >
-                    Es
+                    ES
                   </button>
                   :
                   <button 
@@ -28,7 +28,7 @@ export default function LangSwitcher() {
                     onClick={() => changeLanguage('en')}
                     disabled={locale === 'en'}
                   >
-                    En
+                    EN
                   </button>
               } 
                 </li>

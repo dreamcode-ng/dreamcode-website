@@ -19,7 +19,7 @@ function BannerHome({ withWave = false , withLink = false,  textWave, title , su
                         text={textWave}
                     />}
                 
-                <h1 className="f-lg-70 f_800 py-4">
+                <h1 className="f-lg-70 f-sm-30 f_800 py-4">
                     {title}
                 </h1>
                 {/* <div className='light-effect'></div> */}

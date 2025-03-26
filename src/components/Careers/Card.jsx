@@ -4,8 +4,9 @@ import { BiWifi } from "react-icons/bi";
 import listJobsEn from '../../assets/jobs/enJobs.json';
 import listJobsEs from '../../assets/jobs/esJobs.json';
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 
-function CardItem ({ name }) {
+function CardItem ({ name, link }) {
   	return (
     		<div className={`${styles.card} g-col-6`}>
       			<div className="d-flex w-100 flex-column align-items-start justify-content-start gap-3 ">
@@ -29,7 +30,7 @@ function CardItem ({ name }) {
           					<p className={styles.git}>Metodologías ágiles</p>
         				</div>
 						<div className={styles.button1}>
-								<div className="d_color f_500 position-relative">Quiero aplicar</div>
+								<Link href={link} className="d_color f_500 position-relative">Quiero aplicar</Link>
 						</div>
       			</div>
     		</div>);
@@ -46,6 +47,7 @@ export default function CardJobs() {
 				{
 					listJob.map((job) => (
 						<CardItem key={job.id}
+							link={`/careers/${job.url}`}
 							name={job.name} />
 					))
 				}

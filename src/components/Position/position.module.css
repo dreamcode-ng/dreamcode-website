@@ -1,0 +1,13 @@
+.banner_primary {
+    margin: 30px 0 ;
+}
+.banner_primary svg {
+    color: #3BF7E4;
+} 
+.banner_primary h3 {
+    border-radius: 20px;
+    padding: 6px 16px;
+    border: 1px solid #282828;
+    background: #171717;
+    width: auto;
+}
