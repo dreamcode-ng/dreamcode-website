@@ -108,6 +108,7 @@ figure { margin: 0 0 0 !important; }
 
 @media screen and (max-width:512px){
   .f-sm-40 { font-size: 40px;}
+  .f-sm-35 { font-size: 35px;}
   .f-sm-30 { font-size: 30px;}
   .f-sm-25 { font-size: 25px;}
   .f-sm-20 { font-size: 20px;}

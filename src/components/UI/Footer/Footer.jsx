@@ -59,10 +59,10 @@ function Footer({ t } ) {
         <div className={`container container-dc ${style.footer_bottom} py-4`}>
           <div className="row justify-content-center ">
               <div className="col-lg-6 col-md-12 col-sm-12">
-                  <p className="mb-0 f_400 p_color text-start f-lg-15">Copyright © {new Date().getFullYear()} DreamCode Inc -<strong className="f_500">  All rights reserved.</strong> </p>
+                  <p className="mb-0 f_400 p_color text-lg-start text-center mt-lg-0 mb-3 f-lg-15">Copyright © {new Date().getFullYear()} DreamCode Inc -<strong className="f_500">  All rights reserved.</strong> </p>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">
-                  <ul className={`m-0 text-center ${style.social_icon} list-inline d-flex flex-row justify-content-end`}>
+                  <ul className={`m-0 text-center ${style.social_icon} mt-lg-0 mt-3 list-inline d-flex flex-row justify-content-lg-end justify-content-center`}>
                       <li className="social_iconos "><Link className="w_color p-3" href="https://www.linkedin.com/company/dreamcode-software/"><FaLinkedin /></Link></li>
                       <li className="social_iconos "><Link className="w_color p-3" href="https://www.facebook.com/dreamcodesoft"><FaFacebook /></Link></li>
                       <li className="social_iconos "><Link className="w_color p-3" href="https://www.instagram.com/dreamcode_software/"><FaInstagram /></Link></li>

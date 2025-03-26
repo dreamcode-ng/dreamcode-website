@@ -20,8 +20,8 @@ export default function BlogHome() {
 
   return (
     <ContainerSection>
-        <h2 className='m_color f-lg-40 text-start f_800'>DreamBlog</h2>
-        <p className='p_color f-lg-20 text-start mb-5'>{t('blog_title')}</p>
+        <h2 className='m_color f-lg-40 text-lg-start text-center f_800'>DreamBlog</h2>
+        <p className='p_color f-lg-20 text-lg-start text-center mb-5'>{t('blog_title')}</p>
         <div className="row justify-content-center">
           {
             postlist.slice(0, 3).map((post, i) => {

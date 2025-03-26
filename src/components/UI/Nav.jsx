@@ -26,7 +26,7 @@ function Nav({ t }) {
                 height={17}
                 loading="lazy" /> 
           </Link>
-          <button className="navbar-toggler " 
+          <button className="navbar-toggler collapsed" 
             type="button" 
             data-bs-toggle="collapse" 
             data-bs-target="#navbarSupportedContent" 

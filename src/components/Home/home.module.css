@@ -7,12 +7,6 @@
   padding: 80px;
 }
 
-
-/* ---- Blog ---*/
-
-
-/* - Wave - */
-
 .wave_hand {
   width: 44px;
   height: 44px;
@@ -31,11 +25,6 @@
 .background_main:hover .wave-hand {
   animation: wave 0.8s ease-in-out;
 }
-
-
-
-
-
 
 /* ---- Tecno Adapta ---*/
 /*-- tecno adap  */
@@ -71,15 +60,13 @@
 
  /* Desktop */
  @media screen and (min-width:900px){
-    .redefine {
-      padding: 100px 130px;
-    }
+    .redefine { padding: 100px 130px; }
   
   }
   /* Mobile */
   @media screen and (max-width:900px){
     .redefine { padding: 100px 35px; }
-     
+    .experience { padding: 60px 40px; }
   }
   
   
