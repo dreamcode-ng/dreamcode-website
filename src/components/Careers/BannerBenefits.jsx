@@ -7,8 +7,8 @@ function BannerBenefits({ title, subtitle, description }) {
   return (
     <>
         <ContainerSection>
-            <div className={`${style.BannerBenefits} position-relative d-flex justify-content-center`}>
-                <div className="col-lg-9 col-sm-12 gap-5">
+            <div className={`${style.bannerBenefits} position-relative d-flex justify-content-center`}>
+                <div className="col-lg-9 col-sm-12 gap-5 flex-direction-lg-row flex-direction-column">
                     <Image src="/img/careers/Andres.png" width={150} height={250} />                   
                         <div className="light-effect"></div>
                     <div className="w_color text-left pt-3">

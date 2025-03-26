@@ -16,7 +16,7 @@ function BannerBlog() {
                     </div>
                 </div>
             </div>
-            <h2 className='m_color f-lg-30 f-sm-20 text-center mb-4 f_700' >{t('subtitle_blog')}</h2>
+            <h2 className='m_color f-lg-30 f-sm-20 text-center mb-4 mx-4 f_700' >{t('subtitle_blog')}</h2>
     </section>
   )
 }

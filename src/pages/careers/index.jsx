@@ -33,14 +33,14 @@ export default function Careers() {
         dataList={Array.isArray(benefits) ? benefits : Object.values(benefits)}/>
       <ContainerSection>     
         <ContainerCircule className="px_50 py_60">
-          <h2 className='w_color text-center mb-5'>
+          <h2 className='w_color text-center mb-5 z-indez-9 position-relative'>
             {
               <Trans i18nKey="title_discover" ns="careers">
                 Descubre por qué nuestros <span className='m_color f_800'>DreamCoders</span> eligen trabajar aquí.
               </Trans>
             }
           </h2>
-          <ButtonIcon className="align-items-center mt-5" link="/great-place-to-work" text={t('btn_discover')} />
+          <ButtonIcon className="align-items-center mt-5 z-indez-9 position-relative" link="/great-place-to-work" text={t('btn_discover')} />
         </ContainerCircule>
       </ContainerSection>  
       

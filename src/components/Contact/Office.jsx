@@ -33,7 +33,7 @@ export default function Office({ title}) {
 function OfficeItem({ officeImg , officeCity, officeAddress, officeNum}) {
     return (
       <div className='col-lg-4 col-md-4 col-sm-12'>
-          <div className={style.office_content} >
+          <div className={`${style.office_content} m-lg-0 mt-4`} >
               <div className='office-img'>
               <Swiper 
                   grabCursor={true}        

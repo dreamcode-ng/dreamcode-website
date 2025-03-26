@@ -13,7 +13,7 @@
     width: 100%;
     position: relative;
   }
-
+/* Desktop*/
   @media (min-width: 992px) {
     .banner_container {
       background-position: right center;
@@ -26,6 +26,7 @@
       height: fit-content;
     }
   }
+  /* Mobile */
   @media (max-width: 991px) {
     .infoCardWithImage { padding: 20px; }
     .banner_container {
@@ -39,8 +40,8 @@
     }
 
     .content_column {
-      padding: 20px !important;
-      height: 50%;
+      padding: 40px 30px !important;
+      height: auto;
       border-radius: 20px;}
   
     .image_column {

@@ -14,10 +14,10 @@ function BannerStories() {
         <div className="container">
             <div className="row align-items-center justify-content-center">  
                 <div className='mt-4 mb-5 w-100'>
-                    <h1 className="mt-4 mb-5 f-lg-50 m_color f_600">
+                    <h1 className="mt-4 mb-5 f-lg-50 f-sm-40 m_color f_600">
                         {t('title_banner')}
                     </h1>
-                    <a href="/customer-stories#form-contact" className={`${style.btn__stories} f_500`}>
+                    <a href="/contact" className={`${style.btn__stories} f_500`}>
                         {t('btn_banner')}
                     </a>    
                 </div>

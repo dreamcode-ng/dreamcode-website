@@ -15,8 +15,8 @@ const DreamcodeSection = () => {
   return (
     <ContainerSection>
       <div className="mb_70">
-        <h2 className="m_color f_700 f-lg-40">{t('title_birth')}</h2>
-        <p className="p_color w-75 f-lg-18">{t('description_birth')}</p>
+        <h2 className="m_color f_700 f-lg-40 text-lg-start text-center ">{t('title_birth')}</h2>
+        <p className="p_color w-lg-75 f-lg-18 text-lg-start text-center ">{t('description_birth')}</p>
       </div>
       <div className="w_color position-relative">
         <div className={`${styles.first_row} row position-relative`}>

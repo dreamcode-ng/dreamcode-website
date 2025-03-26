@@ -1,4 +1,4 @@
-.BannerBenefits > div {
+.bannerBenefits > div {
     border-radius: 27px;
     padding: 0px 40px;
     border: 1px solid #999;
@@ -7,8 +7,11 @@
     align-items: center;
     justify-content: center;
   }
-.BannerBenefits img {
+.bannerBenefits img {
     width: auto;
     z-index: 99;
     transform: scaleX(-1);
 }
+
+@media (max-width: 891px) { .bannerBenefits > div {flex-direction: column; padding: 25px; } }
+@media (min-width: 892px) { .bannerBenefits > div {flex-direction: row;} }

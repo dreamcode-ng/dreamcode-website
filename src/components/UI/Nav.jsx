@@ -56,7 +56,9 @@ function Nav({ t }) {
                     aria-controls="collapseExample">{t('solutions')}</Link>
                 </li>
                 {
-                  isMobile ? <MenuButtons /> : ''
+                  isMobile ?
+                   <MenuButtons /> 
+                   : ''
                 }
                 <li className="nav-item">
                   <Link className="nav-link f_400 w_color" href="/projects">{t('projects')}</Link>

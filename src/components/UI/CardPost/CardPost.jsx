@@ -21,7 +21,7 @@ export default function CardPost ( { image, title, read, date, url, content}) {
                 <div className={`${style.cardTags}`} >
                     <div className="-bg-secondary d-flex ">
                         <div className="text-center p_color f_300 f-lg-12">
-                          Location: {read}</div>
+                          Time: {read}</div>
                     </div>
                     <div className="-bg-secondary d-flex ">
                         <div className="text-center p_color f_300 f-lg-12">
