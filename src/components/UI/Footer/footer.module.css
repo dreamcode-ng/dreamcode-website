@@ -27,7 +27,9 @@
     /*==========RESPONSIVE===========*/
   /*Mobil*/
   @media screen and (max-width:512px){
-
+ .footer_bottom > div {
+  flex-direction: column-reverse;
+ } 
   }
   /*Tablet*/
   @media (min-width: 513px) and (max-width:821px){

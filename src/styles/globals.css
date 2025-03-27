@@ -228,7 +228,13 @@ input[type="email"]::placeholder ,
   color: #666;
 }
 
-
+.form-control.is-valid, .was-validated .form-control:valid {
+  border-color: #3BF7E4;
+  color: white;
+}
+.form-control.is-valid, .was-validated .form-control:focus {
+  color: black;
+}
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,

@@ -23,7 +23,7 @@ const DreamcodeSection = () => {
           <div className="p-0 col-md-5">   
             <ContainerCircule className={styles.imageBox}>
               <Image
-                src="/img/great-place/entorno-formidable.jpg"
+                src="/img/about/entorno-formidable.jpg"
                 width={600}
                 height={500}
                 alt="Office"
@@ -32,14 +32,14 @@ const DreamcodeSection = () => {
             </ContainerCircule>
           </div>
           <div className="p-0 col-md-7 d-flex align-items-center">
-            <p className="f_500 f-lg-18 w_color">
+            <p className="f_500 f-lg-18 w_color text-lg-start text-center">
               {t('offices_text')}
             </p>
           </div>
         </div>
         <div className={`${styles.second_row} row position-relative`}>
           <div className="p-0 col-md-7 d-flex align-items-center">
-            <p className="f_500 f-lg-18 w_color">
+            <p className="f_500 f-lg-18 w_color text-lg-start text-center">
               {t('talent_human')}
             </p>
           </div>

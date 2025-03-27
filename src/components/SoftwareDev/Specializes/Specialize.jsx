@@ -30,7 +30,7 @@ export default function Specialize( { title , data, btn }) {
                         <SpecializeItem
                           key={index}
                           title={item.title}
-                          
+                          achieved={item.achieved}
                           paragraph_one={item.paragraph_one}
                           paragraph_two={item.paragraph_two}
                           icons={item.icons.map((icon) => iconMap[icon])} 
@@ -38,12 +38,12 @@ export default function Specialize( { title , data, btn }) {
                     ))}
                     </div>
                 </div>
-                <ButtonIcon text={btn} link="/" className="align-items-center mt-5"/>
+                <ButtonIcon text={btn} link="#form-primary" className="align-items-center mt-5"/>
     </ContainerSection>
   )
 }
 
-function SpecializeItem({ title, paragraph_one, paragraph_two, icons = [] }) {
+function SpecializeItem({ title, achieved, paragraph_one, paragraph_two, icons = [] }) {
 
   const { t } = useTranslation('software');
 
@@ -65,7 +65,7 @@ function SpecializeItem({ title, paragraph_one, paragraph_two, icons = [] }) {
   
           <div>
             <p className="f-lg-14">{paragraph_one}</p>
-            <p className="my-3 m_color f_700">{t('achieved')}</p>
+            <p className="my-3 m_color f_700">{achieved}</p>
             <p className="f-lg-14">{paragraph_two}</p>
           </div>
         </div>

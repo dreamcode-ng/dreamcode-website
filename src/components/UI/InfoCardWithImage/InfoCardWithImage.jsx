@@ -13,7 +13,7 @@ function OurDreamcoders( { withButton = false, isAbout = false , text, link, tit
           <div className={`${style.banner_container} ${!isAbout ? style.about : style.index } d-flex position-relative w-100 z-index-9`}>
             <div className="row g-0">
               <div className={`col-sm-12 col-md-12 col-lg-7 ${style.content_column}`}>
-                  <h2 className="f-lg-40 f-sm-25 text-white text-center text-lg-start">
+                  <h2 className="f-lg-40 f-sm-20 text-white text-center text-lg-start">
                       {title}
                   </h2>
                   { withButton ?  

@@ -16,12 +16,12 @@ function ExperienceRocket() {
         <ContainerCircule className={style.experience}>
           <div className=" row align-items-center">
             <div className="col-12 col-lg-8">
-              <h2 className="f-lg-40 f-sm-30 z-index-9 position-relative text-center w_color text-lg-start">
-              {t('title_experience1')} <span className='f_800 m_color'>{t('title_experience2')}</span>
+              <h2 className="f-lg-40 f-sm-30 z-index-9 position-relative  w_color text-start">
+                {t('title_experience1')} <span className='f_800 m_color'>{t('title_experience2')}</span>
               </h2>
-              <p className="text-center mt-3 f-lg-20 p_color text-lg-start">
+              <p className=" mt-3 f-lg-20 p_color text-lg-start">
                 <strong>{t('text_experience')}</strong></p>
-              <ButtonIcon className="align-items-lg-start mt-5 align-items-center mt-5" link="/projects" text={t('btn_read_more')} />            
+              <ButtonIcon className="align-items-start mt-5 mt-5" link="/projects" text={t('btn_read_more')} />            
             </div>
             <div className="col-12 col-lg-4">
               <AnimationUse animationName="rocket"/>

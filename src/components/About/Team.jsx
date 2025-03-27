@@ -15,7 +15,7 @@ export default function Team() {
       <ContainerSection>
         <h2 className='m_color text-center display-3 f_700 pb-5'>{t('team_title')}</h2>
         <div className={`${styles.team_row} `}>
-            <TeamItem name="Horacio Borrero" position={t('team_horacio')} image="Horacio" link="https://www.linkedin.com/in/fchaves-dreamcode/" />
+            <TeamItem name="Horacio Borrero" position={t('team_horacio')} image="Horacio" link="https://www.linkedin.com/in/horacio-borrero-16435b5a/" />
             <TeamItem name="Francisco Chaves" position={t('team_francisco')} image="Francisco" link="https://www.linkedin.com/in/fchaves-dreamcode/" />
             <TeamItem name="Jonathan Ortiz" position={t('team_jonathan')} image="Jonathan" link="https://www.linkedin.com/in/jorge-jonathan-ortiz-velez-95878b67/" />
             <TeamItem name="Leonardo Vargas" position={t('team_leonardo')} image="Leonardo" link="https://www.linkedin.com/in/leonardo-torres-7a317851/" />
@@ -28,18 +28,21 @@ export default function Team() {
 }
 
 function TeamItem ( { name , position , image, link}) {
+
+  const { t } = useTranslation('about');
+
     return (
         <div className=' d-flex align-items-center flex-column p-3 img-fluid'>
-          <Image src={`/img/about/team/${image}.png`} width={250} height={337} alt={`${name} | DreamCode`} layout="responsive"/>
+          <Image src={`/img/about/team/${image}.png`} width={250} height={337} alt={`${name} | DreamCode`} />
           <div className='d-flex flex-column gap-3 w-100'>
             <div className="d-flex flex-column align-items-center gap-2">
-              <h3 className="text-center f-ls-20 f_600 w_color">{name}</h3>
-              <p className="text-center f-ls-18 f_500 p_color">{position}</p>
+              <h3 className="text-center f-lg-18 f_600 w_color">{name}</h3>
+              <p className="text-center f-lg-15 f_500 p_color">{position}</p>
             </div>
             <Wave 
-              className=" -bg-secondary"
+              className="-bg-secondary"
               link={link}
-              text="Conectemos 👋"
+              text={`${t('lets_connect')} 👋`}
               icon_class="-bg-cian"
               icon={<FaLinkedin />} />
           </div>

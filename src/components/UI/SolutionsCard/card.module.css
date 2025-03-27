@@ -1,7 +1,6 @@
-
-
-  .card {
+.card {
     overflow: hidden;
+    height: 90%;
     background-color: var(--bg-primary);
     border-radius: var(--r-top) var(--r-right) var(--r-bottom) var(--r-left);
   }
@@ -18,8 +17,10 @@
 }
 
 .card .icon svg {
-  width: 90px !important; 
+  width: 100px !important; 
   height: 70px !important; }
+
+      
 
 
   .card::before {

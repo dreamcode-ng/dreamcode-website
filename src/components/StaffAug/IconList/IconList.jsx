@@ -6,14 +6,14 @@ import { FaReact, FaAngular, FaJava, FaPython, FaNode, FaAws, FaPhp } from "reac
 import { IoLogoJavascript, IoLogoIonic  } from "react-icons/io5";
 import { DiGroovy  } from "react-icons/di";
 import { TbBrandKotlin, TbBrandReactNative  } from "react-icons/tb";
-import { SiCucumber, SiSelenium, SiApachekafka, SiFlutter } from "react-icons/si";
+import { SiCucumber, SiSelenium, SiApachekafka, SiFlutter, SiTypescript } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
 export default function IconList ({ title }) {
 
     const icons = [
         FaReact, FaAngular, FaJava, FaPython, FaNode, FaAws, FaPhp,
-        IoLogoJavascript, IoLogoIonic, DiGroovy, SiFlutter, VscAzure,
+        IoLogoJavascript, IoLogoIonic, DiGroovy, SiFlutter, VscAzure, SiTypescript, 
         TbBrandKotlin, TbBrandReactNative, SiCucumber, SiSelenium, SiApachekafka,
     ];        
 

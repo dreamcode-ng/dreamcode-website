@@ -21,7 +21,7 @@ function ContainerAnimation ({ title, text, animation, btn }) {
                                 <p className="f-lg-18 text-start p_color">
                                     {text}
                                 </p>
-                                <ButtonIcon className="align-items-start mt-5" link="#form-primary" text={btn + "→"} />
+                                <ButtonIcon className="align-items-start mt-5" link="#form-primary" text={btn + " →"} />
                             </div>
                         </div>
                         <div className={`col-12 col-md-6 ${style.animation_img}`}>

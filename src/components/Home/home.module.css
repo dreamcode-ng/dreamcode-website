@@ -7,6 +7,8 @@
   padding: 80px;
 }
 
+
+
 .wave_hand {
   width: 44px;
   height: 44px;
@@ -67,6 +69,7 @@
   @media screen and (max-width:900px){
     .redefine { padding: 100px 35px; }
     .experience { padding: 60px 40px; }
+    .experience > div { flex-direction: column-reverse; }
   }
   
   

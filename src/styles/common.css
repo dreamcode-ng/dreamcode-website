@@ -16,4 +16,17 @@
     background-clip: content-box, border-box;
 }
 
-.-bg-cian svg { scale: 1.4;}
+.wave .content_wave { max-width: 300px;}
+.wave .icon { width: 44px; height: 44px; }
+/* Desktop */
+@media screen and (min-width:900px){
+    .-bg-cian svg { scale: 1.4;}
+}
+
+/* Mobile */
+@media screen and (max-width:900px){
+    .rounded-circle.-bg-cian {
+        width: 30px;
+        height: 30px;
+    }
+}

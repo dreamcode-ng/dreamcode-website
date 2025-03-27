@@ -50,8 +50,8 @@ export default function SystemsModernization() {
         dataList={data}/>
       <BannerVideo
         withSubtile
-        subtitle={t('title_video')}
-        title={t('subtitle_video')}
+        subtitle={t('subtitle_video')}
+        title={t('title_video')}
         url={URL_YOUTUBE_SQUARE} />
       <Form />  
     </>

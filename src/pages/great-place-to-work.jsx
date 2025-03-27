@@ -2,9 +2,7 @@
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import ContainerSection from '@/components/UI/Containers/ContainerSection'
 import OurDreamcoders from '@/components/UI/InfoCardWithImage/InfoCardWithImage'
-import Head from 'next/head';
 import ReasonsWork from '@/components/Great/ReasonsWork';
-import Form from '@/components/UI/Form/Form';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { Trans } from 'react-i18next';
 import { useTranslation } from "react-i18next";
@@ -34,7 +32,6 @@ export default function Great() {
           <h3 className='w_color'>{t('subtitle')}</h3>
       </ContainerSection>
       <ReasonsWork />
-      <Form noTitle />
       </main>
     </>
   )
