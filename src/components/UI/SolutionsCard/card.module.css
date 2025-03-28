@@ -3,14 +3,14 @@
     height: 90%;
     background-color: var(--bg-primary);
     border-radius: var(--r-top) var(--r-right) var(--r-bottom) var(--r-left);
+    height: 250px;
   }
 
   .card .cardBody {
-    padding: 50px !important;
+    padding: 50px 30px 50px 50px !important;
   }
 
   .card .icon {
-
     float: right; 
     z-index: 2;
     position: relative;
