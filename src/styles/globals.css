@@ -53,6 +53,10 @@ p {
   box-shadow: none !important;
 }
 
+.solutions div:nth-child(3) svg {
+  height: 100px !important;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

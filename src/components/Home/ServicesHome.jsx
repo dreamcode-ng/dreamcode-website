@@ -12,7 +12,7 @@ function ServicesHome() {
 
   return (
     <ContainerSection>
-        <div className="row justify-content-center">
+        <div className="solutions row justify-content-center">
             <h2 className='w_color text-center display-2 f_700 pb-5'>{t('our_solution')}</h2>
             {
                 serviceslist.map((item, i ) => (
