@@ -14,7 +14,7 @@ function SliderAbout() {
                 <h2 className='col-lg-5 lh-1 w_color f_700 f-lg-70 f-sm-40'>
                 {            
                   <Trans i18nKey="title_slider" ns="about">
-                    ¿Qué <span className='ps-5'>pensamos?</span>
+                    ¿Qué <br></br><span className='ps-5'>pensamos?</span>
                   </Trans>
                 }
                 </h2>
