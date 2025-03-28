@@ -32,15 +32,15 @@
     "item_list": [
         "Desarrollo móvil",
         "Desarrollo Front-end ",
+        "Control de calidad manual y automatizado",
         "Desarrollo Back-end",
         "Desarrollo Full stack",
-        "Control de calidad manual y automatizado",
         "Arquitectura de software",
         "Cloud computing",
         "Metodologías ágiles"
     ],
     "title_icons": "Principales tecnologías con las que trabajamos",
-    "title_talent": "Nuestro talento TECH",
+    "title_talent": "Nuestro talento ",
     "data_talent": [
         {
             "image": "talent-agile",

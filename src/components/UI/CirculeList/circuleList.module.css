@@ -27,22 +27,22 @@
         height: 60px;
         }
   }
-  @media (min-width: 351px) and (max-width:512px){
+  @media (min-width: 351px) and (max-width:812px){
     .banner_benefics .col-lg-8 h3 {
       font-size: 20px;
     }
     .benefits_item div {
       height: 60px;
-      padding: 15px 25px ;
+      padding: 15px 10px ;
     }
-    .col-bf-6 {
+    .col_bf_6 {
       flex: 0 0 auto;
       max-width: 50%;
       padding-right: 10px !important;
       padding-left: 10px !important;
     }
   
-    .col-bf-6:nth-child(3n) {
+    .col_bf_6:nth-child(3n) {
       flex: 0 0 90%;
       max-width: 90%;
     }

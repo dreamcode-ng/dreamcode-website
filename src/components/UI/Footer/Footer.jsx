@@ -49,7 +49,7 @@ function Footer({ t } ) {
                       </Widget>                     
                       <Widget                                 
                         titleWidget={t('careers')} >                          
-                            <li><Link href={'/dreamcoders'}>{t('dreamcoders')}</Link></li>
+                            <li><Link href={'/great-place-to-work'}>{t('dreamcoders')}</Link></li>
                             <li><Link href={'/careers'}>{t('job')}</Link></li>
                       </Widget>
                   </div>

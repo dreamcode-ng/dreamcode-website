@@ -24,7 +24,7 @@ function Form ( { noTitle }) {
         <ContainerCircule className={style.form} >
             <div className="row justify-content-center" >
                 <div className="col-lg-12 col-sm-12 col-md-12">    
-                    <form className="needs-validation was-validated" method="post" id="contactForm" >
+                    <form className="needs-validation was-validated z-indez-9 position-relative" method="post" id="contactForm" >
                         <div className="row">
                             <div className="col-lg-3">
                                 <label className="text-left f_600 w_color mt-lg-0 mt-3 " htmlFor="exampleFormControlSelect1">{t('form_input_name')}</label>

@@ -43,7 +43,9 @@ export default function Staff() {
         title={t('title_list')}
         dataList={item_list}/>  
       <IconList title={t('title_icons')}/>
-      <TalentBox data={data_talent} />
+      <TalentBox 
+        talent={t('title_talent')}
+        data={data_talent} />
       <Form />
     </>
   )

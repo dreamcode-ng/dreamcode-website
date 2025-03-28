@@ -8,17 +8,17 @@
     "banner_description": "We promote the professional and personal development of our team, making every workday a place of well-being and value for everyone",
     "title_benefits": "Learn about the benefits of being part of our team",
     "benefits": [
-        "Prepaid Medical Care",
-        "Life Insurance",
-        "Integration Spaces for All",
         "Birthday Breakfast",
-        "DreamCoder Anniversary",
-        "Extra-legal Bonus for Results",
+        "Prepaid Medical Care",
+        "Integration Spaces for All",
+        "Life Insurance",
         "Marriage Leave",
+        "Extra-legal Bonus for Results",
         "Undergraduate Gift",
         "Newborn Gift",
-        "Training and Courses",
-        "Welcome Kit"
+        "DreamCoder Anniversary",
+        "Welcome Kit",
+        "Training and Courses"
     ],
     "title_discover": "Find out why our <1>DreamCoders</1> choose to work here.",
     "btn_discover": "Read more +"

@@ -17,7 +17,7 @@ function BannerSlider() {
                         <h3 className='w_color f_700'>{t('title_slider')}</h3>
                         <SliderWords />
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4 mt-3 mt-lg-0 '>
                         <ButtonIcon link="#form-primary" text={t('btn_slider')} className="align-items-start align-items-lg-center mt-4 m-lg-0" />
                     </div>
                 </div>

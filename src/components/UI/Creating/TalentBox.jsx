@@ -18,7 +18,7 @@ function TalentBoxChild ({ image , description }) {
   )
 }
 
-export default function TalentBox({ data }) {
+export default function TalentBox({ data , talent}) {
 
   const firstHalf = data.slice(0, 3); 
   const secondHalf = data.slice(3);    
@@ -29,8 +29,8 @@ export default function TalentBox({ data }) {
       <ContainerCircule className={style.talent}>
         <BoxContainer className={style.talent_box}>
             <BoxChild>
-                <h2 className="f-lg-25 m_color">Nuestro talento 
-                <span className="f_700"><br></br> TECH</span></h2>       
+                <h2 className="f-lg-25 m_color me-3 z-indez-9 position-relative">{talent} 
+                <span className="f_700"> TECH</span></h2>       
             </BoxChild>
             {
               firstHalf.map((talent, index) => (
