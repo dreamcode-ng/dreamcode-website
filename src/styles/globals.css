@@ -53,7 +53,9 @@ p {
   box-shadow: none !important;
 }
 
-.solutions div:nth-child(3) svg {
+
+
+.solutions div:nth-of-type(2) .icon svg{
   height: 100px !important;
 }
 
