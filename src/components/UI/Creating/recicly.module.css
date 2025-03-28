@@ -107,6 +107,9 @@
   
   
 @media (max-width: 991px) {
+.consulting_content {
+  padding: 30px 20px !important;
+}
 .challenge_row {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -122,7 +125,7 @@
 
 
 .consulting_content {
-  padding: 30px 40px !important;
+  padding: 30px 40px;
 }
 
 .consulting_content .icon > div {

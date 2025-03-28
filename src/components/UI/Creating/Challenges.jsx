@@ -36,7 +36,7 @@ import ContainerSection from '@/components/UI/Containers/ContainerSection'
 export default function Challenges({ title, data}) {
   return (
     <ContainerSection>
-        <h2 className="text-center f-lg-40 w_color mb-5">{title}</h2>
+        <h2 className="text-center f-lg-40 f-sm-30 w_color mb-5">{title}</h2>
         <div className={`${style.challenge} position-relative box_shadow`}>
             <div className={`${style.challenge_row} `}>
                 {
