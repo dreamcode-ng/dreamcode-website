@@ -32,7 +32,7 @@ function CirculeListItem ({ text }) {
         <div className={`col-lg-auto ${style.col_bf_6} `}>
             <div className={`${style.benefits_item} `}>
                 <div className='d-flex align-items-center justify-content-center h-auto position-relative w-auto'>
-                    <h3 className="m-0 f-lg-18 f-sm-15 f_600 p_color">{text}</h3>
+                    <h3 className="m-0 f-lg-18 f-sm-12 f_600 p_color">{text}</h3>
                 </div>
             </div>
       </div>
