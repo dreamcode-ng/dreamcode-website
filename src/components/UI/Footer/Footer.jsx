@@ -43,7 +43,6 @@ function Footer({ t } ) {
                       </div>                    
                       <Widget                                 
                         titleWidget={t('about')} >
-                            <li><Link href={'/great-place-to-work'}>Solutions</Link></li>
                             <li><Link href={'/contact'}>{t('contact')}</Link></li>
                             <li><a href='/documents/Tratamiento_de_Datos_Dreamcode.pdf' target="_blank" rel="noopener noreferrer">{t('privacy_policy')}</a></li>
                       </Widget>                     

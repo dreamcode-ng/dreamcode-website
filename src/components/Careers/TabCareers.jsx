@@ -11,8 +11,8 @@ export default function TabCareers({ title, subtitle}) {
 
   return (
     <ContainerSection>
-        <div className='d-flex flex-wrap justify-content-center'>
-          <h1 className='w_color f_700 f-lg-70 f-sm-40 text-center'>{title}</h1>
+        <div className='d-flex flex-wrap justify-content-center mx-lg-0 mx-1'>
+          <h1 className='w_color f_700 f-lg-70 f-sm-40 text-center mx-lg-0 mx-5'>{title}</h1>
           <p className='w-75 text-center f-lg-20 f-sm-18 f_500 p_color'>{subtitle}</p>
         </div>
         <div className='pt-3 mt-5'>
