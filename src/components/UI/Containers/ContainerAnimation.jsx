@@ -9,7 +9,7 @@ import ContainerSection from '@/components/UI/Containers/ContainerSection'
 function ContainerAnimation ({ title, text, animation, btn }) {
     return (
         <ContainerSection>   
-            <div className={`${style.animation_container} position-relative py-5 text-center`}>
+            <div className={`${style.animation_container} position-relative text-center`}>
                 <div className="d-flex flex-column align-items-center justify-content-center gap-3 ">
                     <div className="row flex-sm-column-reverse flex-lg-row">
                         <div className="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">

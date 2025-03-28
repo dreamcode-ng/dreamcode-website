@@ -7,7 +7,7 @@ import ContainerSection from "../UI/Containers/ContainerSection";
 
 export default function TabCareers({ title, subtitle}) {
 
-    const [ jobs , setJob ] = useState(true)
+    const [ jobs , setJob ] = useState(false)
 
   return (
     <ContainerSection>
