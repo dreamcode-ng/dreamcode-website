@@ -33,7 +33,7 @@ export default function Post({ post }) {
       <article className="">
         <figure className={style.post_img}>
           <Image 
-            className="img-fluid" 
+            className="img-fluid w-100" 
             src={`/img/posts/${post.imglink}`} 
             width={1200}
             height={600}
