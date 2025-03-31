@@ -31,7 +31,7 @@ function Form () {
 
             .then((result) => {
                 swal({
-                    title: t('forms.form_text_modal'),
+                    title: "Mensaje enviado con exito",
                     icon: "success",
                 });
                 console.log(result.text + " ENVIADO");
