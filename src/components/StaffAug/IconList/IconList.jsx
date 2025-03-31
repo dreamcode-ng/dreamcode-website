@@ -24,7 +24,7 @@ export default function IconList ({ title }) {
                     <h2 className='text-center f-lg-40 f-sm-30 w_color'>{title}</h2>
                 </div>
                 <div className="container my-2">
-                    <div className='row justify-content-center gap-5'>     
+                    <div className='row justify-content-center gap-5 gap-lg-3'>     
                         {
                             icons.map((Icon, i) => (
                                 <div key={i} className='col-lg-auto col'>
