@@ -2,7 +2,7 @@
 import Footer from "./Footer/Footer";
 import Nav from "./Nav";
 import { Trans, withTranslation, useTranslation } from 'react-i18next';
-
+import Flotantes from "./Flotantes";
 
 
 function Layout ({ children }) {
@@ -12,9 +12,9 @@ function Layout ({ children }) {
     return (
       <>
         <Nav />
-            {/* <p>{t('locale')}</p> */}
           {children}
         <Footer />
+        <Flotantes />
       </>
     );
   };
