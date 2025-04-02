@@ -1,5 +1,6 @@
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import { useRouter } from 'next/router';
+import InfoJob from '@/components/Position/InfoJob';
 import listJobsEn from '@/assets/jobs/enJobs.json';
 import listJobsEs from '@/assets/jobs/esJobs.json';
 import { useTranslation } from 'react-i18next';
@@ -20,7 +21,7 @@ export default function Offert({ job }) {
     return <NotFound />;
   }
 
-  const { name, description } = job;
+  const { name, description, modality } = job;
 
   return (
     <>
@@ -29,6 +30,9 @@ export default function Offert({ job }) {
         years=""
         english=""
         location="" />
+      <InfoJob 
+        modality={modality}
+      />
     </>
   );
 }

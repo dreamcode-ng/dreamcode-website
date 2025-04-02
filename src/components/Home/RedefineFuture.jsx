@@ -20,7 +20,7 @@ const RedefineFuture = () => {
           </div>
           <div className="">
               <p className="w_color fs-5">
-                <Link href='#form-primary' className='w_color'>{t('btn_banner')} →</Link></p>
+                <Link href='/contact#form-primary' className='w_color'>{t('btn_banner')} →</Link></p>
           </div>
         </div>
       </ContainerCircule>    

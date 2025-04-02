@@ -30,9 +30,6 @@ export default function SliderWords() {
           <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('strengthen')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('automate')}</h3>
-        </SwiperSlide>
-        <SwiperSlide>
           <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('optimize')}</h3>
         </SwiperSlide>
         <SwiperSlide>
