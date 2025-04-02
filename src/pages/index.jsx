@@ -50,8 +50,9 @@ export default function Home() {
         <ServicesHome />
         <Clients />
         <ExperienceRocket />
-        <OurDreamcoders 
-          withButton 
+        <OurDreamcoders
+          isAbout
+          withButton
           link="/great-place-to-work"
           btn={t('btn_read_more')}
           title={
