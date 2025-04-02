@@ -94,7 +94,7 @@ function Form () {
                             <div className="col-lg-12 mt-5">                
                                 <label className="text-left f_600 w_color" htmlFor="exampleFormControlSelect1">{t("form_label_file_name")}<code className="w_color"> (Max. 400kb)</code></label>
                                 <div className="form-group text-left mt-3">
-                                    <input type="file" name="file" id="file" accept="application/pdf, .doc, .docx, .odf" className="w-100" required/>
+                                    <input type="file" name="file" id="file" accept="application/pdf, .doc, .docx, .odf" className="w-100 m_color" required/>
                                     <div className="valid-feedback">{t("form_label_file_valid")}</div>        
                                 </div>
                             </div>                           
@@ -119,7 +119,7 @@ function Form () {
                                     onChange={RecaptchaChange} />
                             </div>
                             <div className="col-lg-6 d-flex justify-content-center">
-                                <button onClick={handleClick} type="submit" className='w-100 text-center border-0 text-dark -bg-cian f-lg-18 f_600 rounded-pill px-4 py-3 ' >
+                                <button onClick={handleClick} disabled={!recaptchaValid} type="submit" className='w-100 text-center border-0 text-dark -bg-cian f-lg-18 f_600 rounded-pill px-4 py-3 ' >
                                     <span>{t('form_careers_btn')} </span>
                                 </button>
                             </div>
