@@ -31,7 +31,7 @@ function Form () {
 
             .then((result) => {
                 swal({
-                    title: "Mensaje enviado con exito",
+                    title: t('form_text_success'),
                     icon: "success",
                 });
                 console.log(result.text + " ENVIADO");
@@ -48,7 +48,7 @@ function Form () {
                 title: t('forms.form_text_error'),
                 icon: "warning",
             });*/
-            console.log(t('forms.form_text_error'));
+            console.log(t('form_text_error'));
         }
   
     };
@@ -88,9 +88,16 @@ function Form () {
                             <div className="col-lg-12 mt-5">
                                 <label className="text-left f_600 w_color " htmlFor="exampleFormControlSelect1">{t('form_input_position')}</label>
                                 <div className="form-group text-left mt-3">
-                                    <input className="form-control  input" type="text" name="position" id="position"  placeholder="Front-end engineer" required/>
+                                    <input className="form-control input" type="text" name="position" id="position"  placeholder="Front-end engineer" required/>
                                 </div>
-                            </div>                             
+                            </div>  
+                            <div className="col-lg-12 mt-5">                
+                                <label className="text-left f_600 w_color" htmlFor="exampleFormControlSelect1">{t("form_label_file_name")}<code className="w_color"> (Max. 400kb)</code></label>
+                                <div className="form-group text-left mt-3">
+                                    <input type="file" name="file" id="file" accept="application/pdf, .doc, .docx, .odf" className="w-100" required/>
+                                    <div className="valid-feedback">{t("form_label_file_valid")}</div>        
+                                </div>
+                            </div>                           
                             <div className="col-lg-12 mt-5 ">
                                 <label className="text-left f_600 w_color " htmlFor="exampleFormControlSelect1">{t('form_careers_message')}</label>
                                 <div className="form-group text-left mt-3">

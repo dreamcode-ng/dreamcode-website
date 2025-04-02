@@ -17,9 +17,12 @@
     "form_careers": "We don't have any vacancies at this time",
     "form_subtitle_careers": "However, you can fill out this form and our team will add it to our database",
     "form_input_position": "Position",
+    "form_label_file_name": "Attach your CV",
+    "form_label_file_valid": "File Uploaded Successfully",
     "form_careers_placeholder_message": "Write here...",
     "form_careers_message": "Message",
     "text_lindekin": "- We would like you to attach your LinkedIn profile -",
+    "form_text_modal": "Thank you for connecting with us, the form was completed successfully.",
     "input_lindekin": "LinkedIn Profile",
     "form_careers_btn": "Submit"
 }
