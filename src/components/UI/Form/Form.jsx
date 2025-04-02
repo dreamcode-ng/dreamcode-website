@@ -21,7 +21,7 @@ function Form ( { noTitle }) {
           .then((result) => {
               
               swal({
-                  title: "Se ha enviado con exito",
+                  title: t('form_text_modal'),
                   icon: "success",
                   timer: 3000,
                 });
@@ -35,6 +35,8 @@ function Form ( { noTitle }) {
           setTimeout(function() {
               e.target.reset(); // Resetea el formulario después de 3 segundos (3000 milisegundos)
             }, 2000);
+        
+        
       };
   
       // ReCAPTCHA
@@ -107,6 +109,7 @@ function Form ( { noTitle }) {
                             </div>
                             <div className="mb-3 form-check ">
                                 <ReCAPTCHA
+                                    badge='bottomleft'
                                     sitekey={`${RECAPTCHA_SITEKEY}`}
                                     size="invisible"
                                     onChange={onChange}

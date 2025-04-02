@@ -31,7 +31,7 @@ function Form () {
 
             .then((result) => {
                 swal({
-                    title: t('form_text_success'),
+                    title: t('form_text_modal'),
                     icon: "success",
                 });
                 console.log(result.text + " ENVIADO");
@@ -44,11 +44,11 @@ function Form () {
             }, 2000);
 
         } else {
-            /*swal({
-                title: t('forms.form_text_error'),
+            swal({
+                title: "Error!!!",
                 icon: "warning",
-            });*/
-            console.log(t('form_text_error'));
+            });
+            console.log('Error al enviar el formulario');
         }
   
     };
