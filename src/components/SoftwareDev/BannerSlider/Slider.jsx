@@ -21,31 +21,31 @@ export default function SliderWords() {
         className={style.slider_words}
       >
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Increase')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('increase')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Maximize')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('maximize')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Strengthen')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('strengthen')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Automate')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('automate')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Optimize')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('optimize')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Improve')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('improve')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Innovate')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('innovate')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Solve')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('solve')}</h3>
         </SwiperSlide>
         <SwiperSlide>
-          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('Evolve')}</h3>
+          <h3 className='bg-dark w_color f_800 pb-2 m-0 f-sm-18'>{t('evolve')}</h3>
         </SwiperSlide>
       </Swiper>
     </>
