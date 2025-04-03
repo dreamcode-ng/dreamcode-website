@@ -11,6 +11,7 @@ import { useTranslation } from 'next-i18next';
 // Lista de logos
 const clientLogos = [
   "falabella",
+  "listo-seguro",
   "bolivar",
   "arity",
   "pycca",
