@@ -18,14 +18,18 @@ function Footer({ t } ) {
                       <div className="col-lg-3 col-sm-6">
                           <div className={`${style.footer_widget} `} >
                               <Link className="" href={'/'}>
-                                  <Image src="/img/logo-blue.png" title="Logo Empresa de Software DreamCode" alt="Logo DreamCode Software" width={170} height={28}/>
+                                  <Image src="/img/logo-blue.png" title="Logo Empresa de Software DreamCode" alt="Logo DreamCode Software Cali, Colombia" width={170} height={28}/>
                               </Link>
                               <div className='d-flex mt-5 gap-3'>
                                 <Link href="https://clutch.co/profile/dreamcode" target="_blank">
-                                  <Image src="/img/clients/clutch.svg" width={55} height={17} />
+                                  <Image src="/img/clients/clutch.svg" 
+                                    alt='DreamCode Software Cali en Clutch'
+                                    width={55} height={17} />
                                 </Link>   
                                 <Link href="https://www.topdevelopers.co/profile/dreamcode" target="_blank">
-                                  <Image src="/img/clients/top-developers.svg" width={152} height={17} />
+                                  <Image src="/img/clients/top-developers.svg" 
+                                    alt='DreamCode Software Cali en Top Developers'
+                                    width={152} height={17} />
                                 </Link>
                               </div>
                           </div>

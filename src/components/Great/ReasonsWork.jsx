@@ -22,7 +22,7 @@ export default function ReasonsWork() {
                     src="/img/great-place/cultura-priorizada.jpg"
                     width={600}
                     height={500}
-                    alt="Office"
+                    alt="In DreamCode we prioritize the culture - DreamCode Software Colombia"
                     className="img-fluid position-relative z-index-9"
                   />
                 </ContainerCircule>
@@ -47,7 +47,7 @@ export default function ReasonsWork() {
                     src="/img/great-place/motivo-orgullo.jpg"
                     width={600}
                     height={500}
-                    alt="Office"
+                    alt="In DreamCode we are proud to work - DreamCode Software Colombia"
                     className="img-fluid position-relative z-index-9"
                   />
                 </ContainerCircule>
@@ -60,7 +60,7 @@ export default function ReasonsWork() {
                     src="/img/great-place/reconocer-talento.jpg"
                     width={600}
                     height={500}
-                    alt="Office"
+                    alt="In DreamCode we recognize the talent - DreamCode Software Colombia"
                     className="img-fluid position-relative z-index-9"
                   />
                 </ContainerCircule>
@@ -85,7 +85,7 @@ export default function ReasonsWork() {
                     src="/img/great-place/leaders.jpg"
                     width={600}
                     height={500}
-                    alt="Office"
+                    alt="In DreamCode we have leaders - DreamCode Software Colombia"
                     className="img-fluid position-relative z-index-9"
                   />
                 </ContainerCircule>
@@ -98,7 +98,7 @@ export default function ReasonsWork() {
                     src="/img/great-place/entorno-formidable.jpg"
                     width={600}
                     height={500}
-                    alt="Office"
+                    alt="In DreamCode we have a great environment - DreamCode Software Colombia"
                     className="img-fluid position-relative z-index-9"
                   />
                 </ContainerCircule>
@@ -123,7 +123,7 @@ export default function ReasonsWork() {
                     src="/img/great-place/colaboración-equipo.jpg"
                     width={600}
                     height={500}
-                    alt="Office"
+                    alt="In DreamCode we have a great team - DreamCode Software Colombia"
                     className="img-fluid position-relative z-index-9"
                   />
                 </ContainerCircule>

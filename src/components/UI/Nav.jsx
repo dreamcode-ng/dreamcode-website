@@ -20,7 +20,7 @@ function Nav({ t }) {
             <Image 
                 className="logoBlue" 
                 src="/img/logo-blue.png"
-                alt="Desarrolladores de software DreamCode Software" 
+                alt="Los mejores desarrolladores de software | DreamCode Software Colombia" 
                 title="Logo DreamCode Software" 
                 width={140}
                 height={17}

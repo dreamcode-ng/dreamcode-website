@@ -14,7 +14,7 @@ function SliderItems ({ text }) {
         <div className="d-flex gap-3 flex-column align-items-center">
             <div className='w-100 position-relative d-flex flex-row align-items-center justify-content-start gap-2'>
                 <div className={styles.line} />
-                <Image className={styles.icon} alt="" src="/img/about/icon-slider.svg" width={44} height={44}/>
+                <Image className={styles.icon} alt="Icon - DreamCode Software Colombia" src="/img/about/icon-slider.svg" width={44} height={44}/>
                 <div className={styles.line} />
             </div>
             <p className="text-center w_color f-lg-20 ">{text}</p>

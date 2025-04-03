@@ -18,7 +18,12 @@ function SliderAbout() {
                   </Trans>
                 }
                 </h2>
-                <Image src={`/img/about/flecha.svg`} width={600} height={40} className='col-lg-7'/>
+                <Image 
+                  src={`/img/about/flecha.svg`} 
+                  alt='icon of DreamCode Software'
+                  width={600} 
+                  height={40} 
+                  className='col-lg-7'/>
             </div>
             <div className='col-12'>
                 <SliderItems />

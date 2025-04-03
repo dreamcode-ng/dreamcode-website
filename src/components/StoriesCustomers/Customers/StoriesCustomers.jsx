@@ -71,7 +71,9 @@ function ContentSection ({ title, subtitle, text, image, isSlider, paragraph} ) 
             )}
           </div>
           <div className={`col-lg-6 text-center ${style.logo_container} `}>
-            <Image src={`/img/stories-customers/${image}`} alt="" width={350} height={100}/>
+            <Image src={`/img/stories-customers/${image}`} 
+              alt="Stories of Customers - DreamCode Software Colombia" 
+              width={350} height={100}/>
           </div>
         </div>
 

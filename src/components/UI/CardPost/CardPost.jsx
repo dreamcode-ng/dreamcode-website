@@ -12,7 +12,11 @@ export default function CardPost ( { image, title, read, date, url, content}) {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12 my-3">
       <div  className={`${style.cardPost} w-100`}>
-        <Image className="w-100 h-100" src={`/img/posts/${image}`} width={460} height={259}/>
+        <Image 
+          className="w-100 h-100" 
+          alt={`Post ${title} - DreamCode Software Colombia`}
+          src={`/img/posts/${image}`} 
+          width={460} height={259}/>
         <div className={`${style.cardContent} d-flex align-items-center justify-content-start flex-column`} >
             <div>
                 <h3 className='w_color f-lg-25 f_500' >

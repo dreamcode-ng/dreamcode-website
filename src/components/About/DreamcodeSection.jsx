@@ -26,7 +26,7 @@ const DreamcodeSection = () => {
                 src="/img/about/entorno-formidable.jpg"
                 width={600}
                 height={500}
-                alt="Office"
+                alt="We have a great environment"
                 className="img-fluid position-relative z-index-9"
               />
             </ContainerCircule>
@@ -49,7 +49,7 @@ const DreamcodeSection = () => {
                 src="/img/about/desde-el-inicio.jpg"
                 width={600}
                 height={500}
-                alt="Office"
+                alt="DreamCode in the beggining"
                 className="img-fluid position-relative z-index-9"
               />
             </ContainerCircule>

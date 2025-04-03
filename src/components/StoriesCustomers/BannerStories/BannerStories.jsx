@@ -34,7 +34,8 @@ function BannerStories() {
                 </div>
                 <div className="col-lg-5" >
                     <figure className={style.banner__img} >
-                        <Image src="/img/stories-customers/banner-stories-customers-DreamCode.png" alt="Customers DreamCode Software" width={500} height={430} loading='lazy' />       
+                        <Image src="/img/stories-customers/banner-stories-customers-DreamCode.png" 
+                            alt="Customers DreamCode Software Colombia" width={500} height={430} loading='lazy' />       
                     </figure>
                 </div>          
             </div>

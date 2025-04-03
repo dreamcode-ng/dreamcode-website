@@ -11,7 +11,9 @@ function TalentBoxChild ({ image , description }) {
   return (
     <BoxChild>
         <div className={`pb-3`}>
-          <Image src={`/img/staff-augmentation/${image}.svg`} width={37} height={36} loading='lazy' alt="icon" />
+          <Image 
+            src={`/img/staff-augmentation/${image}.svg`} 
+            width={37} height={36} loading='lazy' alt="icon of DreamCode Software Colombia" />
         </div>
       <p className="text-start f-lg-15 p_color">{description}</p>
     </BoxChild>

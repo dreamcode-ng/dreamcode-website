@@ -42,8 +42,8 @@ function OfficeItem({ officeImg , officeCity, officeAddress, officeNum}) {
                       }}
                       modules={[Pagination]}
                   className="itemSwiper">
-                  <SwiperSlide><img src={(`/img/contacts/${officeImg}-3.jpg`)} alt="office item" loading='lazy'/></SwiperSlide>
-                  <SwiperSlide><img src={(`/img/contacts/${officeImg}-2.jpg`)} alt="office item" loading='lazy'/></SwiperSlide>
+                  <SwiperSlide><img src={(`/img/contacts/${officeImg}-3.jpg`)} alt={`${officeCity} - DreamCode Software Colombia`} loading='lazy'/></SwiperSlide>
+                  <SwiperSlide><img src={(`/img/contacts/${officeImg}-2.jpg`)} alt={`${officeCity} - DreamCode Software Colombia`} loading='lazy'/></SwiperSlide>
               </Swiper>
               </div>
               <div className='pt-4 px-4 gap-3 d-grid'>

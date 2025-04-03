@@ -9,7 +9,10 @@ function BannerBenefits({ title, subtitle, description }) {
         <ContainerSection>
             <div className={`${style.bannerBenefits} position-relative d-flex justify-content-center`}>
                 <div className="col-lg-9 col-sm-12 gap-5 flex-direction-lg-row flex-direction-column">
-                    <Image src="/img/careers/Andres.png" width={150} height={250} />                   
+                    <Image 
+                        alt='Andres Rodriguez - DreamCode Software Colombia'
+                        src="/img/careers/Andres.png" 
+                        width={150} height={250} />                   
                         <div className="light-effect"></div>
                     <div className="w_color text-left pt-3">
                         <h2 className="f-lg-40 m_color f_600 l_height09">{title}</h2>
