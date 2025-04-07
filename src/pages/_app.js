@@ -6,6 +6,8 @@ import Layout from '@/components/UI/Layout';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createContext, useState, useEffect } from "react";
 import { appWithTranslation } from 'next-i18next';
+import AnalyticsScripts from '@/assets/SEO/AnalyticsScripts';
+
 import nextI18nextConfig from '../../next-i18next.config'; // Importar configuración
 import 'swiper/css';
 import '../../public/locales/i18n'
@@ -21,6 +23,7 @@ function MyApp({ Component, pageProps }) {
 
     return (
           <>
+          <AnalyticsScripts />
               <Layout>
                   <Component {...pageProps} />
               </Layout>
