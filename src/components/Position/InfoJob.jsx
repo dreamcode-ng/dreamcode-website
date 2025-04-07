@@ -56,7 +56,7 @@ function InfoJob ({ modality, experts, rol }) {
                   </div>
                   <div className='col-lg-5 mt-lg-0 mt-4'>
                     <h4 className='w_color f_800 f-lg-18 mb-4'>{t('title_rol')}</h4>
-                    <ul className='p_color'>
+                    <ul className='p_color ps-0'>
                       {
                         rol.map((item, i) =>{
                           return (

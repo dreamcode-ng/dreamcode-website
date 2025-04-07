@@ -41,9 +41,12 @@ function CardItem ({ name, link, experts, modality , years, location}) {
 							}   
 							</ul>
         				</div>
-						<div className={styles.button1}>
-								<Link href={link} className="d_color f_500 position-relative">{t('btn_apply')}</Link>
+						
+								<Link href={link} className="d_color w-100 f_500 position-relative">
+									<div className={styles.button1}>
+								{t('btn_apply')}
 						</div>
+								</Link>
       			</div>
     		</div>);
 };
