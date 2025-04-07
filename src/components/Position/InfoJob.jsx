@@ -20,7 +20,7 @@ function InfoJob ({ modality, experts, rol }) {
                   ? <BiTargetLock className='f_800' size={40}/> 
                   : <MdOnlinePrediction className='f_800' size={40}/>
                 }
-                  {modality === true ? ' Remote' : ' Presencial'}
+                  {modality === true ?  t('remote') : ' Presencial'}
               </h3>
               <p className='p_color f-lg-18 mt-4'>
                 {t('introduction')} 

@@ -1,7 +1,7 @@
 /* -- Form ---*/
 .form { padding: 40px 80px 80px; }
 .form input[type="checkbox"] { padding: 0 !important; margin-bottom: 3px;}
-.form input:invalid, .form input , .form textarea{
+.form input:invalid, .form input , .form textarea, .form select {
   padding: 14px 20px ;
   background-image: none !important;
   border-radius: 20px;

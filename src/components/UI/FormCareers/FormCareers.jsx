@@ -75,33 +75,48 @@ function Form ({ noTitle }) {
                         </div>    
                     }
 
-                    <form ref={form} onSubmit={sendEmail} className="needs-validation was-validated" method="post" id="contactForm" >
+                    <form ref={form} onSubmit={sendEmail} className="needs-validation was-validated position-relative" method="post" id="contactForm" >
                         <div className="row justify-content-center">
-                            <div className="col-lg-12">
+                            <div className="col-lg-6 mt-5">
                                 <label className="text-left f_600 w_color " htmlFor="exampleFormControlSelect1">{t('form_input_name')}</label>
                                 <div className="form-group text-left mt-3">
-                                    <input className="form-control  input" type="text" name="name" id="inputNombre" placeholder={t("form_placeholder_name")} required /> 
+                                    <input className="form-control z-index-9 input" type="text" name="name" id="inputNombre" placeholder={t("form_placeholder_name")} required /> 
                                 </div>
                             </div>
-                            <div className="col-lg-12 mt-5">
+                            <div className="col-lg-6 mt-5">
                                 <label className="text-left f_600 w_color " htmlFor="exampleFormControlSelect1">{t('form_input_email')}</label>
                                 <div className="form-group text-left mt-3">
                                     <input className="form-control  input" type="email" name="email" id="inputEmail4" placeholder="aspirante@mail.com" required/>
                                 </div>
                             </div>
-                            <div className="col-lg-12 mt-5">
+                            <div className="col-lg-6 mt-5">
+                                <label className="text-left f_600 w_color " htmlFor="exampleFormControlSelect1">{t('form_input_phone')}</label>
+                                <div className="form-group text-left mt-3">
+                                    <input className="form-control input" type="number" inputMode="numeric" name="phone" id="phone"  placeholder="+XX XXX XXX XX XX" required/>
+                                </div>
+                            </div>  
+                            <div className="col-lg-6 mt-5">
                                 <label className="text-left f_600 w_color " htmlFor="exampleFormControlSelect1">{t('form_input_position')}</label>
                                 <div className="form-group text-left mt-3">
                                     <input className="form-control input" type="text" name="position" id="position"  placeholder="Front-end engineer" required/>
                                 </div>
                             </div>  
-                            <div className="col-lg-12 mt-5">                
+                            <div className="col-lg-6 mt-5">                
                                 <label className="text-left f_600 w_color" htmlFor="exampleFormControlSelect1">{t("form_label_file_name")}<code className="w_color"> (Max. 400kb)</code></label>
                                 <div className="form-group text-left mt-3">
                                     <input type="file" name="file" id="file" accept="application/pdf, .doc, .docx, .odf" className="w-100 m_color" required/>
                                     <div className="valid-feedback">{t("form_label_file_valid")}</div>        
                                 </div>
-                            </div>                           
+                            </div>
+                            <div className="col-lg-6 mt-5">
+                                <label className="text-left f_600 w_color" htmlFor="exampleFormControlSelect1">{t("form_select_fluently")}</label>
+                                <div className="form-group text-left mt-3">
+                                    <select name="ingles" placeholder={t("form_select_fluently")} className={`w_color w-100`}>
+                                        <option name="Si" value="Si">{t("form_option_yes")}</option>
+                                        <option name="No" value="No">No</option>
+                                    </select>                                        
+                                </div>
+                            </div>                         
                             <div className="col-lg-12 mt-5 ">
                                 <label className="text-left f_600 w_color " htmlFor="exampleFormControlSelect1">{t('form_careers_message')}</label>
                                 <div className="form-group text-left mt-3">
