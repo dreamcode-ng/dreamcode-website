@@ -14,7 +14,7 @@ function InfoJob ({ modality, experts, rol }) {
   return (
         <ContainerSection>
             <div>
-              <h3 className='m_color f_800 f-lg-30'>
+              <h3 className='m_color f_800 f-lg-30 f-sm-20'>
                 {
                   modality === true
                   ? <BiTargetLock className='f_800' size={40}/> 
@@ -29,7 +29,7 @@ function InfoJob ({ modality, experts, rol }) {
 
             <div>
               <div className='row mt-5'>
-                  <div className='col-lg-7'>
+                  <div className='col-lg-7 mt-lg-0 mt-4'>
                     <div className=' -bg-secondary rounded-4 p-5 m-2'>
                       <h4 className='w_color f-lg-25'>{t('how_you_can')}</h4>
                       <ul className='my-4'>
@@ -54,7 +54,7 @@ function InfoJob ({ modality, experts, rol }) {
                       </ul>
                     </div>
                   </div>
-                  <div className='col-lg-5'>
+                  <div className='col-lg-5 mt-lg-0 mt-4'>
                     <h4 className='w_color f_800 f-lg-18 mb-4'>{t('title_rol')}</h4>
                     <ul className='p_color'>
                       {
