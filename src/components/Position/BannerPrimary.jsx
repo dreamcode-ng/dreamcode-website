@@ -6,12 +6,7 @@ import { MdLanguage } from "react-icons/md";
 import { FaMapMarkerAlt, FaPlus } from "react-icons/fa";
 
 
-function BannerPrimary({ name }) {
-
-  let years = "3 años de experiencia"
-  let location = "Cali"
-  let english = "inglés intermedio (B2+)"
-  let description = "Queremos construir con un profesional apasionado por la creación de aplicaciones escalables y con un alto desempeño. "
+function BannerPrimary({ name , years , english , location, description}) {
 
   return (
     <ContainerSection>

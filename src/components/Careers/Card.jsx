@@ -1,18 +1,20 @@
 import styles from './card.module.css';
 import { FaLocationDot } from "react-icons/fa6";
 import { BiWifi } from "react-icons/bi";
-import listJobsEn from '../../assets/jobs/enJobs.json';
-import listJobsEs from '../../assets/jobs/esJobs.json';
+import listJobsEn from '@/assets/jobs/enJobs.json';
+import listJobsEs from '@/assets/jobs/esJobs.json';
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
+import React from 'react';
+import { FaPlus } from 'react-icons/fa';
 
-function CardItem ({ name, link }) {
+function CardItem ({ name, link, experts, modality , years}) {
   	return (
     		<div className={`${styles.card} g-col-6`}>
       			<div className="d-flex w-100 flex-column align-items-start justify-content-start gap-3 ">
           					<div className={styles.frameParent}>
             						<div className={styles.textParent}>
-              							<div className="w_color f_500 position-relative">Remoto</div>
+              							<div className="w_color f_500 position-relative">{modality === true ? ' Remote' : ' Presencial'}</div>
               							<BiWifi />
             						</div>
             						<div className={styles.button}>
@@ -22,12 +24,16 @@ function CardItem ({ name, link }) {
           					</div>
           					<div className={styles.heading}>{name}</div>
         				<div className={styles.paragraph}>
-          					<p className={styles.experienciaEnReact2}>{`Experiencia en:React 2 años+  `}</p>
-          					<p className={styles.git}>{`GIT `}</p>
-          					<p className={styles.git}>Bases de datos relacionales y no relacionales</p>
-          					<p className={styles.git}>Pruebas A/B</p>
-          					<p className={styles.git}>Principios CleanCode</p>
-          					<p className={styles.git}>Metodologías ágiles</p>
+							<p className='w_color f_800 f-lg-18'><FaPlus /> {years}</p>
+							<ul className='list-unstyled '>
+							{
+								experts.map((item, i) =>{
+								return (
+									<li key={i} className='d-flex align-items-center p_color f-lg-15 ms-3'>- {item}</li>
+								)
+								})
+							}   
+							</ul>
         				</div>
 						<div className={styles.button1}>
 								<Link href={link} className="d_color f_500 position-relative">Quiero aplicar</Link>
@@ -39,7 +45,7 @@ function CardItem ({ name, link }) {
 export default function CardJobs() {
   const { i18n } = useTranslation();
   const lang = i18n.language;
-	const listJob = lang === 'en' ? listJobsEn : listJobsEs;
+	const listJob = lang === 'es' ? listJobsEs : listJobsEn;
 	
 	return (
 		<>		
@@ -47,8 +53,11 @@ export default function CardJobs() {
 				{
 					listJob.map((job) => (
 						<CardItem key={job.id}
+							years={job.years}
+							modality={job.remote}
 							link={`/careers/${job.url}`}
-							name={job.name} />
+							name={job.name} 
+							experts={job.experts}/>
 					))
 				}
 			</div>	

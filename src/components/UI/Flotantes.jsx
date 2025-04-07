@@ -7,7 +7,7 @@ function Flotantes() {
     return (            
         <div className="flotante">
             <a href={URL_WHATSAPP}>
-                <FaWhatsapp size={25}/>
+                <FaWhatsapp size={30}/>
             </a>
         </div>
     );

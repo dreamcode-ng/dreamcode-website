@@ -1,48 +1,27 @@
 [
     {
         "id": 0,
-        "name": "Desarrollador Backend",
-        "years": "3 años de experiencia",
+        "name": "Desarrollador iOS",
+        "years": "5 años de experiencia",
         "english": "inglés intermedio (B2+)",
-        "location": "Cali",
-        "modality": "Presencial",
+        "location": "Colombia",
+        "remote": true,
         "experts": [
-            "Angular",
-            "Typescript",
-            "MySQL",
-            "Design patterns",
-            "Metodologías ágiles"
+            "Swift ",
+            "Swift UI",
+            "Scrum",
+            "Design work "
         ],
-        "rol": "Resolverás problemas proponiendo ideas y soluciones que garanticen resultados grandiosos. Debes contribuir a la mejora continua del software, esto supone la escritura de un código limpio, óptimo, eficiente y disp.",
-        "url": "desarrollador-backend"
-    },
-    {
-        "id": 1,
-        "name": "Desarrollador Java",
-        "description": "Queremos construir con un profesional apasionado por la creación de aplicaciones escalables y con un alto desempeño",
-        "experts": [
-            "Experiencia en el desarrollo de aplicaciones utilizando: Java, Spring Boot, Rest Api, Security (Encryption, OAUTH, JWT, Api Security), Hibernate.",
-            "Conocimientos en desarrollo y análisis orientado a objetos",
-            "Implementación de proyectos de desarrollo de software guiado por pruebas (TDD) y desarrollo de test unitarios.",
-            "Conocimiento básico del ciclo de desarrollo del software (SDLC) y sus fases: análisis de requerimientos, diseño de sistemas, desarrollo ágil, pruebas unitarias y de servicios, control de versión (git), integración continua, infraestructura en la nube, seguridad y monitoreo de aplicaciones Java en producción.",
-            "Habilidades de comunicación en inglés intermedio (B1+)",
-            "5 años de experiencia"
+        "rol": [
+            "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
+            "Trabajarás con las tecnologías más avanzadas.",
+            "Estarás actualizado frente a las más recientes tendencias.",
+            "Generarás impacto en proyectos de escala mundial.",
+            "Trabajarás 100% remoto desde el lugar donde te sientas más cómodo y en horarios que no ponen tu vida al revés.",
+            "Aprenderás de profesionales que han desarrollado soluciones de un nivel superior.",
+            "Impulsarás tu carrera hacia el futuro del desarrollo de software.",
+            "Te desenvolverás en un entorno ágil y flexible."
         ],
-        "modality": "Remoto",
-        "rol": "Crear soluciones especializadas de software acorde a los requerimientos del cliente, completamente alineado a estándares internacionales para la creación de software (un código limpio, óptimo, eficiente y disponible para pruebas), contribuyendo así a la mejora continua y agregando valor en cada una de las fases del ciclo de vida de desarrollo del software. Interactuar y colaborar con los equipos de prueba (funcionales y automatizadas) para garantizar la calidad de todos los productos desarrollados y entregados.",
-        "url": "desarrollador-java"
-    },
-    {
-        "id": 2,
-        "name": "Desarrollador Frontend ",
-        "description": "Queremos construir con un profesional apasionado por la creación de aplicaciones escalables y con un alto desempeño",
-        "experts": [
-            "Experiencia trabajando con: Angular, Typescript, MySQL, Design patterns y metodologías ágiles",
-            "Habilidades de comunicación en inglés intermedio (B2+)",
-            "5 años de experiencia"
-        ],
-        "modality": "Remoto",
-        "rol": "Resolverás problemas proponiendo ideas y soluciones que garanticen resultados grandiosos. Debes contribuir a la mejora continua del software, esto supone la escritura de un código limpio, óptimo, eficiente y disponible para pruebas, así mismo adoptarás lenguajes y frameworks orientados a resolver de forma simple y limpia diversos problemas de software, por último, harás investigaciones para encontrar soluciones más eficientes a retos tecnológicos, participando activamente en la entrega de valor en cada uno de los procesos e ideas en software.",
-        "url": "desarrollador-frontend"
+        "url": "desarrollador-ios"
     }
 ]

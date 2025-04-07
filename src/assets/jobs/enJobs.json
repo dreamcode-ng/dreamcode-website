@@ -1,31 +1,27 @@
 [
     {
-        "id": 1,
-        "name": "Java Developer",
-        "description": "We want to build with a professional passionate about creating scalable applications with high performance",
+        "id": 0,
+        "name": "iOS Developer",
+        "years": "5 years of experience",
+        "english": "Intermediate English (B2+)",
+        "location": "Colombia",
+        "remote": true,
         "experts": [
-            "Experience in developing applications using: Java, Spring Boot, Rest Api, Security (Encryption, OAUTH, JWT, Api Security), Hibernate.",
-            "Knowledge in object-oriented development and analysis",
-            "Implementation of test-driven software development projects (TDD) and unit test development.",
-            "Basic knowledge of the software development cycle (SDLC) and its phases: requirements analysis, system design, agile development, unit and service testing, version control (git), continuous integration, cloud infrastructure, security and Monitoring of Java applications in production.",
-            "Intermediate English communication skills (B1+)",
-            "5 years of experience"
+            "Swift ",
+            "Swift UI",
+            "Scrum",
+            "Design work "
         ],
-        "modality": "Remote",
-        "rol": "Create specialized software solutions according to customer requirements, fully aligned with international standards for software creation (clean, optimal, efficient code available for testing), thus contributing to continuous improvement and adding value in each of the phases of the software development life cycle. Interact and collaborate with test teams (functional and automated) to ensure the quality of all products developed and delivered.",
-        "url": "desarrollador-java"
-    },
-    {
-        "id": 2,
-        "name": "Frontend Developer",
-        "description": "We want to build with a professional passionate about creating scalable applications with high performance",
-        "experts": [
-            "Experience working with: Angular, Typescript, MySQL, Design patterns and agile methodologies",
-            "Intermediate English communication skills (B2+)",
-            "5 years of experience"
+        "role": [
+            "You will develop your potential by serving different sectors and industries.",
+            "You will work with the most advanced technologies.",
+            "You will be up-to-date with the latest trends.",
+            "You will generate impact on global-scale projects.",
+            "You will work 100% remotely from the location where you feel most comfortable and at hours that don't turn your life upside down.",
+            "You will learn from professionals who have developed superior solutions.",
+            "You will propel your career toward the future of software development.",
+            "You will operate in an agile and flexible environment."
         ],
-        "modality": "Remote",
-        "rol": "You will solve problems by proposing ideas and solutions that guarantee great results. You must contribute to the continuous improvement of the software, this means writing clean, optimal, efficient code available for testing, you will also adopt languages and frameworks aimed at solving various software problems in a simple and clean way, finally you will do research to find more efficient solutions to technological challenges, actively participating in the delivery of value in each of the software processes and ideas.",
-        "url": "desarrollador-frontend"
+        "url": "desarrollador-ios"
     }
 ]

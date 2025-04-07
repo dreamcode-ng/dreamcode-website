@@ -11,7 +11,7 @@ import ReactGA from 'react-ga';
 import { useTranslation } from 'react-i18next';
 
 
-function Form () {
+function Form ({ noTitle }) {
 
       const { t } = useTranslation('form');
       const form = useRef();
@@ -40,7 +40,7 @@ function Form () {
             });
 
             setTimeout(function() {
-                event.target.reset(); // Resetea el formulario después de 3 segundos (3000 milisegundos)
+                event.target.reset(); 
             }, 2000);
 
         } else {
@@ -63,14 +63,18 @@ function Form () {
   return (
     <ContainerSection >
         <div className="row justify-content-center">
-            <div className="col-lg-9 col-sm-12 col-md-12">
+            <div className="col-lg-12 col-sm-12 col-md-12">
                 <ContainerCircule className={style.form}>
-                    <div className='py-5'>
-                        <h2 className='m_color f-lg-40 text-center'>
-                        {t('form_careers')}
-                        </h2>
-                        <p className='p_color f-lg-20 text-center mb-5'>{t('form_subtitle_careers')}</p>
-                    </div>      
+                    {  
+                    !noTitle && 
+                        <div className='py-5'>
+                            <h2 className='m_color f-lg-40 text-center'>
+                            {t('form_careers')}
+                            </h2>
+                            <p className='p_color f-lg-20 text-center mb-5'>{t('form_subtitle_careers')}</p>
+                        </div>    
+                    }
+
                     <form ref={form} onSubmit={sendEmail} className="needs-validation was-validated" method="post" id="contactForm" >
                         <div className="row justify-content-center">
                             <div className="col-lg-12">

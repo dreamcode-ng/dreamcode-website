@@ -1,8 +1,7 @@
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import { useRouter } from 'next/router';
 import InfoJob from '@/components/Position/InfoJob';
-import listJobsEn from '@/assets/jobs/enJobs.json';
-import listJobsEs from '@/assets/jobs/esJobs.json';
+import FormCareers from '@/components/UI/FormCareers/FormCareers';
 import { useTranslation } from 'react-i18next';
 import BannerPrimary from '@/components/Position/BannerPrimary';
 import NotFound from './../404';
@@ -21,18 +20,25 @@ export default function Offert({ job }) {
     return <NotFound />;
   }
 
-  const { name, description, modality } = job;
+  const { t } = useTranslation('profile');
+
+  const { name, experts, english, location, remote, years, rol } = job;
 
   return (
     <>
-      <BannerPrimary 
+    
+      <BannerPrimary
+        description={t('subtitle')}
         name={name}
-        years=""
-        english=""
-        location="" />
+        years={years}
+        english={english}
+        location={location} />
       <InfoJob 
-        modality={modality}
+        rol={rol}
+        experts={experts}
+        modality={remote}
       />
+      <FormCareers noTitle />
     </>
   );
 }
@@ -69,7 +75,7 @@ export const getStaticProps = async ({ params, locale }) => {
   return {
     props: {
       job,
-      ...(await serverSideTranslations(locale, ['common', 'layout', 'form'])),
+      ...(await serverSideTranslations(locale, ['profile', 'layout', 'form'])),
     },
     revalidate: 10, // Opcional: ISR para actualizar cada 10s
   };
