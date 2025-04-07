@@ -12,7 +12,7 @@ export default function Offert({ job }) {
 
   // Si la página aún se está generando, mostramos un loading
   if (router.isFallback) {
-    return <p>Cargando...</p>;
+    return <p className='text-center vh-100'>Cargando...</p>;
   }
 
   // Si el trabajo no existe, mostramos una página 404

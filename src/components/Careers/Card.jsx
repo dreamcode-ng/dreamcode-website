@@ -8,7 +8,7 @@ import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 
-function CardItem ({ name, link, experts, modality , years}) {
+function CardItem ({ name, link, experts, modality , years, location}) {
   	return (
     		<div className={`${styles.card} g-col-6`}>
       			<div className="d-flex w-100 flex-column align-items-start justify-content-start gap-3 ">
@@ -19,7 +19,7 @@ function CardItem ({ name, link, experts, modality , years}) {
             						</div>
             						<div className={styles.button}>
 										<FaLocationDot />
-              							<div className="w_color f_500 position-relative">Cali</div>
+              							<div className="w_color f_500 position-relative">{location}</div>
             						</div>
           					</div>
           					<div className={styles.heading}>{name}</div>
@@ -54,6 +54,7 @@ export default function CardJobs() {
 					listJob.map((job) => (
 						<CardItem key={job.id}
 							years={job.years}
+							location={job.location}
 							modality={job.remote}
 							link={`/careers/${job.url}`}
 							name={job.name} 
