@@ -22,11 +22,14 @@ export default function Offert({ job }) {
 
   const { t } = useTranslation('profile');
 
-  const { name, experts, english, location, remote, years, rol } = job;
+  const { name, experts, english, location, remote, years, rol , url} = job;
 
   return (
     <>
-    
+      <MetaDecorator 
+        title={name}
+        description={rol}
+        url={url} />
       <BannerPrimary
         description={t('subtitle')}
         name={name}
