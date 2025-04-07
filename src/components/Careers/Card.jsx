@@ -8,7 +8,13 @@ import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 
+
 function CardItem ({ name, link, experts, modality , years, location}) {
+
+	  const { t } = useTranslation('careers');
+
+
+	
   	return (
     		<div className={`${styles.card} g-col-6`}>
       			<div className="d-flex w-100 flex-column align-items-start justify-content-start gap-3 ">
@@ -36,7 +42,7 @@ function CardItem ({ name, link, experts, modality , years, location}) {
 							</ul>
         				</div>
 						<div className={styles.button1}>
-								<Link href={link} className="d_color f_500 position-relative">Quiero aplicar</Link>
+								<Link href={link} className="d_color f_500 position-relative">{t('btn_apply')}</Link>
 						</div>
       			</div>
     		</div>);

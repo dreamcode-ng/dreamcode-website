@@ -5,7 +5,7 @@ import CardJobs from './Card';
 import FormCareers from '@/components/UI/FormCareers/FormCareers';
 import ContainerSection from "../UI/Containers/ContainerSection";
 
-export default function TabCareers({ title, subtitle}) {
+export default function TabCareers({ title, subtitle }) {
 
     const [ jobs , setJob ] = useState(true)
 
