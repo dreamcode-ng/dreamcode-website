@@ -16,20 +16,21 @@ function CardItem ({ name, link, experts, modality , years, location}) {
 
 	
   	return (
-    		<div className={`${styles.card} g-col-6`}>
-      			<div className="d-flex w-100 flex-column align-items-start justify-content-start gap-3 ">
-          					<div className={styles.frameParent}>
-            						<div className={styles.textParent}>
-              							<div className="w_color f_500 position-relative">{modality === true ? ' Remote' : ' Presencial'}</div>
-              							<BiWifi />
-            						</div>
-            						<div className={styles.button}>
-										<FaLocationDot />
-              							<div className="w_color f_500 position-relative">{location}</div>
-            						</div>
-          					</div>
-          					<div className={styles.heading}>{name}</div>
-        				<div className={styles.paragraph}>
+			<Link href={link}>
+				<div className={`${styles.card} g-col-6`}>
+					<div className="d-flex w-100 flex-column align-items-start justify-content-start gap-3 ">
+						<div className={styles.frameParent}>
+							<div className={styles.textParent}>
+								<div className="w_color f_500 position-relative">{modality === true ? ' Remote' : ' Presencial'}</div>
+								<BiWifi />
+							</div>
+							<div className={styles.button}>
+								<FaLocationDot />
+								<div className="w_color f_500 position-relative">{location}</div>
+							</div>
+						</div>
+						<div className={styles.heading}>{name}</div>
+						<div className={styles.paragraph}>
 							<p className='w_color f_800 f-lg-18'><FaPlus /> {years}</p>
 							<ul className='list-unstyled '>
 							{
@@ -40,15 +41,16 @@ function CardItem ({ name, link, experts, modality , years, location}) {
 								})
 							}   
 							</ul>
-        				</div>
-						
-								<Link href={link} className="d_color w-100 f_500 position-relative">
-									<div className={styles.button1}>
-								{t('btn_apply')}
-						</div>
-								</Link>
-      			</div>
-    		</div>);
+						</div>						
+						<Link href={link} className="d_color w-100 f_500 position-relative">
+							<div className={styles.button1}>
+							{t('btn_apply')}
+							</div>
+						</Link>
+					</div>
+				</div>
+			</Link>
+			);
 };
 
 export default function CardJobs() {
