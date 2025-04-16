@@ -11,7 +11,7 @@ import OurDreamcoders from '@/components/UI/InfoCardWithImage/InfoCardWithImage'
 import BlogHome from '@/components/Home/BlogHome';
 import Form from '@/components/UI/Form/Form';
 import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import { Trans } from 'react-i18next';
 
 
