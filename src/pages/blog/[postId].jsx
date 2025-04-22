@@ -61,7 +61,6 @@ export default function Post({ post }) {
                     <code>{post.category}</code>                                                        
                   </div>
                   <div className="mt-4 f_p"> 
-                    <Markdown>{post.content}</Markdown> 
                     <Markdown
                       options={{
                         overrides: {
