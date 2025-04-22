@@ -177,8 +177,8 @@
 
   .flotante {
     position: fixed;
-    bottom: 12%;
-    right: -20px;
+    bottom: 5%;
+    right: -10px;
     width: 5rem;
     height: auto;
     border-radius: 0 15px 15px 0;
