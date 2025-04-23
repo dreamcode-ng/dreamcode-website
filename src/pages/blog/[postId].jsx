@@ -20,10 +20,7 @@ export default function Post({ post }) {
 
   // Si el post no existe, mostramos la página 404
   if (!post) {
-    const metaRobots = document.createElement('meta');
-    metaRobots.name = 'robots';
-    metaRobots.content = 'noindex';
-    document.head.appendChild(metaRobots);
+    
     return <NotFound />;
   }
 
