@@ -46,7 +46,7 @@ export default function Offert({ job }) {
   );
 }
 
-// 🔹 Define las rutas que deben ser pre-generadas
+// Define las rutas que deben ser pre-generadas
 export const getStaticPaths = async () => {
   const listJobsEs = require('@/assets/jobs/esJobs.json');
   const listJobsEn = require('@/assets/jobs/enJobs.json');
