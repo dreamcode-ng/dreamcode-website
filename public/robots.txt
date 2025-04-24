@@ -8,6 +8,9 @@ Allow: /en/*
 Allow: /blog/*
 Allow: /careers/*
 Disallow: /blog-single
+Disallow: /services
+Disallow: /vercel/*
+Disallow: /var/*
 Disallow: /dreamcoders
 Disallow: /scrum
 Disallow: /devops

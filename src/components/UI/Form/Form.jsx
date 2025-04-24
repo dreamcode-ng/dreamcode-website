@@ -103,7 +103,7 @@ function Form ( { noTitle }) {
                                 <div className="form-check d-flex align-items-center mt-5">
                                     <input className="form-check-input position-static me-3" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." required/>                        
                                     <label className="pl-2 w_color mt-lg-0 mt-3 form-check-label" htmlFor="gridCheck">        
-                                        {t('form_label_policy')} <a href="@/assets/documents/Tratamiento_de_Datos_Dreamcode.pdf" className='m_color' download="Tratamiento_de_Datos_Dreamcode.pdf">{t('form_policy')}</a>
+                                        {t('form_label_policy')} <a href="/documents/Tratamiento_de_Datos_Dreamcode.pdf" className='m_color' download="Tratamiento_de_Datos_Dreamcode.pdf">{t('form_policy')}</a>
                                     </label>
                                 </div>
                             </div>
