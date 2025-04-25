@@ -9,6 +9,7 @@ Allow: /blog/*
 Allow: /careers/*
 Disallow: /blog-single
 Disallow: /services
+Disallow: /static/*
 Disallow: /vercel/*
 Disallow: /var/*
 Disallow: /dreamcoders
