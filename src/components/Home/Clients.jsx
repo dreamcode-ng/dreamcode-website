@@ -28,7 +28,8 @@ const ClientsLogo = ({ image }) => (
     <figure className="h-auto w-100 position-relative">
         <Image
           src={`/img/clients/logo-${image}.png`}
-          alt={`Logo ${image} - Client of DreamCode Software Colombia`} 
+          title={`Our client ${image} of DreamCode Software Developers Colombia`} 
+          alt={`Logo of ${image}`} 
           width={200}
           height={100}
           loading="lazy"

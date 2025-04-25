@@ -14,7 +14,8 @@ export default function CardPost ( { image, title, read, date, url, content}) {
       <Link href={`/blog/${url}`} >
         <div  className={`${style.cardPost} w-100`}>
           <Image 
-            className="w-100 h-100" 
+            className="w-100 h-100"
+            title={`${title}`}
             alt={`Post ${title} - DreamCode Software Colombia`}
             src={`/img/posts/${image}`} 
             width={460} height={259}/>

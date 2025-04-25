@@ -23,11 +23,13 @@ function Footer({ t } ) {
                               <div className='d-flex mt-5 gap-3'>
                                 <Link href="https://clutch.co/profile/dreamcode" target="_blank">
                                   <Image src="/img/clients/clutch.svg" 
+                                    title='Our partner Clutch.co'
                                     alt='DreamCode Software Cali en Clutch'
                                     width={55} height={17} />
                                 </Link>   
                                 <Link href="https://www.topdevelopers.co/profile/dreamcode" target="_blank">
                                   <Image src="/img/clients/top-developers.svg" 
+                                  title='Our partner TopDevelopers.co'
                                     alt='DreamCode Software Cali en Top Developers'
                                     width={152} height={17} />
                                 </Link>
