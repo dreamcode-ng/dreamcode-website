@@ -23,5 +23,79 @@
             "You will operate in an agile and flexible environment."
         ],
         "url": "desarrollador-ios"
+    },
+    {
+        "id": 1,
+        "name": "Full Stack Engineer",
+        "years": "10 years of experience",
+        "english": "Intermediate English (B2)",
+        "location": "LATAM",
+        "remote": true,
+        "experts": [
+            "Java (8, 17)",
+            "Spring Boot",
+            "Microservices",
+            "Angular",
+            "Scrum"
+        ],
+        "rol": [
+            "You will develop your potential by serving different sectors and industries.",
+            "You will work with the most advanced technologies.",
+            "You will be up-to-date with the latest trends.",
+            "You will generate impact on global-scale projects.",
+            "You will work 100% remotely from the location where you feel most comfortable and at hours that don't turn your life upside down.",
+            "You will learn from professionals who have developed solutions of a higher level.",
+            "You will propel your career toward the future of software development.",
+            "You will operate in an agile and flexible environment."
+        ],
+        "url": "ingeniero-full-stack"
+    },
+    {
+        "id": 2,
+        "name": "Senior Java Developer",
+        "years": "10 years of experience",
+        "english": "Intermediate English (B2)",
+        "location": "LATAM",
+        "remote": true,
+        "experts": [
+            "Java (8, 17)",
+            "Spring Boot",
+            "Microservices",
+            "Scrum"
+        ],
+        "rol": [
+            "You will develop your potential by serving different sectors and industries.",
+            "You will work with the most advanced technologies.",
+            "You will be up-to-date with the latest trends.",
+            "You will generate impact on global-scale projects.",
+            "You will work 100% remotely from the location where you feel most comfortable and at hours that don't turn your life upside down.",
+            "You will learn from professionals who have developed solutions of a higher level.",
+            "You will propel your career toward the future of software development.",
+            "You will operate in an agile and flexible environment."
+        ],
+        "url": "desarrollador-java-senior"
+    },
+    {
+        "id": 3,
+        "name": "Senior Angular Engineer",
+        "years": "5 years of experience",
+        "english": "Intermediate English (B2)",
+        "location": "LATAM",
+        "remote": true,
+        "experts": [
+            "Angular",
+            "Scrum"
+        ],
+        "rol": [
+            "You will develop your potential by serving different sectors and industries.",
+            "You will work with the most advanced technologies.",
+            "You will be up-to-date with the latest trends.",
+            "You will generate impact on global-scale projects.",
+            "You will work 100% remotely from the location where you feel most comfortable and at hours that don't turn your life upside down.",
+            "You will learn from professionals who have developed solutions of a higher level.",
+            "You will propel your career toward the future of software development.",
+            "You will operate in an agile and flexible environment."
+        ],
+        "url": "ingeniero-angular-senior"
     }
 ]
