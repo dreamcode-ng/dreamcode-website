@@ -12,6 +12,8 @@ import nextI18nextConfig from '../../next-i18next.config'; // Importar configura
 import 'swiper/css';
 import '../../public/locales/i18n'
 
+import { Analytics } from '@vercel/analytics/next';
+
 export const ThemeContext = createContext(null);
 
 function MyApp({ Component, pageProps }) {
@@ -27,6 +29,7 @@ function MyApp({ Component, pageProps }) {
               <Layout>
                   <Component {...pageProps} />
               </Layout>
+          <Analytics />
           </>
     );
 }
