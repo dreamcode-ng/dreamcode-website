@@ -50,6 +50,13 @@
             "text": "We collaborated in the development of an online consumer loan with immediate disbursement, accessible through the web platform and mobile application. \n\nOur participation included integration with the Registry and credit bureau services, ensuring secure and reliable processes. \n\nIn addition, we provided support and improvements in the development of processes related to credit cards, including the management of payment platforms.",
             "image": "logo-falabella.svg",
             "isSlider": false
+        },
+        {
+            "title": "Pycca",
+            "subtitle": "Business dream: POS System",
+            "text": "We led the redesign of the POS system, modernizing its platform with new visual and technical features to enhance user experience and operational efficiency. \n\nThis key project will implement a PWA architecture for both online and offline operations, migrate to cloud-based microservices, and integrate with peripherals and external services while maintaining the current database. For DreamCode, this project strengthens its expertise in POS solutions, positions the company within the Ecuadorian retail sector, and establishes a long-term partnership with Pycca.",
+            "image": "pycca_logo.svg",
+            "isSlider": false
         }
     ],
     "title_form_stories": "What project do you have in mind?",
