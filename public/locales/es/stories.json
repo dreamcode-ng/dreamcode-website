@@ -54,7 +54,7 @@
         {
             "title": "Pycca",
             "subtitle": "Sueño de negocio: Sistema POS",
-            "text": "Lideramos el rediseño del  sistema POS, modernizando su plataforma con nuevas funcionalidades visuales y técnicas para mejorar la experiencia de usuario y la efioperativa. \n\nEl proyecto clave implementará una arquitectura PWA para operación online y offline, migrando a microservicios en la nube e integrándose con periféricos y seexternos, manteniendo la base de datos actual. Para DreamCode, este proyecto robustece su experiencia en POS, lo posiciona en el retail ecuatoriano y establece una relación plazo con Pycca.",
+            "text": "Lideramos el rediseño del  sistema POS, modernizando su plataforma con nuevas funcionalidades visuales y técnicas para mejorar la experiencia de usuario y la eficiencia operativa. \n\nEl proyecto clave implementará una arquitectura PWA para operación online y offline, migrando a microservicios en la nube e integrándose con periféricos y servicios externos, manteniendo la base de datos actual. Para DreamCode, este proyecto robustece su experiencia en POS, lo posiciona en el retail ecuatoriano y establece una relación a largo plazo con Pycca.",
             "image": "pycca_logo.svg",
             "isSlider": false
         }
