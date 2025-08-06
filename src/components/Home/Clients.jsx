@@ -15,7 +15,6 @@ const clientLogos = [
   "bolivar",
   "arity",
   "pycca",
-  "sequoia",
   "global-networks",
   "phonecheck",
   "square-trade",
