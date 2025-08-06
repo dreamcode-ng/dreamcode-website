@@ -38,10 +38,10 @@
             "isSlider": true
         },
         {
-            "title": "Sequoia",
-            "subtitle": "Sueño de negocio: Apple TradeIn Platform",
-            "text": "Desarrollamos una plataforma de comercio que habilita la entrega de  los celulares proporcionados por los clientes de Apple como parte de pago por sus nuevos dispositivos, a través de esta plataforma se prueban y evalúan para ser revendidos en diferentes mercados alrededor del mundo. \n\nLa plataforma se integra con Apple para soportar el complejo proceso de comercialización de dispositivos móviles (notificaciones de recepción de dispositivos, envío, conciliación, facturación, pruebas y re-venta), usando tecnologías como computación en la nube y analítica de datos, hoy Sequoia opera en diversos países en los 4 continentes.",
-            "image": "sequoia_logo.svg",
+            "title": "Arity",
+            "subtitle": "Sueño de negocio: Plataforma escalable para monetización publicitaria basada en datos de conducción",
+            "text": "Arity necesitaba una plataforma escalable que permitiera a sus clientes monetizar campañas publicitarias basadas en datos de conducción real. En DreamCode, diseñamos e implementamos una solución robusta que permite gestionar límites de anuncios, evaluar su rendimiento en tiempo real y procesar grandes volúmenes de datos en constante crecimiento. Basada en la suite de servicios de AWS, la plataforma garantiza alta disponibilidad, flexibilidad y capacidad de escalar conforme evoluciona la demanda del mercado publicitario. Gracias a esta infraestructura, Arity y sus clientes pueden generar ingresos sostenibles mientras optimizan la entrega de anuncios personalizados a gran escala.",
+            "image": "arity_logo.svg",
             "isSlider": false
         },
         {

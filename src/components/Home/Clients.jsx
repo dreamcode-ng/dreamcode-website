@@ -20,7 +20,8 @@ const clientLogos = [
   "phonecheck",
   "square-trade",
   "target",
-  "movizzon"
+  "movizzon",
+  "constructora-bolivar"
 ];
 
 // Componente para mostrar los logos

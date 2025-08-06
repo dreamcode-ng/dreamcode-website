@@ -38,10 +38,10 @@
             "isSlider": true
         },
         {
-            "title": "Sequoia",
-            "subtitle": "Business Dream: Apple Trade-In Platform",
-            "text": "We developed a trading platform that enables the delivery of mobile phones provided by Apple customers as part of payment for their new devices. Through this platform, the phones are tested and evaluated for resale in various markets around the world. \n\nThe platform integrates with Apple to support the complex process of mobile device commercialization (device receipt notifications, shipping, reconciliation, billing, testing, and resale), using technologies such as cloud computing and data analytics. Today, Sequoia operates in multiple countries across four continents.",
-            "image": "sequoia_logo.svg",
+            "title": "Arity",
+            "subtitle": "Business Dream: Scalable platform for advertising monetization based on driving data",
+            "text": "Arity needed a scalable platform that would enable its clients to monetize advertising campaigns based on real driving data. At DreamCode, we designed and implemented a robust solution that allows for managing ad limits, evaluating campaign performance in real time, and processing large volumes of continuously growing data. Built on the AWS services suite, the platform ensures high availability, flexibility, and scalability to meet the evolving demands of the advertising market. Thanks to this infrastructure, Arity and its clients can generate sustainable revenue while optimizing the delivery of personalized ads at scale.",
+            "image": "arity_logo.svg",
             "isSlider": false
         },
         {
