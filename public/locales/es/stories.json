@@ -18,7 +18,7 @@
         {
             "title": "SquareTrade",
             "subtitle": "Sueño de negocio: SourceRoot migration to microservice architecture",
-            "text": "SquareTrade es líder mundial en venta de seguros para dispositivos móviles, provee servicios de garantía extendida a 140 millones de clientes alrededor del mundo. DreamCode dispone de equipos ágiles para el desarrollo del proyecto SRE (SourceRoot Retirement), con el cual se pretende generar un 20% adicional de revenue anual. \n\nIntegramos equipos interdiciplinados de ingeniería combinando desarrollo de software con certificación de calidad, con el fin de realizar la migración de la arquitectura que soporta la operación de Squaretrade, de su sistema legacy a microservicios integrados unos con otros manteniendo así la operación y desmontando por completo el sistema monolito que correspondía al legacy.",
+            "text": "SquareTrade es líder mundial en venta de seguros para dispositivos móviles, provee servicios de garantía extendida a 140 millones de clientes alrededor del mundo. DreamCode dispone de equipos ágiles para el desarrollo del proyecto SRE (SourceRoot Retirement), con el cual se pretende generar un 20% adicional de revenue anual. \n\nIntegramos equipos interdisciplinarios de ingeniería combinando desarrollo de software con certificación de calidad, con el fin de realizar la migración de la arquitectura que soporta la operación de Squaretrade, de su sistema legacy a microservicios integrados unos con otros manteniendo así la operación y desmontando por completo el sistema monolito que correspondía al legacy.",
             "image": "squaretrade_logo.svg",
             "isSlider": false
         },
