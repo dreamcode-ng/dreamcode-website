@@ -74,7 +74,7 @@ function ContentSection ({ title, subtitle, text, image, isSlider, paragraph} ) 
             <Image src={`/img/stories-customers/${image}`} 
               alt="Stories of Customers - DreamCode Software Colombia" 
               style={{ objectFit: 'contain' }}
-              width={350} height={200}/>
+              width={350} height={100}/>
           </div>
         </div>
 
