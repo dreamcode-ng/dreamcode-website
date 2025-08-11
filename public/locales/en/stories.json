@@ -9,17 +9,17 @@
     "subtitle_stories": "Here we share a bit more about our work \nwith some of our clients",
     "customers_stories": [
         {
-            "title": "Target",
+            "title": "Retail company",
             "subtitle": "Business Dream: Connected Commerce – PAM",
-            "text": "We developed a software platform that allows Target Corp. to sell connected services (mobile phone plans, streaming video subscriptions, and cable TV) both in-store and online in an agile and seamless way, providing a frictionless experience for shoppers. \n\nThe PAM (Provisioning and Activation Management) module enables Target to integrate with service providers through cutting-edge technologies like APIs. Today, Target Corp. is a leader in the segment thanks to the innovation of this platform, generating over $40M in revenue every Black Friday.",
-            "image": "target_logo.svg",
+            "text": "We developed a software platform for the second-largest retailer in the U.S., which enables them to sell connected services, such as mobile phone plans, video streaming subscriptions, and cable TV, both in physical stores and online, in a fast, seamless, and frictionless way for customers. The PAM (Provisioning and Activation Management) module allows the retailer to integrate with service providers through cutting-edge technologies such as APIs. Today, the company leads the segment, and this platform has been a key component within a broader strategy that drives over US$40 million in revenue during each Black Friday.",
+            "image": "compania_retail_logo.svg",
             "isSlider": false
         },
         {
-            "title": "SquareTrade",
+            "title": "Insurance company",
             "subtitle": "Business Dream: SourceRoot migration to microservice architecture",
-            "text": "SquareTrade is the global leader in mobile device insurance, providing extended warranty services to 140 million customers worldwide. DreamCode has agile teams for the development of the SRE (SourceRoot Retirement) project, which aims to generate an additional 20% annual revenue. We integrate interdisciplinary engineering teams by combining software development with quality certification to migrate the architecture supporting SquareTrade’s operations from its legacy system to integrated microservices, thus maintaining operations while completely decommissioning the monolithic legacy system.",
-            "image": "squaretrade_logo.svg",
+            "text": "A U.S.-based global leader in mobile device insurance provides extended warranty services to 140 million customers worldwide. We form agile teams for the development of the SRE project, called SourceRoot Retirement, aiming to generate an additional 20% in annual revenue. We integrate interdisciplinary engineering teams that combine software development with quality assurance to carry out the migration of the architecture supporting this company’s operations, moving from a legacy system to interconnected microservices, thereby maintaining uninterrupted operations while fully dismantling the original monolithic system.",
+            "image": "compania_aseguradora_logo.svg",
             "isSlider": false
         },
         {
@@ -38,10 +38,10 @@
             "isSlider": true
         },
         {
-            "title": "Arity",
+            "title": "Data analytics company focused on mobility",
             "subtitle": "Business Dream: Scalable platform for advertising monetization based on driving data",
-            "text": "Arity needed a scalable platform that would enable its clients to monetize advertising campaigns based on real driving data. At DreamCode, we designed and implemented a robust solution that allows for managing ad limits, evaluating campaign performance in real time, and processing large volumes of continuously growing data. Built on the AWS services suite, the platform ensures high availability, flexibility, and scalability to meet the evolving demands of the advertising market. Thanks to this infrastructure, Arity and its clients can generate sustainable revenue while optimizing the delivery of personalized ads at scale.",
-            "image": "arity_logo.svg",
+            "text": "A U.S.-based technology and data analytics company specializing in mobility needed a scalable platform that would enable its clients to monetize advertising campaigns based on real driving data. At DreamCode, we designed and implemented a robust solution that manages ad limits, evaluates performance in real time, and processes large volumes of constantly growing data. Built on the AWS services suite, the platform ensures high availability, flexibility, and the ability to scale as the advertising market demand evolves. Thanks to this infrastructure, the company and its clients can generate sustainable revenue while optimizing the delivery of personalized ads at scale.",
+            "image": "compania_analisis_datos.svg",
             "isSlider": false
         },
         {

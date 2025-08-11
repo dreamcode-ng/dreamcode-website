@@ -9,17 +9,17 @@
     "subtitle_stories": "Aquí te contamos un poco más del trabajo\n con algunos de nuestros clientes",
     "customers_stories": [
         {
-            "title": "Target",
+            "title": "Compañía retail",
             "subtitle": "Sueño de negocio: Connected Commerce - PAM",
-            "text": "Desarrollamos una plataforma de software que le permite a Target Corp. vender servicios conectados (planes de telefonía móvil, suscripciones a servicios de streaming de video y tv por cable) desde sus tiendas físicas y en línea de una manera ágil y rápida, sin fricción para los compradores. \n\n El módulo PAM (Provisioning and Activation Management), permite a Target integrarse con los proveedores del servicio a través de tecnologías de vanguardia como APIs. Hoy Target Corp es líder en el segmento gracias a la innovación de esta plataforma con más de US$40M de ingresos en cada Black Friday.",
-            "image": "target_logo.svg",
+            "text": "Hemos desarrollado una plataforma de software para el segundo retailer más grande de EE.UU., la cual le permite comercializar servicios conectados, como planes de telefonía móvil, suscripciones a servicios de streaming de video y TV por cable, tanto en tiendas físicas como en línea, de manera ágil, rápida y sin fricción para los compradores. El módulo PAM (Provisioning and Activation Management) permite al retailer integrarse con los proveedores del servicio a través de tecnologías de vanguardia, como APIs. Hoy, esta empresa lidera el segmento, y esta plataforma ha sido una pieza clave dentro de una estrategia más amplia que genera más de US$40 millones en ingresos durante cada Black Friday.",
+            "image": "compania_retail_logo.svg",
             "isSlider": false
         },
         {
-            "title": "SquareTrade",
+            "title": "Compañía aseguradora",
             "subtitle": "Sueño de negocio: SourceRoot migration to microservice architecture",
-            "text": "SquareTrade es líder mundial en venta de seguros para dispositivos móviles, provee servicios de garantía extendida a 140 millones de clientes alrededor del mundo. DreamCode dispone de equipos ágiles para el desarrollo del proyecto SRE (SourceRoot Retirement), con el cual se pretende generar un 20% adicional de revenue anual. \n\nIntegramos equipos interdisciplinarios de ingeniería combinando desarrollo de software con certificación de calidad, con el fin de realizar la migración de la arquitectura que soporta la operación de Squaretrade, de su sistema legacy a microservicios integrados unos con otros manteniendo así la operación y desmontando por completo el sistema monolito que correspondía al legacy.",
-            "image": "squaretrade_logo.svg",
+            "text": "Una empresa estadounidense líder mundial en venta de seguros para dispositivos móviles provee servicios de garantía extendida a 140 millones de clientes alrededor del mundo. Formamos equipos ágiles para el desarrollo del proyecto SRE (SourceRoot Retirement), con el objetivo de generar un 20% adicional de ingresos anuales. Integramos equipos interdisciplinarios de ingeniería que combinan desarrollo de software con certificación de calidad, para realizar la migración de la arquitectura que soporta la operación de esta empresa, pasando de su sistema legacy a microservicios integrados entre sí, manteniendo así la operación sin interrupciones y desmontando por completo el sistema monolítico original.",
+            "image": "compania_aseguradora_logo.svg",
             "isSlider": false
         },
         {
@@ -38,10 +38,10 @@
             "isSlider": true
         },
         {
-            "title": "Arity",
+            "title": "Empresa de análisis de datos centrada en movilidad",
             "subtitle": "Sueño de negocio: Plataforma escalable para monetización publicitaria basada en datos de conducción",
-            "text": "Arity necesitaba una plataforma escalable que permitiera a sus clientes monetizar campañas publicitarias basadas en datos de conducción real. En DreamCode, diseñamos e implementamos una solución robusta que permite gestionar límites de anuncios, evaluar su rendimiento en tiempo real y procesar grandes volúmenes de datos en constante crecimiento. Basada en la suite de servicios de AWS, la plataforma garantiza alta disponibilidad, flexibilidad y capacidad de escalar conforme evoluciona la demanda del mercado publicitario. Gracias a esta infraestructura, Arity y sus clientes pueden generar ingresos sostenibles mientras optimizan la entrega de anuncios personalizados a gran escala.",
-            "image": "arity_logo.svg",
+            "text": "Una empresa estadounidense de tecnología y análisis de datos especializada en movilidad necesitaba una plataforma escalable que permitiera a sus clientes monetizar campañas publicitarias basadas en datos de conducción real. En DreamCode, diseñamos e implementamos una solución robusta que permite gestionar límites de anuncios, evaluar su rendimiento en tiempo real y procesar grandes volúmenes de datos en constante crecimiento. Basada en la suite de servicios de AWS, la plataforma garantiza alta disponibilidad, flexibilidad y capacidad de escalar conforme evoluciona la demanda del mercado publicitario. Gracias a esta infraestructura, la empresa y sus clientes pueden generar ingresos sostenibles mientras optimizan la entrega de anuncios personalizados a gran escala.",
+            "image": "compania_analisis_datos.svg",
             "isSlider": false
         },
         {
