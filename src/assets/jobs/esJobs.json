@@ -49,5 +49,45 @@
             "Te desenvolverás en un entorno ágil y flexible."
         ],
         "url": "ingeniero-full-stack"
+    },
+    {
+        "id": 2,
+        "name": "Ingenieri@ DBA",
+        "years": "4 años de experiencia",
+        "english": "Inglés intermedio (B2)",
+        "location": "LATAM",
+        "remote": true,
+        "experts": [
+            "Viviendo y haciendo con pasión todo lo que haces",
+            "Imaginando y creando posibilidades donde los demás solo ven obstáculos",
+            "Asumiendo la retroalimentación como una oportunidad de crecer y aprender",
+            "Enfocándote al logro y al cumplimiento de los objetivos",
+            "Oracle database administration",
+            "Oracle 18c y 19c",
+            "RMAN",
+            "Oracle Data Guard",
+            "Oracle Enterprise Manager",
+            "DATAPUMP",
+            "Performance tuning",
+            "Scripting en bash y PL/SQL",
+            "AWS Cloud, RDS, EC2",
+            "Certificación en Oracle/AWS"
+        ],
+        "rol": [
+            "Queremos construir con un profesional apasionado por la creación de aplicaciones escalables y con un alto desempeño.",
+            "Convertimos en realidad los sueños de las compañías, especialistas en servicios tecnológicos nearshore, utilizamos las metodologías y prácticas más eficientes para el desarrollo de software.",
+            "¿Cómo podrás lograrlo?",
+            "Experiencia trabajando con las tecnologías mencionadas.",
+            "En DreamCode:",
+            "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
+            "Trabajarás con las tecnologías más avanzadas.",
+            "Estarás actualizado frente a las más recientes tendencias.",
+            "Generarás impacto en proyectos de escala mundial.",
+            "Trabajarás 100% remoto desde el lugar donde te sientas más cómodo y en horarios que no ponen tu vida al revés.",
+            "Aprenderás de profesionales que han desarrollado soluciones de un nivel superior.",
+            "Impulsarás tu carrera hacia el futuro del desarrollo de software.",
+            "Te desenvolverás en un entorno ágil y flexible."
+        ],
+        "url": "ingenieria-dba"
     }
 ]

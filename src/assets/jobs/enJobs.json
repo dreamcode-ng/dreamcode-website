@@ -49,5 +49,45 @@
             "You will operate in an agile and flexible environment."
         ],
         "url": "ingeniero-full-stack"
+    },
+    {
+        "id": 2,
+        "name": "DBA Engineer",
+        "years": "4+ years of experience",
+        "english": "Intermediate English (B2)",
+        "location": "LATAM",
+        "remote": true,
+        "experts": [
+            "Living and doing everything you do with passion",
+            "Imagining and creating possibilities where others only see obstacles",
+            "Assuming feedback as an opportunity to grow and learn",
+            "Focusing on the achievement and fulfillment of objectives",
+            "Oracle database administration",
+            "Oracle 18c and 19c",
+            "RMAN",
+            "Oracle Data Guard",
+            "Oracle Enterprise Manager",
+            "DATAPUMP",
+            "Performance tuning",
+            "Scripting in bash and PL/SQL",
+            "AWS Cloud, RDS, EC2",
+            "Oracle/AWS certification"
+        ],
+        "rol": [
+            "We want to build with a professional passionate about creating scalable applications with high performance.",
+            "We make the dreams of companies come true, specialists in nearshore technology services, we use the most efficient methodologies and practices for software development.",
+            "How can you achieve it?",
+            "Experience working with the mentioned technologies.",
+            "In DreamCode:",
+            "You will develop your potential serving different sectors and industries.",
+            "You will work with the most advanced technologies.",
+            "You will be updated with the latest trends.",
+            "You will generate impact in projects on a global scale.",
+            "You will work 100% remotely from the place where you feel most comfortable and at times that do not put your life upside down.",
+            "You will learn from professionals who have developed solutions of a higher level.",
+            "You will propel your career towards the future of software development.",
+            "You will work in an agile and flexible environment."
+        ],
+        "url": "dba-engineer"
     }
 ]
