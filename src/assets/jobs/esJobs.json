@@ -58,16 +58,13 @@
         "location": "LATAM",
         "remote": true,
         "experts": [
-            "Oracle database administration",
-            "Oracle 18c y 19c",
+            "Oracle 18c and 19c",
             "RMAN",
             "Oracle Data Guard",
             "Oracle Enterprise Manager",
             "DATAPUMP",
             "Performance tuning",
-            "Scripting en bash y PL/SQL",
-            "AWS Cloud, RDS, EC2",
-            "Certificación en Oracle/AWS"
+            "Scripting in bash and PL/SQL"
         ],
         "rol": [
             "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
