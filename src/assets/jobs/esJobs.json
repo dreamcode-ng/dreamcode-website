@@ -77,5 +77,36 @@
             "Te desenvolverás en un entorno ágil y flexible."
         ],
         "url": "ingeniero-dba"
+    },
+    {
+        "id": 3,
+        "name": "Ingenieri@ React Native",
+        "years": "5 años de experiencia",
+        "english": "Inglés intermedio (B2)",
+        "location": "LATAM",
+        "remote": true,
+        "experts": [
+            "React Native",
+            "Advanced UI",
+            "Javascript",
+            "Rive",
+            "Reanimated",
+            "CI/CD",
+            "Debugging in React Native",
+            "GIT",
+            "Databases (SQL, Postgres, etc)",
+            "Agile methodologies Scrum"
+        ],
+        "rol": [
+            "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
+            "Trabajarás con las tecnologías más avanzadas.",
+            "Estarás actualizado frente a las más recientes tendencias.",
+            "Generarás impacto en proyectos de escala mundial.",
+            "Trabajarás 100% remoto desde el lugar donde te sientas más cómodo y en horarios que no ponen tu vida al revés.",
+            "Aprenderás de profesionales que han desarrollado soluciones de un nivel superior.",
+            "Impulsarás tu carrera hacia el futuro del desarrollo de software.",
+            "Te desenvolverás en un entorno ágil y flexible."
+        ],
+        "url": "ingeniero-react-native"
     }
 ]
