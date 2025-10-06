@@ -1,35 +1,10 @@
 [
     {
         "id": 0,
-        "name": "Desarrollador iOS",
-        "years": "5 años de experiencia",
-        "english": "Inglés intermedio (B2+)",
-        "location": "LATAM",
-        "remote": true,
-        "experts": [
-            "Swift ",
-            "Swift UI",
-            "Scrum",
-            "Design work "
-        ],
-        "rol": [
-            "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
-            "Trabajarás con las tecnologías más avanzadas.",
-            "Estarás actualizado frente a las más recientes tendencias.",
-            "Generarás impacto en proyectos de escala mundial.",
-            "Trabajarás 100% remoto desde el lugar donde te sientas más cómodo y en horarios que no ponen tu vida al revés.",
-            "Aprenderás de profesionales que han desarrollado soluciones de un nivel superior.",
-            "Impulsarás tu carrera hacia el futuro del desarrollo de software.",
-            "Te desenvolverás en un entorno ágil y flexible."
-        ],
-        "url": "desarrollador-ios"
-    },
-    {
-        "id": 1,
         "name": "Ingeniero Full Stack",
         "years": "10 años de experiencia",
         "english": "Inglés intermedio (B2)",
-        "location": "LATAM",
+        "location": "Colombia",
         "remote": true,
         "experts": [
             "Java (8, 17)",
@@ -49,64 +24,5 @@
             "Te desenvolverás en un entorno ágil y flexible."
         ],
         "url": "ingeniero-full-stack"
-    },
-    {
-        "id": 2,
-        "name": "Ingeniero DBA",
-        "years": "4 años de experiencia",
-        "english": "Inglés intermedio (B2)",
-        "location": "LATAM",
-        "remote": true,
-        "experts": [
-            "Oracle 18c and 19c",
-            "RMAN",
-            "Oracle Data Guard",
-            "Oracle Enterprise Manager",
-            "DATAPUMP",
-            "Performance tuning",
-            "Scripting in bash and PL/SQL"
-        ],
-        "rol": [
-            "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
-            "Trabajarás con las tecnologías más avanzadas.",
-            "Estarás actualizado frente a las más recientes tendencias.",
-            "Generarás impacto en proyectos de escala mundial.",
-            "Trabajarás 100% remoto desde el lugar donde te sientas más cómodo y en horarios que no ponen tu vida al revés.",
-            "Aprenderás de profesionales que han desarrollado soluciones de un nivel superior.",
-            "Impulsarás tu carrera hacia el futuro del desarrollo de software.",
-            "Te desenvolverás en un entorno ágil y flexible."
-        ],
-        "url": "ingeniero-dba"
-    },
-    {
-        "id": 3,
-        "name": "Ingenierio React Native",
-        "years": "5 años de experiencia",
-        "english": "Inglés intermedio (B2)",
-        "location": "LATAM",
-        "remote": true,
-        "experts": [
-            "React Native",
-            "Advanced UI",
-            "Javascript",
-            "Rive",
-            "Reanimated",
-            "CI/CD",
-            "Debugging in React Native",
-            "GIT",
-            "Databases (SQL, Postgres, etc)",
-            "Agile methodologies Scrum"
-        ],
-        "rol": [
-            "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
-            "Trabajarás con las tecnologías más avanzadas.",
-            "Estarás actualizado frente a las más recientes tendencias.",
-            "Generarás impacto en proyectos de escala mundial.",
-            "Trabajarás 100% remoto desde el lugar donde te sientas más cómodo y en horarios que no ponen tu vida al revés.",
-            "Aprenderás de profesionales que han desarrollado soluciones de un nivel superior.",
-            "Impulsarás tu carrera hacia el futuro del desarrollo de software.",
-            "Te desenvolverás en un entorno ágil y flexible."
-        ],
-        "url": "ingeniero-react-native"
     }
 ]

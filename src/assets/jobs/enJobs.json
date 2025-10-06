@@ -1,35 +1,10 @@
 [
     {
         "id": 0,
-        "name": "iOS Developer",
-        "years": "5 years of experience",
-        "english": "Intermediate English (B2+)",
-        "location": "LATAM",
-        "remote": true,
-        "experts": [
-            "Swift ",
-            "Swift UI",
-            "Scrum",
-            "Design work "
-        ],
-        "rol": [
-            "You will develop your potential by serving different sectors and industries.",
-            "You will work with the most advanced technologies.",
-            "You will be up-to-date with the latest trends.",
-            "You will generate impact on global-scale projects.",
-            "You will work 100% remotely from the location where you feel most comfortable and at hours that don't turn your life upside down.",
-            "You will learn from professionals who have developed superior solutions.",
-            "You will propel your career toward the future of software development.",
-            "You will operate in an agile and flexible environment."
-        ],
-        "url": "desarrollador-ios"
-    },
-    {
-        "id": 1,
         "name": "Full Stack Engineer",
         "years": "10 years of experience",
         "english": "Intermediate English (B2)",
-        "location": "LATAM",
+        "location": "Colombia",
         "remote": true,
         "experts": [
             "Java (8, 17)",
@@ -49,64 +24,5 @@
             "You will operate in an agile and flexible environment."
         ],
         "url": "ingeniero-full-stack"
-    },
-    {
-        "id": 2,
-        "name": "DBA Engineer",
-        "years": "4 years of experience",
-        "english": "Intermediate English (B2)",
-        "location": "LATAM",
-        "remote": true,
-        "experts": [
-            "Oracle 18c and 19c",
-            "RMAN",
-            "Oracle Data Guard",
-            "Oracle Enterprise Manager",
-            "DATAPUMP",
-            "Performance tuning",
-            "Scripting in bash and PL/SQL"
-        ],
-        "rol": [
-            "You will develop your potential serving different sectors and industries.",
-            "You will work with the most advanced technologies.",
-            "You will be updated with the latest trends.",
-            "You will generate impact in projects on a global scale.",
-            "You will work 100% remotely from the place where you feel most comfortable and at times that do not put your life upside down.",
-            "You will learn from professionals who have developed solutions of a higher level.",
-            "You will propel your career towards the future of software development.",
-            "You will work in an agile and flexible environment."
-        ],
-        "url": "ingeniero-dba"
-    },
-    {
-        "id": 3,
-        "name": "React Native Engineer",
-        "years": "5 years of experience",
-        "english": "Intermediate English (B2)",
-        "location": "LATAM",
-        "remote": true,
-        "experts": [
-            "React Native",
-            "Advanced UI",
-            "Javascript",
-            "Rive",
-            "Reanimated",
-            "CI/CD",
-            "Debugging in React Native",
-            "GIT",
-            "Databases (SQL, Postgres, etc)",
-            "Agile methodologies Scrum"
-        ],
-        "rol": [
-            "You will develop your potential serving different sectors and industries.",
-            "You will work with the most advanced technologies.",
-            "You will be updated with the latest trends.",
-            "You will generate impact in projects on a global scale.",
-            "You will work 100% remotely from the place where you feel most comfortable and at times that do not put your life upside down.",
-            "You will learn from professionals who have developed solutions of a higher level.",
-            "You will propel your career towards the future of software development.",
-            "You will work in an agile and flexible environment."
-        ],
-        "url": "ingeniero-react-native"
     }
 ]
