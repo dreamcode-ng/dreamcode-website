@@ -59,7 +59,7 @@ function ContentSection ({ title, subtitle, text, image, isSlider, paragraph} ) 
               {
                 paragraph.map((paragraphs, index) => (
                 <SwiperSlide key={index}>
-                  <h3 className="f-lg-18 mb-3">{paragraphs.subtitle}</h3>
+                  <h3 className="f-lg-18 mb-3"><strong>{paragraphs.subtitle}</strong></h3>
                   <p className="text-start f-lg-18">{paragraphs.text}</p>
                 </SwiperSlide>
               ))}             
