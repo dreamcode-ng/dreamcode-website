@@ -57,6 +57,13 @@
             "text": "Lideramos el rediseño del  sistema POS, modernizando su plataforma con nuevas funcionalidades visuales y técnicas para mejorar la experiencia de usuario y la eficiencia operativa. \n\nEl proyecto clave implementará una arquitectura PWA para operación online y offline, migrando a microservicios en la nube e integrándose con periféricos y servicios externos, manteniendo la base de datos actual. Para DreamCode, este proyecto robustece su experiencia en POS, lo posiciona en el retail ecuatoriano y establece una relación a largo plazo con Pycca.",
             "image": "pycca_logo.svg",
             "isSlider": false
+        },
+        {
+            "title": "Jelpit",
+            "subtitle": "Sueño de negocio: Plataforma para la administración de vivienda",
+            "text": "Creamos una solución web en modalidad SaaS que permite a Seguros Bolívar optimizar la gestión de conjuntos residenciales, integrando en una sola plataforma funcionalidades clave como administración de cartera, zonas comunes, videollamadas, PQRs, seguros de arrendamiento y un portal para residentes. \n\nEl proyecto fue desarrollado con una arquitectura modular escalable, buenas prácticas de e-commerce y metodologías ágiles, consolidándose como una herramienta robusta, centrada en la experiencia de usuario, y una de las soluciones más completas del mercado colombiano en administración de vivienda.",
+            "image": "jelpit_logo.svg",
+            "isSlider": false
         }
     ],
     "title_form_stories": "¿Qué proyecto tienes en mente?",

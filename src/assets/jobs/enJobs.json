@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Full Stack Engineer",
-        "years": "10 years of experience",
+        "years": "5 years of experience",
         "english": "Intermediate English (B2)",
         "location": "Colombia",
         "remote": true,
@@ -11,7 +11,14 @@
             "Spring Boot",
             "Microservices",
             "Angular",
-            "Scrum"
+            "Scrum",
+            "CI/CD",
+            "Rest APIs",
+            "Hibernate",
+            "HTML, CSS, JavaScript, JSP",
+            "Scripting with Bash and (batch) processing",
+            "GIT",
+            "Azure cloud"
         ],
         "rol": [
             "You will develop your potential by serving different sectors and industries.",

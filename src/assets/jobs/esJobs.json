@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Ingeniero Full Stack",
-        "years": "10 años de experiencia",
+        "years": "5 años de experiencia",
         "english": "Inglés intermedio (B2)",
         "location": "Colombia",
         "remote": true,
@@ -11,7 +11,14 @@
             "Spring Boot",
             "Microservicios",
             "Angular",
-            "Scrum"
+            "Scrum",
+            "CI/CD",
+            "Rest APIs",
+            "Hibernate",
+            "HTML, CSS, JavaScript, JSP",
+            "Programación de scripts con Bash y procesamiento por lotes",
+            "GIT",
+            "Azure cloud"
         ],
         "rol": [
             "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
