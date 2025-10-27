@@ -64,6 +64,13 @@
             "text": "We created a SaaS web solution that enables Seguros Bolívar to optimize the management of residential complexes by integrating key functionalities into a single platform. These include portfolio management, common areas, video calls, service requests (PQRs), lease insurance, and a resident portal. \n\nThe project was developed with a scalable modular architecture, e-commerce best practices, and agile methodologies, resulting in a robust, user-centered tool that has become one of the most comprehensive residential management solutions in the Colombian market.",
             "image": "jelpit_logo.svg",
             "isSlider": false
+        },
+        {
+            "title": "Auxis",
+            "subtitle": "Business Dream: Next-generation payment infrastructure",
+            "text": "We collaborated with one of the world’s leading payment networks to redesign its transactional gateways across North America, Latin America, and CEMEA, enabling local and international transfers for financial institutions and large-scale merchants. \n\nWe restructured microservices-based and multi-layered architectures, resulting in performance improvements of critical services ranging from 10% to 50%, while ensuring uninterrupted operations under strict security standards such as PCI and PII. \n\nAs part of the development, we integrated artificial intelligence capabilities for dynamic risk assessment, strengthening fraud prevention mechanisms and identity verification (KYC) processes within the payment ecosystem.",
+            "image": "auxis_logo.svg",
+            "isSlider": false
         }
 
     ],

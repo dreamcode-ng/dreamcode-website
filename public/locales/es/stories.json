@@ -64,6 +64,13 @@
             "text": "Creamos una solución web en modalidad SaaS que permite a Seguros Bolívar optimizar la gestión de conjuntos residenciales, integrando en una sola plataforma funcionalidades clave como administración de cartera, zonas comunes, videollamadas, PQRs, seguros de arrendamiento y un portal para residentes. \n\nEl proyecto fue desarrollado con una arquitectura modular escalable, buenas prácticas de e-commerce y metodologías ágiles, consolidándose como una herramienta robusta, centrada en la experiencia de usuario, y una de las soluciones más completas del mercado colombiano en administración de vivienda.",
             "image": "jelpit_logo.svg",
             "isSlider": false
+        },
+        {
+            "title": "Auxis",
+            "subtitle": "Sueño de negocio: Infraestructura de pagos de próxima generación",
+            "text": "Colaboramos con una de las principales redes de pagos del mundo en el rediseño de sus pasarelas transaccionales en América del Norte, América Latina y CEMEA, habilitando transferencias locales e internacionales para instituciones financieras y grandes comercios. \n\nReestructuramos arquitecturas basadas en microservicios y sistemas multicapa, lo que permitió mejorar el rendimiento de servicios críticos entre un 10 % y un 50 %, garantizando operaciones ininterrumpidas bajo estrictos estándares de seguridad como PCI y PII. \n\nComo parte del desarrollo, incorporamos capacidades de inteligencia artificial para la evaluación dinámica de riesgos, fortaleciendo los mecanismos de prevención de fraude y los procesos de verificación de identidad (KYC) dentro del ecosistema de pagos.",
+            "image": "auxis_logo.svg",
+            "isSlider": false
         }
     ],
     "title_form_stories": "¿Qué proyecto tienes en mente?",
