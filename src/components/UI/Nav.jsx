@@ -61,7 +61,7 @@ function Nav({ t }) {
                    : ''
                 }
                 <li className="nav-item">
-                  <Link className="nav-link f_400 w_color" href="/projects">{t('projects')}</Link>
+                  <Link className="nav-link f_400 w_color" href="/success-stories">{t('projects')}</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link f_400 w_color" href="/about">{t('about')}</Link>

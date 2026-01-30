@@ -44,7 +44,6 @@ function Footer({ t } ) {
                             <p className="f-lg-15 mb-3"><span className='m_color'>{t('phone')}:</span> <Link href="tel:573152206211"  className="f_500">+57 315 220 62 11</Link></p>
                             <p className="f-lg-15 mb-3"><span className='m_color'>United States, Miami</span><br></br><Link href="https://maps.app.goo.gl/NBWER2zyyWD8rXfB7" target="_blank" rel="noopener noreferrer" className="f_400"> 8004 NW Street 154 STE 646, <br></br>Hialeah, FL 33016</Link></p>
                             <p className="f-lg-15 mb-3"><span className='m_color'>Colombia, Cali</span><br></br><Link href="https://goo.gl/maps/Ync42KoKat2ckRW86" target="_blank" rel="noopener noreferrer" className="f_400"> Carrera 100 #16-321, <br></br>Edificio Jardín Central, Oficina 1202</Link></p>
-                            <p className="f-lg-15 mb-3"><span className='m_color'>Colombia, Bogotá</span><br></br><Link href="https://maps.app.goo.gl/prTXytC9PeVvSKYM6" target="_blank" rel="noopener noreferrer" className="f_400"> Dg. 25g #95a - 85, <br></br>Centro Empresarial Buró 25, Oficina 112</Link></p>
                         </div>
                       </div>                    
                       <Widget                                 

@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { createContext, useState, useEffect } from "react";
 import { appWithTranslation } from 'next-i18next';
 import AnalyticsScripts from '@/assets/SEO/AnalyticsScripts';
+import { Analytics } from '@vercel/analytics/react';
+
 
 import nextI18nextConfig from '../../next-i18next.config'; // Importar configuración
 import 'swiper/css';
@@ -27,6 +29,7 @@ function MyApp({ Component, pageProps }) {
               <Layout>
                   <Component {...pageProps} />
               </Layout>
+              <Analytics />
           </>
     );
 }

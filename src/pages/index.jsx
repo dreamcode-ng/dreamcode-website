@@ -32,7 +32,7 @@ export default function Home() {
               withWave
               withLink
               textWave={t('wave')}
-              href="/projects"
+              href="/success-stories"
               title={
                 <Trans i18nKey="title_home" ns="home">
                   Software <strong>developers</strong>

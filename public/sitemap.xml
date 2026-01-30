@@ -85,22 +85,22 @@
 	</url>
 
     <url>
-		<loc>https://www.dreamcodesoft.com/projects</loc>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.dreamcodesoft.com/en/projects" />
-        <xhtml:link rel="alternate" hreflang="es" href="https://www.dreamcodesoft.com/es/projects" />
-		<xhtml:link rel="canonical" hreflang="es" href="https://www.dreamcodesoft.com/projects" />
+		<loc>https://www.dreamcodesoft.com/success-stories</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.dreamcodesoft.com/en/success-stories" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dreamcodesoft.com/es/success-stories" />
+		<xhtml:link rel="canonical" hreflang="es" href="https://www.dreamcodesoft.com/success-stories" />
 	</url>
 	<url>
-		<loc>https://www.dreamcodesoft.com/es/projects</loc>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.dreamcodesoft.com/en/projects" />
-        <xhtml:link rel="alternate" hreflang="es" href="https://www.dreamcodesoft.com/es/projects" />
-		<xhtml:link rel="canonical" hreflang="es" href="https://www.dreamcodesoft.com/projects" />
+		<loc>https://www.dreamcodesoft.com/es/success-stories</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.dreamcodesoft.com/en/success-stories" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dreamcodesoft.com/es/success-stories" />
+		<xhtml:link rel="canonical" hreflang="es" href="https://www.dreamcodesoft.com/success-stories" />
 	</url>
     <url>
-		<loc>https://www.dreamcodesoft.com/en/projects</loc>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.dreamcodesoft.com/en/projects" />
-        <xhtml:link rel="alternate" hreflang="es" href="https://www.dreamcodesoft.com/es/projects" />
-		<xhtml:link rel="canonical" hreflang="es" href="https://www.dreamcodesoft.com/projects" />
+		<loc>https://www.dreamcodesoft.com/en/success-stories</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.dreamcodesoft.com/en/success-stories" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.dreamcodesoft.com/es/success-stories" />
+		<xhtml:link rel="canonical" hreflang="es" href="https://www.dreamcodesoft.com/success-stories" />
 	</url>
 
         <url>

@@ -38,4 +38,4 @@ As technology evolves and companies strive to stay ahead, the demand for certain
 
 At DreamCode, we stand out as a reliable strategic partner for U.S. companies looking for customized, high-impact tech solutions. Our experience collaborating with a diverse range of global companies has allowed us to perfect our ability to understand the specific needs of each client and deliver innovative solutions. By leveraging Colombian and Latin American talent, combined with our strategic geographic location, we offer real-time collaboration and flexible scalability, enabling us to help transform operations, boost competitiveness, and overcome digital market challenges. Furthermore, our partnership allows U.S. companies to benefit from significant cost savings without compromising quality, all while focusing on their core business.
 
-Learn more about our projects here: [DreamCode Customer Stories](https://www.dreamcodesoft.com/en/projects)
+Learn more about our projects here: [DreamCode Customer Stories](https://www.dreamcodesoft.com/en/success-stories)

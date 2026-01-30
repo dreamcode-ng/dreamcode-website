@@ -21,7 +21,7 @@ function ExperienceRocket() {
               </h2>
               <p className=" mt-3 f-lg-20 p_color text-lg-start">
                 <strong>{t('text_experience')}</strong></p>
-              <ButtonIcon className="align-items-start mt-5 mt-5" link="/projects" text={t('btn_read_more')} />            
+              <ButtonIcon className="align-items-start mt-5 mt-5" link="/success-stories" text={t('btn_read_more')} />            
             </div>
             <div className="col-12 col-lg-4">
               <AnimationUse animationName="rocket"/>
