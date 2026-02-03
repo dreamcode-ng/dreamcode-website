@@ -28,9 +28,7 @@ export default function Careers() {
         title={t('banner_title')}
         subtitle={t('banner_subtitle')}
         description={t('banner_description')} />
-      <CirculeList 
-        title={t('title_benefits')}
-        dataList={Array.isArray(benefits) ? benefits : Object.values(benefits)}/>
+
       <ContainerSection>     
         <ContainerCircule className="px_50 py_60">
           <h2 className='w_color text-center mb-5 z-indez-9 position-relative'>

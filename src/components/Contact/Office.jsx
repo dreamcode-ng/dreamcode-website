@@ -14,10 +14,6 @@ export default function Office({ title}) {
         </div>
         <div className='row justify-content-center'>
             <OfficeItem 
-                officeImg='sede-bogota'
-                officeCity='Bogotá, Colombia'
-                officeAddress='Dg. 25g #95a - 85, Centro Empresarial Buró 25, Oficina 112' />
-            <OfficeItem 
                 officeImg='sede-san-francisco'
                 officeCity='Miami, United States'
                 officeAddress=' 154th Street, Suite 646, Miami, FL8004 NW.' />
