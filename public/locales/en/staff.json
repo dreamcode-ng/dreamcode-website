@@ -70,5 +70,27 @@
             "image": "talent-culture",
             "description": "He works under a corporate culture"
         }
-    ]
+    ],
+    "icon_names": {
+        "react": "React library for building web user interfaces",
+        "angular": "Angular framework for web application development",
+        "java": "Java programming language for backend and enterprise systems",
+        "javascript": "JavaScript language for web development",
+        "python": "Python programming language for backend development and automation",
+        "node": "Node.js runtime environment for backend development",
+        "aws": "Amazon Web Services cloud computing platform",
+        "php": "PHP programming language for server-side web development",
+        "ionic": "Ionic framework for hybrid mobile application development",
+        "groovy": "Groovy language for JVM-based applications",
+        "flutter": "Flutter framework for cross-platform mobile development",
+        "azure": "Microsoft Azure cloud services platform",
+        "typescript": "TypeScript language for large-scale JavaScript development",
+        "kotlin": "Kotlin programming language for backend and mobile development",
+        "react_native": "React Native framework for mobile application development",
+        "cucumber": "Cucumber framework for behavior-driven testing",
+        "selenium": "Selenium tool for automated web testing",
+        "kafka": "Apache Kafka platform for event streaming",
+        "microservices": "Microservices architecture for distributed systems",
+        "devops": "DevOps practices for continuous integration and delivery"
+    }
 }

@@ -70,5 +70,27 @@
             "image": "talent-valor",
             "description": "Trabaja bajo una cultura corporativa"
         }
-    ]
+    ],
+    "icon_names": {
+        "react": "React, librería para construir interfaces web",
+        "angular": "Angular, framework para desarrollo de aplicaciones web",
+        "java": "Java, lenguaje de programación para sistemas backend y empresariales",
+        "python": "Python, lenguaje de programación para desarrollo backend y automatización",
+        "node": "Node.js, entorno de ejecución para desarrollo backend",
+        "aws": "Amazon Web Services, plataforma de servicios en la nube",
+        "php": "PHP, lenguaje de programación para desarrollo web del lado del servidor",
+        "javascript": "JavaScript, lenguaje para desarrollo web",
+        "ionic": "Ionic, framework para desarrollo de aplicaciones móviles híbridas",
+        "groovy": "Groovy, lenguaje para aplicaciones basadas en la JVM",
+        "flutter": "Flutter, framework para desarrollo de aplicaciones móviles multiplataforma",
+        "azure": "Microsoft Azure, plataforma de servicios en la nube",
+        "typescript": "TypeScript, lenguaje para desarrollo de aplicaciones JavaScript a gran escala",
+        "kotlin": "Kotlin, lenguaje de programación para backend y desarrollo móvil",
+        "react_native": "React Native, framework para desarrollo de aplicaciones móviles",
+        "cucumber": "Cucumber, framework para pruebas basadas en comportamiento",
+        "selenium": "Selenium, herramienta para automatización de pruebas web",
+        "kafka": "Apache Kafka, plataforma de procesamiento de eventos en tiempo real",
+        "microservices": "Arquitectura de microservicios para sistemas distribuidos",
+        "devops": "DevOps, prácticas para integración y entrega continua"
+    }
 }
