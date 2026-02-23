@@ -1,7 +1,7 @@
 {
     "meta_title": "Staff Augmentation y Outsourcing TI | Talento Senior",
     "meta_description": "Ingenieros y perfiles TI especializados, con seniority y dominio en múltiples tecnologías, integrados a equipos de desarrollo.",
-    "subtitle": "Convierte tus ideas en resultados tangibles con el talento especializado que necesitas",
+    "subtitle": "Integra profesionales en tecnología a tu equipo según las necesidades de tu proyecto.",
     "title_animation": "Sumar talento TI a tu equipo te permite escalar tus capacidades rápidamente y asegurar la ejecución precisa de tus proyectos.",
     "subtitle_animation": "Nos integramos ágilmente a tu cultura organizacional, actuando como aliados que refuerzan tu innovación y optimizan la eficiencia en cada etapa.",
     "btn_animation": "Amplia tu equipo",
@@ -28,16 +28,16 @@
             "description": "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería."
         }
     ],
-    "title_list": "Todo un equipo calificado en:",
+    "title_list": "Perfiles que puedes integrar:",
     "item_list": [
-        "Desarrollo móvil",
-        "Desarrollo Front-end ",
-        "Control de calidad manual y automatizado",
-        "Desarrollo Back-end",
-        "Desarrollo Full stack",
-        "Arquitectura de software",
-        "Cloud computing",
-        "Metodologías ágiles"
+        "Desarrolladores Móviles (iOS / Android)",
+        "Desarrolladores Frontend",
+        "Desarrolladores Backend",
+        "Desarrolladores Full Stack",
+        "Ingenieros de QA (pruebas manuales y automatizadas)",
+        "Arquitectos de software",
+        "Ingenieros Cloud",
+        "Scrum Masters / Agile Coaches"
     ],
     "title_icons": "Principales tecnologías con las que trabajamos",
     "title_talent": "Nuestro talento ",

@@ -1,7 +1,7 @@
 {
     "meta_title": "IT Staff Augmentation | Nearshore Software Engineers",
     "meta_description": "Specialized software engineers and IT professionals, with senior-level expertise across multiple technologies, integrated into development teams.",
-    "subtitle": "Turn your ideas into tangible results with the specialized talent you need.",
+    "subtitle": "Integrate technology professionals into your team based on your project’s needs.",
     "title_animation": "Adding IT talent to your team allows you to quickly scale your capabilities and ensure the precise execution of your projects. ",
     "subtitle_animation": "We seamlessly integrate into your organizational culture, acting as partners who reinforce your innovation and optimize efficiency at every stage. ",
     "btn_animation": "Expand your team",
@@ -28,16 +28,16 @@
             "description": "Continuous monitoring ensures team members stay aligned with project objectives, making adjustments as needed, with ongoing support from HR and engineering."
         }
     ],
-    "title_list": "A qualified team in:",
+    "title_list": "Profiles you can integrate:",
     "item_list": [
-        "Mobile Development",
-        "Front-end Development",
-        "Manual and Automated Quality Control",
-        "Back-end Development",
-        "Full-stack Development",
-        "Software Architecture",
-        "Cloud Computing",
-        "Agile Methodologies"
+        "Mobile Developers (iOS / Android)",
+        "Frontend Developers",
+        "Backend Developers",
+        "Full Stack Developers",
+        "QA Engineers (manual and automated testing)",
+        "Software Architects",
+        "Cloud Engineers",
+        "Scrum Masters / Agile Coaches"
     ],
     "title_icons": "Main technologies we work with",
     "title_talent": "Our Talent",
