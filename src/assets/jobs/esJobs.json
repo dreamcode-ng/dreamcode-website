@@ -1,35 +1,55 @@
 [
     {
-        "id": 0,
-        "name": "Ingeniero Full Stack",
-        "years": "5 años de experiencia",
-        "english": "Inglés intermedio (B2)",
-        "location": "Colombia",
-        "remote": true,
+        "id": 1,
+        "name": "Desarrollador de integraciones y datos en la nube",
+        "years": "3 años de experiencia",
+        "english": "No especificado",
+        "location": "Barranquilla",
+        "remote": false,
         "experts": [
-            "Java (8, 17)",
-            "Spring Boot",
-            "Microservicios",
-            "Angular",
-            "Scrum",
-            "CI/CD",
-            "Rest APIs",
-            "Hibernate",
-            "HTML, CSS, JavaScript, JSP",
-            "Programación de scripts con Bash y procesamiento por lotes",
-            "GIT",
-            "Azure cloud"
+            "Desarrollo de microservicios",
+            "Plataformas en la nube (Azure)",
+            "Integraciones y APIs",
+            "Gestión y tratamiento de datos",
+            "Arquitectura orientada a servicios",
+            "Entornos ágiles"
         ],
         "rol": [
             "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
             "Trabajarás con las tecnologías más avanzadas.",
             "Estarás actualizado frente a las más recientes tendencias.",
             "Generarás impacto en proyectos de escala mundial.",
-            "Trabajarás 100% remoto desde el lugar donde te sientas más cómodo y en horarios que no ponen tu vida al revés.",
             "Aprenderás de profesionales que han desarrollado soluciones de un nivel superior.",
             "Impulsarás tu carrera hacia el futuro del desarrollo de software.",
             "Te desenvolverás en un entorno ágil y flexible."
         ],
-        "url": "ingeniero-full-stack"
+        "url": "cloud-integration-data-developer"
+    },
+    {
+        "id": 2,
+        "name": "Líder de integración de procesos y soluciones de negocio",
+        "years": "3 años de experiencia",
+        "english": "No especificado",
+        "location": "Barranquilla",
+        "remote": false,
+        "experts": [
+            "Implementación de soluciones SaaS (ERP, CRM, BPM, HR, Fintech)",
+            "Levantamiento de requerimientos funcionales",
+            "Integraciones entre sistemas (APIs, web services)",
+            "Uso de plataformas Salesforce, SAP, Oracle, Workday, ServiceNow",
+            "Plataformas cloud (AWS, Azure, GCP)",
+            "Modelamiento de procesos AS-IS / TO-BE",
+            "Proyectos de transformación digital"
+        ],
+        "rol": [
+            "Desarrollarás tu potencial atendiendo diferentes sectores e industrias.",
+            "Trabajarás con las tecnologías más avanzadas.",
+            "Estarás actualizado frente a las más recientes tendencias.",
+            "Generarás impacto en proyectos de escala mundial.",
+            "Aprenderás de profesionales que han desarrollado soluciones de un nivel superior.",
+            "Impulsarás tu carrera hacia el futuro del desarrollo de software.",
+            "Te desenvolverás en un entorno ágil y flexible."
+        ],
+        "url": "business-process-solutions-integration-lead"
     }
 ]
