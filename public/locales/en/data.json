@@ -2,7 +2,7 @@
     "meta_title": "Database Management Services | Optimization & Support",
     "meta_description": "Database management focused on performance, availability, and operational stability across platforms.",
     "title_primary": "Database \nManagement",
-    "subtitle": "Turn your data flow into intelligent and dynamic processes.",
+    "subtitle": "Organize and manage your data to support stable operations.",
     "title_animation": "We manage the efficiency of your data infrastructure, ensuring optimal performance through continuous monitoring and reliable backup. ",
     "subtitle_animation": "We are experts in architecture, design, migration, monitoring, recovery, and resource optimization, enhancing the operability of your platforms.",
     "btn_animation": "Start now",
@@ -29,23 +29,23 @@
             "description": "We minimize the impact of any failure with quick recovery and no data loss."
         }
     ],
-    "title_accordion": "Our technological skills",
+    "title_accordion": "Database technologies we work with",
     "items_accordion": [
         {
-            "title": "RDBMS: Adaptability and high performance",
-            "description": "Manage relational databases with the option to deploy them on-premise or in the cloud, ensuring high availability and constant operability."
+            "title": "RDBMS for relational data management",
+            "description": "We manage relational databases deployed on-premise or in the cloud, with configurations focused on high availability and operational continuity."
         },
         {
-            "title": "NoSQL: Flexibility and sustainable growth",
-            "description": "Manage unstructured and distributed data, adapting quickly to business demands while maximizing efficiency and scalability."
+            "title": "NoSQL: Unstructured and distributed data management",
+            "description": "We manage unstructured and distributed data, enabling large volumes of information to be handled and scaled according to system needs."
         },
         {
-            "title": "Distributed cache: Agility and improved performance",
-            "description": "Accelerate data access through in-memory storage, improving response time and reducing the load on your infrastructure."
+            "title": "Distributed cache: Improved agility and performance",
+            "description": "We optimize data access through in-memory storage, reducing response times and infrastructure load."
         },
         {
-            "title": "IMDBs: Speed and instant response",
-            "description": "Access your data instantly using RAM to process information in real time, ensuring a rapid response."
+            "title": "IMDBs: In-memory data processing",
+            "description": "We access data directly in RAM to enable real-time processing and low latency."
         }
     ],
     "line_items": [
