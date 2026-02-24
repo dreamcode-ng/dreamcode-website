@@ -40,35 +40,35 @@
         "Scrum Masters / Agile Coaches"
     ],
     "title_icons": "Principales tecnologías con las que trabajamos",
-    "title_talent": "Nuestro talento ",
+    "title_talent": "Nuestro equipo",
     "data_talent": [
         {
             "image": "talent-agile",
-            "description": "Es ágil en la realización de proyectos"
+            "description": "Se integra con agilidad a nuevos proyectos y equipos de trabajo"
         },
         {
             "image": "talent-adaptation",
-            "description": "Facilita el trabajo y los procesos de adaptación tecnológica"
+            "description": "Acompaña procesos de adopción y actualización tecnológica"
         },
         {
-            "image": "talent-valor",
-            "description": "Genera valor a través del compromiso y la cohesión"
+            "image": "talent-value",
+            "description": "Trabaja de forma colaborativa y alineada a los objetivos del proyecto"
         },
         {
             "image": "talent-innovation",
-            "description": "Posee el conocimiento, la experiencia técnica y humana, a favor de los procesos de transformación"
+            "description": "Aporta experiencia técnica en cada etapa del desarrollo"
         },
         {
             "image": "talent-transformation",
-            "description": "Es innovador en la creación y desarrollo de soluciones destacadas"
+            "description": "Propone soluciones prácticas ante nuevos requerimientos"
         },
         {
             "image": "talent-performance",
-            "description": "Tiene un alto desempeño en la ejecución de los objetivos comerciales"
+            "description": "Mantiene un desempeño consistente en los entregables definidos"
         },
         {
-            "image": "talent-valor",
-            "description": "Trabaja bajo una cultura corporativa"
+            "image": "talent-culture",
+            "description": "Se adapta a la cultura y dinámicas de cada organización"
         }
     ],
     "icon_names": {

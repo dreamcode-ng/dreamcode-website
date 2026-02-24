@@ -40,35 +40,35 @@
         "Scrum Masters / Agile Coaches"
     ],
     "title_icons": "Main technologies we work with",
-    "title_talent": "Our Talent",
+    "title_talent": "Our team",
     "data_talent": [
         {
             "image": "talent-agile",
-            "description": "He is agile in project execution"
+            "description": "Integrates quickly into new projects and teams"
         },
         {
             "image": "talent-adaptation",
-            "description": "He facilitates work and technological adaptation processes"
+            "description": "Supports technology adoption and modernization processes"
         },
         {
-            "image": "talent-valor",
-            "description": "He generates value through commitment and cohesion"
+            "image": "talent-value",
+            "description": "Works collaboratively and aligned with project goals"
         },
         {
             "image": "talent-innovation",
-            "description": "He has the knowledge, technical and human experience to support transformation processes"
+            "description": "Brings technical expertise to every stage of development"
         },
         {
             "image": "talent-transformation",
-            "description": "He is innovative in the creation and development of outstanding solutions"
+            "description": "Proposes practical solutions to new requirements"
         },
         {
             "image": "talent-performance",
-            "description": "He has high performance in the execution of business objectives"
+            "description": "Maintains consistent performance across defined deliverables"
         },
         {
             "image": "talent-culture",
-            "description": "He works under a corporate culture"
+            "description": "Adapts to the culture and dynamics of each organization"
         }
     ],
     "icon_names": {
