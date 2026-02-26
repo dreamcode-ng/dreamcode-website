@@ -5,12 +5,13 @@ import "swiper/css";
 import style from '@/components/StoriesCustomers/stories.module.css'
 import { Pagination } from "swiper/modules";
 import Image from "next/image";
+import Markdown from 'markdown-to-jsx';
 
 export default function Stories() {
 
   const { t } = useTranslation('stories');
 
-  const storieslist = t('customers_stories', { returnObjects: true })  
+  const storieslist = t('customers_stories', { returnObjects: true })
 
   return (
     <section className={`${style.stories_customers} customers_stories line-break`}>
@@ -19,18 +20,23 @@ export default function Stories() {
           <h2 className="text-center m_color f-lg-30 f_600 mb-4">
             {t('subtitle_stories')}
           </h2>
-        </div> 
+        </div>
 
-        { 
+        {
           storieslist.map((section, index) => (
             <ContentSection
               key={index}
               title={section.title}
               subtitle={section.subtitle}
-              text={section.text}
+              industry={section.industry}
+              solutionType={section.solutionType}
+              context={section.context}
+              challenge={section.challenge}
+              solution={section.solution}
+              impact={section.impact}
+              implemented={section.implemented}
               image={section.image}
-              isSlider={section.isSlider}
-              paragraph={section.paragraph || []}
+              t={t}
             />
           ))
         }
@@ -39,44 +45,82 @@ export default function Stories() {
   );
 }
 
-function ContentSection ({ title, subtitle, text, image, isSlider, paragraph} ) {
+function ContentSection({ title, subtitle, industry, solutionType, context, challenge, solution, impact, implemented, image, t }) {
 
   return (
 
-        <div className={`${style.item_storie} row align-items-center`}>
-          <div className="col-lg-6">
+    <div className={`${style.item_storie} row align-items-center`}>
+
+      {/* ===== ROW 1 ===== */}
+      <div className="row">
+        {/* ===== LEFT COL ===== */}
+        <div className="col-lg-6">
+          <div className="row">
             <h2 className="m_color f-lg-30 mb-3">{title}</h2>
             <h3 className="f-lg-20 mb-3"><strong>{subtitle}</strong></h3>
-            {isSlider ? (
-              <Swiper            
-                loop={true}
-                pagination={{ 
-                  clickable: true, }}
-                modules={[Pagination]}
-                className="text-start"
-                
-              >
-              {
-                paragraph.map((paragraphs, index) => (
-                <SwiperSlide key={index}>
-                  <h3 className="f-lg-18 mb-3"><strong>{paragraphs.subtitle}</strong></h3>
-                  <p className="text-start f-lg-18">{paragraphs.text}</p>
-                </SwiperSlide>
-              ))}             
-              </Swiper> 
-              ) : (
-              <>
-                <p className="text-start f-lg-18">{text}</p>
-              </>
-            )}
           </div>
-          <div className={`col-lg-6 text-center ${style.logo_container} `}>
-            <Image src={`/img/stories-customers/${image}`} 
-              alt="Stories of Customers - DreamCode Software Colombia" 
-              style={{ objectFit: 'contain' }}
-              width={350} height={200}/>
+          <div className="row">
+            {/* ===== Industry COL ===== */}
+            <div className="col-lg-6">
+              <h4 className="m_color">{t('labels.industry')}</h4>
+              <p className="text-start f-lg-18">
+                <ul>
+                  {industry.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </p>
+            </div>
+            {/* ===== Solution Type COL ===== */}
+            <div className="col-lg-6">
+              <h4 className="m_color">{t('labels.solution_type')}</h4>
+              <p className="text-start f-lg-18">
+                <ul>
+                  {solutionType.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </p>
+            </div>
           </div>
         </div>
+        {/* ===== RIGHT COL ===== */}
+        <div className={`col-lg-6 text-center ${style.logo_container} `}>
+          <Image src={`/img/stories-customers/${image}`}
+            alt="Stories of Customers - DreamCode Software Colombia"
+            style={{ objectFit: 'contain' }}
+            width={350} height={200} />
+        </div>
+      </div>
+
+      {/* ===== ROW 2 ===== */}
+      <div className="row">
+        {/* ===== CONTEXT & CHALLENGE & SOLUTION COL ===== */}
+        <div className="col-lg-6">
+          <p className="text-start f-lg-18">
+            <h4 className="m_color">{t('labels.context')}</h4>
+            <Markdown>{context}</Markdown>
+            <h4 className="m_color">{t('labels.challenge')}</h4>
+            <Markdown>{challenge}</Markdown>
+            <h4 className="m_color">{t('labels.solution')}</h4>
+            <Markdown>{solution.description}</Markdown>
+          </p>
+        </div>
+        {/* ===== IMPACT & WHAT WE IMPLEMENTED COL ===== */}
+        <div className="col-lg-6">
+          <p className="text-start f-lg-18">
+            <h4 className="m_color">{t('labels.impact')}</h4>
+            <Markdown>{impact}</Markdown>
+            <h4 className="text-start">{t('labels.implemented')}</h4>
+            <ul>
+              {implemented.map((item, i) => (
+                <li key={i}><Markdown>{item}</Markdown></li>
+              ))}
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div >
 
   )
 }

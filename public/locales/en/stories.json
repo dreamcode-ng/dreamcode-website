@@ -9,71 +9,159 @@
     "subtitle_stories": "Here we share a bit more about our work \nwith some of our clients",
     "customers_stories": [
         {
-            "title": "Retail company",
-            "subtitle": "Business Dream: Connected Commerce – PAM",
-            "text": "We developed a software platform for the second-largest retailer in the U.S., which enables them to sell connected services, such as mobile phone plans, video streaming subscriptions, and cable TV, both in physical stores and online, in a fast, seamless, and frictionless way for customers. The PAM (Provisioning and Activation Management) module allows the retailer to integrate with service providers through cutting-edge technologies such as APIs. Today, the company leads the segment, and this platform has been a key component within a broader strategy that drives over US$40 million in revenue during each Black Friday.",
+            "title": "RETAIL COMPANY",
+            "subtitle": "Digital services activation platform for a leading U.S. wholesale distributor",
+            "industry": ["Retail", "Telecommunications", "Digital services"],
+            "solutionType": ["Custom software development", "Systems integration", "Process automation"],
+            "context": "We partnered with the second-largest wholesale distributor in the United States, focused on selling mobile plans, streaming subscriptions, and TV services through both physical retail stores and digital channels.",
+            "challenge": "Integrate multiple digital service providers, each operating with different processes and systems, while enabling real-time service activations. The solution needed to ensure a frictionless customer experience and the ability to scale efficiently during peak demand events.",
+            "solution": {
+                "description": "We developed a custom software platform featuring a central module, **PAM (Provisioning and Activation Management)**, which integrates point-of-sale systems with digital service providers via APIs. The platform efficiently manages activation and provisioning workflows across both in-store and online channels, ensuring consistency, performance, and operational stability."
+            },
+            "impact": "The platform became a strategic component of the business, enabling stable operations during high-traffic events such as Black Friday and generating over **$40 million in revenue**. The solution strengthened the distributor’s position as a leading provider of connected digital services in the U.S. market.",
+            "implemented": [
+                "API integrations with digital service providers",
+                "Automated activation and provisioning workflows",
+                "Support for in-store and online channels",
+                "High-availability architecture for peak demand"
+            ],
             "image": "compania_retail_logo.svg",
             "isSlider": false
         },
         {
-            "title": "Insurance company",
-            "subtitle": "Business Dream: SourceRoot migration to microservice architecture",
-            "text": "A U.S.-based global leader in mobile device insurance provides extended warranty services to 140 million customers worldwide. We form agile teams for the development of the SRE project, called SourceRoot Retirement, aiming to generate an additional 20% in annual revenue. We integrate interdisciplinary engineering teams that combine software development with quality assurance to carry out the migration of the architecture supporting this company’s operations, moving from a legacy system to interconnected microservices, thereby maintaining uninterrupted operations while fully dismantling the original monolithic system.",
+            "title": "INSURANCE COMPANY",
+            "subtitle": "Core system modernization for a leading mobile device insurance provider",
+            "industry": ["Insurance", "Technology", "Digital services"],
+            "solutionType": ["System modernization", "Software development", "Distributed architecture"],
+            "context": "We partnered with a leading mobile device insurance provider in the United States, serving **more than 140 million customers globally**, to modernize the technology platform supporting its core operations.",
+            "challenge": "The core system was built on a monolithic architecture running on outdated technology nearing end-of-life, limiting the company’s ability to evolve. The challenge was to migrate to a modern architecture without disrupting business operations, while introducing new capabilities aligned with current industry standards.",
+            "solution": {
+                "description": "We assembled cross-functional agile teams focused on software engineering excellence and quality assurance. A progressive migration strategy was designed to **transition toward a microservices-based architecture**, enabling the integration of new components while gradually decoupling the legacy system in a controlled and stable manner."
+            },
+            "impact": "The new architecture eliminated dependency on the legacy system, improved operational resilience, and established a solid foundation for scaling new capabilities. This initiative became a key enabler for a **projected 20% annual revenue growth.**",
+            "implemented": [
+                "Microservices with independent persistence layers",
+                "Asynchronous processing through queues and event-driven mechanisms",
+                "Distributed error handling and fault management system",
+                "Automated testing and end-to-end traceability to ensure quality and stability"
+            ],
             "image": "compania_aseguradora_logo.svg",
             "isSlider": false
         },
         {
-            "title": "Seguros Bolívar",
-            "paragraph": [
-                {
-                    "subtitle": "Business Dream: SmartCore - Rebuilding the Insurance Core",
-                    "text": "Seguros Bolívar's goal was to rebuild a core system with more than 25 years of evolution using modern software technologies and practices such as cloud computing, microservices, analytics, and design thinking, all focused on driving its digital transformation as one of the largest insurers in Colombia and advancing as a 100% digital market-leading company,"
-                },
-                {
-                    "subtitle": "Business Dream: SuperApp Bolívar Conmigo",
-                    "text": "We developed an application that helps Seguros Bolívar customers and non-customers with emergency assistance for car travelers, health advice and monitoring, and home solutions, a digital platform that centralizes services based on new cloud-oriented architectures and integration with Seguros Bolívar's legacy on-premise system. This entire project was carried out through a team of experts in user experience design and digital products in software development. "
-                }
+            "title": "SEGUROS BOLÍVAR",
+            "subtitle": "Integrated mobile platform for one of Colombia’s largest insurance providers",
+            "industry": ["Insurance", "Financial services", "Digital technology"],
+            "solutionType": ["Mobile application development", "Systems integration", "Cloud architecture"],
+            "context": "We partnered with one of the largest insurance providers in Colombia to develop a mobile platform designed to integrate key services for both customers and non-customers. The objective was to centralize roadside assistance, health tracking, and home services within a unified digital experience.",
+            "challenge": "Develop a scalable mobile application capable of consolidating multiple services into a single platform, ensuring interoperability between legacy and modern systems while delivering a secure, seamless, and reliable experience—even under high-demand scenarios.",
+            "solution": {
+                "description": "We designed a cloud-based, end-to-end solution connecting multiple services through microservices and API integrations. The platform was built with a strong focus on scalability, resilience, and user experience, ensuring operational continuity and high performance. \n\nA multidisciplinary team aligned engineering, architecture, and UX design to deliver a stable implementation prepared for future evolution."
+            },
+            "impact": "The mobile application transformed how the insurer delivers assistance, health tracking, and home services, establishing a reliable and efficient digital experience. This initiative strengthened the company’s market positioning and accelerated its broader digital transformation strategy.",
+            "implemented": [
+                "Scalable AWS infrastructure managed with Terraform",
+                "Mobile application built with Ionic and a microservices-based architecture",
+                "Serverless processing using AWS Lambda",
+                "Integration of key APIs such as Google Maps",
+                "Integration with external platforms such as Dacadoo to enhance wellness services",
+                "Agile methodologies applied throughout the development lifecycle"
             ],
             "image": "segurosbolivar_logo.svg",
-            "isSlider": true
+            "isSlider": false
         },
         {
-            "title": "Data analytics company focused on mobility",
-            "subtitle": "Business Dream: Scalable platform for advertising monetization based on driving data",
-            "text": "A U.S.-based technology and data analytics company specializing in mobility needed a scalable platform that would enable its clients to monetize advertising campaigns based on real driving data. At DreamCode, we designed and implemented a robust solution that manages ad limits, evaluates performance in real time, and processes large volumes of constantly growing data. Built on the AWS services suite, the platform ensures high availability, flexibility, and the ability to scale as the advertising market demand evolves. Thanks to this infrastructure, the company and its clients can generate sustainable revenue while optimizing the delivery of personalized ads at scale.",
+            "title": "SEGUROS BOLÍVAR",
+            "subtitle": "Core system modernization for a leading insurance provider",
+            "industry": ["Insurance", "Financial services", "Digital transformation"],
+            "solutionType": ["System modernization", "Cloud architecture", "Enterprise software development"],
+            "context": "We partnered with one of the country’s leading insurance providers to rebuild its core system, a platform with more than 25 years of evolution that was beginning to limit the organization’s ability to adapt to the demands of a digital market. The company needed to modernize its technology architecture, optimize critical processes, and enable new customer-centric capabilities.",
+            "challenge": "Progressively replace a highly coupled legacy system without disrupting business operations, while building a modern architecture capable of delivering greater agility, operational efficiency, and innovation capacity.",
+            "solution": {
+                "description": "We designed and implemented a new modular, scalable architecture, migrating legacy components to modern technologies and cloud environments. The transformation was guided by distributed architecture principles and user-centered design, ensuring that technological evolution remained aligned with the organization’s strategic business objectives."
+            },
+            "impact": "The new architecture is establishing the foundation for a more agile, cost-efficient, and secure core operation. The insurer will be able to launch digital products faster and consolidate its transition toward a fully digital, customer-centric operating model.",
+            "implemented": [
+                "Microservices-based architecture",
+                "Progressive migration to cloud infrastructure",
+                "Advanced analytics-enabled components",
+                "Redesign of digital processes with a user experience focus",
+                "Secure and automated development practices"
+            ],
+            "image": "smartcore.svg",
+            "isSlider": false
+        },
+        {
+            "title": "DATA ANALYTICS COMPANY FOCUSED ON MOBILITY",
+            "subtitle": "Scalable advertising monetization platform powered by mobility data",
+            "industry": ["Technology", "Data analytics", "Digital advertising"],
+            "solutionType": ["Software development", "Cloud architecture", "Real-time processing"],
+            "context": "We partnered with a leading U.S.-based mobility data and technology company focused on transforming real-world driving data into personalized advertising campaigns. The company operates with high data volumes and strict security and performance requirements.",
+            "challenge": "Scale a platform capable of processing and monetizing real-time data at large scale, while ensuring full protection of sensitive information and complete technical visibility to optimize advertising performance.",
+            "solution": {
+                "description": "We designed and developed a cloud-native platform on **AWS**, built to dynamically adapt to fluctuating demand. The solution manages ad frequency limits, evaluates campaign effectiveness in real time, and supports variable workloads without compromising performance or stability. \n\nThe backend was engineered with advanced observability capabilities to ensure continuous monitoring, distributed tracing, and detailed system behavior analysis."
+            },
+            "impact": "The platform transformed mobility data into a sustainable revenue stream, strengthening the company’s ability to innovate in personalized advertising at scale and reinforcing its leadership position in the market.",
+            "implemented": [
+                "Resilient and scalable infrastructure on AWS",
+                "High-volume real-time data processing",
+                "Structured logging, custom metrics, and distributed tracing",
+                "Secure data management with privacy-by-design principles"
+            ],
             "image": "compania_analisis_datos.svg",
             "isSlider": false
         },
         {
-            "title": "Banco Falabella",
-            "subtitle": "Business Dream: Online consumer credit",
-            "text": "We collaborated in the development of an online consumer loan with immediate disbursement, accessible through the web platform and mobile application. \n\nOur participation included integration with the Registry and credit bureau services, ensuring secure and reliable processes. \n\nIn addition, we provided support and improvements in the development of processes related to credit cards, including the management of payment platforms.",
+            "title": "BANCO FALABELLA",
+            "subtitle": "Launch of a digital consumer loan with instant approval",
+            "industry": ["Financial services", "Digital banking", "Fintech"],
+            "solutionType": ["Digital platform development", "Systems integration", "Financial process automation"],
+            "context": "We partnered with one of the most prominent financial institutions in Latin America to launch a fully digital consumer loan product featuring instant approval and disbursement, accessible through both its website and mobile application.",
+            "challenge": "Design and implement a solution capable of evaluating, approving, and disbursing loans in real time, while integrating critical external systems and ensuring high standards of security, regulatory compliance, and user experience.",
+            "solution": {
+                "description": "We developed an end-to-end platform connecting web and mobile channels with key services such as national identity verification systems and credit bureaus, enabling automated validation and risk assessment processes. The architecture was designed to ensure agility, reliability, and scalability, supporting mission-critical financial workflows without operational friction. \n\nAdditionally, we implemented continuous improvements in payment platform management and credit card–related processes, strengthening the institution’s overall digital operations."
+            },
+            "impact": "The solution enabled the institution to offer a fast, secure, and fully digital consumer loan experience, strengthening its position in digital banking and significantly enhancing the customer experience.",
+            "implemented": [
+                "Integration with national identity verification systems and credit bureaus",
+                "Web platform and mobile application for loan application and management",
+                "Secure, automated workflows for evaluation, approval, and instant disbursement",
+                "Optimization and support of payment platforms and credit card management processes"
+            ],
             "image": "logo-falabella.svg",
             "isSlider": false
         },
         {
-            "title": "Pycca",
-            "subtitle": "Business Dream: POS System",
-            "text": "We led the redesign of the POS system, modernizing its platform with new visual and technical features to enhance user experience and operational efficiency. \n\nThis key project will implement a PWA architecture for both online and offline operations, migrate to cloud-based microservices, and integrate with peripherals and external services while maintaining the current database. For DreamCode, this project strengthens its expertise in POS solutions, positions the company within the Ecuadorian retail sector, and establishes a long-term partnership with Pycca.",
+            "title": "PYCCA",
+            "subtitle": "POS system modernization for a retail company",
+            "industry": ["Retail", "Commerce", "Technology"],
+            "solutionType": ["Systems modernization", "Software development", "Cloud architecture"],
+            "context": "We worked with one of the largest retailers in Ecuador to redesign its POS system, a key platform for in-store operations and sales management. The goal was to modernize the technology solution by incorporating new visual and technical capabilities that would improve the user experience and optimize operational processes at the point of sale.",
+            "challenge": "The organization needed to evolve its POS system toward a more modern and flexible architecture, capable of operating both online and offline, integrating with different peripherals and external services, and supporting business growth without replacing the existing database or disrupting store operations.",
+            "solution": {
+                "description": "We designed a comprehensive redesign of the POS platform, implementing a modern architecture based on PWA and progressively migrating to cloud-based microservices. This approach made it possible to maintain operational continuity while introducing new technological capabilities and improving the overall user experience of the system."
+            },
+            "impact": "The modernization of the POS system strengthens in-store operations and improves efficiency in one of the most critical areas of the retail business: sales management and customer interaction. With a more stable, connected platform prepared for both online and offline operation, the company optimizes service times, improves operational control, and establishes the foundation for a faster and more consistent shopping experience.",
+            "implemented": [
+                "PWA architecture for online and offline operation.",
+                "Progressive migration to cloud-based microservices.",
+                "Integration with in-store peripherals and external services.",
+                "Modernization of the POS system’s visual and technical capabilities.",
+                "Platform evolution while maintaining the existing database."
+            ],
             "image": "pycca_logo.svg",
             "isSlider": false
-        },
-        {
-            "title": "Jelpit",
-            "subtitle": "Business Dream: Residential Management Platform",
-            "text": "We created a SaaS web solution that enables Seguros Bolívar to optimize the management of residential complexes by integrating key functionalities into a single platform. These include portfolio management, common areas, video calls, service requests (PQRs), lease insurance, and a resident portal. \n\nThe project was developed with a scalable modular architecture, e-commerce best practices, and agile methodologies, resulting in a robust, user-centered tool that has become one of the most comprehensive residential management solutions in the Colombian market.",
-            "image": "jelpit_logo.svg",
-            "isSlider": false
-        },
-        {
-            "title": "Auxis",
-            "subtitle": "Business Dream: Next-generation payment infrastructure",
-            "text": "We collaborated with one of the world’s leading payment networks to redesign its transactional gateways across North America, Latin America, and CEMEA, enabling local and international transfers for financial institutions and large-scale merchants. \n\nWe restructured microservices-based and multi-layered architectures, resulting in performance improvements of critical services ranging from 10% to 50%, while ensuring uninterrupted operations under strict security standards such as PCI and PII. \n\nAs part of the development, we integrated artificial intelligence capabilities for dynamic risk assessment, strengthening fraud prevention mechanisms and identity verification (KYC) processes within the payment ecosystem.",
-            "image": "auxis_logo.svg",
-            "isSlider": false
         }
-
     ],
     "title_form_stories": "What project do you have in mind?",
-    "subtitle_form_stories": "Drive growth and digital transformation with \nexpert software development talent. Contact us and let’s make it happen."
+    "subtitle_form_stories": "Drive growth and digital transformation with \nexpert software development talent. Contact us and let’s make it happen.",
+    "labels": {
+        "industry": "Industry:",
+        "solution_type": "Solution type:",
+        "context": "Context:",
+        "challenge": "Challenge:",
+        "solution": "Solution:",
+        "impact": "Impact:",
+        "implemented": "What we implemented:"
+    }
 }

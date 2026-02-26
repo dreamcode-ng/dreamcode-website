@@ -64,12 +64,12 @@
   
   .stories_customers .item_storie:nth-child(even) {
     display: flex;
-    flex-direction: row; /* Dirección por defecto */
+    /*flex-direction: row; /* Dirección por defecto */
   }
   
   .stories_customers .item_storie:nth-child(odd) {
     display: flex;
-    flex-direction: row-reverse; /* Dirección intercalada */
+    /*flex-direction: row-reverse; /* Dirección intercalada */
   }
   
     .logo_container {
@@ -81,7 +81,7 @@
   @media screen and (max-width:512px){
     .stories_customers .item_storie {
       display: flex;
-      flex-direction: column-reverse !important;
+      /* flex-direction: column-reverse !important; */
     }
     .stories_customers .item_storie {
       padding: 50px 0;
@@ -95,7 +95,7 @@
   @media (min-width: 513px) and (max-width:821px){
     .stories_customers .container .item_storie {
       display: flex;
-      flex-direction: column-reverse !important;
+      /* flex-direction: column-reverse !important; */
     }
     .stories_customers .item_storie {
       padding: 50px 0;
