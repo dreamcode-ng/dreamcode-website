@@ -18,7 +18,7 @@
             "solution": {
                 "description": "We developed a custom software platform featuring a central module, **PAM (Provisioning and Activation Management)**, which integrates point-of-sale systems with digital service providers via APIs. The platform efficiently manages activation and provisioning workflows across both in-store and online channels, ensuring consistency, performance, and operational stability."
             },
-            "impact": "The platform became a strategic component of the business, enabling stable operations during high-traffic events such as Black Friday and generating over **$40 million in revenue**. The solution strengthened the distributor’s position as a leading provider of connected digital services in the U.S. market.",
+            "impact": "The platform became a strategic component of the business, enabling stable operations during high-traffic events such as Black Friday and generating **over $40 million in revenue**. The solution strengthened the distributor’s position as a leading provider of connected digital services in the U.S. market.",
             "implemented": [
                 "API integrations with digital service providers",
                 "Automated activation and provisioning workflows",
