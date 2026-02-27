@@ -2,7 +2,7 @@
     "meta_title": "Gestión de bases de datos | Soporte y Optimización",
     "meta_description": "Gestión de bases de datos con foco en rendimiento, disponibilidad y estabilidad operativa de las plataformas.",
     "title_primary": "Gestión de bases\n de datos",
-    "subtitle": "Convierte tu flujo de datos en procesos inteligentes y dinámicos",
+    "subtitle": "Organiza y administra tus datos para soportar operaciones estables.",
     "title_animation": "Gestionamos la eficiencia de tu infraestructura de datos, asegurando su óptimo funcionamiento mediante monitoreo continuo y un respaldo confiable.",
     "subtitle_animation": "Somos expertos en arquitectura, diseño, migración, monitoreo, recuperación y optimización de recursos, mejorando la operatividad de tus plataformas.",
     "btn_animation": "Comienza ahora",
@@ -29,23 +29,23 @@
             "description": "Minimizamos el impacto de cualquier falla con una recuperación rápida y sin pérdida de información."
         }
     ],
-    "title_accordion": "Nuestras habilidades tecnológicas",
+    "title_accordion": "Tecnologías de bases de datos con las que trabajamos",
     "items_accordion": [
         {
-            "title": "RDBMS: Adaptabilidad y alto rendimiento",
-            "description": "Administra bases de datos relacionales con la opción de implementarlas localmente o en la nube, asegurando alta disponibilidad y operatividad constante."
+            "title": "RDBMS para gestión de datos relacionales",
+            "description": "Administramos bases de datos relacionales implementadas localmente o en la nube, con configuraciones orientadas a alta disponibilidad y continuidad operativa."
         },
         {
-            "title": "NoSQL: Flexibilidad y crecimiento sostenible",
-            "description": "Gestiona datos no estructurados y distribuidos, adaptándote ágilmente a las demandas del negocio mientras maximizas la eficiencia y la capacidad de expansión."
+            "title": "NoSQL: Gestión de datos no estructurados y distribuidos",
+            "description": "Gestionamos datos no estructurados y distribuidos, permitiendo manejar grandes volúmenes de información y crecer según las necesidades del sistema."
         },
         {
             "title": "Caché distribuido: Agilidad y desempeño mejorado",
-            "description": "Acelera el acceso a los datos mediante almacenamiento en memoria, mejorando el tiempo de respuesta y aliviando la carga en tu infraestructura."
+            "description": "Optimizamos el acceso a los datos mediante almacenamiento en memoria, reduciendo tiempos de respuesta y la carga sobre la infraestructura."
         },
         {
-            "title": "IMDBs: Velocidad y respuesta instantánea",
-            "description": "Accede a tus datos al instante utilizando la memoria RAM para procesar información en tiempo real, asegurando una respuesta rápida."
+            "title": "IDMBs: Procesamiento de datos en memoria",
+            "description": "Accedemos a los datos mediante memoria RAM para procesamiento en tiempo real y baja latencia."
         }
     ],
     "line_items": [

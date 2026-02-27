@@ -1,7 +1,7 @@
 {
     "meta_title": "IT Staff Augmentation | Nearshore Software Engineers",
     "meta_description": "Specialized software engineers and IT professionals, with senior-level expertise across multiple technologies, integrated into development teams.",
-    "subtitle": "Turn your ideas into tangible results with the specialized talent you need.",
+    "subtitle": "Integrate technology professionals into your team based on your project’s needs.",
     "title_animation": "Adding IT talent to your team allows you to quickly scale your capabilities and ensure the precise execution of your projects. ",
     "subtitle_animation": "We seamlessly integrate into your organizational culture, acting as partners who reinforce your innovation and optimize efficiency at every stage. ",
     "btn_animation": "Expand your team",
@@ -28,47 +28,69 @@
             "description": "Continuous monitoring ensures team members stay aligned with project objectives, making adjustments as needed, with ongoing support from HR and engineering."
         }
     ],
-    "title_list": "A qualified team in:",
+    "title_list": "Profiles you can integrate:",
     "item_list": [
-        "Mobile Development",
-        "Front-end Development",
-        "Manual and Automated Quality Control",
-        "Back-end Development",
-        "Full-stack Development",
-        "Software Architecture",
-        "Cloud Computing",
-        "Agile Methodologies"
+        "Mobile Developers (iOS / Android)",
+        "Frontend Developers",
+        "Backend Developers",
+        "Full Stack Developers",
+        "QA Engineers (manual and automated testing)",
+        "Software Architects",
+        "Cloud Engineers",
+        "Scrum Masters / Agile Coaches"
     ],
     "title_icons": "Main technologies we work with",
-    "title_talent": "Our Talent",
+    "title_talent": "Our team",
     "data_talent": [
         {
             "image": "talent-agile",
-            "description": "He is agile in project execution"
+            "description": "Integrates quickly into new projects and teams"
         },
         {
             "image": "talent-adaptation",
-            "description": "He facilitates work and technological adaptation processes"
+            "description": "Supports technology adoption and modernization processes"
         },
         {
-            "image": "talent-valor",
-            "description": "He generates value through commitment and cohesion"
+            "image": "talent-value",
+            "description": "Works collaboratively and aligned with project goals"
         },
         {
             "image": "talent-innovation",
-            "description": "He has the knowledge, technical and human experience to support transformation processes"
+            "description": "Brings technical expertise to every stage of development"
         },
         {
             "image": "talent-transformation",
-            "description": "He is innovative in the creation and development of outstanding solutions"
+            "description": "Proposes practical solutions to new requirements"
         },
         {
             "image": "talent-performance",
-            "description": "He has high performance in the execution of business objectives"
+            "description": "Maintains consistent performance across defined deliverables"
         },
         {
             "image": "talent-culture",
-            "description": "He works under a corporate culture"
+            "description": "Adapts to the culture and dynamics of each organization"
         }
-    ]
+    ],
+    "icon_names": {
+        "react": "React library for building web user interfaces",
+        "angular": "Angular framework for web application development",
+        "java": "Java programming language for backend and enterprise systems",
+        "javascript": "JavaScript language for web development",
+        "python": "Python programming language for backend development and automation",
+        "node": "Node.js runtime environment for backend development",
+        "aws": "Amazon Web Services cloud computing platform",
+        "php": "PHP programming language for server-side web development",
+        "ionic": "Ionic framework for hybrid mobile application development",
+        "groovy": "Groovy language for JVM-based applications",
+        "flutter": "Flutter framework for cross-platform mobile development",
+        "azure": "Microsoft Azure cloud services platform",
+        "typescript": "TypeScript language for large-scale JavaScript development",
+        "kotlin": "Kotlin programming language for backend and mobile development",
+        "react_native": "React Native framework for mobile application development",
+        "cucumber": "Cucumber framework for behavior-driven testing",
+        "selenium": "Selenium tool for automated web testing",
+        "kafka": "Apache Kafka platform for event streaming",
+        "microservices": "Microservices architecture for distributed systems",
+        "devops": "DevOps practices for continuous integration and delivery"
+    }
 }

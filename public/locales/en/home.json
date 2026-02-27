@@ -2,39 +2,39 @@
     "meta_title": "Software Development Services | Nearshore IT Outsourcing & AI",
     "meta_description": "Software development and IT outsourcing with specialized teams, aligned with business goals across industries, with AI capabilities.",
     "wave": "We welcome you to the future",
-    "title_home": "Software Development\n<1>services</1>",
+    "title_home": "Software Development\n<1>and Staff Augmentation</1>",
     "text_link": "Our experience →",
     "redefine1": "We redefine",
     "redefine2": "the future of business through technology",
     "btn_banner": "Contact us",
     "title_animation": "Technology that adapts to your business",
-    "subtile_animation": "At DreamCode, we help companies transform their operations, optimize processes, and adapt to the future. We create innovative solutions that drive growth, efficiency, and competitiveness, always aligned with the unique needs of each client.",
+    "subtile_animation": "We support companies across the United States, Canada, and LATAM in strengthening their teams and developing software solutions by integrating specialized technology talent.",
     "btn_animation": "Let's talk",
-    "our_solution": "Our solutions",
+    "our_solution": "Our Services",
     "solutions": [
         {
             "title": "Staff Augmentation",
-            "description": "Expand your team's capacity with expert talent.",
+            "description": "We expand your team’s capacity by adding highly skilled professionals tailored to your needs.",
             "icon": "users"
         },
         {
             "title": "Software Development",
-            "description": "Revolutionize your business with unique web and mobile solutions.",
+            "description": "We build software solutions for web and mobile applications, aligned with both technical and business requirements.",
             "icon": "code"
         },
         {
-            "title": "System Modernization",
-            "description": "Stay ahead with modern and efficient tools.",
+            "title": "Systems Modernization",
+            "description": "We modernize existing systems to improve performance, security, and scalability.",
             "icon": "graphic"
         },
         {
             "title": "Database Management",
-            "description": "Manage your information efficiently, taking productivity and decision-making to new levels.",
+            "description": "We design and manage databases to ensure data availability, performance, and consistency.",
             "icon": "data"
         },
         {
             "title": "Technology Consulting",
-            "description": "Design the continuous growth of your business with expert vision.",
+            "description": "We provide technology consulting to support technical decision-making and the evolution of digital solutions.",
             "icon": "circle"
         }
     ],

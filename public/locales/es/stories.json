@@ -6,73 +6,162 @@
     "btn_banner": "Contáctanos",
     "subtitle_banner": "Contamos con un equipo con amplia experiencia en diferentes industrias: ",
     "text_banner": "Fintech, seguros, retail, telecomunicaciones, servicios tecnológicos.",
-    "subtitle_stories": "Aquí te contamos un poco más del trabajo\n con algunos de nuestros clientes",
+    "subtitle_stories": "Aquí te contamos un poco más del trabajo\n con algunos de algunos de nuestros clientes",
     "customers_stories": [
         {
             "title": "Compañía retail",
-            "subtitle": "Sueño de negocio: Connected Commerce - PAM",
-            "text": "Hemos desarrollado una plataforma de software para el segundo retailer más grande de EE.UU., la cual le permite comercializar servicios conectados, como planes de telefonía móvil, suscripciones a servicios de streaming de video y TV por cable, tanto en tiendas físicas como en línea, de manera ágil, rápida y sin fricción para los compradores. El módulo PAM (Provisioning and Activation Management) permite al retailer integrarse con los proveedores del servicio a través de tecnologías de vanguardia, como APIs. Hoy, esta empresa lidera el segmento, y esta plataforma ha sido una pieza clave dentro de una estrategia más amplia que genera más de US$40 millones en ingresos durante cada Black Friday.",
+            "subtitle": "Plataforma de activación de servicios digitales para un mayorista líder en EE.UU.",
+            "industry": ["Retail", "Telecomunicaciones", "Servicios digitales"],
+            "solutionType": ["Desarrollo de software a medida", "Integración de sistemas", "Automatización de procesos"],
+            "context": "Colaboramos con el segundo mayorista más grande de Estados Unidos, enfocado en la venta de planes móviles, suscripciones de streaming y servicios de TV a través de tiendas físicas y canales digitales.",
+            "challenge": "Integrar múltiples proveedores de servicios digitales con procesos distintos y habilitar activaciones en tiempo real, garantizando una experiencia sin fricción para el cliente y la capacidad de escalar durante picos de alta demanda.",
+            "solution": {
+                "description": "Desarrollamos una plataforma de software a medida con un módulo central, **PAM (Provisioning and Activation Management)**, que integra los sistemas de punto de venta con proveedores de servicios digitales mediante APIs y gestiona de forma eficiente los procesos de activación y aprovisionamiento, tanto en tiendas como en línea."
+            },
+            "impact": "La plataforma se convirtió en un componente estratégico del negocio, permitiendo operar de forma estable durante eventos de alta demanda como Black Friday y generando **más de 40 millones de dólares en ingresos**, consolidando al mayorista como referente en la oferta de servicios digitales conectados en EE.UU.",
+            "implemented": [
+                "Integración vía APIs con proveedores de servicios digitales",
+                "Automatización de flujos de activación y aprovisionamiento",
+                "Soporte para canales físicos y digitales",
+                "Arquitectura preparada para alta demanda"
+            ],
             "image": "compania_retail_logo.svg",
             "isSlider": false
         },
         {
             "title": "Compañía aseguradora",
-            "subtitle": "Sueño de negocio: SourceRoot migration to microservice architecture",
-            "text": "Una empresa estadounidense líder mundial en venta de seguros para dispositivos móviles provee servicios de garantía extendida a 140 millones de clientes alrededor del mundo. Formamos equipos ágiles para el desarrollo del proyecto SRE (SourceRoot Retirement), con el objetivo de generar un 20% adicional de ingresos anuales. Integramos equipos interdisciplinarios de ingeniería que combinan desarrollo de software con certificación de calidad, para realizar la migración de la arquitectura que soporta la operación de esta empresa, pasando de su sistema legacy a microservicios integrados entre sí, manteniendo así la operación sin interrupciones y desmontando por completo el sistema monolítico original.",
+            "subtitle": "Modernización del sistema core para una aseguradora líder en dispositivos móviles",
+            "industry": ["Seguros", "Tecnología", "Servicios digitales"],
+            "solutionType": ["Modernización de sistemas", "Desarrollo de software", "Arquitectura distribuida"],
+            "context": "Trabajamos con una empresa líder en seguros para dispositivos móviles en Estados Unidos, con más de **140 millones de clientes a nivel global**, que necesitaba modernizar la plataforma tecnológica que soportaba su operación principal.",
+            "challenge": "El sistema core estaba basado en una arquitectura monolítica sobre tecnología obsoleta y próxima a descontinuarse, lo que limitaba la evolución del negocio. El reto consistía en migrar hacia una arquitectura moderna sin interrumpir la operación, incorporando nuevas capacidades bajo estándares actuales de la industria.",
+            "solution": {
+                "description": "Formamos equipos ágiles interdisciplinarios con foco en ingeniería de software y calidad. Diseñamos una estrategia de **migración progresiva hacia una arquitectura de microservicios**, permitiendo integrar nuevos componentes mientras se desacoplaba el sistema legado de forma controlada."
+            },
+            "impact": "La nueva arquitectura eliminó la dependencia del sistema legado, mejoró la resiliencia operativa y sentó bases sólidas para escalar nuevas funcionalidades. Este proyecto fue un habilitador clave para un **crecimiento proyectado del 20% en ingresos anuales.**",
+            "implemented": [
+                "Microservicios con capas de persistencia independientes",
+                "Gestión de procesos asíncronos mediante colas y eventos",
+                "Sistema distribuido para manejo de errores y fallos",
+                "Automatización de pruebas y trazabilidad para asegurar calidad y estabilidad"
+            ],
             "image": "compania_aseguradora_logo.svg",
             "isSlider": false
         },
         {
-            "title": "Seguros Bolívar ",
-            "paragraph": [
-                {
-                    "subtitle": "Sueño de negocio: SmartCore - Reconstrucción del Core de seguros",
-                    "text": "El objetivo de Seguros Bolívar fue reconstruir un sistema core con más de 25 años de evolución usando tecnologías y prácticas modernas de software como computación en la nube, microservicios, analítica y pensamiento de diseño (design thinking) todo enfocado en impulsar su transformación digital, como una de las aseguradoras más grandes de Colombia y avanzar como una compañía líder del mercado 100% digital "
-                },
-                {
-                    "subtitle": "Sueño de negocio: SuperApp Bolívar Conmigo",
-                    "text": "Desarrollamos una aplicación que ayuda a los clientes y no clientes de Seguros Bolívar en la asistencia en caso de emergencia para viajeros en automóvil, consejos y seguimiento de salud y soluciones para el hogar, una plataforma digital que centraliza servicios basados en nuevas arquitecturas orientadas a la nube e integración con el sistema legado on premise de Seguros Bolívar, todo este proyecto fue a través de un equipo de expertos en diseño de experiencias de usuario y productos digitales en desarrollo de software. "
-                }
-            ],
-            "image": "segurosbolivar_logo.svg",
-            "isSlider": true
-        },
-        {
             "title": "Empresa de análisis de datos centrada en movilidad",
-            "subtitle": "Sueño de negocio: Plataforma escalable para monetización publicitaria basada en datos de conducción",
-            "text": "Una empresa estadounidense de tecnología y análisis de datos especializada en movilidad necesitaba una plataforma escalable que permitiera a sus clientes monetizar campañas publicitarias basadas en datos de conducción real. En DreamCode, diseñamos e implementamos una solución robusta que permite gestionar límites de anuncios, evaluar su rendimiento en tiempo real y procesar grandes volúmenes de datos en constante crecimiento. Basada en la suite de servicios de AWS, la plataforma garantiza alta disponibilidad, flexibilidad y capacidad de escalar conforme evoluciona la demanda del mercado publicitario. Gracias a esta infraestructura, la empresa y sus clientes pueden generar ingresos sostenibles mientras optimizan la entrega de anuncios personalizados a gran escala.",
+            "subtitle": "Plataforma escalable de monetización publicitaria basada en datos de movilidad",
+            "industry": ["Tecnología", "Analítica de datos", "Publicidad digital"],
+            "solutionType": ["Desarrollo de software", "Arquitectura cloud", "Procesamiento en tiempo real"],
+            "context": "Trabajamos con una empresa líder en tecnología y análisis de datos de movilidad en Estados Unidos, enfocada en transformar datos reales de conducción en campañas publicitarias personalizadas, operando con altos volúmenes de información y exigentes estándares de seguridad y rendimiento.",
+            "challenge": "Escalar una plataforma capaz de procesar y monetizar datos en tiempo real a gran escala, garantizando protección total de información sensible y visibilidad técnica completa para optimizar el desempeño de las campañas publicitarias.",
+            "solution": {
+                "description": "Diseñamos y desarrollamos una plataforma cloud sobre **AWS**, preparada para adaptarse dinámicamente a la demanda. La solución administra límites de anuncios, evalúa su efectividad en tiempo real y soporta cargas variables sin comprometer rendimiento ni estabilidad. \n\nEl backend fue construido con capacidades avanzadas de observabilidad para asegurar monitoreo continuo, trazabilidad distribuida y análisis detallado del comportamiento del sistema."
+            },
+            "impact": "La plataforma permitió convertir datos de movilidad en una fuente sostenible de ingresos, fortaleciendo la capacidad del cliente para innovar en publicidad personalizada a escala y consolidar su liderazgo en el mercado.",
+            "implemented": [
+                "Infraestructura resiliente y escalable en AWS",
+                "Procesamiento de datos en tiempo real a gran volumen",
+                "Logging estructurado, métricas personalizadas y trazabilidad distribuida",
+                "Gestión segura de datos con enfoque de privacidad desde el diseño"
+            ],
             "image": "compania_analisis_datos.svg",
             "isSlider": false
         },
         {
             "title": "Banco Falabella",
-            "subtitle": "Sueño de negocio: Crédito de consumo en línea",
-            "text": "Colaboramos en el desarrollo de un crédito de consumo en línea con desembolso inmediato, accesible a través de la plataforma web y de la aplicación móvil. \n\nNuestra participación incluyó la integración con la Registraduría y servicios de centrales de riesgo, asegurando procesos seguros y confiables. \n\nAdemás, brindamos soporte y mejoras en el desarrollo de procesos relacionados con tarjetas de crédito, incluyendo la gestión de plataformas de pago.",
+            "subtitle": "Lanzamiento de crédito de consumo digital con aprobación inmediata",
+            "industry": ["Servicios financieros", "Banca digital", "Fintech"],
+            "solutionType": ["Desarrollo de plataformas digitales", "Integración de sistemas", "Automatización de procesos financieros"],
+            "context": "Colaboramos con una de las entidades financieras más relevantes de Latinoamérica en el lanzamiento de un producto de crédito de consumo 100% digital, con aprobación y desembolso inmediato, accesible desde su sitio web y aplicación móvil.",
+            "challenge": "Diseñar e implementar una solución que permitiera evaluar, aprobar y desembolsar créditos en tiempo real, integrando sistemas externos críticos y garantizando altos estándares de seguridad, cumplimiento y experiencia de usuario.",
+            "solution": {
+                "description": "Desarrollamos una plataforma integral que conecta los canales web y móvil con servicios clave como la Registraduría y centrales de riesgo, habilitando procesos automatizados de validación y análisis. La arquitectura fue diseñada para asegurar agilidad, confiabilidad y escalabilidad, soportando flujos financieros críticos sin fricción operativa. \n\nAdicionalmente, implementamos mejoras continuas en la gestión de plataformas de pago y procesos asociados a tarjetas de crédito, fortaleciendo la operación digital de la entidad."
+            },
+            "impact": "La solución permitió ofrecer un crédito de consumo ágil, seguro y completamente digital, fortaleciendo el posicionamiento de la entidad en la banca digital y mejorando significativamente la experiencia de sus usuarios.",
+            "implemented": [
+                "Integración con sistemas de la Registraduría y centrales de riesgo",
+                "Plataforma web y aplicación móvil para solicitud y gestión del crédito",
+                "Procesos automatizados y seguros para evaluación, aprobación y desembolso inmediato",
+                "Optimización y soporte de plataformas de pago y gestión de tarjetas de crédito"
+            ],
             "image": "logo-falabella.svg",
             "isSlider": false
         },
         {
             "title": "Pycca",
-            "subtitle": "Sueño de negocio: Sistema POS",
-            "text": "Lideramos el rediseño del  sistema POS, modernizando su plataforma con nuevas funcionalidades visuales y técnicas para mejorar la experiencia de usuario y la eficiencia operativa. \n\nEl proyecto clave implementará una arquitectura PWA para operación online y offline, migrando a microservicios en la nube e integrándose con periféricos y servicios externos, manteniendo la base de datos actual. Para DreamCode, este proyecto robustece su experiencia en POS, lo posiciona en el retail ecuatoriano y establece una relación a largo plazo con Pycca.",
+            "subtitle": "Modernización del sistema POS para empresa retail",
+            "industry": ["Retail", "Comercio", "Tecnología"],
+            "solutionType": ["Modernización de sistemas", "Desarrollo de software", "Arquitectura cloud"],
+            "context": "Trabajamos con uno de los retailers más grandes de Ecuador en el rediseño de su sistema POS, una plataforma clave para la operación en tienda y la gestión de ventas. El objetivo era modernizar la solución tecnológica incorporando nuevas capacidades visuales y técnicas que mejoraran la experiencia de usuario y optimizaran los procesos operativos en punto de venta.",
+            "challenge": "La organización necesitaba evolucionar su sistema POS hacia una arquitectura más moderna y flexible, capaz de operar de forma online y offline, integrarse con distintos periféricos y servicios externos, y soportar el crecimiento del negocio sin reemplazar la base de datos existente ni afectar la operación en tiendas.",
+            "solution": {
+                "description": "Diseñamos un rediseño integral de la plataforma POS, implementando una arquitectura moderna basada en PWA y migrando progresivamente hacia microservicios en la nube. Esto permitió mantener la continuidad operativa mientras se incorporaban nuevas capacidades tecnológicas y se mejoraba la experiencia de uso del sistema."
+            },
+            "impact": "La modernización del sistema POS fortalece la operación en tienda y mejora la eficiencia en uno de los puntos más críticos del negocio retail: la gestión de ventas y la interacción con el cliente. Con una plataforma más estable, conectada y preparada para operación online y offline, la compañía optimiza tiempos de atención, mejora el control operativo y sienta bases para una experiencia de compra más ágil y consistente",
+            "implemented": [
+                "Arquitectura PWA para operación online y offline",
+                "Migración progresiva hacia microservicios en la nube",
+                "Integración con periféricos de tienda y servicios externos",
+                "Modernización de funcionalidades visuales y técnicas del sistema POS",
+                "Evolución de la plataforma manteniendo la base de datos existente"
+            ],
             "image": "pycca_logo.svg",
             "isSlider": false
         },
         {
-            "title": "Jelpit",
-            "subtitle": "Sueño de negocio: Plataforma para la administración de vivienda",
-            "text": "Creamos una solución web en modalidad SaaS que permite a Seguros Bolívar optimizar la gestión de conjuntos residenciales, integrando en una sola plataforma funcionalidades clave como administración de cartera, zonas comunes, videollamadas, PQRs, seguros de arrendamiento y un portal para residentes. \n\nEl proyecto fue desarrollado con una arquitectura modular escalable, buenas prácticas de e-commerce y metodologías ágiles, consolidándose como una herramienta robusta, centrada en la experiencia de usuario, y una de las soluciones más completas del mercado colombiano en administración de vivienda.",
-            "image": "jelpit_logo.svg",
+            "title": "Seguros Bolívar",
+            "subtitle": "Plataforma móvil integral para una de las aseguradoras más grandes de Colombia",
+            "industry": ["Seguros", "Servicios financieros", "Tecnología digital"],
+            "solutionType": ["Desarrollo de aplicación móvil", "Integración de sistemas", "Arquitectura cloud"],
+            "context": "Colaboramos con una de las aseguradoras más grandes de Colombia en el desarrollo de una plataforma móvil diseñada para integrar servicios clave tanto para usuarios como para no usuarios. El objetivo era centralizar asistencia en emergencias viales, seguimiento de salud y servicios para el hogar dentro de una experiencia digital unificada.",
+            "challenge": "Desarrollar una aplicación móvil escalable que consolidara múltiples servicios en una sola plataforma, garantizando interoperabilidad entre sistemas legacy y modernos, así como una experiencia segura, fluida y confiable incluso en escenarios de alta demanda.",
+            "solution": {
+                "description": "Diseñamos una solución integral basada en arquitectura cloud, que conecta distintos servicios a través de microservicios e integraciones vía APIs. La plataforma fue construida con un enfoque en escalabilidad, resiliencia y experiencia de usuario, asegurando continuidad operativa y alto rendimiento. \n\nTrabajamos con un equipo multidisciplinario para alinear ingeniería, arquitectura y diseño de experiencia, logrando una implementación estable y preparada para evolución futura."
+            },
+            "impact": "La aplicación transformó la forma en que la aseguradora brinda asistencia, seguimiento y servicios a sus usuarios, consolidando una experiencia digital confiable y eficiente. Este avance fortaleció su posicionamiento en el mercado y aceleró su proceso de transformación digital.",
+            "implemented": [
+                "Infraestructura escalable sobre AWS gestionada con Terraform",
+                "Aplicación móvil desarrollada con Ionic y arquitectura basada en microservicios",
+                "Procesamiento serverless mediante funciones Lambda",
+                "Integración de APIs clave como Google Maps",
+                "Conexión con plataformas externas como Dacadoo para enriquecer servicios de bienestar",
+                "Metodologías ágiles aplicadas en todo el ciclo de desarrollo"
+            ],
+            "image": "segurosbolivar_logo.svg",
             "isSlider": false
         },
         {
-            "title": "Auxis",
-            "subtitle": "Sueño de negocio: Infraestructura de pagos de próxima generación",
-            "text": "Colaboramos con una de las principales redes de pagos del mundo en el rediseño de sus pasarelas transaccionales en América del Norte, América Latina y CEMEA, habilitando transferencias locales e internacionales para instituciones financieras y grandes comercios. \n\nReestructuramos arquitecturas basadas en microservicios y sistemas multicapa, lo que permitió mejorar el rendimiento de servicios críticos entre un 10 % y un 50 %, garantizando operaciones ininterrumpidas bajo estrictos estándares de seguridad como PCI y PII. \n\nComo parte del desarrollo, incorporamos capacidades de inteligencia artificial para la evaluación dinámica de riesgos, fortaleciendo los mecanismos de prevención de fraude y los procesos de verificación de identidad (KYC) dentro del ecosistema de pagos.",
-            "image": "auxis_logo.svg",
+            "title": "Seguros Bolívar",
+            "subtitle": "Modernización del sistema core para una aseguradora líder",
+            "industry": ["Seguros", "Servicios financieros", "Transformación digital"],
+            "solutionType": ["Modernización de sistemas", "Arquitectura cloud", "Desarrollo de software empresarial"],
+            "context": "Trabajamos con una de las principales aseguradoras del país en la reconstrucción de su sistema core, una plataforma con más de 25 años de evolución que comenzaba a limitar la capacidad de adaptación frente a las nuevas exigencias del mercado digital. La organización necesitaba modernizar su arquitectura tecnológica, optimizar procesos críticos y habilitar nuevas capacidades centradas en el cliente.",
+            "challenge": "Reemplazar progresivamente un sistema legacy altamente acoplado, sin afectar la operación del negocio, y construir una arquitectura moderna que permitiera mayor agilidad, eficiencia y capacidad de innovación.",
+            "solution": {
+                "description": "Diseñamos e implementamos una nueva arquitectura modular y escalable, migrando componentes heredados hacia tecnologías modernas y entornos cloud. La transformación fue guiada por principios de arquitectura distribuida y diseño centrado en el usuario, alineando la evolución tecnológica con los objetivos estratégicos del negocio."
+            },
+            "impact": "La nueva arquitectura está sentando las bases para una operación core más ágil, costo-eficiente y segura. La aseguradora podrá lanzar productos digitales con mayor velocidad y consolidar su transición hacia una operación completamente digital y orientada al cliente.",
+            "implemented": [
+                "Arquitectura basada en microservicios",
+                "Migración progresiva hacia infraestructura en la nube",
+                "Componentes con capacidades analíticas avanzadas",
+                "Rediseño de procesos digitales con enfoque en experiencia de usuario",
+                "Prácticas de desarrollo automatizado y seguro"
+            ],
+            "image": "segurosbolivar_logo.svg",
             "isSlider": false
         }
     ],
     "title_form_stories": "¿Qué proyecto tienes en mente?",
-    "subtitle_form_stories": "Impulsa el crecimiento y la transformación digital con \ntalento experto en desarrollo de software "
+    "subtitle_form_stories": "Impulsa el crecimiento y la transformación digital con \ntalento experto en desarrollo de software ",
+    "labels": {
+        "industry": "Industria:",
+        "solution_type": "Tipo de solución:",
+        "context": "Contexto:",
+        "challenge": "Reto:",
+        "solution": "Solución:",
+        "impact": "Impacto:",
+        "implemented": "Lo que implementamos:"
+    }
 }

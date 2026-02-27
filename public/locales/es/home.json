@@ -2,39 +2,39 @@
     "meta_title": "Servicios de Desarrollo de Software | Outsourcing TI e IA",
     "meta_description": "Desarrollo de software y outsourcing TI con equipos especializados, alineados a objetivos de negocio de múltiples industrias, con capacidades en inteligencia artificial.",
     "wave": "Te damos la bienvenida al futuro",
-    "title_home": "Servicios de Desarrollo  \n<1>de Software</1>",
+    "title_home": "Desarrollo de Software\n<1>y Staff Augmentation</1>",
     "text_link": "Nuestra experiencia →",
     "redefine1": "Redefinimos",
     "redefine2": "el futuro de los negocios a \ntravés de la tecnología",
     "btn_banner": "Contáctanos",
     "title_animation": "Tecnología que se adapta a tus necesidades",
-    "subtile_animation": "En DreamCode, ayudamos a las empresas a transformar sus operaciones, optimizar procesos y adaptarse al futuro. Creamos soluciones innovadoras que impulsan el crecimiento, la eficiencia y la competitividad, siempre alineadas con las necesidades únicas de cada cliente.",
+    "subtile_animation": "Apoyamos a empresas de Estados Unidos, Canadá y LATAM a fortalecer sus equipos y desarrollar soluciones de software, integrando talento tecnológico especializado.",
     "btn_animation": "Hablemos",
-    "our_solution": "Nuestras soluciones",
+    "our_solution": "Nuestros servicios",
     "solutions": [
         {
             "title": "Staff Augmentation",
-            "description": "Amplia la capacidad de tu equipo con talento experto.",
+            "description": "Ampliamos la capacidad de tu equipo incorporando profesionales especializados.",
             "icon": "users"
         },
         {
-            "title": "Desarrollo de software",
-            "description": "Revoluciona tu negocio con soluciones web y móvil únicas.",
+            "title": "Desarrollo de Software",
+            "description": "Desarrollamos soluciones de software para web y aplicaciones móviles, alineadas a requerimientos técnicos y de negocio.",
             "icon": "code"
         },
         {
-            "title": "Modernización de sistemas",
-            "description": "Mantente a la vanguardia con herramientas modernas y eficientes.",
+            "title": "Modernización de Sistemas",
+            "description": "Actualizamos sistemas existentes para mejorar rendimiento, seguridad y escalabilidad.",
             "icon": "graphic"
         },
         {
-            "title": "Gestión de bases de datos",
-            "description": "Gestiona tu información de manera eficiente, llevando la productividad y la toma de decisiones a nuevos niveles.",
+            "title": "Gestión de Bases de Datos",
+            "description": "Diseñamos y gestionamos bases de datos para asegurar disponibilidad, rendimiento y consistencia de la información.",
             "icon": "data"
         },
         {
-            "title": "Consultoría tecnológica",
-            "description": "Proyecta el crecimiento continuo de tu empresa con la visión experta.",
+            "title": "Consultoría Tecnológica",
+            "description": "Ofrecemos consultoría tecnológica para apoyar la toma de decisiones técnicas y la evolución de soluciones digitales.",
             "icon": "circle"
         }
     ],

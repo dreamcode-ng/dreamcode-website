@@ -1,7 +1,7 @@
 {
     "meta_title": "Staff Augmentation y Outsourcing TI | Talento Senior",
     "meta_description": "Ingenieros y perfiles TI especializados, con seniority y dominio en múltiples tecnologías, integrados a equipos de desarrollo.",
-    "subtitle": "Convierte tus ideas en resultados tangibles con el talento especializado que necesitas",
+    "subtitle": "Integra profesionales en tecnología a tu equipo según las necesidades de tu proyecto.",
     "title_animation": "Sumar talento TI a tu equipo te permite escalar tus capacidades rápidamente y asegurar la ejecución precisa de tus proyectos.",
     "subtitle_animation": "Nos integramos ágilmente a tu cultura organizacional, actuando como aliados que refuerzan tu innovación y optimizan la eficiencia en cada etapa.",
     "btn_animation": "Amplia tu equipo",
@@ -28,47 +28,69 @@
             "description": "Se realiza un seguimiento constante para asegurar que los miembros del equipo estén alineados con los objetivos del proyecto, realizando ajustes según sea necesario, con el apoyo continuo del área de recursos humanos e ingeniería."
         }
     ],
-    "title_list": "Todo un equipo calificado en:",
+    "title_list": "Perfiles que puedes integrar:",
     "item_list": [
-        "Desarrollo móvil",
-        "Desarrollo Front-end ",
-        "Control de calidad manual y automatizado",
-        "Desarrollo Back-end",
-        "Desarrollo Full stack",
-        "Arquitectura de software",
-        "Cloud computing",
-        "Metodologías ágiles"
+        "Desarrolladores Móviles (iOS / Android)",
+        "Desarrolladores Frontend",
+        "Desarrolladores Backend",
+        "Desarrolladores Full Stack",
+        "Ingenieros QA (pruebas manuales y automatizadas)",
+        "Arquitectos de software",
+        "Ingenieros Cloud",
+        "Scrum Masters / Agile Coaches"
     ],
     "title_icons": "Principales tecnologías con las que trabajamos",
-    "title_talent": "Nuestro talento ",
+    "title_talent": "Nuestro equipo",
     "data_talent": [
         {
             "image": "talent-agile",
-            "description": "Es ágil en la realización de proyectos"
+            "description": "Se integra con agilidad a nuevos proyectos y equipos de trabajo"
         },
         {
             "image": "talent-adaptation",
-            "description": "Facilita el trabajo y los procesos de adaptación tecnológica"
+            "description": "Acompaña procesos de adopción y actualización tecnológica"
         },
         {
-            "image": "talent-valor",
-            "description": "Genera valor a través del compromiso y la cohesión"
+            "image": "talent-value",
+            "description": "Trabaja de forma colaborativa y alineada a los objetivos del proyecto"
         },
         {
             "image": "talent-innovation",
-            "description": "Posee el conocimiento, la experiencia técnica y humana, a favor de los procesos de transformación"
+            "description": "Aporta experiencia técnica en cada etapa del desarrollo"
         },
         {
             "image": "talent-transformation",
-            "description": "Es innovador en la creación y desarrollo de soluciones destacadas"
+            "description": "Propone soluciones prácticas ante nuevos requerimientos"
         },
         {
             "image": "talent-performance",
-            "description": "Tiene un alto desempeño en la ejecución de los objetivos comerciales"
+            "description": "Mantiene un desempeño consistente en los entregables definidos"
         },
         {
-            "image": "talent-valor",
-            "description": "Trabaja bajo una cultura corporativa"
+            "image": "talent-culture",
+            "description": "Se adapta a la cultura y dinámicas de cada organización"
         }
-    ]
+    ],
+    "icon_names": {
+        "react": "React, librería para construir interfaces web",
+        "angular": "Angular, framework para desarrollo de aplicaciones web",
+        "java": "Java, lenguaje de programación para sistemas backend y empresariales",
+        "python": "Python, lenguaje de programación para desarrollo backend y automatización",
+        "node": "Node.js, entorno de ejecución para desarrollo backend",
+        "aws": "Amazon Web Services, plataforma de servicios en la nube",
+        "php": "PHP, lenguaje de programación para desarrollo web del lado del servidor",
+        "javascript": "JavaScript, lenguaje para desarrollo web",
+        "ionic": "Ionic, framework para desarrollo de aplicaciones móviles híbridas",
+        "groovy": "Groovy, lenguaje para aplicaciones basadas en la JVM",
+        "flutter": "Flutter, framework para desarrollo de aplicaciones móviles multiplataforma",
+        "azure": "Microsoft Azure, plataforma de servicios en la nube",
+        "typescript": "TypeScript, lenguaje para desarrollo de aplicaciones JavaScript a gran escala",
+        "kotlin": "Kotlin, lenguaje de programación para backend y desarrollo móvil",
+        "react_native": "React Native, framework para desarrollo de aplicaciones móviles",
+        "cucumber": "Cucumber, framework para pruebas basadas en comportamiento",
+        "selenium": "Selenium, herramienta para automatización de pruebas web",
+        "kafka": "Apache Kafka, plataforma de procesamiento de eventos en tiempo real",
+        "microservices": "Arquitectura de microservicios para sistemas distribuidos",
+        "devops": "DevOps, prácticas para integración y entrega continua"
+    }
 }
