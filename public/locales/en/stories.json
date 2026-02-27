@@ -54,7 +54,7 @@
             "industry": ["Insurance", "Financial services", "Digital technology"],
             "solutionType": ["Mobile application development", "Systems integration", "Cloud architecture"],
             "context": "We partnered with one of the largest insurance providers in Colombia to develop a mobile platform designed to integrate key services for both customers and non-customers. The objective was to centralize roadside assistance, health tracking, and home services within a unified digital experience.",
-            "challenge": "Develop a scalable mobile application capable of consolidating multiple services into a single platform, ensuring interoperability between legacy and modern systems while delivering a secure, seamless, and reliable experience—even under high-demand scenarios.",
+            "challenge": "Develop a scalable mobile application capable of consolidating multiple services into a single platform, ensuring interoperability between legacy and modern systems while delivering a secure, seamless, and reliable experience even under high-demand scenarios.",
             "solution": {
                 "description": "We designed a cloud-based, end-to-end solution connecting multiple services through microservices and API integrations. The platform was built with a strong focus on scalability, resilience, and user experience, ensuring operational continuity and high performance. \n\nA multidisciplinary team aligned engineering, architecture, and UX design to deliver a stable implementation prepared for future evolution."
             },
@@ -88,7 +88,7 @@
                 "Redesign of digital processes with a user experience focus",
                 "Secure and automated development practices"
             ],
-            "image": "smartcore.svg",
+            "image": "segurosbolivar_logo.svg",
             "isSlider": false
         },
         {

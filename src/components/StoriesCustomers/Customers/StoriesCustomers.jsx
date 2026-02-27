@@ -53,8 +53,15 @@ function ContentSection({ title, subtitle, industry, solutionType, context, chal
 
       {/* ===== ROW 1 ===== */}
       <div className="row">
-        {/* ===== LEFT COL ===== */}
-        <div className="col-lg-6">
+        {/* ===== IMAGE COL ===== */}
+        <div className={`col-lg-6 text-center order-1 order-lg-2 ${style.logo_container} `}>
+          <Image src={`/img/stories-customers/${image}`}
+            alt="Stories of Customers - DreamCode Software Colombia"
+            style={{ objectFit: 'contain' }}
+            width={350} height={200} />
+        </div>
+        {/* ===== PROJECT INFO COL ===== */}
+        <div className="col-lg-6 order-2 order-lg-1">
           <div className="row">
             <h2 className="m_color f-lg-30 mb-3">{title}</h2>
             <h3 className="f-lg-20 mb-3"><strong>{subtitle}</strong></h3>
@@ -83,13 +90,6 @@ function ContentSection({ title, subtitle, industry, solutionType, context, chal
               </p>
             </div>
           </div>
-        </div>
-        {/* ===== RIGHT COL ===== */}
-        <div className={`col-lg-6 text-center ${style.logo_container} `}>
-          <Image src={`/img/stories-customers/${image}`}
-            alt="Stories of Customers - DreamCode Software Colombia"
-            style={{ objectFit: 'contain' }}
-            width={350} height={200} />
         </div>
       </div>
 
