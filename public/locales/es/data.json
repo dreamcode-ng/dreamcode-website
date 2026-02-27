@@ -37,7 +37,7 @@
         },
         {
             "title": "NoSQL: Gestión de datos no estructurados y distribuidos",
-            "description": "Gestionamos datos no estructurados y distribuidos, permitiendo manejar grandes volúmenes de información y crecer según las necesidades del sistema"
+            "description": "Gestionamos datos no estructurados y distribuidos, permitiendo manejar grandes volúmenes de información y crecer según las necesidades del sistema."
         },
         {
             "title": "Caché distribuido: Agilidad y desempeño mejorado",
@@ -45,7 +45,7 @@
         },
         {
             "title": "IDMBs: Procesamiento de datos en memoria",
-            "description": "Accedemos a los datos mediante memoria RAM para procesamiento en tiempo real y baja latencia"
+            "description": "Accedemos a los datos mediante memoria RAM para procesamiento en tiempo real y baja latencia."
         }
     ],
     "line_items": [
