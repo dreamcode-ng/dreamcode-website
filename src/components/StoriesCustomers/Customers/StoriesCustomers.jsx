@@ -100,8 +100,12 @@ function ContentSection({ title, subtitle, industry, solutionType, context, chal
           <p className="text-start f-lg-18">
             <h4 className="m_color">{t('labels.context')}</h4>
             <Markdown>{context}</Markdown>
+          </p>
+          <p className="text-start f-lg-18">
             <h4 className="m_color">{t('labels.challenge')}</h4>
             <Markdown>{challenge}</Markdown>
+          </p>
+          <p className="text-start f-lg-18">
             <h4 className="m_color">{t('labels.solution')}</h4>
             <Markdown>{solution.description}</Markdown>
           </p>
@@ -111,12 +115,12 @@ function ContentSection({ title, subtitle, industry, solutionType, context, chal
           <p className="text-start f-lg-18">
             <h4 className="m_color">{t('labels.impact')}</h4>
             <Markdown>{impact}</Markdown>
-            <h4 className="text-start">{t('labels.implemented')}</h4>
-            <ul>
-              {implemented.map((item, i) => (
-                <li key={i}><Markdown>{item}</Markdown></li>
-              ))}
-            </ul>
+          </p>
+          <p className="text-start f-lg-18 mb-4">
+            <h4 className="text-start mb-4">{t('labels.implemented')}</h4>
+            {implemented.map((item, i) => (
+              <p key={i} className="mb-4"><Markdown>{item}</Markdown></p>
+            ))}
           </p>
         </div>
       </div>

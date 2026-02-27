@@ -9,7 +9,7 @@
     "subtitle_stories": "Aquí te contamos un poco más del trabajo\n con algunos de algunos de nuestros clientes",
     "customers_stories": [
         {
-            "title": "COMPAÑÍA RETAIL",
+            "title": "Compañía retail",
             "subtitle": "Plataforma de activación de servicios digitales para un mayorista líder en EE.UU.",
             "industry": ["Retail", "Telecomunicaciones", "Servicios digitales"],
             "solutionType": ["Desarrollo de software a medida", "Integración de sistemas", "Automatización de procesos"],
@@ -29,7 +29,7 @@
             "isSlider": false
         },
         {
-            "title": "COMPAÑÍA ASEGURADORA",
+            "title": "Compañía aseguradora",
             "subtitle": "Modernización del sistema core para una aseguradora líder en dispositivos móviles",
             "industry": ["Seguros", "Tecnología", "Servicios digitales"],
             "solutionType": ["Modernización de sistemas", "Desarrollo de software", "Arquitectura distribuida"],
@@ -49,7 +49,68 @@
             "isSlider": false
         },
         {
-            "title": "SEGUROS BOLÍVAR",
+            "title": "Empresa de análisis de datos centrada en movilidad",
+            "subtitle": "Plataforma escalable de monetización publicitaria basada en datos de movilidad",
+            "industry": ["Tecnología", "Analítica de datos", "Publicidad digital"],
+            "solutionType": ["Desarrollo de software", "Arquitectura cloud", "Procesamiento en tiempo real"],
+            "context": "Trabajamos con una empresa líder en tecnología y análisis de datos de movilidad en Estados Unidos, enfocada en transformar datos reales de conducción en campañas publicitarias personalizadas, operando con altos volúmenes de información y exigentes estándares de seguridad y rendimiento.",
+            "challenge": "Escalar una plataforma capaz de procesar y monetizar datos en tiempo real a gran escala, garantizando protección total de información sensible y visibilidad técnica completa para optimizar el desempeño de las campañas publicitarias.",
+            "solution": {
+                "description": "Diseñamos y desarrollamos una plataforma cloud sobre **AWS**, preparada para adaptarse dinámicamente a la demanda. La solución administra límites de anuncios, evalúa su efectividad en tiempo real y soporta cargas variables sin comprometer rendimiento ni estabilidad. \n\nEl backend fue construido con capacidades avanzadas de observabilidad para asegurar monitoreo continuo, trazabilidad distribuida y análisis detallado del comportamiento del sistema."
+            },
+            "impact": "La plataforma permitió convertir datos de movilidad en una fuente sostenible de ingresos, fortaleciendo la capacidad del cliente para innovar en publicidad personalizada a escala y consolidar su liderazgo en el mercado.",
+            "implemented": [
+                "Infraestructura resiliente y escalable en AWS",
+                "Procesamiento de datos en tiempo real a gran volumen",
+                "Logging estructurado, métricas personalizadas y trazabilidad distribuida",
+                "Gestión segura de datos con enfoque de privacidad desde el diseño"
+            ],
+            "image": "compania_analisis_datos.svg",
+            "isSlider": false
+        },
+        {
+            "title": "Banco Falabella",
+            "subtitle": "Lanzamiento de crédito de consumo digital con aprobación inmediata",
+            "industry": ["Servicios financieros", "Banca digital", "Fintech"],
+            "solutionType": ["Desarrollo de plataformas digitales", "Integración de sistemas", "Automatización de procesos financieros"],
+            "context": "Colaboramos con una de las entidades financieras más relevantes de Latinoamérica en el lanzamiento de un producto de crédito de consumo 100% digital, con aprobación y desembolso inmediato, accesible desde su sitio web y aplicación móvil.",
+            "challenge": "Diseñar e implementar una solución que permitiera evaluar, aprobar y desembolsar créditos en tiempo real, integrando sistemas externos críticos y garantizando altos estándares de seguridad, cumplimiento y experiencia de usuario.",
+            "solution": {
+                "description": "Desarrollamos una plataforma integral que conecta los canales web y móvil con servicios clave como la Registraduría y centrales de riesgo, habilitando procesos automatizados de validación y análisis. La arquitectura fue diseñada para asegurar agilidad, confiabilidad y escalabilidad, soportando flujos financieros críticos sin fricción operativa. \n\nAdicionalmente, implementamos mejoras continuas en la gestión de plataformas de pago y procesos asociados a tarjetas de crédito, fortaleciendo la operación digital de la entidad."
+            },
+            "impact": "La solución permitió ofrecer un crédito de consumo ágil, seguro y completamente digital, fortaleciendo el posicionamiento de la entidad en la banca digital y mejorando significativamente la experiencia de sus usuarios.",
+            "implemented": [
+                "Integración con sistemas de la Registraduría y centrales de riesgo",
+                "Plataforma web y aplicación móvil para solicitud y gestión del crédito",
+                "Procesos automatizados y seguros para evaluación, aprobación y desembolso inmediato",
+                "Optimización y soporte de plataformas de pago y gestión de tarjetas de crédito"
+            ],
+            "image": "logo-falabella.svg",
+            "isSlider": false
+        },
+        {
+            "title": "Pycca",
+            "subtitle": "Modernización del sistema POS para empresa retail",
+            "industry": ["Retail", "Comercio", "Tecnología"],
+            "solutionType": ["Modernización de sistemas", "Desarrollo de software", "Arquitectura cloud"],
+            "context": "Trabajamos con uno de los retailers más grandes de Ecuador en el rediseño de su sistema POS, una plataforma clave para la operación en tienda y la gestión de ventas. El objetivo era modernizar la solución tecnológica incorporando nuevas capacidades visuales y técnicas que mejoraran la experiencia de usuario y optimizaran los procesos operativos en punto de venta.",
+            "challenge": "La organización necesitaba evolucionar su sistema POS hacia una arquitectura más moderna y flexible, capaz de operar de forma online y offline, integrarse con distintos periféricos y servicios externos, y soportar el crecimiento del negocio sin reemplazar la base de datos existente ni afectar la operación en tiendas.",
+            "solution": {
+                "description": "Diseñamos un rediseño integral de la plataforma POS, implementando una arquitectura moderna basada en PWA y migrando progresivamente hacia microservicios en la nube. Esto permitió mantener la continuidad operativa mientras se incorporaban nuevas capacidades tecnológicas y se mejoraba la experiencia de uso del sistema."
+            },
+            "impact": "La modernización del sistema POS fortalece la operación en tienda y mejora la eficiencia en uno de los puntos más críticos del negocio retail: la gestión de ventas y la interacción con el cliente. Con una plataforma más estable, conectada y preparada para operación online y offline, la compañía optimiza tiempos de atención, mejora el control operativo y sienta bases para una experiencia de compra más ágil y consistente",
+            "implemented": [
+                "Arquitectura PWA para operación online y offline",
+                "Migración progresiva hacia microservicios en la nube",
+                "Integración con periféricos de tienda y servicios externos",
+                "Modernización de funcionalidades visuales y técnicas del sistema POS",
+                "Evolución de la plataforma manteniendo la base de datos existente"
+            ],
+            "image": "pycca_logo.svg",
+            "isSlider": false
+        },
+        {
+            "title": "Seguros Bolívar",
             "subtitle": "Plataforma móvil integral para una de las aseguradoras más grandes de Colombia",
             "industry": ["Seguros", "Servicios financieros", "Tecnología digital"],
             "solutionType": ["Desarrollo de aplicación móvil", "Integración de sistemas", "Arquitectura cloud"],
@@ -71,7 +132,7 @@
             "isSlider": false
         },
         {
-            "title": "SEGUROS BOLÍVAR",
+            "title": "Seguros Bolívar",
             "subtitle": "Modernización del sistema core para una aseguradora líder",
             "industry": ["Seguros", "Servicios financieros", "Transformación digital"],
             "solutionType": ["Modernización de sistemas", "Arquitectura cloud", "Desarrollo de software empresarial"],
@@ -89,67 +150,6 @@
                 "Prácticas de desarrollo automatizado y seguro"
             ],
             "image": "segurosbolivar_logo.svg",
-            "isSlider": false
-        },
-        {
-            "title": "EMPRESA DE ANÁLISIS DE DATOS CENTRADA EN MOVILIDAD",
-            "subtitle": "Plataforma escalable de monetización publicitaria basada en datos de movilidad",
-            "industry": ["Tecnología", "Analítica de datos", "Publicidad digital"],
-            "solutionType": ["Desarrollo de software", "Arquitectura cloud", "Procesamiento en tiempo real"],
-            "context": "Trabajamos con una empresa líder en tecnología y análisis de datos de movilidad en Estados Unidos, enfocada en transformar datos reales de conducción en campañas publicitarias personalizadas, operando con altos volúmenes de información y exigentes estándares de seguridad y rendimiento.",
-            "challenge": "Escalar una plataforma capaz de procesar y monetizar datos en tiempo real a gran escala, garantizando protección total de información sensible y visibilidad técnica completa para optimizar el desempeño de las campañas publicitarias.",
-            "solution": {
-                "description": "Diseñamos y desarrollamos una plataforma cloud sobre **AWS**, preparada para adaptarse dinámicamente a la demanda. La solución administra límites de anuncios, evalúa su efectividad en tiempo real y soporta cargas variables sin comprometer rendimiento ni estabilidad. \n\nEl backend fue construido con capacidades avanzadas de observabilidad para asegurar monitoreo continuo, trazabilidad distribuida y análisis detallado del comportamiento del sistema."
-            },
-            "impact": "La plataforma permitió convertir datos de movilidad en una fuente sostenible de ingresos, fortaleciendo la capacidad del cliente para innovar en publicidad personalizada a escala y consolidar su liderazgo en el mercado.",
-            "implemented": [
-                "Infraestructura resiliente y escalable en AWS",
-                "Procesamiento de datos en tiempo real a gran volumen",
-                "Logging estructurado, métricas personalizadas y trazabilidad distribuida",
-                "Gestión segura de datos con enfoque de privacidad desde el diseño"
-            ],
-            "image": "compania_analisis_datos.svg",
-            "isSlider": false
-        },
-        {
-            "title": "BANCO FALABELLA",
-            "subtitle": "Lanzamiento de crédito de consumo digital con aprobación inmediata",
-            "industry": ["Servicios financieros", "Banca digital", "Fintech"],
-            "solutionType": ["Desarrollo de plataformas digitales", "Integración de sistemas", "Automatización de procesos financieros"],
-            "context": "Colaboramos con una de las entidades financieras más relevantes de Latinoamérica en el lanzamiento de un producto de crédito de consumo 100% digital, con aprobación y desembolso inmediato, accesible desde su sitio web y aplicación móvil.",
-            "challenge": "Diseñar e implementar una solución que permitiera evaluar, aprobar y desembolsar créditos en tiempo real, integrando sistemas externos críticos y garantizando altos estándares de seguridad, cumplimiento y experiencia de usuario.",
-            "solution": {
-                "description": "Desarrollamos una plataforma integral que conecta los canales web y móvil con servicios clave como la Registraduría y centrales de riesgo, habilitando procesos automatizados de validación y análisis. La arquitectura fue diseñada para asegurar agilidad, confiabilidad y escalabilidad, soportando flujos financieros críticos sin fricción operativa. \n\nAdicionalmente, implementamos mejoras continuas en la gestión de plataformas de pago y procesos asociados a tarjetas de crédito, fortaleciendo la operación digital de la entidad."
-            },
-            "impact": "La solución permitió ofrecer un crédito de consumo ágil, seguro y completamente digital, fortaleciendo el posicionamiento de la entidad en la banca digital y mejorando significativamente la experiencia de sus usuarios.",
-            "implemented": [
-                "Integración con sistemas de la Registraduría y centrales de riesgo",
-                "Plataforma web y aplicación móvil para solicitud y gestión del crédito",
-                "Procesos automatizados y seguros para evaluación, aprobación y desembolso inmediato",
-                "Optimización y soporte de plataformas de pago y gestión de tarjetas de crédito"
-            ],
-            "image": "logo-falabella.svg",
-            "isSlider": false
-        },
-        {
-            "title": "PYCCA",
-            "subtitle": "Modernización del sistema POS para empresa retail",
-            "industry": ["Retail", "Comercio", "Tecnología"],
-            "solutionType": ["Modernización de sistemas", "Desarrollo de software", "Arquitectura cloud"],
-            "context": "Trabajamos con uno de los retailers más grandes de Ecuador en el rediseño de su sistema POS, una plataforma clave para la operación en tienda y la gestión de ventas. El objetivo era modernizar la solución tecnológica incorporando nuevas capacidades visuales y técnicas que mejoraran la experiencia de usuario y optimizaran los procesos operativos en punto de venta.",
-            "challenge": "La organización necesitaba evolucionar su sistema POS hacia una arquitectura más moderna y flexible, capaz de operar de forma online y offline, integrarse con distintos periféricos y servicios externos, y soportar el crecimiento del negocio sin reemplazar la base de datos existente ni afectar la operación en tiendas.",
-            "solution": {
-                "description": "Diseñamos un rediseño integral de la plataforma POS, implementando una arquitectura moderna basada en PWA y migrando progresivamente hacia microservicios en la nube. Esto permitió mantener la continuidad operativa mientras se incorporaban nuevas capacidades tecnológicas y se mejoraba la experiencia de uso del sistema."
-            },
-            "impact": "La modernización del sistema POS fortalece la operación en tienda y mejora la eficiencia en uno de los puntos más críticos del negocio retail: la gestión de ventas y la interacción con el cliente. Con una plataforma más estable, conectada y preparada para operación online y offline, la compañía optimiza tiempos de atención, mejora el control operativo y sienta bases para una experiencia de compra más ágil y consistente",
-            "implemented": [
-                "Arquitectura PWA para operación online y offline",
-                "Migración progresiva hacia microservicios en la nube",
-                "Integración con periféricos de tienda y servicios externos",
-                "Modernización de funcionalidades visuales y técnicas del sistema POS",
-                "Evolución de la plataforma manteniendo la base de datos existente"
-            ],
-            "image": "pycca_logo.svg",
             "isSlider": false
         }
     ],
