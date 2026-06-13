@@ -23,6 +23,8 @@
         "type": "bestDev",
         "title": "The best software developers in LATAM",
         "subtitle": "helping your projects succeed.",
+        "ctaText": "Contact Us",
+        "ctaHref": "#scheduleSection",
         "items": [
           { "title": "Creation" },
           { "title": "Design" },
@@ -37,26 +39,27 @@
         "services": [
           {
             "title": "Mobile App Development",
-            "description": "We connect your business with your customers by developing intuitive and engaging mobile experiences."
+            "description": "We connect your business with your customers by developing intuitive and engaging mobile apps tailored to your business and user needs. Whether you're looking to boost interaction, offer services, or expand your digital presence, we have you covered."
           },
           {
             "title": "Web App Development",
-            "description": "We create web apps that enhance your operations' efficiency and make your online services more accessible."
+            "description": "We create web apps that enhance your operations' efficiency and make your online services more accessible. With a practical and functional approach, we design platforms that simplify complex tasks and provide a seamless experience for your users."
           },
           {
             "title": "Enterprise App Development",
-            "description": "We build secure enterprise applications that help your organization manage and optimize operations efficiently."
+            "description": "We build custom enterprise applications that help your organization manage and optimize operations efficiently. With scalable and secure solutions, we automate processes, improve decision-making, and ensure every area of your business is aligned and operating smoothly."
           },
           {
             "title": "System Modernization",
-            "description": "We renew legacy systems to be more agile, secure, and efficient."
+            "description": "We renew legacy systems by transforming technological infrastructures to be more agile, secure, and efficient. Technological updates help businesses maximize operational efficiency, reduce costs, and stay ready for digital challenges."
           }
         ],
         "ctaText": "Book a consultation",
         "ctaHref": "#scheduleSection"
       },
       {
-        "type": "form"
+        "type": "form",
+        "title": "Boost your business"
       },
       {
         "type": "bannerAction",
@@ -113,6 +116,8 @@
         "type": "bestDev",
         "title": "Healthcare software delivered by trusted LATAM teams",
         "subtitle": "We build compliant, secure and user-centered health platforms.",
+        "ctaText": "Contact Us",
+        "ctaHref": "#scheduleSection",
         "items": [
           { "title": "Care workflows" },
           { "title": "Patient portals" },
@@ -146,7 +151,8 @@
         "ctaHref": "#scheduleSection"
       },
       {
-        "type": "form"
+        "type": "form",
+        "title": "Boost your business"
       },
       {
         "type": "bannerAction",

@@ -8,19 +8,16 @@ export default function LandingServices({ data }) {
   return (
 
     <div className={styles.servicesSection}>
-      <div class="container">
-        <ContainerSection>
-          <AccordionSection title={data.title} items={data.services} />
-          {data.ctaText && data.ctaHref && (
-            <div className="text-center mt-4">
-              <a href={data.ctaHref} className={styles.heroButton}>
-                {data.ctaText}
-              </a>
-            </div>
-          )}
-        </ContainerSection>
-      </div>
+      <ContainerSection>
+        <AccordionSection title={data.title} items={data.services} />
+        {data.ctaText && data.ctaHref && (
+          <div className="text-center mt-4">
+            <a href={data.ctaHref} className={styles.heroButton}>
+              {data.ctaText}
+            </a>
+          </div>
+        )}
+      </ContainerSection>
     </div>
-  
   );
 }

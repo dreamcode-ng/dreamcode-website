@@ -13,7 +13,7 @@ export default function LandingBestDev({ data }) {
         <div className="mb-5 text-center">
           <h2 className="line-break w_color f_700 z-index99 text-center">{data.title}</h2>
           {data.subtitle && (
-            <p className="f--size-20 pt-3 pb-5 w_color text-center">
+            <p className="f-lg-20 pt-3 pb-5 w_color text-center">
               {data.subtitle}
               {data.ctaHref && data.ctaText && (
                 <>
@@ -36,7 +36,7 @@ export default function LandingBestDev({ data }) {
                   <div className="bg-white text-center">
                     <Icon size="100%" />
                   </div>
-                  <h3 className="text-center w_color mt-3">{item.title}</h3>
+                  <h3 className="text-center w_color">{item.title}</h3>
                 </div>
               </div>
             );
@@ -46,7 +46,7 @@ export default function LandingBestDev({ data }) {
         {data.customersTitle && (
           <>
             <div className="text-center mt-5">
-              <p className="p_color f-lg-18">{data.customersTitle}</p>
+              <p className="w_color f-lg-20">{data.customersTitle}</p>
             </div>
             <LandingLogos />
           </>

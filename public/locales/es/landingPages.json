@@ -23,10 +23,12 @@
         "type": "bestDev",
         "title": "Los mejores desarrolladores de software en LATAM",
         "subtitle": "ayudando a que tus proyectos tengan éxito.",
+        "ctaText": "Contáctanos",
+        "ctaHref": "#scheduleSection",
         "items": [
           { "title": "Creación" },
           { "title": "Diseño" },
-          { "title": "Implementación" },
+          { "title": "ImplementBación" },
           { "title": "Mantenimiento y Soporte" }
         ],
         "customersTitle": "Detrás del éxito de los proyectos tecnológicos, somos un equipo en el que confían estas marcas:"
@@ -37,26 +39,27 @@
         "services": [
           {
             "title": "Desarrollo de Apps Móviles",
-            "description": "Conectamos tu negocio con tus clientes con experiencias móviles intuitivas y atractivas."
+            "description": "Conectamos tu negocio con tus clientes, desarrollamos aplicaciones móviles intuitivas y atractivas, adaptadas a las necesidades de tu negocio y de tus usuarios. Ya sea que busques aumentar la interacción, ofrecer servicios a tus clientes o expandir tu presencia digital."
           },
           {
             "title": "Desarrollo de Apps Web",
-            "description": "Creamos aplicaciones web que mejoran la eficiencia de tus operaciones y hacen tus servicios más accesibles."
+            "description": "Creamos aplicaciones web que mejoran la eficiencia de tus operaciones y facilitan el acceso a tus servicios en línea. Con un enfoque práctico y funcional, diseñamos plataformas que simplifican tareas complejas y ofrecen una experiencia fluida para tus usuarios."
           },
           {
             "title": "Desarrollo de Apps Empresariales",
-            "description": "Construimos aplicaciones empresariales seguras que ayudan a optimizar y gestionar operaciones de forma eficiente."
+            "description": "Desarrollamos aplicaciones empresariales personalizadas que permiten a tu organización gestionar y optimizar sus operaciones de manera eficiente. Con soluciones escalables y seguras, ayudamos a automatizar procesos, mejorar la toma de decisiones y garantizar que cada área de tu empresa esté alineada y funcionando de manera fluida."
           },
           {
             "title": "Modernización de Sistemas",
-            "description": "Renovamos sistemas heredados para hacerlos más ágiles, seguros y eficientes."
+            "description": "Renovamos los sistemas heredados, transformando las infraestructuras tecnológicas para que sean más ágiles, seguras y eficientes. Las actualizaciones tecnológicas ayudan a las empresas a maximizar su eficiencia operativa, reducir costos y estar siempre listas para los desafíos digitales."
           }
         ],
         "ctaText": "Agendar consultoría",
         "ctaHref": "#scheduleSection"
       },
       {
-        "type": "form"
+        "type": "form",
+        "title": "Impulsa tu negocio"
       },
       {
         "type": "bannerAction",
@@ -66,11 +69,11 @@
         "keywords": [
           "Aumenta la competitividad",
           "Maximiza la eficiencia operativa",
-          "Fortalece la experiencia del cliente",
+          "Fortalece la experiencia con los clientes",
           "Automatiza tareas",
           "Optimiza costos",
-          "Mejora procesos",
-          "Innóva en productos/servicios",
+          "Mejora los procesos",
+          "Innova en los productos/servicios",
           "Resuelve desafíos",
           "Evoluciona en el mercado"
         ],
@@ -113,10 +116,11 @@
         "type": "bestDev",
         "title": "Software de salud entregado por equipos LATAM de confianza",
         "subtitle": "Construimos plataformas de salud seguras, conformes y centradas en el usuario.",
+        "ctaText": "Contáctanos",
+        "ctaHref": "#scheduleSection",
         "items": [
           { "title": "Flujos de atención" },
           { "title": "Portales para pacientes" },
-          { "title": "Integraciones clínicas" },
           { "title": "Soporte gestionado" }
         ],
         "customersTitle": "Ayudamos a los equipos de salud a modernizar operaciones con software confiable:"
@@ -146,7 +150,8 @@
         "ctaHref": "#scheduleSection"
       },
       {
-        "type": "form"
+        "type": "form",
+        "title": "Impulsa tu negocio"
       },
       {
         "type": "bannerAction",
