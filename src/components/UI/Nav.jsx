@@ -75,7 +75,7 @@ function Nav({ t }) {
             </ul>
             <ul className="navbar-nav nav mb-2 mb-lg-0">
               <li>
-                  <Link href="/contact#form-primary" className="btn" type="submit">{t('letstalk')}</Link>
+                  <Link href="/contact#Formulario" className="btn" type="submit">{t('letstalk')}</Link>
               </li>
               <LangSwitcher />
             </ul>

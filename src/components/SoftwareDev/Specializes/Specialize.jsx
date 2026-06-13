@@ -38,7 +38,7 @@ export default function Specialize( { title , data, btn }) {
                     ))}
                     </div>
                 </div>
-                <ButtonIcon text={btn} link="#form-primary" className="align-items-center mt-5"/>
+                <ButtonIcon text={btn} link="#Formulario" className="align-items-center mt-5"/>
     </ContainerSection>
   )
 }
