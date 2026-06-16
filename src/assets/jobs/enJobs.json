@@ -1,28 +1,3 @@
 [
-    {
-        "id": 1,
-        "name": "Cloud integration and data developer",
-        "years": "3 years of experience",
-        "english": "Not specified",
-        "location": "Barranquilla",
-        "remote": false,
-        "experts": [
-            "Microservices development",
-            "Cloud platforms (Azure)",
-            "Integrations and APIs",
-            "Data management and processing",
-            "Service-oriented architecture",
-            "Agile environments"
-        ],
-        "rol": [
-            "You will develop your potential serving different sectors and industries.",
-            "You will work with the most advanced technologies.",
-            "You will stay up to date with the latest trends.",
-            "You will generate impact on global-scale projects.",
-            "You will learn from professionals who have developed higher-level solutions.",
-            "You will boost your career toward the future of software development.",
-            "You will work in an agile and flexible environment."
-        ],
-        "url": "cloud-integration-data-developer"
-    }
+
 ]
