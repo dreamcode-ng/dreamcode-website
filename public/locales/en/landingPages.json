@@ -26,10 +26,10 @@
         "ctaText": "Contact Us",
         "ctaHref": "#scheduleSection",
         "items": [
-          { "title": "Creation" },
-          { "title": "Design" },
-          { "title": "Implementation" },
-          { "title": "Maintenance and Support" }
+          { "title": "Creation", "icon": "FaRegLightbulb" },
+          { "title": "Design", "icon": "MdOutlineDesignServices" },
+          { "title": "Implementation", "icon": "LiaToolsSolid" },
+          { "title": "Maintenance and Support", "icon": "FaCode" }
         ],
         "customersTitle": "Behind the success of tech projects, we are a team trusted by these brands:"
       },
@@ -119,10 +119,10 @@
         "ctaText": "Contact Us",
         "ctaHref": "#scheduleSection",
         "items": [
-          { "title": "Care workflows" },
-          { "title": "Patient portals" },
-          { "title": "Clinical integrations" },
-          { "title": "Managed support" }
+          { "title": "Care workflows", "icon": "FaShieldAlt" },
+          { "title": "Patient portals", "icon": "FaMobileAlt" },
+          { "title": "Clinical integrations", "icon": "FaCloud" },
+          { "title": "Managed support", "icon": "LiaToolsSolid" }
         ],
         "customersTitle": "We help healthcare teams modernize operations with reliable software:"
       },

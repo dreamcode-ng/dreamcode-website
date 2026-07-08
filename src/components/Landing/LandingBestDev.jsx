@@ -1,10 +1,20 @@
-import { FaRegLightbulb, FaCode, FaArrowRight } from 'react-icons/fa';
+import { FaRegLightbulb, FaCode, FaArrowRight, FaDesktop, FaMobileAlt, FaCloud, FaShieldAlt } from 'react-icons/fa';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { LiaToolsSolid } from 'react-icons/lia';
 import LandingLogos from './LandingLogos';
 import styles from './landingPage.module.css';
 
-const defaultIcons = [FaRegLightbulb, MdOutlineDesignServices, LiaToolsSolid, FaCode];
+const iconComponents = {
+  FaRegLightbulb,
+  FaCode,
+  MdOutlineDesignServices,
+  LiaToolsSolid,
+  FaDesktop,
+  FaMobileAlt,
+  FaCloud,
+  FaShieldAlt,
+};
+
 
 export default function LandingBestDev({ data }) {
   return (
@@ -29,7 +39,7 @@ export default function LandingBestDev({ data }) {
 
         <div className="row">
           {data.items?.map((item, index) => {
-            const Icon = defaultIcons[index] || FaRegLightbulb;
+            const Icon = iconComponents[item.icon] || FaRegLightbulb;
             return (
               <div key={item.title || index} className="col-6 col-md-6 col-lg-3 col-sm-6">
                 <div className={`icons ${styles.bestDevItem}`}>

@@ -26,10 +26,10 @@
         "ctaText": "Contáctanos",
         "ctaHref": "#scheduleSection",
         "items": [
-          { "title": "Creación" },
-          { "title": "Diseño" },
-          { "title": "ImplementBación" },
-          { "title": "Mantenimiento y Soporte" }
+          { "title": "Creación", "icon": "FaRegLightbulb" },
+          { "title": "Diseño", "icon": "MdOutlineDesignServices" },
+          { "title": "Implementación", "icon": "LiaToolsSolid" },
+          { "title": "Mantenimiento y Soporte", "icon": "FaCode" }
         ],
         "customersTitle": "Detrás del éxito de los proyectos tecnológicos, somos un equipo en el que confían estas marcas:"
       },
@@ -119,9 +119,10 @@
         "ctaText": "Contáctanos",
         "ctaHref": "#scheduleSection",
         "items": [
-          { "title": "Flujos de atención" },
-          { "title": "Portales para pacientes" },
-          { "title": "Soporte gestionado" }
+          { "title": "Flujos de atención", "icon": "FaShieldAlt" },
+          { "title": "Portales para pacientes", "icon": "FaMobileAlt" },
+          { "title": "Integraciones clínicas", "icon": "FaCloud" },
+          { "title": "Soporte gestionado", "icon": "LiaToolsSolid" }
         ],
         "customersTitle": "Ayudamos a los equipos de salud a modernizar operaciones con software confiable:"
       },
