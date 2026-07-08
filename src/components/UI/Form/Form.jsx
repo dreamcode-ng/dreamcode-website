@@ -53,7 +53,7 @@ function Form ( { noTitle }) {
 
     
   return (
-    <ContainerSection idSection="Formulario">
+    <ContainerSection idSection="form-primary">
         {
             !noTitle &&
             <div className='py-5'>

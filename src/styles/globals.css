@@ -140,64 +140,6 @@ figure { margin: 0 0 0 !important; }
 .p_color {color: var(--color-paragraph) !important;}
 .d_color {color: var(--dark) !important;}
 
-.banner-main {
-  background: #000;
-}
-
-.sec_pad,
-.sec--area {
-  padding: 90px 0 40px;
-}
-
-.bestdev {
-  background-color: #000;
-}
-
-.bestdev .icons {
-  align-items: center;
-  background-color: #0d0d0d;
-  border: 1px solid #fff;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  justify-content: center;
-  padding: 20px 15px 10px;
-  position: relative;
-}
-
-.bestdev .icons > div {
-  border-radius: 10px;
-  height: 60px;
-  margin-bottom: 24px;
-  padding: 18px;
-  width: 60px;
-}
-
-.bestdev .icons h3 {
-  font-size: 15px;
-}
-
-.bestdev .row {
-  padding-bottom: 40px;
-}
-
-.logos-container {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  align-items: center;
-}
-
-.imgClients {
-  display: block;
-  height: 100%;
-  padding: 30px;
-  text-align: center;
-  transition: all .3s linear;
-  width: 100%;
-}
-
 /*---- Background-Color -----*/
 .-bg-primary { background-color: var(--bg-primary)}
 .-bg-secondary { background-color: var(--bg-secondary)}
