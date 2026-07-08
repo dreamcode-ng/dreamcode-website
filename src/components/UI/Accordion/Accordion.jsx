@@ -10,7 +10,7 @@ import ContainerSection from '../Containers/ContainerSection';
 
  const AccordionChild = ({ title , description }) => {
   return (
-            <Accordion className={style.accordion}>
+            <Accordion className={`${style.accordion} -bg-primary`}>
             <AccordionSummary
                 expandIcon={<ArrowDropDownIcon sx={{ color: grey [50] }} />}
                 className={`accordionSummary ${style.summary}`}
@@ -19,7 +19,7 @@ import ContainerSection from '../Containers/ContainerSection';
                 <h3 className='f-lg-20 mb-0 w_color'>{title}</h3>
             </AccordionSummary>
             <AccordionDetails className='accordionDetails'>
-                <p className="w_color">{description}</p>
+                <p>{description}</p>
             </AccordionDetails>
             </Accordion>
   )
@@ -27,10 +27,10 @@ import ContainerSection from '../Containers/ContainerSection';
 
 export const AccordionSection = ( { title, items }) => {
     return (
-        <div className="d-flex justify-content-center w-100">
-            <div className='col-lg-10 col-md-12 col-sm-12 px-lg-5'>
-                <h2 className='text-center w_color f-lg-40 f-sm-25 mb-5'>{title}</h2>
-                <div className="accordion-area">
+        <ContainerSection > 
+            <div className="d-flex justify-content-center">
+                <div className='col-lg-6 col-sm-12'>
+                    <h2 className='text-center w_color f-lg-40 f-sm-25 mb-5'>{title}</h2>
                     {
                         items.map((item, index) => (
                             <AccordionChild key={index} title={item.title} description={item.description} />
@@ -38,6 +38,6 @@ export const AccordionSection = ( { title, items }) => {
                     }
                 </div>
             </div>
-        </div>
+        </ContainerSection>
     )
 }

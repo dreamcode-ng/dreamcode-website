@@ -1,9 +1,9 @@
 .accordion {
-    background-color: transparent !important;
+    background-color: initial !important;
     box-shadow: none !important;
     color: #fff;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--color-border);
 }
 .accordion .summary span {
-    margin: 25px 0;
+    margin: 30px 0 ;
 }
