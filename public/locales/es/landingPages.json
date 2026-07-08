@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "meeting",
+    "url": "landing/meeting",
+    "sector": "software",
+    "meta": {
+      "title": "Landing de Desarrollo de Software a Medida",
+      "description": "Soluciones digitales de alto impacto construidas para las necesidades de tu negocio."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "useHorizonScene": true,
+        "preTitle": "Desarrollo de Software",
+        "preLinkText": "Contáctanos",
+        "preLinkHref": "#scheduleSection",
+        "title": "Desarrollamos\nsoluciones de software",
+        "subtitle": "que responden a necesidades y aceleran el crecimiento de tu negocio.",
+        "buttonText": "Agendar consultoría",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "bestDev",
+        "title": "Los mejores desarrolladores de software en LATAM",
+        "subtitle": "ayudando a que tus proyectos tengan éxito.",
+        "ctaText": "Contáctanos",
+        "ctaHref": "#scheduleSection",
+        "items": [
+          { "title": "Creación", "icon": "FaRegLightbulb" },
+          { "title": "Diseño", "icon": "MdOutlineDesignServices" },
+          { "title": "Implementación", "icon": "LiaToolsSolid" },
+          { "title": "Mantenimiento y Soporte", "icon": "FaCode" }
+        ],
+        "customersTitle": "Detrás del éxito de los proyectos tecnológicos, somos un equipo en el que confían estas marcas:"
+      },
+      {
+        "type": "services",
+        "title": "Servicios personalizados de desarrollo de software",
+        "services": [
+          {
+            "title": "Desarrollo de Apps Móviles",
+            "description": "Conectamos tu negocio con tus clientes, desarrollamos aplicaciones móviles intuitivas y atractivas, adaptadas a las necesidades de tu negocio y de tus usuarios. Ya sea que busques aumentar la interacción, ofrecer servicios a tus clientes o expandir tu presencia digital."
+          },
+          {
+            "title": "Desarrollo de Apps Web",
+            "description": "Creamos aplicaciones web que mejoran la eficiencia de tus operaciones y facilitan el acceso a tus servicios en línea. Con un enfoque práctico y funcional, diseñamos plataformas que simplifican tareas complejas y ofrecen una experiencia fluida para tus usuarios."
+          },
+          {
+            "title": "Desarrollo de Apps Empresariales",
+            "description": "Desarrollamos aplicaciones empresariales personalizadas que permiten a tu organización gestionar y optimizar sus operaciones de manera eficiente. Con soluciones escalables y seguras, ayudamos a automatizar procesos, mejorar la toma de decisiones y garantizar que cada área de tu empresa esté alineada y funcionando de manera fluida."
+          },
+          {
+            "title": "Modernización de Sistemas",
+            "description": "Renovamos los sistemas heredados, transformando las infraestructuras tecnológicas para que sean más ágiles, seguras y eficientes. Las actualizaciones tecnológicas ayudan a las empresas a maximizar su eficiencia operativa, reducir costos y estar siempre listas para los desafíos digitales."
+          }
+        ],
+        "ctaText": "Agendar consultoría",
+        "ctaHref": "#scheduleSection"
+      },
+      {
+        "type": "form",
+        "title": "Impulsa tu negocio"
+      },
+      {
+        "type": "bannerAction",
+        "title": "Más de 10 años de experiencia construyendo soluciones en",
+        "subtitle": "Retail, Telecomunicaciones, Seguros, Banca, Tecnología y más.",
+        "bannerBlue": "Con el desarrollo de software, tu negocio",
+        "keywords": [
+          "Aumenta la competitividad",
+          "Maximiza la eficiencia operativa",
+          "Fortalece la experiencia con los clientes",
+          "Automatiza tareas",
+          "Optimiza costos",
+          "Mejora los procesos",
+          "Innova en los productos/servicios",
+          "Resuelve desafíos",
+          "Evoluciona en el mercado"
+        ],
+        "buttonText": "Agendar consultoría",
+        "buttonHref": "#scheduleSection",
+        "hasSchedule": true,
+        "scheduleUrl": "https://dreamcodesoft.neetocal.com/javascript/embed.js",
+        "scheduleEmbedId": "30b41c15-ba54-4a38-aa32-3960ebe73330",
+        "scheduleOrganization": "dreamcodesoft",
+        "image": "/img/landing/talento-tecnologico.png"
+      },
+      {
+        "type": "video",
+        "title": "Descubre nuestras historias de éxito",
+        "videoIds": [
+          "KWcKeJDUriY",
+          "ScKSFTdSpnA"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "meeting-healthcare",
+    "url": "landing/meeting-healthcare",
+    "sector": "healthcare",
+    "meta": {
+      "title": "Landing de Software para Salud",
+      "description": "Soluciones de software centradas en el paciente para organizaciones del sector salud."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "useHorizonScene": true,
+        "title": "Software para líderes de salud",
+        "subtitle": "Mejorando la experiencia del paciente y la atención con soluciones a medida.",
+        "buttonText": "Agendar consultoría",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "bestDev",
+        "title": "Software de salud entregado por equipos LATAM de confianza",
+        "subtitle": "Construimos plataformas de salud seguras, conformes y centradas en el usuario.",
+        "ctaText": "Contáctanos",
+        "ctaHref": "#scheduleSection",
+        "items": [
+          { "title": "Flujos de atención", "icon": "FaShieldAlt" },
+          { "title": "Portales para pacientes", "icon": "FaMobileAlt" },
+          { "title": "Integraciones clínicas", "icon": "FaCloud" },
+          { "title": "Soporte gestionado", "icon": "LiaToolsSolid" }
+        ],
+        "customersTitle": "Ayudamos a los equipos de salud a modernizar operaciones con software confiable:"
+      },
+      {
+        "type": "services",
+        "title": "Servicios de software para el sector salud",
+        "services": [
+          {
+            "title": "Engagement del paciente",
+            "description": "Experiencias digitales que mantienen a los pacientes informados y conectados."
+          },
+          {
+            "title": "Sistemas clínicos",
+            "description": "Soluciones seguras que apoyan los flujos de trabajo clínicos y la interoperabilidad."
+          },
+          {
+            "title": "Analítica de datos",
+            "description": "Información para mejorar resultados, operaciones y cumplimiento normativo."
+          },
+          {
+            "title": "Modernización en la nube",
+            "description": "Migración de sistemas de salud a plataformas en la nube escalables y seguras."
+          }
+        ],
+        "ctaText": "Contacta a nuestro equipo de salud",
+        "ctaHref": "#scheduleSection"
+      },
+      {
+        "type": "form",
+        "title": "Impulsa tu negocio"
+      },
+      {
+        "type": "bannerAction",
+        "title": "Tecnología para organizaciones de salud modernas",
+        "subtitle": "Diseñada para clínicas, hospitales y programas de salud digital.",
+        "bannerBlue": "Impulsa la atención con software",
+        "keywords": [
+          "Mejora la experiencia del paciente",
+          "Aumenta la agilidad operativa",
+          "Protege datos clínicos",
+          "Automatiza flujos de atención",
+          "Apoya servicios virtuales",
+          "Escala salud digital"
+        ],
+        "buttonText": "Agendar consultoría",
+        "buttonHref": "#scheduleSection",
+        "hasSchedule": true,
+        "scheduleUrl": "https://dreamcodesoft.neetocal.com/javascript/embed.js",
+        "scheduleEmbedId": "30b41c15-ba54-4a38-aa32-3960ebe73330",
+        "scheduleOrganization": "dreamcodesoft",
+        "image": "/img/landing/talento-tecnologico.png"
+      },
+      {
+        "type": "video",
+        "title": "Descubre nuestras historias de éxito en salud",
+        "videoIds": [
+          "KWcKeJDUriY",
+          "ScKSFTdSpnA"
+        ]
+      }
+    ]
+  }
+]
