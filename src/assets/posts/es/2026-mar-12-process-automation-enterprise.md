@@ -6,7 +6,7 @@ read: 6-8 min
 date: Marzo 1, 2026
 url: process-automation-companies
 category: innovacion
-imglink: process-automation-enterprise.jpg
+imglink: process-automation-enterprise.jpeg
 ---
 
 # Automatización de procesos en empresas: qué sí automatizar y dónde genera más valor

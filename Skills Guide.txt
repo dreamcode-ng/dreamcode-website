@@ -1,0 +1,9 @@
+How to use these now:
+Whenever you need help with these specific areas, you can simply tell me:
+
+"Create a new landing page for [Topic]" 
+→ I will trigger the Landing Page Manager workflow.
+"Help me write a new blog post" 
+→ I will follow the Blog Post Creator standards.
+"I need to add some new text to the About page" 
+→ I will apply the Localization Guide to ensure both languages are updated consistently.

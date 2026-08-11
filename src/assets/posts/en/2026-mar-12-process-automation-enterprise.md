@@ -6,7 +6,7 @@ read: 6-8 min
 date: March 1, 2026
 url: process-automation-companies
 category: innovation
-imglink: process-automation-enterprise.jpg
+imglink: process-automation-enterprise.jpeg
 ---
 
 # Process automation in companies: what to automate and where it creates the most value

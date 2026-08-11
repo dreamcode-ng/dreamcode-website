@@ -6,7 +6,7 @@ read: 5-10 min
 date: October 1, 2025
 url: custom-software-alignment
 category: innovation
-imglink: custom-tech-that-adapts-to-real-business-needs.png
+imglink: custom-technology-business-evolution.png
 ---
 
 ## Beyond off-the-shelf platforms: how to choose technology that truly supports business evolution
