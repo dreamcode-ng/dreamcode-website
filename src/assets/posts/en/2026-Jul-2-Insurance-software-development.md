@@ -9,8 +9,6 @@ category: innovation
 imglink: insurance-software-development.jpg
 ---
 
-## Insurers are modernizing processes, not just technology
-
 Digital transformation in the insurance industry is no longer just about replacing legacy systems or launching new customer portals. Today, the primary challenge is optimizing the business processes that directly impact productivity, customer experience, and commercial performance.
 
 Processes such as policy quoting, renewals, policy issuance, document review, underwriting, and broker management still rely, in many organizations, on multiple applications, spreadsheets, emails, and manual tasks that consume valuable time and make it difficult to maintain accurate, end-to-end visibility across the operation.

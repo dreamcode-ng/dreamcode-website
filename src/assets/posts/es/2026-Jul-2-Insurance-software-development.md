@@ -9,8 +9,6 @@ category: innovacion
 imglink: insurance-software-development.jpg
 ---
 
-## Las aseguradoras están modernizando procesos, no solo tecnología
-
 La transformación digital en el sector asegurador ya no consiste únicamente en reemplazar sistemas antiguos o desarrollar nuevos portales. Hoy el principal desafío es optimizar procesos que impactan directamente la productividad, la experiencia del cliente y la capacidad comercial.
 
 Procesos como la cotización de pólizas, las renovaciones, la emisión, la revisión documental, la suscripción (*underwriting*) o la atención a corredores siguen dependiendo, en muchas organizaciones, de múltiples aplicaciones, hojas de cálculo, correos electrónicos y tareas manuales que consumen tiempo y dificultan la trazabilidad de la información.

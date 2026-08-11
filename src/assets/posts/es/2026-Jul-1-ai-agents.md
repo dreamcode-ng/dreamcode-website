@@ -9,8 +9,6 @@ category: innovacion
 imglink: ai-agents-enterprises.jpg
 ---
 
-# Agentes de IA en empresas: cómo están transformando el desarrollo de aplicaciones
-
 Durante los últimos años, la conversación sobre inteligencia artificial estuvo dominada por asistentes capaces de generar texto, escribir código o responder preguntas en lenguaje natural. Sin embargo, la evolución de esta tecnología está llevando a las empresas hacia un nuevo escenario: aplicaciones que no solo generan respuestas, sino que también son capaces de ejecutar tareas, interactuar con distintos sistemas y tomar decisiones dentro de procesos de negocio.
 Es aquí donde aparecen los **agentes de IA**. A diferencia de un asistente tradicional, un agente puede interpretar un objetivo, consultar diferentes fuentes de información, utilizar herramientas, ejecutar acciones y adaptarse al contexto para completar una tarea. En otras palabras, deja de ser un componente aislado y pasa a convertirse en una pieza activa dentro de la operación de una aplicación.
 

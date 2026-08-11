@@ -9,8 +9,6 @@ category: innovation
 imglink: process-automation-enterprise.jpeg
 ---
 
-# Process automation in companies: what to automate and where it creates the most value
-
 Process automation has become one of the most important technology priorities for companies in recent years. As organizations digitize operations, integrate platforms, and build new applications, a key question emerges: which processes are truly worth automating and which require a different approach.
 
 Today, automation goes far beyond reducing manual work. In many organizations, it is part of the technology architecture that supports digital products, financial operations, e-commerce platforms, and internal systems. This involves integrating applications, connecting services through APIs, processing data in real time, and optimizing operational workflows within the software companies rely on every day.
