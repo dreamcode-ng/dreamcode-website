@@ -1,38 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DreamCode Website
 
-## Getting Started
+A modern Next.js 13 website showcasing the DreamCode team's work, featuring a blog, job board, and internationalization support for English and Spanish audiences.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+This is a Next.js 13 web application developed for DreamCode SAS services division. The site presents:
+- Company culture and team highlights
+- Comprehensive job board with bilingual listings
+- Collection of technical blog posts
+- Interactive UI components demonstrating development capabilities
+
+Built using the `@vercel/next.js` framework, it combines modern web development practices with localization features for global reach.
+
+## Key Features
+
+- **SAS Solution Showcase**: Highlights DreamCode's SAS software development expertise
+- **Internationalization**: Full English/Spanish support using `next-i18next`
+- **Dynamic Job Board**: Real-time listings from English and Spanish JSON files
+- **Interactive Blog**: Content managed through Markdown-to-JSON pipeline
+- **Modern Architecture**: Server-side rendering with React components
+- **SEO Optimized**: Includes analytics scripts and structured metadata
+
+## Project Structure
+
+```
+├── src/
+│   ├── assets/               # Job listings & static assets
+│   ├── components/           # Reusable UI components
+│   ├── pages/                # Route-level pages (index, about, blog, etc.)
+│   ├── context/              # React context (LanguageProvider)
+│   ├── styles/               # Global styles and CSS modules
+│   └── public/               # Static assets, locales, SEO files
+└── public/
+    └── locales/              # Translation JSON files (en/, es/)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Quick Start
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. **Develop the application**
+   ```bash
+   cd dreamcode-website
+   npm run dev
+   ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+2. **Run the production build**
+   ```bash
+   npm run build
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. **Start the server**
+   ```bash
+   npm run start
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Visit [http://localhost:3000](http://localhost:3000) to view the live site.
 
-## Learn More
+## Localization System
 
-To learn more about Next.js, take a look at the following resources:
+The site supports both English and Spanish content through:
+- Separate translation JSON files in `public/locales/`
+- Dynamic routing based on locale selection
+- Consistent UI components that adapt to language changes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Job Board Implementation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Job listings are stored in:
+  - `src/assets/jobs/enJobs.json` (English)
+  - `src/assets/jobs/esJobs.json` (Spanish)
+- Both files are rendered through component props
+- Maintains dual-language career opportunities tracking
 
-## Deploy on Vercel
+## Blog Pipeline
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Markdown content is processed through `public/main.js` to generate structured blog data served through:
+- Static blog posts in JSON format
+- API routes for content retrieval
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployment
+
+The easiest deployment path is through Vercel:
+1. Connect to a Vercel account
+2. Follow the visual deployment wizard
+3. Ensure language routing is preserved in deployment settings
+
+## License
+
+This project is maintained by the DreamCode SAS team.
