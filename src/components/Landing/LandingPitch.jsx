@@ -24,7 +24,7 @@ function LandingSliderWords({ items }) {
   );
 }
 
-export default function LandingBannerAction({ data }) {
+export default function LandingPitch({ data }) {
   return (
     <>
       <section className={`sec--area ${styles.bannerActionSection}`}>

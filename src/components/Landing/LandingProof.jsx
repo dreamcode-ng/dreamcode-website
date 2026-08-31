@@ -1,7 +1,7 @@
 import ContainerSection from '@/components/UI/Containers/ContainerSection';
 import styles from './landingPage.module.css';
 
-export default function LandingVideo({ data }) {
+export default function LandingProof({ data }) {
   if (!data.videoIds?.length) return null;
 
   return (

@@ -9,7 +9,7 @@
     },
     "sections": [
       {
-        "type": "hero",
+        "type": "headline",
         "useHorizonScene": true,
         "preTitle": "Software Development",
         "preLinkText": "Contact Us",
@@ -20,21 +20,33 @@
         "buttonHref": "#scheduleSection"
       },
       {
-        "type": "bestDev",
+        "type": "valueProps",
         "title": "The best software developers in LATAM",
         "subtitle": "helping your projects succeed.",
         "ctaText": "Contact Us",
         "ctaHref": "#scheduleSection",
         "items": [
-          { "title": "Creation", "icon": "FaRegLightbulb" },
-          { "title": "Design", "icon": "MdOutlineDesignServices" },
-          { "title": "Implementation", "icon": "LiaToolsSolid" },
-          { "title": "Maintenance and Support", "icon": "FaCode" }
+          {
+            "title": "Creation",
+            "icon": "FaRegLightbulb"
+          },
+          {
+            "title": "Design",
+            "icon": "MdOutlineDesignServices"
+          },
+          {
+            "title": "Implementation",
+            "icon": "LiaToolsSolid"
+          },
+          {
+            "title": "Maintenance and Support",
+            "icon": "FaCode"
+          }
         ],
         "customersTitle": "Behind the success of tech projects, we are a team trusted by these brands:"
       },
       {
-        "type": "services",
+        "type": "offerings",
         "title": "Custom Software Development Services",
         "services": [
           {
@@ -58,11 +70,11 @@
         "ctaHref": "#scheduleSection"
       },
       {
-        "type": "form",
+        "type": "leadCapture",
         "title": "Boost your business"
       },
       {
-        "type": "bannerAction",
+        "type": "pitch",
         "title": "Over 10 years of experience building solutions across",
         "subtitle": "Retail, Telecommunications, Insurance, Banking, Technology, and more.",
         "bannerBlue": "With software development your business",
@@ -86,7 +98,7 @@
         "image": "/img/landing/talento-tecnologico.png"
       },
       {
-        "type": "video",
+        "type": "proof",
         "title": "Discover our success stories",
         "videoIds": [
           "KWcKeJDUriY",
@@ -105,7 +117,7 @@
     },
     "sections": [
       {
-        "type": "hero",
+        "type": "headline",
         "useHorizonScene": true,
         "title": "Software for Healthcare leaders",
         "subtitle": "Improving patient experience and care delivery with custom solutions.",
@@ -113,21 +125,33 @@
         "buttonHref": "#scheduleSection"
       },
       {
-        "type": "bestDev",
+        "type": "valueProps",
         "title": "Healthcare software delivered by trusted LATAM teams",
         "subtitle": "We build compliant, secure and user-centered health platforms.",
         "ctaText": "Contact Us",
         "ctaHref": "#scheduleSection",
         "items": [
-          { "title": "Care workflows", "icon": "FaShieldAlt" },
-          { "title": "Patient portals", "icon": "FaMobileAlt" },
-          { "title": "Clinical integrations", "icon": "FaCloud" },
-          { "title": "Managed support", "icon": "LiaToolsSolid" }
+          {
+            "title": "Care workflows",
+            "icon": "FaShieldAlt"
+          },
+          {
+            "title": "Patient portals",
+            "icon": "FaMobileAlt"
+          },
+          {
+            "title": "Clinical integrations",
+            "icon": "FaCloud"
+          },
+          {
+            "title": "Managed support",
+            "icon": "LiaToolsSolid"
+          }
         ],
         "customersTitle": "We help healthcare teams modernize operations with reliable software:"
       },
       {
-        "type": "services",
+        "type": "offerings",
         "title": "Healthcare Software Services",
         "services": [
           {
@@ -151,11 +175,11 @@
         "ctaHref": "#scheduleSection"
       },
       {
-        "type": "form",
+        "type": "leadCapture",
         "title": "Boost your business"
       },
       {
-        "type": "bannerAction",
+        "type": "pitch",
         "title": "Technology for modern healthcare organizations",
         "subtitle": "Designed for clinics, hospitals and digital health programs.",
         "bannerBlue": "Empower care with software",
@@ -176,7 +200,7 @@
         "image": "/img/landing/talento-tecnologico.png"
       },
       {
-        "type": "video",
+        "type": "proof",
         "title": "Discover our healthcare success stories",
         "videoIds": [
           "KWcKeJDUriY",

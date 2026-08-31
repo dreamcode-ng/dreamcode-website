@@ -9,7 +9,7 @@
     },
     "sections": [
       {
-        "type": "hero",
+        "type": "headline",
         "useHorizonScene": true,
         "preTitle": "Desarrollo de Software",
         "preLinkText": "Contáctanos",
@@ -20,21 +20,33 @@
         "buttonHref": "#scheduleSection"
       },
       {
-        "type": "bestDev",
+        "type": "valueProps",
         "title": "Los mejores desarrolladores de software en LATAM",
         "subtitle": "ayudando a que tus proyectos tengan éxito.",
         "ctaText": "Contáctanos",
         "ctaHref": "#scheduleSection",
         "items": [
-          { "title": "Creación", "icon": "FaRegLightbulb" },
-          { "title": "Diseño", "icon": "MdOutlineDesignServices" },
-          { "title": "Implementación", "icon": "LiaToolsSolid" },
-          { "title": "Mantenimiento y Soporte", "icon": "FaCode" }
+          {
+            "title": "Creación",
+            "icon": "FaRegLightbulb"
+          },
+          {
+            "title": "Diseño",
+            "icon": "MdOutlineDesignServices"
+          },
+          {
+            "title": "Implementación",
+            "icon": "LiaToolsSolid"
+          },
+          {
+            "title": "Mantenimiento y Soporte",
+            "icon": "FaCode"
+          }
         ],
         "customersTitle": "Detrás del éxito de los proyectos tecnológicos, somos un equipo en el que confían estas marcas:"
       },
       {
-        "type": "services",
+        "type": "offerings",
         "title": "Servicios personalizados de desarrollo de software",
         "services": [
           {
@@ -58,11 +70,11 @@
         "ctaHref": "#scheduleSection"
       },
       {
-        "type": "form",
+        "type": "leadCapture",
         "title": "Impulsa tu negocio"
       },
       {
-        "type": "bannerAction",
+        "type": "pitch",
         "title": "Más de 10 años de experiencia construyendo soluciones en",
         "subtitle": "Retail, Telecomunicaciones, Seguros, Banca, Tecnología y más.",
         "bannerBlue": "Con el desarrollo de software, tu negocio",
@@ -86,7 +98,7 @@
         "image": "/img/landing/talento-tecnologico.png"
       },
       {
-        "type": "video",
+        "type": "proof",
         "title": "Descubre nuestras historias de éxito",
         "videoIds": [
           "KWcKeJDUriY",
@@ -105,7 +117,7 @@
     },
     "sections": [
       {
-        "type": "hero",
+        "type": "headline",
         "useHorizonScene": true,
         "title": "Software para líderes de salud",
         "subtitle": "Mejorando la experiencia del paciente y la atención con soluciones a medida.",
@@ -113,21 +125,33 @@
         "buttonHref": "#scheduleSection"
       },
       {
-        "type": "bestDev",
+        "type": "valueProps",
         "title": "Software de salud entregado por equipos LATAM de confianza",
         "subtitle": "Construimos plataformas de salud seguras, conformes y centradas en el usuario.",
         "ctaText": "Contáctanos",
         "ctaHref": "#scheduleSection",
         "items": [
-          { "title": "Flujos de atención", "icon": "FaShieldAlt" },
-          { "title": "Portales para pacientes", "icon": "FaMobileAlt" },
-          { "title": "Integraciones clínicas", "icon": "FaCloud" },
-          { "title": "Soporte gestionado", "icon": "LiaToolsSolid" }
+          {
+            "title": "Flujos de atención",
+            "icon": "FaShieldAlt"
+          },
+          {
+            "title": "Portales para pacientes",
+            "icon": "FaMobileAlt"
+          },
+          {
+            "title": "Integraciones clínicas",
+            "icon": "FaCloud"
+          },
+          {
+            "title": "Soporte gestionado",
+            "icon": "LiaToolsSolid"
+          }
         ],
         "customersTitle": "Ayudamos a los equipos de salud a modernizar operaciones con software confiable:"
       },
       {
-        "type": "services",
+        "type": "offerings",
         "title": "Servicios de software para el sector salud",
         "services": [
           {
@@ -151,11 +175,11 @@
         "ctaHref": "#scheduleSection"
       },
       {
-        "type": "form",
+        "type": "leadCapture",
         "title": "Impulsa tu negocio"
       },
       {
-        "type": "bannerAction",
+        "type": "pitch",
         "title": "Tecnología para organizaciones de salud modernas",
         "subtitle": "Diseñada para clínicas, hospitales y programas de salud digital.",
         "bannerBlue": "Impulsa la atención con software",
@@ -176,7 +200,7 @@
         "image": "/img/landing/talento-tecnologico.png"
       },
       {
-        "type": "video",
+        "type": "proof",
         "title": "Descubre nuestras historias de éxito en salud",
         "videoIds": [
           "KWcKeJDUriY",

@@ -2,7 +2,7 @@ import { AccordionSection } from '@/components/UI/Accordion/Accordion';
 import ContainerSection from '@/components/UI/Containers/ContainerSection';
 import styles from './landingPage.module.css';
 
-export default function LandingServices({ data }) {
+export default function LandingOfferings({ data }) {
   if (!data.services?.length) return null;
 
   return (

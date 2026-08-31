@@ -6,7 +6,7 @@ const ArrowIcon = () => (
   </svg>
 );
 
-export default function LandingHero({ data }) {
+export default function LandingHeadline({ data }) {
   return (
     <section className={`sec_pad ${styles.hero}`}>
       <div className="col-lg-12 col-md-12 col-sm-12">

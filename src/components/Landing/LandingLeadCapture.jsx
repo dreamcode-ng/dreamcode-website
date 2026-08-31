@@ -2,7 +2,7 @@ import NeetoCalEmbed from './NeetoCalEmbed';
 import { useTranslation } from 'react-i18next';
 import styles from './landingPage.module.css';
 
-export default function LandingForm({ data }) {
+export default function LandingLeadCapture({ data }) {
   const { t } = useTranslation('form');
 
   const formTitle = data?.title || t('form_title');

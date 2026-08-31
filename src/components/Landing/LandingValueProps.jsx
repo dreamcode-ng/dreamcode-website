@@ -16,7 +16,7 @@ const iconComponents = {
 };
 
 
-export default function LandingBestDev({ data }) {
+export default function LandingValueProps({ data }) {
   return (
     <section className={`bestdev sec--area ${styles.bestDevSection}`}>
       <div className="container">
