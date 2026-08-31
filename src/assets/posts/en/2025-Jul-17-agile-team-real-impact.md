@@ -9,8 +9,6 @@ category: innovation
 imglink: agile-team-real-impact.jpg
 ---
 
-## User stories or real deliveries? How to know if your agile team is generating impact
-
 Adopting agile methodologies is only the first step. The real question technology leaders should ask themselves is: Is my agile team delivering real, measurable value to the business?
 Many organizations have invested in agility and digital transformation but fail to translate those initiatives into concrete results. The problem is rarely the methodology. What is usually missing is the right technical talent to put agility into practice with strength, speed, and quality.
 With a specialized staffing model, it’s possible to build teams that not only execute tasks but develop effective, maintainable solutions aligned with strategic goals. Here are three technical signs that indicate whether an agile team is truly generating impact:

@@ -6,10 +6,8 @@ read: 6-8 min
 date: March 1, 2026
 url: process-automation-companies
 category: innovation
-imglink: process-automation-enterprise.jpg
+imglink: process-automation-enterprise.jpeg
 ---
-
-# Process automation in companies: what to automate and where it creates the most value
 
 Process automation has become one of the most important technology priorities for companies in recent years. As organizations digitize operations, integrate platforms, and build new applications, a key question emerges: which processes are truly worth automating and which require a different approach.
 
