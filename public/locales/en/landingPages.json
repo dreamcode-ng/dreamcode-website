@@ -4,7 +4,7 @@
     "url": "landing/meeting",
     "sector": "software",
     "meta": {
-      "title": "Custom Software Development Landing",
+      "title": "Software Developers | Custom Development",
       "description": "High-impact digital solutions built for your business needs."
     },
     "sections": [
@@ -79,7 +79,7 @@
       },
       {
         "type": "pitch",
-        "title": "Over 10 years of experience building solutions across",
+        "title": "Over 11 years of experience building solutions across",
         "subtitle": "Retail, Telecommunications, Insurance, Banking, Technology, and more.",
         "bannerBlue": "With software development your business",
         "keywords": [

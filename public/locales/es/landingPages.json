@@ -4,7 +4,7 @@
     "url": "landing/meeting",
     "sector": "software",
     "meta": {
-      "title": "Landing de Desarrollo de Software a Medida",
+      "title": "Desarrolladores de Software | Desarrollo a la Medida",
       "description": "Soluciones digitales de alto impacto construidas para las necesidades de tu negocio."
     },
     "sections": [
@@ -79,7 +79,7 @@
       },
       {
         "type": "pitch",
-        "title": "Más de 10 años de experiencia construyendo soluciones en",
+        "title": "Más de 11 años de experiencia construyendo soluciones en",
         "subtitle": "Retail, Telecomunicaciones, Seguros, Banca, Tecnología y más.",
         "bannerBlue": "Con el desarrollo de software, tu negocio",
         "keywords": [
@@ -103,7 +103,7 @@
       },
       {
         "type": "proof",
-        "title": "Descubre nuestras historias de éxito",
+        "title": "Conoce nuestros casos de éxito",
         "videoIds": [
           "KWcKeJDUriY",
           "ScKSFTdSpnA"
