@@ -8,7 +8,7 @@ export default function LandingLeadCapture({ data }) {
   const formTitle = data?.title || t('form_title');
 
   return (
-    <section className="sec--area mt-5 form-booking" id="scheduleSection">
+    <section className="sec--area form-booking" id="scheduleSection">
       <div className="container">
     <div className={`row ${styles.leadCaptureRow}`}>
           <div className={`col-lg-4 ${styles.leadCaptureCol}`}>

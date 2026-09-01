@@ -438,118 +438,55 @@
 }
 
 .detailsContainer {
-  position: relative;
-  overflow: hidden;
-  width: 1200px;
-  height: 1379px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding-top: 6rem;
-}
-
-.detailsInner {
-  width: 1200px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 66px;
-}
-
-.detailsHeader {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-}
-
-.detailsTitle {
-  width: 748px;
-  text-align: center;
-  color: var(--landing-text-white);
-  font-size: 54px;
-  font-family: 'Jost', sans-serif;
-  font-weight: 700;
-  line-height: 60px;
-  word-wrap: break-word;
+  padding: 6rem 1.5rem 1.5rem;
 }
 
 .detailsDescription {
-  width: 654px;
-  text-align: center;
   color: var(--landing-text-white);
-  font-size: 22px;
-  font-family: 'Jost', sans-serif;
-  font-weight: 400;
-  line-height: 31px;
-  word-wrap: break-word;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  line-height: 1.8;
+  opacity: 0.92;
+  margin: 0 auto 2.5rem;
+  max-width: 58rem;
 }
 
 .detailsBody {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
   justify-content: flex-start;
-  align-items: flex-start;
-  gap: 25px;
-}
-
-.detailsCardWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+  margin: 0;
 }
 
 .detailsCard {
-  width: 637px;
-  height: 187px;
-  padding: 40px;
+  width: 100%;
+  max-width: 650px;
+  padding: 2rem;
   background: var(--landing-card-bg);
   border-radius: 10px;
   outline: 1px rgba(255, 255, 255, 0.20) solid;
   outline-offset: -1px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 24px;
-}
-
-.detailsCardHeader {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .detailsCardTitle {
-  text-align: center;
   color: var(--landing-text-white);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  word-wrap: break-word;
-}
-
-.detailsCardBody {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
+  text-align: center;
 }
 
 .detailsCardText {
-  align-self: stretch;
   color: var(--landing-text-white);
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  line-height: 23px;
-  word-wrap: break-word;
+  line-height: 1.5;
 }
