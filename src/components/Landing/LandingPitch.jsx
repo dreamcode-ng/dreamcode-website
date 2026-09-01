@@ -13,11 +13,11 @@ function LandingSliderWords({ items }) {
       direction="vertical"
       autoplay={{ delay: 2500 }}
       modules={[EffectFlip, Autoplay]}
-      className={styles.sliderWords}
+      className={styles.pitchSlider}
     >
       {items.map((item, index) => (
         <SwiperSlide key={index}>
-          <h3 className={`bg-dark w_color ${styles.sliderWord}`}>{item}</h3>
+          <h3 className={`bg-dark w_color ${styles.pitchSliderWord}`}>{item}</h3>
         </SwiperSlide>
       ))}
     </Swiper>
@@ -27,12 +27,12 @@ function LandingSliderWords({ items }) {
 export default function LandingPitch({ data }) {
   return (
     <>
-      <section className={`sec--area ${styles.bannerActionSection}`}>
+      <section className={`sec--area ${styles.pitchSection}`}>
         <div className="container">
           <div className="row d_flex align-items-center justify-content-center">
             {data.image && (
               <div className="col-lg-6">
-                <figure className={styles.bannerActionImage}>
+                <figure className={styles.pitchImage}>
                   <img src={data.image} alt={data.title} width="100%" />
                 </figure>
               </div>
@@ -45,15 +45,15 @@ export default function LandingPitch({ data }) {
         </div>
       </section>
 
-      <section className={styles.bannerCtaSection}>
+      <section className={styles.pitchCtaSection}>
         <div className="container">
           <div className="row d_flex align-items-center justify-content-center">
             <div className="col-lg-8 text-left">
-              <h3 className={`w_color ${styles.bannerCtaTitle}`}>{data.bannerBlue}</h3>
+              <h3 className={`w_color ${styles.pitchCtaTitle}`}>{data.bannerBlue}</h3>
               <LandingSliderWords items={data.keywords} />
             </div>
-            <div className={`col-lg-4 ${styles.btnAgendar}`}>
-              <a href={data.buttonHref || '#Formulario'} className={styles.bannerCtaButton}>
+            <div className={`col-lg-4 ${styles.pitchCta}`}>
+              <a href={data.buttonHref || '#Formulario'} className={styles.pitchCtaButton}>
                 {data.buttonText || 'Book a consultation'}
               </a>
             </div>

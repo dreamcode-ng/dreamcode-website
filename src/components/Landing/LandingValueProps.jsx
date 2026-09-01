@@ -66,7 +66,7 @@ function getIconComponent(iconName) {
 
 export default function LandingValueProps({ data }) {
   return (
-    <section className={`bestdev sec--area ${styles.bestDevSection}`}>
+    <section className={`bestdev sec--area ${styles.valuePropsSection}`}>
       <div className="container">
         <div className="mb-5 text-center">
           <h2 className="line-break w_color f_700 z-index99 text-center">{data.title}</h2>
@@ -91,7 +91,7 @@ export default function LandingValueProps({ data }) {
             const Icon = IconComponent || FaRegLightbulb;
             return (
               <div key={item.title || index} className="col-6 col-md-6 col-lg-3 col-sm-6">
-                <div className={`icons ${styles.bestDevItem}`}>
+                <div className={`icons ${styles.valuePropsItem}`}>
                   <div className="bg-white text-center">
                     <Icon size="100%" />
                   </div>

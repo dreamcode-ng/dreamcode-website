@@ -5,7 +5,7 @@ export default function LandingProof({ data }) {
   if (!data.videoIds?.length) return null;
 
   return (
-    <section className={styles.videoSection}>
+    <section className={styles.proofSection}>
       <ContainerSection>
         <div className="text-center mb-5">
           <h2 className="w_color text-center f_700 f-lg-40 f-sm-25">{data.title}</h2>
@@ -15,7 +15,7 @@ export default function LandingProof({ data }) {
             <div key={videoId} className="col-lg-6">
               <div className="video_content mt-2">
                 <iframe
-                  className={styles.videoFrame}
+                  className={styles.proofFrame}
                   src={`https://www.youtube.com/embed/${videoId}`}
                   title={data.title}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

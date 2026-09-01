@@ -7,12 +7,12 @@ export default function LandingOfferings({ data }) {
 
   return (
 
-    <div className={styles.servicesSection}>
+    <div className={styles.offeringsSection}>
       <ContainerSection>
         <AccordionSection title={data.title} items={data.services} />
         {data.ctaText && data.ctaHref && (
           <div className="text-center mt-4">
-            <a href={data.ctaHref} className={styles.heroButton}>
+            <a href={data.ctaHref} className={styles.headlineButton}>
               {data.ctaText}
             </a>
           </div>

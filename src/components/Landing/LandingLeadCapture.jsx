@@ -10,13 +10,13 @@ export default function LandingLeadCapture({ data }) {
   return (
     <section className="sec--area mt-5 form-booking" id="scheduleSection">
       <div className="container">
-    <div className={`row ${styles.formBookingRow}`}>
-          <div className={`col-lg-4 ${styles.formBookingCol1}`}>
+    <div className={`row ${styles.leadCaptureRow}`}>
+          <div className={`col-lg-4 ${styles.leadCaptureCol}`}>
             <h3 className="w_color f-lg-50 f_600">{formTitle}</h3>
             <p className="w_color">info@dreamcodesoft.com</p>
           </div>
-          <div className={`col-lg-8 ${styles.formBookingCol2}`}>
-            <div className={styles.dataForm}>
+          <div className={`col-lg-8 ${styles.leadCaptureCol}`}>
+            <div className={styles.leadCaptureForm}>
               <NeetoCalEmbed
                 scriptUrl="https://dreamcodesoft.neetocal.com/javascript/embed.js"
                 embedId="30b41c15-ba54-4a38-aa32-3960ebe73330"

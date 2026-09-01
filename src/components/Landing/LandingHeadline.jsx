@@ -8,11 +8,11 @@ const ArrowIcon = () => (
 
 export default function LandingHeadline({ data }) {
   return (
-    <section className={`sec_pad ${styles.hero}`}>
+    <section className={`sec_pad ${styles.headline}`}>
       <div className="col-lg-12 col-md-12 col-sm-12">
         <div className="text-center">
           {data.preTitle && (
-            <p className={`text-center p_color ${styles.heroPretitle}`}>
+            <p className={`text-center p_color ${styles.headlinePretitle}`}>
               {data.preTitle}{' '}
               {data.preLinkText && (
                 <a href={data.preLinkHref || data.buttonHref || '#scheduleSection'} className="w_color">
@@ -21,15 +21,15 @@ export default function LandingHeadline({ data }) {
               )}
             </p>
           )}
-          <h1 className={`${styles.heroTitle} w_color text-center`}>
+          <h1 className={`${styles.headlineTitle} w_color text-center`}>
             {data.title}
           </h1>
-          <h3 className={`${styles.heroSubtitle} w_color`}>
+          <h3 className={`${styles.headlineSubtitle} w_color`}>
             {data.subtitle}
           </h3>
           {data.buttonText && (
             <div className="text-center z-index-9 position-relative">
-              <a href={data.buttonHref || '#scheduleSection'} className={styles.heroButton}>
+              <a href={data.buttonHref || '#scheduleSection'} className={styles.headlineButton}>
                 {data.buttonText}
               </a>
             </div>
