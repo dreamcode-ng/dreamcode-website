@@ -137,7 +137,7 @@
 .logos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 1.25rem;
+  gap: 1.5rem;
   align-items: center;
   margin-top: 2.5rem;
   justify-content: center;
