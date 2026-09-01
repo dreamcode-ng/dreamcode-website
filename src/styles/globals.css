@@ -11,6 +11,29 @@
   --r-right: 12px;
   --r-bottom: 12px;
   --r-left: 12px;
+
+  /* Landing page design tokens */
+  --landing-cyan: #3BF7E4;
+  --landing-cyan-light: #8CD4DE;
+  --landing-cyan-dark: #003d5b;
+  --landing-bg-dark: #061325;
+  --landing-bg-dark-2: #081427;
+  --landing-bg-dark-3: #02070e;
+  --landing-blue: #0f899e;
+  --landing-blue-light: #48c6d7;
+  --landing-form-blue: #076F7D;
+  --landing-form-cyan: #0DCAE3;
+  --landing-card-bg: #0D0D0D;
+  --landing-text-white: #ffffff;
+  --landing-text-dark: #03131f;
+  --landing-glow-cyan: rgba(58, 222, 255, 0.16);
+  --landing-glow-cyan-2: rgba(53, 190, 255, 0.2);
+  --landing-glow-cyan-3: rgba(69, 226, 255, 0.12);
+  --landing-glow-cyan-4: rgba(94, 234, 255, 0.22);
+  --landing-glow-cyan-5: rgba(60, 220, 255, 0.1);
+  --landing-glow-cyan-6: rgba(109, 255, 225, 0.08);
+  --landing-glow-cyan-7: rgba(124, 221, 255, 0.92);
+  --landing-border-white: rgba(255, 255, 255, 0.18);
 }
 
 /*Modo Dark*/

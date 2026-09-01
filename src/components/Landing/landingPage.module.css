@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   padding: 120px 0 80px;
-  color: #ffffff;
+  color: var(--landing-text-white);
   background: transparent;
 }
 
@@ -14,7 +14,7 @@
   width: 130%;
   height: 440px;
   transform: translateX(-50%);
-  background: radial-gradient(circle, rgba(58, 222, 255, 0.16), transparent 52%);
+  background: radial-gradient(circle, var(--landing-glow-cyan), transparent 52%);
   filter: blur(36px);
   pointer-events: none;
 }
@@ -28,7 +28,7 @@
   font-size: 0.95rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(124, 221, 255, 0.92);
+  color: var(--landing-glow-cyan-7);
 }
 
 .headlineTitle {
@@ -54,17 +54,17 @@
   justify-content: center;
   padding: 1rem 2.2rem;
   border-radius: 999px;
-  background: #ffffff;
-  color: #03131f;
+  background: var(--landing-text-white);
+  color: var(--landing-text-dark);
   font-weight: 700;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid var(--landing-border-white);
   transition: transform 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
 }
 
 .headlineButton:hover,
 .headlineButton:focus {
   transform: translateY(-1px);
-  box-shadow: 0 18px 40px rgba(53, 190, 255, 0.2);
+  box-shadow: 0 18px 40px var(--landing-glow-cyan-2);
 }
 
 .offeringsSection {
@@ -78,8 +78,8 @@
 
 .valuePropsItem {
   padding: 20px 15px 10px;
-  background: #0D0D0D;
-  border: 1px solid #FFFFFF;
+  background: var(--landing-card-bg);
+  border: 1px solid var(--landing-text-white);
   border-radius: 10px;
   height: 200px;
   display: flex;
@@ -91,7 +91,7 @@
 
 .valuePropsItem:hover {
   transform: translateY(-6px);
-  border-color: rgba(94, 234, 255, 0.22);
+  border-color: var(--landing-glow-cyan-4);
 }
 
 .valuePropsItem .bg-white {
@@ -102,7 +102,7 @@
   height: 60px;
   border-radius: 10px;
   margin-bottom: 24px;
-  background: #ffffff;
+  background: var(--landing-text-white);
 }
 
 .valuePropsItem .bg-white svg {
@@ -207,22 +207,22 @@
 .pitchSection {
   position: relative;
   padding: 6rem 0 4rem;
-  background: radial-gradient(circle at 18% 10%, rgba(60, 220, 255, 0.1), transparent 16%),
-    radial-gradient(circle at 96% 20%, rgba(109, 255, 225, 0.08), transparent 16%),
-    linear-gradient(180deg, #061325 0%, #081427 32%, #02070e 100%);
-  color: #ffffff;
+  background: radial-gradient(circle at 18% 10%, var(--landing-glow-cyan-5), transparent 16%),
+    radial-gradient(circle at 96% 20%, var(--landing-glow-cyan-6), transparent 16%),
+    linear-gradient(180deg, var(--landing-bg-dark) 0%, var(--landing-bg-dark-2) 32%, var(--landing-bg-dark-3) 100%);
+  color: var(--landing-text-white);
 }
 
 .pitchSection::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 80% 20%, rgba(69, 226, 255, 0.12), transparent 15%);
+  background: radial-gradient(circle at 80% 20%, var(--landing-glow-cyan-3), transparent 15%);
   pointer-events: none;
 }
 
 .pitchCtaSection {
-  background: linear-gradient(135deg, #003d5b 0%, #0f899e 40%, #48c6d7 100%);
+  background: linear-gradient(135deg, var(--landing-cyan-dark) 0%, var(--landing-blue) 40%, var(--landing-blue-light) 100%);
   margin: 25px 0;
   padding: 100px 40px;
   width: 100%;
@@ -237,8 +237,8 @@
   padding: 15px 30px;
   text-decoration: none;
   border-radius: 30px;
-  border: 1px solid #fff;
-  color: white;
+  border: 1px solid var(--landing-text-white);
+  color: var(--landing-text-white);
   background: transparent;
   display: inline-flex;
   align-items: center;
@@ -248,8 +248,8 @@
 
 .pitchCtaButton:hover,
 .pitchCtaButton:focus {
-  background: #fff;
-  color: #000;
+  background: var(--landing-text-white);
+  color: var(--landing-text-dark);
 }
 
 .pitchSlider {
@@ -337,14 +337,8 @@
   min-height: 56px;
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.08);
-  color: #ffffff;
+  color: var(--landing-text-white);
   font-weight: 600;
-}
-
-.headline .row h3,
-.headline .row p {
-  font-size: 36px;
-  text-align: left;
 }
 
 .headline .row h3,
@@ -369,7 +363,7 @@
     font-size: 22px;
   }
 
-  .btnAgendar {
+  .pitchCta {
     text-align: left !important;
     margin-top: 25px;
   }
@@ -392,14 +386,14 @@
     font-size: 30px;
   }
 
-  .btnAgendar {
+  .pitchCta {
     text-align: left !important;
     margin-top: 25px;
   }
 }
 
 @media screen and (min-width:901px){
-  .btnAgendar {
+  .pitchCta {
     text-align: center !important;
   }
 }
@@ -416,12 +410,12 @@
 
 .formBookingRow {
   border-radius: 24px;
-  background: radial-gradient(circle, rgba(7,111,125,1) 0%, rgba(13,202,227,1) 100%);
+  background: radial-gradient(circle, var(--landing-form-blue) 0%, var(--landing-form-cyan) 100%);
 }
 
 .leadCaptureRow {
   border-radius: 24px;
-  background: radial-gradient(circle, rgba(7,111,125,1) 0%, rgba(13,202,227,1) 100%);
+  background: radial-gradient(circle, var(--landing-form-blue) 0%, var(--landing-form-cyan) 100%);
 }
 
 .formBookingCol1,
@@ -438,7 +432,7 @@
 
 .leadCaptureForm {
   border-radius: 24px;
-  background-color: #ffffff;
+  background-color: var(--landing-text-white);
   margin: 0;
   padding: 35px;
 }
