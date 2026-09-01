@@ -5,6 +5,7 @@ import LandingPitch from './LandingPitch';
 import LandingProof from './LandingProof';
 import LandingLeadCapture from './LandingLeadCapture';
 import LandingHorizonScene from './LandingHorizonScene';
+import LandingDetails from './LandingDetails';
 
 const sectionComponents = {
   headline: LandingHeadline,
@@ -13,6 +14,7 @@ const sectionComponents = {
   pitch: LandingPitch,
   proof: LandingProof,
   leadCapture: LandingLeadCapture,
+  landingDetails: LandingDetails,
 };
 
 export default function LandingPageRenderer({ landing }) {

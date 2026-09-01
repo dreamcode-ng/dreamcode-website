@@ -70,6 +70,34 @@
         "ctaHref": "#scheduleSection"
       },
       {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "¿Qué podemos desarrollar para tu negocio?",
+        "description": "Cada corredor de seguros enfrenta retos diferentes. Por eso desarrollamos soluciones tecnológicas a la medida que se adaptan a la forma en que opera tu negocio.",
+        "items": [
+          {
+            "title": "Desarrollo de software a la medida",
+            "description": "Creamos plataformas, portales, cotizadores y otras soluciones diseñadas para responder a las necesidades específicas de tu operación."
+          },
+          {
+            "title": "Apps web y móviles",
+            "description": "Desarrollamos aplicaciones que facilitan el acceso a la información, optimizan la gestión comercial y mejoran la experiencia de tus usuarios."
+          },
+          {
+            "title": "Integración de sistemas",
+            "description": "Conectamos aseguradoras, multicotizadores, CRM y otros sistemas para que la información fluya de forma automática y reducir tareas manuales."
+          },
+          {
+            "title": "Automatización de procesos",
+            "description": "Automatizamos procesos como renovaciones, notificaciones, seguimiento comercial y otras tareas repetitivas para reducir la carga operativa y mejorar la eficiencia de tu equipo."
+          },
+          {
+            "title": "Modernización de sistemas",
+            "description": "Modernizamos aplicaciones y plataformas existentes para mejorar su rendimiento, incorporar nuevas funcionalidades y adaptarlas a las necesidades actuales de tu negocio."
+          }
+        ]
+      },
+      {
         "type": "leadCapture",
         "title": "Impulsa tu negocio"
       },
@@ -173,6 +201,34 @@
         ],
         "ctaText": "Contacta a nuestro equipo de salud",
         "ctaHref": "#scheduleSection"
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "¿Qué podemos desarrollar para tu negocio?",
+        "description": "Cada corredor de seguros enfrenta retos diferentes. Por eso desarrollamos soluciones tecnológicas a la medida que se adaptan a la forma en que opera tu negocio.",
+        "items": [
+          {
+            "title": "Desarrollo de software a la medida",
+            "description": "Creamos plataformas, portales, cotizadores y otras soluciones diseñadas para responder a las necesidades específicas de tu operación."
+          },
+          {
+            "title": "Apps web y móviles",
+            "description": "Desarrollamos aplicaciones que facilitan el acceso a la información, optimizan la gestión comercial y mejoran la experiencia de tus usuarios."
+          },
+          {
+            "title": "Integración de sistemas",
+            "description": "Conectamos aseguradoras, multicotizadores, CRM y otros sistemas para que la información fluya de forma automática y reducir tareas manuales."
+          },
+          {
+            "title": "Automatización de procesos",
+            "description": "Automatizamos procesos como renovaciones, notificaciones, seguimiento comercial y otras tareas repetitivas para reducir la carga operativa y mejorar la eficiencia de tu equipo."
+          },
+          {
+            "title": "Modernización de sistemas",
+            "description": "Modernizamos aplicaciones y plataformas existentes para mejorar su rendimiento, incorporar nuevas funcionalidades y adaptarlas a las necesidades actuales de tu negocio."
+          }
+        ]
       },
       {
         "type": "leadCapture",
