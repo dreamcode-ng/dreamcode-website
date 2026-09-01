@@ -206,7 +206,7 @@
 
 .pitchSection {
   position: relative;
-  padding: 6rem 0 4rem;
+  padding: 6rem 0;
   background: radial-gradient(circle at 18% 10%, var(--landing-glow-cyan-5), transparent 16%),
     radial-gradient(circle at 96% 20%, var(--landing-glow-cyan-6), transparent 16%),
     linear-gradient(180deg, var(--landing-bg-dark) 0%, var(--landing-bg-dark-2) 32%, var(--landing-bg-dark-3) 100%);
@@ -223,7 +223,7 @@
 
 .pitchCtaSection {
   background: linear-gradient(135deg, var(--landing-cyan-dark) 0%, var(--landing-blue) 40%, var(--landing-blue-light) 100%);
-  margin: 25px 0;
+  margin: 0;
   padding: 100px 40px;
   width: 100%;
 }
