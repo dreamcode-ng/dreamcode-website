@@ -14,7 +14,7 @@
         "preTitle": "Desarrollo de Software",
         "preLinkText": "Contáctanos",
         "preLinkHref": "#scheduleSection",
-        "title": "Desarrollamos\nsoluciones de software",
+        "title": "Desarrollamos soluciones de software",
         "subtitle": "que responden a necesidades y aceleran el crecimiento de tu negocio.",
         "buttonText": "Agendar consultoría",
         "buttonHref": "#scheduleSection"
@@ -47,7 +47,7 @@
       },
       {
         "type": "offerings",
-        "title": "Servicios personalizados de desarrollo de software",
+        "title": "Servicios de desarrollo de software a tu medida",
         "services": [
           {
             "title": "Desarrollo de Apps Móviles",

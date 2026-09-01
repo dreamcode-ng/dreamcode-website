@@ -28,7 +28,7 @@ export default function LandingPitch({ data }) {
   return (
     <>
       <section className={`sec--area ${styles.pitchSection}`}>
-        <div className="container">
+        <div className="container container-dc">
           <div className="row d_flex align-items-center justify-content-center">
             {data.image && (
               <div className="col-lg-6">
@@ -46,7 +46,7 @@ export default function LandingPitch({ data }) {
       </section>
 
       <section className={styles.pitchCtaSection}>
-        <div className="container">
+        <div className="container container-dc">
           <div className="row d_flex align-items-center justify-content-center">
             <div className="col-lg-8 text-left">
               <h3 className={`w_color ${styles.pitchCtaTitle}`}>{data.bannerBlue}</h3>

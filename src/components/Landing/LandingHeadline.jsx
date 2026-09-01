@@ -8,32 +8,34 @@ const ArrowIcon = () => (
 
 export default function LandingHeadline({ data }) {
   return (
-    <section className={`sec_pad ${styles.headline}`}>
-      <div className="col-lg-12 col-md-12 col-sm-12">
-        <div className="text-center">
-          {data.preTitle && (
-            <p className={`text-center p_color ${styles.headlinePretitle}`}>
-              {data.preTitle}{' '}
-              {data.preLinkText && (
-                <a href={data.preLinkHref || data.buttonHref || '#scheduleSection'} className="w_color">
-                  {data.preLinkText} <ArrowIcon />
+    <section className={`sec--area ${styles.headline}`}>
+      <div className="container container-dc">
+        <div className="col-lg-12 col-md-12 col-sm-12">
+          <div className="text-center">
+            {data.preTitle && (
+              <p className={`text-center p_color ${styles.headlinePretitle}`}>
+                {data.preTitle}{' '}
+                {data.preLinkText && (
+                  <a href={data.preLinkHref || data.buttonHref || '#scheduleSection'} className="w_color">
+                    {data.preLinkText} <ArrowIcon />
+                  </a>
+                )}
+              </p>
+            )}
+            <h1 className={`${styles.headlineTitle} w_color text-center`}>
+              {data.title}
+            </h1>
+            <h3 className={`${styles.headlineSubtitle} w_color`}>
+              {data.subtitle}
+            </h3>
+            {data.buttonText && (
+              <div className="text-center z-index-9 position-relative">
+                <a href={data.buttonHref || '#scheduleSection'} className={styles.headlineButton}>
+                  {data.buttonText}
                 </a>
-              )}
-            </p>
-          )}
-          <h1 className={`${styles.headlineTitle} w_color text-center`}>
-            {data.title}
-          </h1>
-          <h3 className={`${styles.headlineSubtitle} w_color`}>
-            {data.subtitle}
-          </h3>
-          {data.buttonText && (
-            <div className="text-center z-index-9 position-relative">
-              <a href={data.buttonHref || '#scheduleSection'} className={styles.headlineButton}>
-                {data.buttonText}
-              </a>
-            </div>
-          )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </section>

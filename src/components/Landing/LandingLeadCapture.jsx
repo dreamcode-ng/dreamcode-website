@@ -9,7 +9,7 @@ export default function LandingLeadCapture({ data }) {
 
   return (
     <section className="sec--area form-booking" id="scheduleSection">
-      <div className="container">
+      <div className="container container-dc">
     <div className={`row ${styles.leadCaptureRow}`}>
           <div className={`col-lg-4 ${styles.leadCaptureCol}`}>
             <h3 className="w_color f-lg-50 f_600">{formTitle}</h3>

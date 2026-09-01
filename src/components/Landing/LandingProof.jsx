@@ -1,12 +1,11 @@
-import ContainerSection from '@/components/UI/Containers/ContainerSection';
 import styles from './landingPage.module.css';
 
 export default function LandingProof({ data }) {
   if (!data.videoIds?.length) return null;
 
   return (
-    <section className={styles.proofSection}>
-      <ContainerSection>
+    <section className={`sec--area ${styles.proofSection}`}>
+      <div className="container container-dc">
         <div className="text-center mb-5">
           <h2 className="w_color text-center f_700 f-lg-40 f-sm-25">{data.title}</h2>
         </div>
@@ -27,7 +26,7 @@ export default function LandingProof({ data }) {
             </div>
           ))}
         </div>
-      </ContainerSection>
+      </div>
     </section>
   );
 }

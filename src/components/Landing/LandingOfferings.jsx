@@ -6,7 +6,8 @@ export default function LandingOfferings({ data }) {
 
   return (
 
-    <div className={styles.offeringsSection}>
+    <section className={`sec--area ${styles.offeringsSection}`}>
+      <div className="container container-dc">
         <AccordionSection title={data.title} items={data.services} />
         {data.ctaText && data.ctaHref && (
           <div className="text-center mt-4">
@@ -15,6 +16,7 @@ export default function LandingOfferings({ data }) {
             </a>
           </div>
         )}
-    </div>
+      </div>
+    </section>
   );
 }

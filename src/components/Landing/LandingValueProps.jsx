@@ -67,7 +67,7 @@ function getIconComponent(iconName) {
 export default function LandingValueProps({ data }) {
   return (
     <section className={`bestdev sec--area ${styles.valuePropsSection}`}>
-      <div className="container">
+      <div className="container container-dc">
         <div className="mb-5 text-center">
           <h2 className="line-break w_color f_700 z-index99 text-center">{data.title}</h2>
           {data.subtitle && (

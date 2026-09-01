@@ -6,8 +6,8 @@ export default function LandingDetails({ data }) {
   }
 
   return (
-    <section className={`sec--area ${styles.detailsContainer}`}>
-      <div className="container">
+<section className={`sec--area ${styles.detailsContainer}`}>
+      <div className="container container-dc">
         <div className="mb-5">
           <h2 className="w_color f_700 text-center mb-4">{data.title}</h2>
           {data.description && (

@@ -32,12 +32,31 @@
 }
 
 .headlineTitle {
-  font-size: clamp(3.4rem, 6vw, 6.2rem);
-  line-height: 0.98;
-  margin-bottom: 1.4rem;
+  font-size: clamp(2rem, 4vw, 5rem);
+  line-height: 1.2;
+  margin-bottom: 1rem;
   font-weight: 800;
   letter-spacing: -0.04em;
   white-space: pre-line;
+  color: var(--landing-text-white);
+}
+
+@media screen and (max-width: 512px) {
+  .headlineTitle {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 513px) and (max-width: 900px) {
+  .headlineTitle {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .headlineTitle {
+    font-size: 90px;
+  }
 }
 
 .headlineSubtitle {
@@ -46,6 +65,19 @@
   font-size: clamp(1.1rem, 1.7vw, 1.5rem);
   line-height: 1.8;
   opacity: 0.92;
+  color: var(--landing-text-white);
+}
+
+@media screen and (max-width: 512px) {
+  .headlineSubtitle {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 513px) {
+  .headlineSubtitle {
+    font-size: 25px;
+  }
 }
 
 .headlineButton {
@@ -70,6 +102,42 @@
 .offeringsSection {
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(44,154,168,1) 45%, rgba(0,0,0,1) 100%);
   padding: 90px 0 40px;
+}
+
+@media screen and (max-width: 512px) {
+  .offeringsSection {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 513px) and (max-width: 900px) {
+  .offeringsSection {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 24px 0;
+  }
+}
+
+.offeringsSection h2 {
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--landing-text-white);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media (min-width: 513px) and (max-width: 900px) {
+  .offeringsSection h2 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .offeringsSection h2 {
+    font-size: 28px;
+  }
 }
 
 .valuePropsSection h2 {
@@ -509,4 +577,15 @@
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.proofSection {
+  background: var(--landing-bg-dark);
+  padding: 6rem 0 4rem;
+}
+
+.proofFrame {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--landing-border-white);
 }
