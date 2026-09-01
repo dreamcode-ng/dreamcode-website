@@ -71,31 +71,7 @@
       },
       {
         "type": "landingDetails",
-        "showDetailsSection": true,
-        "title": "What can we develop for your business?",
-        "description": "Each insurance broker faces different challenges. That's why we develop technological solutions tailored to the way your business operates.",
-        "items": [
-          {
-            "title": "Custom software development",
-            "description": "We create platforms, portals, quote generators and other solutions designed to respond to the specific needs of your operation."
-          },
-          {
-            "title": "Web and mobile apps",
-            "description": "We develop applications that facilitate access to information, optimize commercial management and improve the experience of your users."
-          },
-          {
-            "title": "System integration",
-            "description": "We connect insurers, multicommunicators, CRMs and other systems so that information flows automatically and reduces manual tasks."
-          },
-          {
-            "title": "Process automation",
-            "description": "We automate processes such as renewals, notifications, commercial follow-up and other repetitive tasks to reduce operational load and improve the efficiency of your team."
-          },
-          {
-            "title": "System modernization",
-            "description": "We modernize existing applications and platforms to improve their performance, incorporate new functionalities and adapt them to the current needs of your business."
-          }
-        ]
+        "showDetailsSection": false
       },
       {
         "type": "leadCapture",
