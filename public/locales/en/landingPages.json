@@ -14,7 +14,7 @@
         "preTitle": "Software Development",
         "preLinkText": "Contact Us",
         "preLinkHref": "#scheduleSection",
-        "title": "We develop\nsoftware solutions",
+        "title": "We develop software solutions",
         "subtitle": "that address needs and accelerate your business growth.",
         "buttonText": "Book a consultation",
         "buttonHref": "#scheduleSection"
@@ -79,6 +79,7 @@
       },
       {
         "type": "pitch",
+        "showExperienceSection": true,
         "title": "Over 11 years of experience building solutions across",
         "subtitle": "Retail, Telecommunications, Insurance, Banking, Technology, and more.",
         "bannerBlue": "With software development your business",
@@ -93,6 +94,7 @@
           "Solve challenges",
           "Evolve in the market"
         ],
+        "showButton": true,
         "buttonText": "Book a consultation",
         "buttonHref": "#scheduleSection",
         "hasSchedule": true,
@@ -112,77 +114,81 @@
     ]
   },
   {
-    "slug": "meeting-healthcare",
-    "url": "landing/meeting-healthcare",
-    "sector": "healthcare",
+    "slug": "insurance",
+    "url": "landing/insurance",
+    "sector": "insurance",
     "meta": {
-      "title": "Healthcare Software Landing",
-      "description": "Patient-centered software solutions for healthcare organizations."
+      "title": "Landing for insurance brokers",
+      "description": "Software solutions focused on the insurance industry."
     },
     "sections": [
       {
         "type": "headline",
         "useHorizonScene": true,
-        "title": "Software for Healthcare leaders",
-        "subtitle": "Improving patient experience and care delivery with custom solutions.",
-        "buttonText": "Book a consultation",
+        "title": "Software development for insurance brokers",
+        "subtitle": "We develop custom software solutions to help you simplify processes, connect platforms, and respond to the real needs of your business.",
+        "buttonText": "Learn how we can help you",
         "buttonHref": "#scheduleSection"
       },
       {
-        "type": "valueProps",
-        "title": "Healthcare software delivered by trusted LATAM teams",
-        "subtitle": "We build compliant, secure and user-centered health platforms.",
-        "ctaText": "Contact Us",
-        "ctaHref": "#scheduleSection",
-        "items": [
-          {
-            "title": "Care workflows",
-            "icon": "FaShieldAlt"
-          },
-          {
-            "title": "Patient portals",
-            "icon": "FaMobileAlt"
-          },
-          {
-            "title": "Clinical integrations",
-            "icon": "FaCloud"
-          },
-          {
-            "title": "Managed support",
-            "icon": "LiaToolsSolid"
-          }
-        ],
-        "customersTitle": "We help healthcare teams modernize operations with reliable software:"
-      },
-      {
         "type": "offerings",
-        "title": "Healthcare Software Services",
+        "title": "Do you identify with any of these challenges?",
         "services": [
           {
-            "title": "Patient Engagement",
-            "description": "Digital experiences that keep patients informed and connected."
+            "title": "How many platforms do you need to open to quote a policy?",
+            "description": "Between insurers, multi-quoters, CRM and other tools, a single quote may require checking different systems and moving information from one to another. This makes the process slower and increases manual work.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time to quote",
+              "Duplicate processes",
+              "Higher risk of errors",
+              "Scattered information"
+            ],
+            "answer": "Today it is possible to integrate multi-quoters, insurer portals and other platforms to streamline the quoting process."
           },
           {
-            "title": "Clinical Systems",
-            "description": "Secure solutions that support clinical workflows and interoperability."
+            "title": "Do renewals still depend on manual follow-up?",
+            "description": "When tracking expirations, reminders and follow-ups depends on spreadsheets or manual tasks, keeping pace as your portfolio grows becomes increasingly complex.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Risk of losing renewals",
+              "Greater administrative load",
+              "Limited follow-up",
+              "Less capacity to grow"
+            ],
+            "answer": "Automatic alerts, CRMs and follow-up workflows help maintain better control over renewals."
           },
           {
-            "title": "Data Analytics",
-            "description": "Insights to improve operations, outcomes and regulatory compliance."
+            "title": "Is tracking a claim still a manual process?",
+            "description": "Calls, emails and consultations between the client and the insurer make it difficult to know the status of each case and provide timely responses.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Slower responses",
+              "Little control over each claim",
+              "Greater load for your team",
+              "Less visibility of the process"
+            ],
+            "answer": "Integrating claims tracking makes traceability easier and allows you to respond more quickly to clients."
           },
           {
-            "title": "Cloud Modernization",
-            "description": "Migrating health systems to scalable, secure cloud platforms."
+            "title": "Is your customer information distributed across different platforms?",
+            "description": "Commercial, administrative and insurer data is often spread across different systems. This makes it difficult to have a complete view of each client and make decisions with up-to-date information.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Incomplete information",
+              "Limited commercial follow-up",
+              "Less business visibility",
+              "Opportunities that may go unnoticed"
+            ],
+            "answer": "Centralizing customer information facilitates commercial follow-up and faster decision-making."
           }
-        ],
-        "ctaText": "Contact our healthcare team",
-        "ctaHref": "#scheduleSection"
+        ]
       },
       {
         "type": "landingDetails",
         "showDetailsSection": true,
         "title": "What can we develop for your business?",
-        "description": "Each insurance broker faces different challenges. That's why we develop technological solutions tailored to the way your business operates.",
+        "description": "Each insurance broker faces different challenges. That's why we develop custom technology solutions that adapt to the way your business operates.",
         "items": [
           {
             "title": "Custom software development",
@@ -194,7 +200,7 @@
           },
           {
             "title": "System integration",
-            "description": "We connect insurers, multicommunicators, CRMs and other systems so that information flows automatically and reduces manual tasks."
+            "description": "We connect insurers, multi-quoters, CRMs and other systems so that information flows automatically and reduces manual tasks."
           },
           {
             "title": "Process automation",
@@ -207,37 +213,29 @@
         ]
       },
       {
-        "type": "leadCapture",
-        "title": "Boost your business"
-      },
-      {
-        "type": "pitch",
-        "title": "Technology for modern healthcare organizations",
-        "subtitle": "Designed for clinics, hospitals and digital health programs.",
-        "bannerBlue": "Empower care with software",
-        "keywords": [
-          "Improve patient experience",
-          "Increase operational agility",
-          "Secure clinical data",
-          "Automate care workflows",
-          "Support virtual services",
-          "Scale digital health"
-        ],
-        "buttonText": "Book a consultation",
-        "buttonHref": "#scheduleSection",
-        "hasSchedule": true,
-        "scheduleUrl": "https://dreamcodesoft.neetocal.com/javascript/embed.js",
-        "scheduleEmbedId": "30b41c15-ba54-4a38-aa32-3960ebe73330",
-        "scheduleOrganization": "dreamcodesoft",
-        "image": "/img/landing/talento-tecnologico.png"
-      },
-      {
         "type": "proof",
-        "title": "Discover our healthcare success stories",
+        "title": "Success stories",
         "videoIds": [
           "KWcKeJDUriY",
           "ScKSFTdSpnA"
         ]
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "The impact of a more connected operation",
+        "bannerParagraph": "By integrating systems and automating key processes, you can achieve:",
+        "keywords": [
+          "Reduce operational times by 20% to 40%",
+          "Decrease errors from manual tasks by up to 50%",
+          "Improve response times by 20% to 35%"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Schedule a meeting",
+        "paragraph": "Let's talk about the challenges of your project and how a custom software solution can help you solve them."
       }
     ]
   }
