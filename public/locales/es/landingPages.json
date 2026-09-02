@@ -118,7 +118,7 @@
     "url": "landing/insurance",
     "sector": "insurance",
     "meta": {
-      "title": "Landing para corredores de seguros",
+      "title": "LANDING CORREDOR DE SEGUROS ",
       "description": "Soluciones de software centradas en el sector seguros."
     },
     "sections": [
@@ -357,6 +357,142 @@
         "keywords": [
           "Reducir tiempos administrativos entre un 20 % y un 40 %",
           "Disminuir errores en procesos manuales hasta en un 50 %",
+          "Incrementar la productividad del personal entre un 15 % y un 30 %"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Agenda una reunión",
+        "paragraph": "Conversemos sobre los desafíos de tu proyecto y cómo una solución de software a la medida puede ayudarte a resolverlos."
+      }
+    ]
+  },
+  {
+    "slug": "retail",
+    "url": "landing/retail",
+    "sector": "retail",
+    "meta": {
+      "title": "LANDING INDUSTRIA RETAIL",
+      "description": "Soluciones de software centradas en el sector retail."
+    },
+    "sections": [
+      {
+        "type": "headline",
+        "useHorizonScene": true,
+        "title": "Desarrollo de software para comercios y puntos de venta",
+        "subtitle": "Desarrollamos soluciones de software a la medida para ayudarte a optimizar procesos, integrar la información y mejorar la gestión de tu negocio.",
+        "buttonText": "Conoce cómo podemos ayudarte",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "offerings",
+        "title": "¿Te identificas con alguno de estos desafíos?",
+        "services": [
+          {
+            "title": "¿La pantalla de tu punto de venta hace más lento el proceso de cobro?",
+            "description": "Muchos sistemas de caja conservan pantallas con demasiadas opciones y procesos diseñados para teclado y mouse, haciendo más lento el trabajo diario del personal.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Más tiempo por transacción",
+              "Mayor tiempo de capacitación",
+              "Más errores durante la venta",
+              "Menor productividad del personal"
+            ],
+            "answer": "Hoy es posible desarrollar sistemas POS con interfaces táctiles, accesos rápidos y pantallas adaptadas a cada rol para agilizar cada transacción."
+          },
+          {
+            "title": "¿Tu sistema todavía depende de servidores locales?",
+            "description": "Muchos comercios siguen operando sobre infraestructura local, limitando el acceso a la información y dificultando la operación desde diferentes sedes o dispositivos.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Mayor dependencia de la infraestructura física",
+              "Dificultad para operar desde diferentes sedes",
+              "Mayor riesgo de interrupciones",
+              "Menor flexibilidad para crecer"
+            ],
+            "answer": "Las soluciones en la nube permiten acceder al sistema desde cualquier lugar y adaptarse a modelos de operación centralizados o híbridos cuando el negocio lo requiere."
+          },
+          {
+            "title": "¿Los reportes muestran datos, pero no la información que necesitas para tomar decisiones?",
+            "description": "Muchos sistemas continúan generando reportes enfocados en la parte contable, dejando poca visibilidad sobre el comportamiento comercial del negocio.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Decisiones basadas en información limitada",
+              "Menor visibilidad del desempeño comercial",
+              "Dificultad para identificar oportunidades",
+              "Reacción tardía ante cambios en el negocio"
+            ],
+            "answer": "Los tableros de control, la analítica en tiempo real y los indicadores visuales permiten tomar decisiones con mayor rapidez y seguimiento sobre ventas, inventario y desempeño del negocio."
+          },
+          {
+            "title": "¿Crear nuevos productos sigue siendo un proceso complejo?",
+            "description": "En muchos sistemas es necesario completar numerosos campos antes de poder registrar un producto y ponerlo a la venta, haciendo más lento el proceso.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Más tiempo en tareas administrativas",
+              "Mayor riesgo de errores en la configuración",
+              "Incorporación más lenta de nuevos productos",
+              "Menor agilidad para responder al mercado"
+            ],
+            "answer": "Hoy es posible automatizar la creación de productos mediante cargas masivas, parametrización inteligente e inteligencia artificial, reduciendo tiempos y facilitando la gestión del catálogo."
+          },
+          {
+            "title": "¿Pagas por funcionalidades que realmente no utilizas?",
+            "description": "Muchos comercios adquieren soluciones con módulos que no necesitan, aumentando los costos y la complejidad del sistema.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Costos innecesarios",
+              "Sistemas más complejos de administrar",
+              "Mayor tiempo de implementación",
+              "Menor flexibilidad para crecer"
+            ],
+            "answer": "Las soluciones modulares permiten incorporar únicamente las funcionalidades que el negocio necesita y ampliar capacidades a medida que surgen nuevos requerimientos."
+          }
+        ]
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "¿Qué podemos desarrollar según tus necesidades?",
+        "description": "Cada comercio enfrenta desafíos diferentes. Por eso desarrollamos soluciones de software a la medida que responden a las necesidades de cada proyecto.",
+        "items": [
+          {
+            "title": "Desarrollo de software a la medida",
+            "description": "Desarrollamos sistemas adaptados a las necesidades de tu negocio, desde puntos de venta (POS) hasta plataformas comerciales y soluciones para optimizar procesos."
+          },
+          {
+            "title": "Integración de sistemas",
+            "description": "Conectamos ERP, POS, e-commerce, facturación electrónica, pasarelas de pago y otras plataformas para centralizar la información."
+          },
+          {
+            "title": "Automatización de procesos",
+            "description": "Automatizamos inventarios, catálogos, pedidos, facturación y otros procesos para reducir tareas manuales."
+          },
+          {
+            "title": "Soluciones con inteligencia artificial",
+            "description": "Incorporamos inteligencia artificial para automatizar procesos, facilitar la catalogación de productos y generar analítica para la toma de decisiones."
+          },
+          {
+            "title": "Modernización de sistemas",
+            "description": "Modernizamos aplicaciones existentes para mejorar su rendimiento e incorporar nuevas funcionalidades."
+          }
+        ]
+      },
+      {
+        "type": "proof",
+        "title": "Caso de éxito sistema POS",
+        "description": "Lideramos el rediseño del sistema POS de uno de los retailers más importantes de Ecuador. Modernizamos su plataforma incorporando nuevas funcionalidades visuales y técnicas para mejorar la experiencia de usuario y la eficiencia operativa.",
+        "image": "/img/clients/logo-pycca.png"
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "El impacto de un comercio más conectado",
+        "bannerParagraph": "Al integrar sistemas y automatizar procesos clave, puedes lograr:",
+        "keywords": [
+          "Reducir los tiempos de operación entre un 20 % y un 40 %",
+          "Disminuir errores en procesos comerciales hasta en un 50 %",
           "Incrementar la productividad del personal entre un 15 % y un 30 %"
         ],
         "showButton": false

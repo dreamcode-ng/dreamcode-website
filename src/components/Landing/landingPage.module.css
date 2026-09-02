@@ -613,3 +613,9 @@
   border-radius: 8px;
   border: 1px solid var(--landing-border-white);
 }
+
+.proofImage {
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem 0 2rem;
+}
