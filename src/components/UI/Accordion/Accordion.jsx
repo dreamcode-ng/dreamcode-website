@@ -50,7 +50,7 @@ import ContainerSection from '../Containers/ContainerSection';
 export const AccordionSection = ( { title, items }) => {
     return (
         <div className="d-flex justify-content-center w-100">
-            <div className='col-lg-10 col-md-12 col-sm-12 px-lg-5'>
+            <div className='col-lg-8 col-md-10 col-sm-12 px-lg-5'>
                 <h2 className='text-center w_color f-lg-40 f-sm-25 mb-5'>{title}</h2>
                 <div className="accordion-area">
                     {
