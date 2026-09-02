@@ -238,5 +238,270 @@
         "paragraph": "Let's talk about the challenges of your project and how a custom software solution can help you solve them."
       }
     ]
+  },
+  {
+    "slug": "health",
+    "url": "landing/health",
+    "sector": "health",
+    "meta": {
+      "title": "Software for medical clinics, private doctors and IPS",
+      "description": "Software solutions focused on the healthcare sector."
+    },
+    "sections": [
+      {
+        "type": "headline",
+        "useHorizonScene": true,
+        "title": "Software development for medical clinics, private doctors and IPS",
+        "subtitle": "We develop custom software solutions to help you optimize processes, integrate information and improve patient care.",
+        "buttonText": "Learn how we can help you",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "offerings",
+        "title": "Do you identify with any of these challenges?",
+        "services": [
+          {
+            "title": "Does your appointment scheduling still depend on WhatsApp, Excel or a notebook?",
+            "description": "When appointments are managed from different channels, maintaining control over the schedule takes more time and increases administrative workload.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time spent on administrative tasks",
+              "Risk of duplicate appointments or cancellations without follow-up",
+              "Less control over the schedule",
+              "More workload for staff"
+            ],
+            "answer": "Scheduling solutions, automation and conversational assistants can centralize this process, reduce manual tasks and improve the patient experience."
+          },
+          {
+            "title": "Does documenting each consultation take more time than expected?",
+            "description": "Recording the medical history manually reduces the time available for care and increases administrative workload.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time dedicated to clinical records",
+              "Greater administrative load",
+              "Slower documentation processes",
+              "Less availability to see patients"
+            ],
+            "answer": "Today it is possible to incorporate solutions with artificial intelligence such as clinical assistants, voice dictation, document automation, clinical information extraction and support during the consultation to facilitate the work of healthcare staff."
+          },
+          {
+            "title": "Is patient information distributed across different systems?",
+            "description": "When the clinical history, laboratory, diagnostic images, schedule and billing work separately, consulting information becomes slower and data duplication increases.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Fragmented information",
+              "Repetitive processes",
+              "Greater risk of inconsistencies",
+              "Less visibility of information"
+            ],
+            "answer": "Integrating these systems facilitates access to information and improves process continuity."
+          },
+          {
+            "title": "Are there still administrative processes that could be automated?",
+            "description": "Document management, authorizations, patient follow-up and sending results are still carried out manually in many clinics and IPS.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Greater administrative load",
+              "Slower processes",
+              "More repetitive tasks",
+              "Less capacity to see more patients"
+            ],
+            "answer": "Automating these processes helps reduce repetitive tasks, optimize times and facilitate the daily work of staff."
+          }
+        ]
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "What can we develop for your business?",
+        "description": "Each clinic, private doctor and IPS faces different challenges. That's why we develop custom software solutions that respond to the needs of each project.",
+        "items": [
+          {
+            "title": "Custom software development",
+            "description": "We design customized platforms to optimize clinical and administrative processes according to the needs of each clinic, doctor or IPS."
+          },
+          {
+            "title": "Web and mobile applications",
+            "description": "We develop applications for appointment management, access to clinical information and communication with patients."
+          },
+          {
+            "title": "System integration",
+            "description": "We connect clinical history, HIS, laboratory, diagnostic images, billing and other platforms to centralize information and facilitate its query."
+          },
+          {
+            "title": "Process automation",
+            "description": "We automate processes such as appointment scheduling, confirmations, reminders, document management, patient follow-up and other administrative tasks to reduce operational load."
+          },
+          {
+            "title": "Solutions with artificial intelligence",
+            "description": "We develop solutions with artificial intelligence to incorporate clinical assistants, voice dictation, document automation, clinical information extraction and support during the consultation, helping to reduce administrative workload and facilitate the work of healthcare staff."
+          },
+          {
+            "title": "System modernization",
+            "description": "We modernize existing applications to improve their performance, incorporate new functionalities and facilitate their integration with other systems."
+          }
+        ]
+      },
+      {
+        "type": "proof",
+        "title": "Success stories",
+        "videoIds": [
+          "I8xAxfVq3zE?si=3fSpJvLhIAfJpEv8"
+        ]
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "The impact of more connected care",
+        "bannerParagraph": "By integrating systems and automating key processes, you can achieve:",
+        "keywords": [
+          "Reduce administrative times by 20% to 40%",
+          "Decrease errors in manual processes by up to 50%",
+          "Increase staff productivity by 15% to 30%"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Schedule a meeting",
+        "paragraph": "Let's talk about the challenges of your project and how a custom software solution can help you solve them."
+      }
+    ]
+  },
+  {
+    "slug": "retail",
+    "url": "landing/retail",
+    "sector": "retail",
+    "meta": {
+      "title": "Retail Industry Landing",
+      "description": "Software solutions focused on the retail sector."
+    },
+    "sections": [
+      {
+        "type": "headline",
+        "useHorizonScene": true,
+        "title": "Software development for stores and points of sale",
+        "subtitle": "We develop custom software solutions to help you optimize processes, integrate information and improve your business management.",
+        "buttonText": "Learn how we can help you",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "offerings",
+        "title": "Do you identify with any of these challenges?",
+        "services": [
+          {
+            "title": "Does your point of sale screen slow down the payment process?",
+            "description": "Many cash register systems retain screens with too many options and processes designed for keyboard and mouse, slowing down the daily work of staff.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time per transaction",
+              "Longer training time",
+              "More errors during the sale",
+              "Lower staff productivity"
+            ],
+            "answer": "Today it is possible to develop POS systems with touch interfaces, quick access and screens adapted to each role to speed up each transaction."
+          },
+          {
+            "title": "Does your system still depend on local servers?",
+            "description": "Many businesses continue to operate on local infrastructure, limiting access to information and making it difficult to operate from different locations or devices.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Greater dependence on physical infrastructure",
+              "Difficulty operating from different locations",
+              "Higher risk of interruptions",
+              "Less flexibility to grow"
+            ],
+            "answer": "Cloud solutions allow access to the system from anywhere and adapt to centralized or hybrid operation models when the business requires it."
+          },
+          {
+            "title": "Do your reports show data, but not the information you need to make decisions?",
+            "description": "Many systems continue to generate reports focused on accounting, leaving little visibility into the commercial behavior of the business.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Decisions based on limited information",
+              "Less visibility of commercial performance",
+              "Difficulty identifying opportunities",
+              "Slow reaction to changes in the business"
+            ],
+            "answer": "Dashboards, real-time analytics and visual indicators allow you to make decisions faster and monitor sales, inventory and business performance."
+          },
+          {
+            "title": "Is creating new products still a complex process?",
+            "description": "In many systems it is necessary to fill in numerous fields before being able to register a product and put it up for sale, slowing down the process.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time on administrative tasks",
+              "Higher risk of configuration errors",
+              "Slower incorporation of new products",
+              "Less agility to respond to the market"
+            ],
+            "answer": "Today it is possible to automate product creation through bulk loads, intelligent parametrization and artificial intelligence, reducing times and facilitating catalog management."
+          },
+          {
+            "title": "Do you pay for features you don't really use?",
+            "description": "Many businesses acquire solutions with modules they don't need, increasing costs and system complexity.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Unnecessary costs",
+              "More complex systems to manage",
+              "Longer implementation time",
+              "Less flexibility to grow"
+            ],
+            "answer": "Modular solutions allow you to incorporate only the features the business needs and expand capabilities as new requirements arise."
+          }
+        ]
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "What can we develop according to your needs?",
+        "description": "Each business faces different challenges. That's why we develop custom software solutions that respond to the needs of each project.",
+        "items": [
+          {
+            "title": "Custom software development",
+            "description": "We develop systems tailored to the needs of your business, from points of sale (POS) to commercial platforms and solutions to optimize processes."
+          },
+          {
+            "title": "System integration",
+            "description": "We connect ERP, POS, e-commerce, electronic billing, payment gateways and other platforms to centralize information."
+          },
+          {
+            "title": "Process automation",
+            "description": "We automate inventories, catalogs, orders, billing and other processes to reduce manual tasks."
+          },
+          {
+            "title": "Solutions with artificial intelligence",
+            "description": "We incorporate artificial intelligence to automate processes, facilitate product cataloging and generate analytics for decision-making."
+          },
+          {
+            "title": "System modernization",
+            "description": "We modernize existing applications to improve their performance and incorporate new functionalities."
+          }
+        ]
+      },
+      {
+        "type": "proof",
+        "title": "POS system success story",
+        "description": "We led the redesign of the POS system of one of the most important retailers in Ecuador. We modernized their platform by incorporating new visual and technical functionalities to improve user experience and operational efficiency.",
+        "image": "/img/clients/logo-pycca.png"
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "The impact of a more connected business",
+        "bannerParagraph": "By integrating systems and automating key processes, you can achieve:",
+        "keywords": [
+          "Reduce operation times by 20% to 40%",
+          "Decrease errors in business processes by up to 50%",
+          "Increase staff productivity by 15% to 30%"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Schedule a meeting",
+        "paragraph": "Let's talk about the challenges of your project and how a custom software solution can help you solve them."
+      }
+    ]
   }
 ]
