@@ -79,6 +79,7 @@
       },
       {
         "type": "pitch",
+        "showExperienceSection": true,
         "title": "Más de 11 años de experiencia construyendo soluciones en",
         "subtitle": "Retail, Telecomunicaciones, Seguros, Banca, Tecnología y más.",
         "bannerBlue": "Con el desarrollo de software, tu negocio",
@@ -93,6 +94,7 @@
           "Resuelve desafíos",
           "Evoluciona en el mercado"
         ],
+        "showButton": true,
         "buttonText": "Agendar consultoría",
         "buttonHref": "#scheduleSection",
         "hasSchedule": true,
@@ -112,71 +114,75 @@
     ]
   },
   {
-    "slug": "meeting-healthcare",
-    "url": "landing/meeting-healthcare",
-    "sector": "healthcare",
+    "slug": "insurance",
+    "url": "landing/insurance",
+    "sector": "insurance",
     "meta": {
-      "title": "Landing de Software para Salud",
-      "description": "Soluciones de software centradas en el paciente para organizaciones del sector salud."
+      "title": "Landing para corredores de seguros",
+      "description": "Soluciones de software centradas en el sector seguros."
     },
     "sections": [
       {
         "type": "headline",
         "useHorizonScene": true,
-        "title": "Software para líderes de salud",
-        "subtitle": "Mejorando la experiencia del paciente y la atención con soluciones a medida.",
-        "buttonText": "Agendar consultoría",
+        "title": "Desarrollo de software para corredores de seguros",
+        "subtitle": "Desarrollamos soluciones de software a la medida para ayudarte a simplificar procesos, conectar plataformas y responder a las necesidades reales de tu negocio.",
+        "buttonText": "Conoce cómo podemos ayudarte",
         "buttonHref": "#scheduleSection"
       },
       {
-        "type": "valueProps",
-        "title": "Software de salud entregado por equipos LATAM de confianza",
-        "subtitle": "Construimos plataformas de salud seguras, conformes y centradas en el usuario.",
-        "ctaText": "Contáctanos",
-        "ctaHref": "#scheduleSection",
-        "items": [
-          {
-            "title": "Flujos de atención",
-            "icon": "FaShieldAlt"
-          },
-          {
-            "title": "Portales para pacientes",
-            "icon": "FaMobileAlt"
-          },
-          {
-            "title": "Integraciones clínicas",
-            "icon": "FaCloud"
-          },
-          {
-            "title": "Soporte gestionado",
-            "icon": "LiaToolsSolid"
-          }
-        ],
-        "customersTitle": "Ayudamos a los equipos de salud a modernizar operaciones con software confiable:"
-      },
-      {
         "type": "offerings",
-        "title": "Servicios de software para el sector salud",
+        "title": "¿Te identificas con alguno de estos desafíos?",
         "services": [
           {
-            "title": "Engagement del paciente",
-            "description": "Experiencias digitales que mantienen a los pacientes informados y conectados."
+            "title": "¿Cuántas plataformas necesitas abrir para cotizar una póliza?",
+            "description": "Entre aseguradoras, multicotizadores, CRM y otras herramientas, una sola cotización puede requerir consultar diferentes sistemas y trasladar información de uno a otro. Esto hace que el proceso sea más lento y aumente el trabajo manual.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Más tiempo para cotizar",
+              "Procesos duplicados",
+              "Mayor riesgo de errores",
+              "Información dispersa"
+            ],
+            "answer": "Hoy es posible integrar multicotizadores, portales de aseguradoras y otras plataformas para agilizar el proceso de cotización."
           },
           {
-            "title": "Sistemas clínicos",
-            "description": "Soluciones seguras que apoyan los flujos de trabajo clínicos y la interoperabilidad."
+            "title": "¿Las renovaciones todavía dependen del seguimiento manual?",
+            "description": "Cuando el control de vencimientos, recordatorios y seguimientos depende de hojas de cálculo o tareas manuales, mantener el ritmo a medida que crece tu cartera se vuelve cada vez más complejo.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Riesgo de perder renovaciones",
+              "Mayor carga administrativa",
+              "Seguimiento limitado",
+              "Menor capacidad para crecer"
+            ],
+            "answer": "Las alertas automáticas, los CRM y los flujos de seguimiento ayudan a mantener un mayor control sobre las renovaciones."
           },
           {
-            "title": "Analítica de datos",
-            "description": "Información para mejorar resultados, operaciones y cumplimiento normativo."
+            "title": "¿El seguimiento de un siniestro sigue siendo un proceso manual?",
+            "description": "Llamadas, correos y consultas entre el cliente y la aseguradora dificultan conocer el estado de cada caso y brindar respuestas oportunas.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Respuestas más lentas",
+              "Poco control sobre cada siniestro",
+              "Mayor carga para tu equipo",
+              "Menor visibilidad del proceso"
+            ],
+            "answer": "Integrar el seguimiento de los siniestros facilita la trazabilidad y permite responder con mayor rapidez a los clientes."
           },
           {
-            "title": "Modernización en la nube",
-            "description": "Migración de sistemas de salud a plataformas en la nube escalables y seguras."
+            "title": "¿La información de tus clientes está distribuida en diferentes plataformas?",
+            "description": "Los datos comerciales, administrativos y de las aseguradoras suelen estar repartidos en distintos sistemas. Esto dificulta tener una visión completa de cada cliente y tomar decisiones con información actualizada.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Información incompleta",
+              "Seguimiento comercial limitado",
+              "Menor visibilidad del negocio",
+              "Oportunidades que pueden pasar desapercibidas"
+            ],
+            "answer": "Centralizar la información del cliente facilita el seguimiento comercial y una toma de decisiones más ágil."
           }
-        ],
-        "ctaText": "Contacta a nuestro equipo de salud",
-        "ctaHref": "#scheduleSection"
+        ]
       },
       {
         "type": "landingDetails",
@@ -207,37 +213,29 @@
         ]
       },
       {
-        "type": "leadCapture",
-        "title": "Impulsa tu negocio"
-      },
-      {
-        "type": "pitch",
-        "title": "Tecnología para organizaciones de salud modernas",
-        "subtitle": "Diseñada para clínicas, hospitales y programas de salud digital.",
-        "bannerBlue": "Impulsa la atención con software",
-        "keywords": [
-          "Mejora la experiencia del paciente",
-          "Aumenta la agilidad operativa",
-          "Protege datos clínicos",
-          "Automatiza flujos de atención",
-          "Apoya servicios virtuales",
-          "Escala salud digital"
-        ],
-        "buttonText": "Agendar consultoría",
-        "buttonHref": "#scheduleSection",
-        "hasSchedule": true,
-        "scheduleUrl": "https://dreamcodesoft.neetocal.com/javascript/embed.js",
-        "scheduleEmbedId": "30b41c15-ba54-4a38-aa32-3960ebe73330",
-        "scheduleOrganization": "dreamcodesoft",
-        "image": "/img/landing/talento-tecnologico.png"
-      },
-      {
         "type": "proof",
-        "title": "Descubre nuestras historias de éxito en salud",
+        "title": "Casos de éxito",
         "videoIds": [
           "KWcKeJDUriY",
           "ScKSFTdSpnA"
         ]
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "El impacto de una operación más conectada",
+        "bannerParagraph": "Al integrar sistemas y automatizar procesos clave, puedes lograr:",
+        "keywords": [
+          "Reducir los tiempos operativos entre un 20 % y un 40 %",
+          "Disminuir los errores derivados de tareas manuales hasta en un 50 %",
+          "Mejorar los tiempos de respuesta entre un 20 % y un 35 %"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Agenda una reunión",
+        "paragraph": "Conversemos sobre los desafíos de tu proyecto y cómo una solución de software a la medida puede ayudarte a resolverlos."
       }
     ]
   }
