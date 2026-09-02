@@ -238,5 +238,134 @@
         "paragraph": "Conversemos sobre los desafíos de tu proyecto y cómo una solución de software a la medida puede ayudarte a resolverlos."
       }
     ]
+  },
+  {
+    "slug": "health",
+    "url": "landing/health",
+    "sector": "health",
+    "meta": {
+      "title": "LANDING CONSULTORIOS MÉDICOS/MÉDICOS PARTICULARES/IPS",
+      "description": "Soluciones de software centradas en el sector de la salud."
+    },
+    "sections": [
+      {
+        "type": "headline",
+        "useHorizonScene": true,
+        "title": "Desarrollo de software para consultorios médicos, médicos particulares e IPS",
+        "subtitle": "Desarrollamos soluciones de software a la medida para ayudarte a optimizar procesos, integrar la información y mejorar la atención de tus pacientes.",
+        "buttonText": "Conoce cómo podemos ayudarte",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "offerings",
+        "title": "¿Te identificas con alguno de estos desafíos?",
+        "services": [
+          {
+            "title": "¿La gestión de citas todavía depende de WhatsApp, Excel o una libreta?",
+            "description": "Cuando las citas se gestionan desde diferentes canales, mantener el control de la agenda requiere más tiempo y aumenta la carga administrativa.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Mayor tiempo dedicado a tareas administrativas",
+              "Riesgo de citas duplicadas o cancelaciones sin seguimiento",
+              "Menor control sobre la agenda",
+              "Más carga para el personal"
+            ],
+            "answer": "Las soluciones de agendamiento, automatización y asistentes conversacionales permiten centralizar este proceso, reducir tareas manuales y mejorar la experiencia de los pacientes."
+          },
+          {
+            "title": "¿Documentar cada consulta toma más tiempo del esperado?",
+            "description": "Registrar la historia clínica de forma manual reduce el tiempo disponible para la atención y aumenta la carga administrativa.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Mayor tiempo dedicado al registro clínico",
+              "Mayor carga administrativa",
+              "Procesos de documentación más lentos",
+              "Menor disponibilidad para atender pacientes"
+            ],
+            "answer": "Hoy es posible incorporar soluciones con inteligencia artificial como asistentes clínicos, dictado por voz, automatización documental, extracción de información clínica y apoyo durante la consulta para facilitar el trabajo del personal de salud."
+          },
+          {
+            "title": "¿La información de los pacientes está distribuida en diferentes sistemas?",
+            "description": "Cuando la historia clínica, laboratorio, imágenes diagnósticas, agenda y facturación funcionan por separado, consultar la información se vuelve más lento y aumenta la duplicidad de datos.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Información fragmentada",
+              "Procesos repetitivos",
+              "Mayor riesgo de inconsistencias",
+              "Menor visibilidad de la información"
+            ],
+            "answer": "Integrar estos sistemas facilita el acceso a la información y mejora la continuidad de los procesos."
+          },
+          {
+            "title": "¿Todavía existen procesos administrativos que podrían automatizarse?",
+            "description": "La gestión documental, autorizaciones, seguimiento de pacientes y envío de resultados todavía se realizan de forma manual en muchos consultorios e IPS.",
+            "question": "¿Cómo impacta tu negocio?",
+            "list": [
+              "Mayor carga administrativa",
+              "Procesos más lentos",
+              "Más tareas repetitivas",
+              "Menor capacidad para atender un mayor volumen de pacientes"
+            ],
+            "answer": "La automatización de estos procesos ayuda a reducir tareas repetitivas, optimizar tiempos y facilitar el trabajo diario del personal."
+          }
+        ]
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "¿Qué podemos desarrollar para tu negocio?",
+        "description": "Cada consultorio, médico particular e IPS enfrenta desafíos diferentes. Por eso desarrollamos soluciones de software a la medida que responden a las necesidades de cada proyecto.",
+        "items": [
+          {
+            "title": "Desarrollo de software a la medida",
+            "description": "Diseñamos plataformas personalizadas para optimizar procesos clínicos y administrativos de acuerdo con las necesidades de cada consultorio, médico o IPS."
+          },
+          {
+            "title": "Aplicaciones web y móviles",
+            "description": "Desarrollamos aplicaciones para la gestión de citas, el acceso a la información clínica y la comunicación con pacientes."
+          },
+          {
+            "title": "Integración de sistemas",
+            "description": "Conectamos historia clínica, HIS, laboratorio, imágenes diagnósticas, facturación y otras plataformas para centralizar la información y facilitar su consulta."
+          },
+          {
+            "title": "Automatización de procesos",
+            "description": "Automatizamos procesos como el agendamiento de citas, confirmaciones, recordatorios, gestión documental, seguimiento de pacientes y otras tareas administrativas para reducir la carga operativa."
+          },
+          {
+            "title": "Soluciones con inteligencia artificial",
+            "description": "Desarrollamos soluciones con inteligencia artificial para incorporar asistentes clínicos, dictado por voz, automatización documental, extracción de información clínica y apoyo durante la consulta, ayudando a reducir la carga administrativa y facilitando el trabajo del personal de salud."
+          },
+          {
+            "title": "Modernización de sistemas",
+            "description": "Modernizamos aplicaciones existentes para mejorar su rendimiento, incorporar nuevas funcionalidades y facilitar su integración con otros sistemas."
+          }
+        ]
+      },
+      {
+        "type": "proof",
+        "title": "Casos de éxito",
+        "videoIds": [
+          "I8xAxfVq3zE?si=3fSpJvLhIAfJpEv8"
+        ]
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "El impacto de una atención más conectada",
+        "bannerParagraph": "Al integrar sistemas y automatizar procesos clave, puedes lograr:",
+        "keywords": [
+          "Reducir tiempos administrativos entre un 20 % y un 40 %",
+          "Disminuir errores en procesos manuales hasta en un 50 %",
+          "Incrementar la productividad del personal entre un 15 % y un 30 %"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Agenda una reunión",
+        "paragraph": "Conversemos sobre los desafíos de tu proyecto y cómo una solución de software a la medida puede ayudarte a resolverlos."
+      }
+    ]
   }
 ]
