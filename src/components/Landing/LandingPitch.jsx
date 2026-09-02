@@ -50,10 +50,10 @@ export default function LandingPitch({ data }) {
       <section className={styles.pitchCtaSection}>
         <div className="container container-dc">
           <div className="row d_flex align-items-center justify-content-center">
-            <div className="col-lg-8 text-left">
+            <div className={data.showButton ? 'col-lg-8 text-left' : 'col-lg-12 text-left'}>
               <h3 className={`w_color ${styles.pitchCtaTitle}`}>{data.bannerBlue}</h3>
               {data.bannerParagraph && (
-                <p className="w_color f_400">{data.bannerParagraph}</p>
+                <p className={`w_color f_400 ${styles.bannerParagraph}`}>{data.bannerParagraph}</p>
               )}
               <LandingSliderWords items={data.keywords} />
             </div>

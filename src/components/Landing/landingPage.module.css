@@ -322,14 +322,25 @@
 
 .pitchSlider {
   width: 100%;
-  height: 45px;
+  height: 60px;
   margin-top: 1rem;
 }
 
 .pitchSliderWord {
   width: max-content;
+  max-width: 100%;
   padding: 0 25px;
-  font-size: 38px;
+  font-size: 30px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.bannerParagraph {
+  font-size: 30px;
+  line-height: 1.8;
+  opacity: 0.92;
+  text-align: left;
 }
 
 .pitchCta {
@@ -457,6 +468,12 @@
   .pitchSliderWord {
     font-size: 17px;
     padding: 0 15px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .bannerParagraph {
+    font-size: 17px;
   }
 }
 
@@ -471,12 +488,19 @@
   }
 
   .pitchSliderWord {
-    font-size: 30px;
+    font-size: 25px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
 
   .pitchCta {
     text-align: left !important;
     margin-top: 25px;
+  }
+
+  .bannerParagraph {
+    font-size: 25px;
   }
 }
 
