@@ -12,10 +12,12 @@ export default function LandingLeadCapture({ data }) {
       <div className="container container-dc">
         <div className={`row ${styles.leadCaptureRow}`}>
           <div className={`col-lg-4 ${styles.leadCaptureCol}`}>
-            <h3 className="w_color f-lg-50 f_600">{formTitle}</h3>
-            {data?.subtitle && (
-              <p className="w_color f_400">{data.subtitle}</p>
-            )}
+            <div>
+              <h3 className="w_color f-lg-50 f_600">{formTitle}</h3>
+              {data?.paragraph && (
+                <p className="w_color f_400">{data.paragraph}</p>
+              )}
+            </div>
             <p className="w_color">info@dreamcodesoft.com</p>
           </div>
           <div className={`col-lg-8 ${styles.leadCaptureCol}`}>
