@@ -40,7 +40,7 @@ export default function Post({ post }) {
             height={600}
             alt={post.title} 
             title={post.title} 
-            loading="lazy" 
+            priority
           />
         </figure>
         <div className="container">

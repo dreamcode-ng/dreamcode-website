@@ -24,7 +24,8 @@ function Nav({ t }) {
                 title="Logo DreamCode Software" 
                 width={140}
                 height={17}
-                loading="lazy" /> 
+                priority
+                 />
           </Link>
           <button className="navbar-toggler collapsed" 
             type="button" 
