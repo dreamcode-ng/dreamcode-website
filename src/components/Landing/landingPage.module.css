@@ -616,6 +616,9 @@
 
 .proofImage {
   width: 100%;
+  max-width: 500px;
+  display: block;
+  margin-inline: auto;
   border-radius: 8px;
   padding: 1rem 0 2rem;
 }
