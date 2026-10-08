@@ -39,3 +39,6 @@ CLAUDE.md
 AGENTS.md
 .agents/*
 Skills Guide.txt
+screenshots/*
+*.py
+claude-seo/
