@@ -32,7 +32,6 @@ const ClientsLogo = ({ image }) => (
           alt={`Logo of ${image}`} 
           width={200}
           height={100}
-          loading="lazy"
         />
     </figure>
 );

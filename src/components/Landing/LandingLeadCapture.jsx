@@ -1,0 +1,37 @@
+import NeetoCalEmbed from './NeetoCalEmbed';
+import { useTranslation } from 'react-i18next';
+import styles from './landingPage.module.css';
+
+export default function LandingLeadCapture({ data }) {
+  const { t } = useTranslation('form');
+
+  const formTitle = data?.title || t('form_title');
+
+  return (
+    <section className="sec--area form-booking" id="scheduleSection">
+      <div className="container container-dc">
+        <div className={`row ${styles.leadCaptureRow}`}>
+          <div className={`col-lg-4 ${styles.leadCaptureCol}`}>
+            <div>
+              <h3 className="w_color f-lg-50 f_600">{formTitle}</h3>
+              {data?.paragraph && (
+                <p className="w_color f_400">{data.paragraph}</p>
+              )}
+            </div>
+            <p className="w_color">info@dreamcodesoft.com</p>
+          </div>
+          <div className={`col-lg-8 ${styles.leadCaptureCol}`}>
+            <div className={styles.leadCaptureForm}>
+              <NeetoCalEmbed
+                scriptUrl="https://dreamcodesoft.neetocal.com/javascript/embed.js"
+                embedId="30b41c15-ba54-4a38-aa32-3960ebe73330"
+                organization="dreamcodesoft"
+                height="900px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

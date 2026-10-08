@@ -32,7 +32,7 @@ function TeamItem ( { name , position , image, link}) {
 
     return (
         <div className=' d-flex align-items-center flex-column p-3 img-fluid'>
-          <Image src={`/img/about/team/${image}.png`} layout="responsive"  objectFit="cover"  width={250} height={337} alt={`${name} | DreamCode Software Colombia`} />
+          <Image src={`/img/about/team/${image}.png`} width={250} height={337} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" style={{ objectFit: 'cover', width: '100%', height: 'auto' }} alt={`${name} | DreamCode Software Colombia`} />
           <div className='d-flex flex-column gap-3 w-100'>
             <div className="d-flex flex-column align-items-center gap-2">
               <h3 className="text-center f-lg-18 f_600 w_color">{name}</h3>

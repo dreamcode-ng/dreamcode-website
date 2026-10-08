@@ -24,7 +24,8 @@ function Nav({ t }) {
                 title="Logo DreamCode Software" 
                 width={140}
                 height={17}
-                loading="lazy" /> 
+                priority
+                 />
           </Link>
           <button className="navbar-toggler collapsed" 
             type="button" 
@@ -75,7 +76,7 @@ function Nav({ t }) {
             </ul>
             <ul className="navbar-nav nav mb-2 mb-lg-0">
               <li>
-                  <Link href="/contact#form-primary" className="btn" type="submit">{t('letstalk')}</Link>
+                  <Link href="/contact#Formulario" className="btn" type="submit">{t('letstalk')}</Link>
               </li>
               <LangSwitcher />
             </ul>

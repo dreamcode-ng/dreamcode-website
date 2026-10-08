@@ -1,0 +1,507 @@
+[
+  {
+    "slug": "meeting",
+    "url": "landing/meeting",
+    "sector": "software",
+    "meta": {
+      "title": "Software Developers | Custom Development",
+      "description": "High-impact digital solutions built for your business needs."
+    },
+    "sections": [
+      {
+        "type": "headline",
+        "useHorizonScene": true,
+        "preTitle": "Software Development",
+        "preLinkText": "Contact Us",
+        "preLinkHref": "#scheduleSection",
+        "title": "We develop software solutions",
+        "subtitle": "that address needs and accelerate your business growth.",
+        "buttonText": "Book a consultation",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "valueProps",
+        "title": "The best software developers in LATAM",
+        "subtitle": "helping your projects succeed.",
+        "ctaText": "Contact Us",
+        "ctaHref": "#scheduleSection",
+        "items": [
+          {
+            "title": "Creation",
+            "icon": "FaRegLightbulb"
+          },
+          {
+            "title": "Design",
+            "icon": "MdOutlineDesignServices"
+          },
+          {
+            "title": "Implementation",
+            "icon": "LiaToolsSolid"
+          },
+          {
+            "title": "Maintenance and Support",
+            "icon": "FaCode"
+          }
+        ],
+        "customersTitle": "Behind the success of tech projects, we are a team trusted by these brands:"
+      },
+      {
+        "type": "offerings",
+        "title": "Custom Software Development Services",
+        "services": [
+          {
+            "title": "Mobile App Development",
+            "description": "We connect your business with your customers by developing intuitive and engaging mobile apps tailored to your business and user needs. Whether you're looking to boost interaction, offer services, or expand your digital presence, we have you covered."
+          },
+          {
+            "title": "Web App Development",
+            "description": "We create web apps that enhance your operations' efficiency and make your online services more accessible. With a practical and functional approach, we design platforms that simplify complex tasks and provide a seamless experience for your users."
+          },
+          {
+            "title": "Enterprise App Development",
+            "description": "We build custom enterprise applications that help your organization manage and optimize operations efficiently. With scalable and secure solutions, we automate processes, improve decision-making, and ensure every area of your business is aligned and operating smoothly."
+          },
+          {
+            "title": "System Modernization",
+            "description": "We renew legacy systems by transforming technological infrastructures to be more agile, secure, and efficient. Technological updates help businesses maximize operational efficiency, reduce costs, and stay ready for digital challenges."
+          }
+        ],
+        "ctaText": "Book a consultation",
+        "ctaHref": "#scheduleSection"
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Boost your business"
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": true,
+        "title": "Over 11 years of experience building solutions across",
+        "subtitle": "Retail, Telecommunications, Insurance, Banking, Technology, and more.",
+        "bannerBlue": "With software development your business",
+        "keywords": [
+          "Increase competitiveness",
+          "Maximize operational efficiency",
+          "Strengthen customer experience",
+          "Automate tasks",
+          "Optimize costs",
+          "Improve processes",
+          "Innovate in products/services",
+          "Solve challenges",
+          "Evolve in the market"
+        ],
+        "showButton": true,
+        "buttonText": "Book a consultation",
+        "buttonHref": "#scheduleSection",
+        "hasSchedule": true,
+        "scheduleUrl": "https://dreamcodesoft.neetocal.com/javascript/embed.js",
+        "scheduleEmbedId": "30b41c15-ba54-4a38-aa32-3960ebe73330",
+        "scheduleOrganization": "dreamcodesoft",
+        "image": "/img/landing/talento-tecnologico.png"
+      },
+      {
+        "type": "proof",
+        "title": "Discover our success stories",
+        "videoIds": [
+          "KWcKeJDUriY",
+          "ScKSFTdSpnA"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "insurance",
+    "url": "landing/insurance",
+    "sector": "insurance",
+    "meta": {
+      "title": "LANDING INSURANCE BROKERS",
+      "description": "Software solutions focused on the insurance industry."
+    },
+    "sections": [
+      {
+        "type": "headline",
+        "useHorizonScene": true,
+        "title": "Software development for insurance brokers",
+        "subtitle": "We develop custom software solutions to help you simplify processes, connect platforms, and respond to the real needs of your business.",
+        "buttonText": "Learn how we can help you",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "offerings",
+        "title": "Do you identify with any of these challenges?",
+        "services": [
+          {
+            "title": "How many platforms do you need to open to quote a policy?",
+            "description": "Between insurers, multi-quoters, CRM and other tools, a single quote may require checking different systems and moving information from one to another. This makes the process slower and increases manual work.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time to quote",
+              "Duplicate processes",
+              "Higher risk of errors",
+              "Scattered information"
+            ],
+            "answer": "Today it is possible to integrate multi-quoters, insurer portals and other platforms to streamline the quoting process."
+          },
+          {
+            "title": "Do renewals still depend on manual follow-up?",
+            "description": "When tracking expirations, reminders and follow-ups depends on spreadsheets or manual tasks, keeping pace as your portfolio grows becomes increasingly complex.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Risk of losing renewals",
+              "Greater administrative load",
+              "Limited follow-up",
+              "Less capacity to grow"
+            ],
+            "answer": "Automatic alerts, CRMs and follow-up workflows help maintain better control over renewals."
+          },
+          {
+            "title": "Is tracking a claim still a manual process?",
+            "description": "Calls, emails and consultations between the client and the insurer make it difficult to know the status of each case and provide timely responses.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Slower responses",
+              "Little control over each claim",
+              "Greater load for your team",
+              "Less visibility of the process"
+            ],
+            "answer": "Integrating claims tracking makes traceability easier and allows you to respond more quickly to clients."
+          },
+          {
+            "title": "Is your customer information distributed across different platforms?",
+            "description": "Commercial, administrative and insurer data is often spread across different systems. This makes it difficult to have a complete view of each client and make decisions with up-to-date information.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Incomplete information",
+              "Limited commercial follow-up",
+              "Less business visibility",
+              "Opportunities that may go unnoticed"
+            ],
+            "answer": "Centralizing customer information facilitates commercial follow-up and faster decision-making."
+          }
+        ]
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "What can we develop for your business?",
+        "description": "Every insurance broker faces different challenges. That is why we develop technology solutions tailored to each business.",
+        "items": [
+          {
+            "title": "Custom software development",
+            "description": "We create platforms, portals, quote generators and other solutions designed to respond to the specific needs of your operation."
+          },
+          {
+            "title": "Web and mobile apps",
+            "description": "We develop applications that facilitate access to information, optimize commercial management and improve the experience of your users."
+          },
+          {
+            "title": "System integration",
+            "description": "We connect insurers, multi-quoters, CRMs and other systems so that information flows automatically and reduces manual tasks."
+          },
+          {
+            "title": "Process automation",
+            "description": "We automate processes such as renewals, notifications, commercial follow-up and other repetitive tasks to reduce operational load and improve the efficiency of your team."
+          },
+          {
+            "title": "System modernization",
+            "description": "We modernize existing applications and platforms to improve their performance, incorporate new functionalities and adapt them to the current needs of your business."
+          }
+        ]
+      },
+      {
+        "type": "proof",
+        "title": "Success stories",
+        "videoIds": [
+          "KWcKeJDUriY",
+          "ScKSFTdSpnA"
+        ]
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "The impact of a more connected operation",
+        "bannerParagraph": "By integrating systems and automating key processes, you can achieve:",
+        "keywords": [
+          "Reduce operational times by 20% to 40%",
+          "Decrease errors from manual tasks by up to 50%",
+          "Improve response times by 20% to 35%"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Schedule a meeting",
+        "paragraph": "Let's talk about the challenges of your project and how a custom software solution can help you solve them."
+      }
+    ]
+  },
+  {
+    "slug": "health",
+    "url": "landing/health",
+    "sector": "health",
+    "meta": {
+      "title": "Software for medical clinics, private doctors and IPS",
+      "description": "Software solutions focused on the healthcare sector."
+    },
+    "sections": [
+      {
+        "type": "headline",
+        "useHorizonScene": true,
+        "title": "Software development for medical clinics, private doctors and IPS",
+        "subtitle": "We develop custom software solutions to help you optimize processes, integrate information and improve patient care.",
+        "buttonText": "Learn how we can help you",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "offerings",
+        "title": "Do you identify with any of these challenges?",
+        "services": [
+          {
+            "title": "Does your appointment scheduling still depend on WhatsApp, Excel or a notebook?",
+            "description": "When appointments are managed from different channels, maintaining control over the schedule takes more time and increases administrative workload.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time spent on administrative tasks",
+              "Risk of duplicate appointments or cancellations without follow-up",
+              "Less control over the schedule",
+              "More workload for staff"
+            ],
+            "answer": "Scheduling solutions, automation and conversational assistants can centralize this process, reduce manual tasks and improve the patient experience."
+          },
+          {
+            "title": "Does documenting each consultation take more time than expected?",
+            "description": "Recording the medical history manually reduces the time available for care and increases administrative workload.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time dedicated to clinical records",
+              "Greater administrative load",
+              "Slower documentation processes",
+              "Less availability to see patients"
+            ],
+            "answer": "Today it is possible to incorporate solutions with artificial intelligence such as clinical assistants, voice dictation, document automation, clinical information extraction and support during the consultation to facilitate the work of healthcare staff."
+          },
+          {
+            "title": "Is patient information distributed across different systems?",
+            "description": "When the clinical history, laboratory, diagnostic images, schedule and billing work separately, consulting information becomes slower and data duplication increases.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Fragmented information",
+              "Repetitive processes",
+              "Greater risk of inconsistencies",
+              "Less visibility of information"
+            ],
+            "answer": "Integrating these systems facilitates access to information and improves process continuity."
+          },
+          {
+            "title": "Are there still administrative processes that could be automated?",
+            "description": "Document management, authorizations, patient follow-up and sending results are still carried out manually in many clinics and IPS.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Greater administrative load",
+              "Slower processes",
+              "More repetitive tasks",
+              "Less capacity to see more patients"
+            ],
+            "answer": "Automating these processes helps reduce repetitive tasks, optimize times and facilitate the daily work of staff."
+          }
+        ]
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "What can we develop for your business?",
+        "description": "Every private practice, individual physician, and healthcare provider faces unique challenges. That is why we develop software solutions tailored to the specific needs of each project.",
+        "items": [
+          {
+            "title": "Custom software development",
+            "description": "We design customized platforms to optimize clinical and administrative processes according to the needs of each clinic, doctor or IPS."
+          },
+          {
+            "title": "Web and mobile applications",
+            "description": "We develop applications for appointment management, access to clinical information and communication with patients."
+          },
+          {
+            "title": "System integration",
+            "description": "We connect clinical history, HIS, laboratory, diagnostic images, billing and other platforms to centralize information and facilitate its query."
+          },
+          {
+            "title": "Process automation",
+            "description": "We automate processes such as appointment scheduling, confirmations, reminders, document management, patient follow-up and other administrative tasks to reduce operational load."
+          },
+          {
+            "title": "Solutions with artificial intelligence",
+            "description": "We develop solutions with artificial intelligence to incorporate clinical assistants, voice dictation, document automation, clinical information extraction and support during the consultation, helping to reduce administrative workload and facilitate the work of healthcare staff."
+          },
+          {
+            "title": "System modernization",
+            "description": "We modernize existing applications to improve their performance, incorporate new functionalities and facilitate their integration with other systems."
+          }
+        ]
+      },
+      {
+        "type": "proof",
+        "title": "Success stories",
+        "videoIds": [
+          "I8xAxfVq3zE?si=3fSpJvLhIAfJpEv8"
+        ]
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "The impact of more connected care",
+        "bannerParagraph": "By integrating systems and automating key processes, you can achieve:",
+        "keywords": [
+          "Reduce administrative times by 20% to 40%",
+          "Decrease errors in manual processes by up to 50%",
+          "Increase staff productivity by 15% to 30%"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Schedule a meeting",
+        "paragraph": "Let's talk about the challenges of your project and how a custom software solution can help you solve them."
+      }
+    ]
+  },
+  {
+    "slug": "retail",
+    "url": "landing/retail",
+    "sector": "retail",
+    "meta": {
+      "title": "Retail Industry Landing",
+      "description": "Software solutions focused on the retail sector."
+    },
+    "sections": [
+      {
+        "type": "headline",
+        "useHorizonScene": true,
+        "title": "Software development for stores and points of sale",
+        "subtitle": "We develop custom software solutions to help you optimize processes, integrate information and improve your business management.",
+        "buttonText": "Learn how we can help you",
+        "buttonHref": "#scheduleSection"
+      },
+      {
+        "type": "offerings",
+        "title": "Do you identify with any of these challenges?",
+        "services": [
+          {
+            "title": "Does your point of sale screen slow down the payment process?",
+            "description": "Many cash register systems retain screens with too many options and processes designed for keyboard and mouse, slowing down the daily work of staff.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time per transaction",
+              "Longer training time",
+              "More errors during the sale",
+              "Lower staff productivity"
+            ],
+            "answer": "Today it is possible to develop POS systems with touch interfaces, quick access and screens adapted to each role to speed up each transaction."
+          },
+          {
+            "title": "Does your system still depend on local servers?",
+            "description": "Many businesses continue to operate on local infrastructure, limiting access to information and making it difficult to operate from different locations or devices.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Greater dependence on physical infrastructure",
+              "Difficulty operating from different locations",
+              "Higher risk of interruptions",
+              "Less flexibility to grow"
+            ],
+            "answer": "Cloud solutions allow access to the system from anywhere and adapt to centralized or hybrid operation models when the business requires it."
+          },
+          {
+            "title": "Do your reports show data, but not the information you need to make decisions?",
+            "description": "Many systems continue to generate reports focused on accounting, leaving little visibility into the commercial behavior of the business.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Decisions based on limited information",
+              "Less visibility of commercial performance",
+              "Difficulty identifying opportunities",
+              "Slow reaction to changes in the business"
+            ],
+            "answer": "Dashboards, real-time analytics and visual indicators allow you to make decisions faster and monitor sales, inventory and business performance."
+          },
+          {
+            "title": "Is creating new products still a complex process?",
+            "description": "In many systems it is necessary to fill in numerous fields before being able to register a product and put it up for sale, slowing down the process.",
+            "question": "How does this impact your business?",
+            "list": [
+              "More time on administrative tasks",
+              "Higher risk of configuration errors",
+              "Slower incorporation of new products",
+              "Less agility to respond to the market"
+            ],
+            "answer": "Today it is possible to automate product creation through bulk loads, intelligent parametrization and artificial intelligence, reducing times and facilitating catalog management."
+          },
+          {
+            "title": "Do you pay for features you don't really use?",
+            "description": "Many businesses acquire solutions with modules they don't need, increasing costs and system complexity.",
+            "question": "How does this impact your business?",
+            "list": [
+              "Unnecessary costs",
+              "More complex systems to manage",
+              "Longer implementation time",
+              "Less flexibility to grow"
+            ],
+            "answer": "Modular solutions allow you to incorporate only the features the business needs and expand capabilities as new requirements arise."
+          }
+        ]
+      },
+      {
+        "type": "landingDetails",
+        "showDetailsSection": true,
+        "title": "What can we develop according to your needs?",
+        "description": "Every business faces different challenges. That is why we develop software solutions tailored to the needs of each project.",
+        "items": [
+          {
+            "title": "Custom software development",
+            "description": "We develop systems tailored to the needs of your business, from points of sale (POS) to commercial platforms and solutions to optimize processes."
+          },
+          {
+            "title": "System integration",
+            "description": "We connect ERP, POS, e-commerce, electronic billing, payment gateways and other platforms to centralize information."
+          },
+          {
+            "title": "Process automation",
+            "description": "We automate inventories, catalogs, orders, billing and other processes to reduce manual tasks."
+          },
+          {
+            "title": "Solutions with artificial intelligence",
+            "description": "We incorporate artificial intelligence to automate processes, facilitate product cataloging and generate analytics for decision-making."
+          },
+          {
+            "title": "System modernization",
+            "description": "We modernize existing applications to improve their performance and incorporate new functionalities."
+          }
+        ]
+      },
+      {
+        "type": "proof",
+        "title": "POS system success story",
+        "description": "We led the redesign of the POS system of one of the most important retailers in Ecuador. We modernized their platform by incorporating new visual and technical functionalities to improve user experience and operational efficiency.",
+        "image": "/img/clients/logo-pycca.png"
+      },
+      {
+        "type": "pitch",
+        "showExperienceSection": false,
+        "bannerBlue": "The impact of a more connected business",
+        "bannerParagraph": "By integrating systems and automating key processes, you can achieve:",
+        "keywords": [
+          "Reduce operation times by 20% to 40%",
+          "Decrease errors in business processes by up to 50%",
+          "Increase staff productivity by 15% to 30%"
+        ],
+        "showButton": false
+      },
+      {
+        "type": "leadCapture",
+        "title": "Schedule a meeting",
+        "paragraph": "Let's talk about the challenges of your project and how a custom software solution can help you solve them."
+      }
+    ]
+  }
+]
