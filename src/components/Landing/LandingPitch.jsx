@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-flip';
 import { EffectFlip, Autoplay } from 'swiper/modules';
+import Image from 'next/image';
 import styles from './landingPage.module.css';
 
 function LandingSliderWords({ items }) {
@@ -34,7 +35,7 @@ export default function LandingPitch({ data }) {
               {data.image && (
                 <div className="col-lg-6">
                   <figure className={styles.pitchImage}>
-                    <img src={data.image} alt={data.title} width="100%" />
+                    <Image src={data.image} alt={data.title} width={800} height={450} />
                   </figure>
                 </div>
               )}
