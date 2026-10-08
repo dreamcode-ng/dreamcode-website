@@ -9,6 +9,7 @@ import { useTranslation } from 'next-i18next';
 
     return (
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
         <meta property="og:title" content= {title} />
         <meta property="og:url" content={`https://dreamcodesoft.com/${lang}/${url}`} />

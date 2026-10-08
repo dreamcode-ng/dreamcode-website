@@ -13,6 +13,7 @@
   padding: 0;
   transition: color .3s ease 0s;
   position: relative;
+  display: block;
 }
 .nav-item {
   padding: 12px 20px;
@@ -27,8 +28,8 @@
   /*========== MENU HAMBURGUESA ========*/
   
   .menu_toggle {
-    width: 22px;
-    height: 22px;
+    width: 44px;
+    height: 44px;
     position: relative;
     cursor: pointer;
     display: block;
@@ -106,18 +107,18 @@
     width: 2px;
     position: absolute;
     top: 0;
-    left: 10px;
+    left: 22px;
     -webkit-transition-delay: .3s;
     -o-transition-delay: .3s;
     transition-delay: .3s;
   }
-  
+
   .menu_toggle .hamburger-cross span:nth-child(2) {
     width: 100%;
     height: 2px;
     position: absolute;
     left: 0;
-    top: 10px;
+    top: 22px;
     -webkit-transition-delay: .4s;
     -o-transition-delay: .4s;
     transition-delay: .4s;
