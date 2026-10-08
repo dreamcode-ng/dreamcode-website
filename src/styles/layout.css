@@ -28,8 +28,8 @@
   /*========== MENU HAMBURGUESA ========*/
   
   .menu_toggle {
-    width: 44px;
-    height: 44px;
+    width: 30px;
+    height: 30px;
     position: relative;
     cursor: pointer;
     display: block;
@@ -107,7 +107,7 @@
     width: 2px;
     position: absolute;
     top: 0;
-    left: 22px;
+    left: 15px;
     -webkit-transition-delay: .3s;
     -o-transition-delay: .3s;
     transition-delay: .3s;
@@ -118,7 +118,7 @@
     height: 2px;
     position: absolute;
     left: 0;
-    top: 22px;
+    top: 15px;
     -webkit-transition-delay: .4s;
     -o-transition-delay: .4s;
     transition-delay: .4s;
