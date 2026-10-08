@@ -2,7 +2,7 @@ import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import { useRouter } from 'next/router';
 import InfoJob from '@/components/Position/InfoJob';
 import FormCareers from '@/components/UI/FormCareers/FormCareers';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import BannerPrimary from '@/components/Position/BannerPrimary';
 import NotFound from './../404';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

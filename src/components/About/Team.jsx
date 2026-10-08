@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Wave from '../UI/Reusable/Wave';
 import styles from "./about.module.css";
 import { FaLinkedin } from "react-icons/fa";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 export default function Team() {
 

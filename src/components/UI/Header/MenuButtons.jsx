@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { withTranslation } from 'react-i18next';
+import { withTranslation } from 'next-i18next';
 
 
 function MenuButtons({ t }) {

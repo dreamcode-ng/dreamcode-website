@@ -1,5 +1,6 @@
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
-import { Trans, useTranslation } from "react-i18next";
+import { Trans } from "next-i18next";
+import { useTranslation } from "next-i18next";
 import TabCareers from '@/components/Careers/TabCareers';
 import CirculeList from '@/components/UI/CirculeList/CirculeList';
 import BannerBenefits from '@/components/Careers/BannerBenefits';

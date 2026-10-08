@@ -8,7 +8,7 @@ import { RECAPTCHA_SITEKEY } from '@/assets/Constants';
 import emailjs from '@emailjs/browser';
 import swal from 'sweetalert';
 import ReactGA from 'react-ga';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 
 function Form ({ noTitle }) {

@@ -5,7 +5,7 @@ import Head from 'next/head';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import BannerBlog from '@/components/Blog/BannerBlog';
 import TabBlog from '@/components/Blog/TabBlog';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 export default function Blog () {
 

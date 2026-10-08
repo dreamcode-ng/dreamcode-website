@@ -1,7 +1,7 @@
 import React from 'react';
 import SliderWords from './Slider';
 import style from './bannerSlider.module.css';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import { ButtonIcon } from '@/components/UI/Buttons/Buttons';
 
 function BannerSlider() {

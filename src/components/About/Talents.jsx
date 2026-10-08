@@ -1,5 +1,5 @@
 import React from 'react';
-import {useTranslation, Trans} from'react-i18next';
+import {useTranslation, Trans} from 'next-i18next';
 import style from './about.module.css'
 import Image from 'next/image';
 import ContainerSection from '../UI/Containers/ContainerSection';

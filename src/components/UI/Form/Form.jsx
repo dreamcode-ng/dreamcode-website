@@ -3,7 +3,7 @@ import ContainerCircule from '@/components/UI/Containers/ContainersCircule'
 import ContainerSection from '@/components/UI/Containers/ContainerSection';
 import { ButtonIcon } from '@/components/UI/Buttons/Buttons';
 import style from './form.module.css';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import ReCAPTCHA from "react-google-recaptcha";
 import { RECAPTCHA_SITEKEY } from '@/assets/Constants';
 import emailjs from '@emailjs/browser';

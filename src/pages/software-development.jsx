@@ -9,9 +9,10 @@ import BannerSlider from '@/components/SoftwareDev/BannerSlider/BannerSlider';
 import Form from '@/components/UI/Form/Form';
 import BannerVideo from '@/components/UI/BannerVideo/BannerVideo';
 import { URL_YOUTUBE_BOLIVAR } from '@/assets/Constants';
+import { ProfessionalService } from '@/components/Schema';
 
 export const getStaticProps = async ({ locale }) => {
-  
+
   return {
     props: {
       ...(await serverSideTranslations(locale, ['software', 'layout', 'form'])),
@@ -29,26 +30,39 @@ export default function SoftwareDevelopment() {
 
   return (
     <>
-      <MetaDecorator 
+      <ProfessionalService
+        name="DreamCode Software - Software Development"
+        description="Custom software development services including mobile apps, web apps, enterprise applications, and system modernization for businesses in Colombia and LATAM."
+        url="https://dreamcodesoft.com/software-development"
+        serviceArea={["Colombia", "United States", "LATAM"]}
+        addressCountry="CO"
+        addressLocality="Cali"
+        latitude={3.4516}
+        longitude={-76.5320}
+        openingHours={["Mo-Fr 09:00-18:00"]}
+        priceRange="$$"
+      />
+
+      <MetaDecorator
         title={t('meta_title')}
         description={t('meta_description')}
         url="software-development" />
       <ContainerGrill>
-        <BannerPrincipal 
+        <BannerPrincipal
           title={t('title_primary')}
           subtitle={t('subtitle')} />
-          <ContainerAnimation 
+          <ContainerAnimation
             title={t('title_animation')}
             btn={t('btn_animation')}
             text={t('subtitle_animation')}
-            animation='code' />  
+            animation='code' />
       </ContainerGrill>
-      <Specialize 
+      <Specialize
         btn={t('btn_specialize')}
-        title={t('title_specialize')} 
+        title={t('title_specialize')}
         data={specialize}/>
       <BannerSlider />
-      <BannerVideo 
+      <BannerVideo
         title={t('title_video')}
         url={URL_YOUTUBE_BOLIVAR}
         />

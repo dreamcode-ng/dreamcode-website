@@ -4,7 +4,7 @@ import Link from 'next/link';
 import style from './footer.module.css';
 import Widget from './Widget';
 import { FaLinkedin , FaInstagram, FaFacebook, FaYoutube, FaWhatsapp } from "react-icons/fa";
-import { withTranslation } from 'react-i18next';
+import { withTranslation } from 'next-i18next';
 
 function Footer({ t } ) {
 

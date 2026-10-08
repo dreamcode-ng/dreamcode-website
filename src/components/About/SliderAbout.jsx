@@ -3,7 +3,7 @@ import styles from "./about.module.css";
 import ContainerCircule from "@/components/UI/Containers/ContainersCircule";
 import ContainerSection from '@/components/UI/Containers/ContainerSection';
 import Image from 'next/image';
-import { Trans } from 'react-i18next';
+import { Trans } from 'next-i18next';
 import SliderItems from './SliderItem/SliderItem';
 
 function SliderAbout() {

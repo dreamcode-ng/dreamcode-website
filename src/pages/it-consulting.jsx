@@ -7,8 +7,7 @@ import ContainerAnimation from '@/components/UI/Containers/ContainerAnimation';
 import Challenges from '@/components/UI/Creating/Challenges';
 import ConsultingProcess from '@/components/UI/Creating/ConsultingProcess';
 import Form from '@/components/UI/Form/Form';
-
-
+import { ProfessionalService } from '@/components/Schema';
 export default function itConsulting() {
 
   const { t } = useTranslation('consulting');
@@ -17,24 +16,37 @@ export default function itConsulting() {
 
   return (
     <>
-      <MetaDecorator 
+      <ProfessionalService
+        name="DreamCode Software - IT Consulting"
+        description="IT consulting services including software architecture, strategy, and implementation to optimize technology investments and business processes."
+        url="https://dreamcodesoft.com/it-consulting"
+        serviceArea={["Colombia", "United States", "LATAM"]}
+        addressCountry="CO"
+        addressLocality="Cali"
+        latitude={3.4516}
+        longitude={-76.5320}
+        openingHours={["Mo-Fr 09:00-18:00"]}
+        priceRange="$$"
+      />
+
+      <MetaDecorator
         title={t('meta_title')}
         description={t('meta_description')}
         url="it-consulting" />
       <ContainerGrill>
-        <BannerPrincipal 
+        <BannerPrincipal
           title={t('title_primary')}
           subtitle={t('subtitle')} />
-          <ContainerAnimation 
+          <ContainerAnimation
             title={t('title_animation')}
             text={t('subtitle_animation')}
             btn={t('btn_animation')}
-            animation='circle' />  
+            animation='circle' />
       </ContainerGrill>
-      <Challenges 
+      <Challenges
         title={t('title_challenge')}
         data={challenge}/>
-      <ConsultingProcess 
+      <ConsultingProcess
         withNumber
         title={t('title_process')}
         title_one={t('diagnosis')}
@@ -52,7 +64,7 @@ export default function itConsulting() {
 }
 
 export const getStaticProps = async ({ locale }) => {
-  
+
   return {
     props: {
       ...(await serverSideTranslations(locale, ['consulting', 'layout', 'form'])),

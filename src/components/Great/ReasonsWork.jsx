@@ -3,7 +3,7 @@ import ContainerSection from '../UI/Containers/ContainerSection';
 import styles from './greatPlace.module.css'
 import Image from 'next/image';
 import ContainerCircule from '../UI/Containers/ContainersCircule';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 
 export default function ReasonsWork() {
