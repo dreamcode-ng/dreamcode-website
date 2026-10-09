@@ -48,8 +48,8 @@ export default function Stories() {
 function ContentSection({ title, subtitle, industry, solutionType, context, challenge, solution, impact, implemented, image, t }) {
 
   return (
-
-    <div className={`${style.item_storie} row align-items-center`}>
+    <>
+      <div className={`${style.item_storie} row align-items-center`}>
 
       {/* ===== ROW 1 ===== */}
       <div className="row">
@@ -124,7 +124,8 @@ function ContentSection({ title, subtitle, industry, solutionType, context, chal
           </p>
         </div>
       </div>
-    </div >
+    </div>
 
+    </>
   )
 }
