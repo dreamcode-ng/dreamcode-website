@@ -4,6 +4,7 @@ import InfoJob from '@/components/Position/InfoJob';
 import FormCareers from '@/components/UI/FormCareers/FormCareers';
 import { useTranslation } from 'next-i18next';
 import BannerPrimary from '@/components/Position/BannerPrimary';
+import { JobPosting } from '@/components/Schema';
 import NotFound from './../404';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
@@ -26,7 +27,32 @@ export default function Offert({ job }) {
 
   return (
     <>
-      <MetaDecorator 
+      <JobPosting
+        jobTitle={name}
+        description={name}
+        datePosted={job.datePosted}
+        employmentType={job.employmentType}
+        url={`https://dreamcodesoft.com/careers/${url}`}
+        jobLocation={{
+          "@type": "Place",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: location,
+            addressCountry: "CO"
+          }
+        }}
+        hiringOrganization={{
+          "@type": "Organization",
+          name: "DreamCode Software",
+          url: "https://dreamcodesoft.com",
+          logo: "https://dreamcodesoft.com/logo.png"
+        }}
+        experienceRequirements={years}
+        qualifications={experts.join(", ")}
+        responsibilities={rol.join("; ")}
+        jobLocationType={remote ? "TELECOMMUTE" : "ON_SITE"}
+      />
+      <MetaDecorator
         title={name}
         description={rol}
         url={url} />
@@ -36,7 +62,7 @@ export default function Offert({ job }) {
         years={years}
         english={english}
         location={location} />
-      <InfoJob 
+      <InfoJob
         rol={rol}
         experts={experts}
         modality={remote}
