@@ -60,8 +60,9 @@ function WebSiteTags() {
 
 class MyDocument extends Document {
   render() {
+    // next-i18next passes the current locale to the document
     return (
-      <Html lang="en">
+      <Html lang={this.props.locale}>
         <Head>
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVBBE1WWWG"></script>
           <link rel="icon" href="/favicon.ico" />
