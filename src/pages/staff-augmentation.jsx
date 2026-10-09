@@ -9,6 +9,7 @@ import { AccordionSection , AccordioChild } from '@/components/UI/Accordion/Acco
 import CirculeList from '@/components/UI/CirculeList/CirculeList';
 import IconList from '@/components/StaffAug/IconList/IconList';
 import Form from '@/components/UI/Form/Form';
+import { ProfessionalService } from '@/components/Schema';
 
 
 
@@ -22,6 +23,18 @@ export default function Staff() {
 
   return (
     <>
+      <ProfessionalService
+        name="DreamCode Software - Staff Augmentation"
+        description={t('meta_description')}
+        url="https://dreamcodesoft.com/staff-augmentation"
+        serviceArea={["Colombia", "United States", "LATAM"]}
+        addressCountry="CO"
+        addressLocality="Cali"
+        latitude={3.4516}
+        longitude={-76.5320}
+        openingHours={["Mo-Fr 09:00-18:00"]}
+        priceRange="$$"
+      />
       <MetaDecorator 
         title={t('meta_title')}
         description={t('meta_description')}

@@ -9,6 +9,7 @@ import ConsultingProcess from '@/components/UI/Creating/ConsultingProcess';
 import HowMigrate from '@/components/SystemsMod/HowMigrate';
 import { URL_YOUTUBE_SQUARE } from '@/assets/Constants';
 import BannerVideo from '@/components/UI/BannerVideo/BannerVideo';
+import { ProfessionalService } from '@/components/Schema';
 
 export default function SystemsModernization() {
 
@@ -19,6 +20,18 @@ export default function SystemsModernization() {
 
   return (
     <>
+      <ProfessionalService
+        name="DreamCode Software - Systems Modernization"
+        description={t('meta_description')}
+        url="https://dreamcodesoft.com/systems-modernization"
+        serviceArea={["Colombia", "United States", "LATAM"]}
+        addressCountry="CO"
+        addressLocality="Cali"
+        latitude={3.4516}
+        longitude={-76.5320}
+        openingHours={["Mo-Fr 09:00-18:00"]}
+        priceRange="$$"
+      />
       <MetaDecorator 
         title={t('meta_title')}
         description={t('meta_description')}
