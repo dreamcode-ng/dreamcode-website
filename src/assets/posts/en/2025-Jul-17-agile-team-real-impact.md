@@ -32,9 +32,11 @@ A low MTTR is a sign of technical resilience and operational capability. It’s 
 In many cases, teams have the intent and processes but lack profiles with the necessary experience to perform under pressure, with quality and at scale.
 DreamCode can help:
 
-- DreamCode provides specialized IT talent: developers, QA, DevOps, and architects with experience in complex environments and mission-critical solution projects
-- They build teams that combine technical excellence with product vision and business objectives
-- Accelerate delivery focused on scalability, stability, and sustainable results
+- DreamCode provides specialized IT talent: developers, QA, DevOps, and architects with experience in complex environments and mission-critical solution projects.
+
+- They build teams that combine technical excellence with product vision and business objectives.
+
+- Accelerate delivery focused on scalability, stability, and sustainable results.
 
 ## Boost your technological capabilities
 

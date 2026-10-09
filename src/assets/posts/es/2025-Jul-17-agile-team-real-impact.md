@@ -32,9 +32,11 @@ Un MTTR bajo es una señal de resiliencia técnica y capacidad operativa. Es una
 En muchos casos, los equipos tienen la intención y los procesos, pero carecen de perfiles con la experiencia necesaria para ejecutar bajo presión, con calidad y a escala.
 DreamCode
 
-- Provee talento TI especializado: desarrolladores, QA, DevOps y arquitectos con trayectoria en entornos técnicos complejos
-- Conforma equipos que combinan excelencia técnica con visión de producto y objetivos de negocio
-- Acelera la entrega con foco en escalabilidad, estabilidad y resultados sostenibles
+- Provee talento TI especializado: desarrolladores, QA, DevOps y arquitectos con trayectoria en entornos técnicos complejos.
+
+- Conforma equipos que combinan excelencia técnica con visión de producto y objetivos de negocio.
+
+- Acelera la entrega con foco en escalabilidad, estabilidad y resultados sostenibles.
 
 ## Potenciá tus capacidades tecnológicas
 
