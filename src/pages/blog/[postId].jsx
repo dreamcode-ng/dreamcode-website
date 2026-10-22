@@ -26,7 +26,8 @@ export default function Post({ post }) {
     return <NotFound />;
   }
 
-  const postUrl = `https://dreamcodesoft.com/es/blog/${post.url}`;
+  const basePath = locale === 'es' ? '' : `/${locale}`;
+  const postUrl = `https://dreamcodesoft.com${basePath}/blog/${post.url}`;
   const dateISO = toISODate(post.date);
   const imageUrl = `https://dreamcodesoft.com/img/posts/${post.imglink}`;
 

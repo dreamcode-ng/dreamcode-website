@@ -2,24 +2,41 @@ import React from "react";
 import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
 
-  function MetaDecorator({ url, title, description, type}) {
+  function MetaDecorator({ url, title, description, type }) {
 
-    const { i18n } = useTranslation();
-    const lang = i18n.language;
-    const BASE = "https://dreamcodesoft.com";
-    const X_DEFAULT = "es"; // default locale
+  const { i18n } = useTranslation();
+  const currentLocale = i18n.language || 'es';
+  const BASE = 'https://dreamcodesoft.com';
+  const X_DEFAULT = 'es'; // default locale
 
-    const localeUrl = (locale) => {
-      if (!url) {
-        return locale === X_DEFAULT ? BASE : `${BASE}/${locale}`;
-      }
-      const prefix = locale === X_DEFAULT ? "" : `/${locale}`;
-      return `${BASE}${prefix}/${url}`;
-    };
+  const normalizePath = (value) => {
+    if (!value) return '';
+    let clean = String(value).trim();
+    // Strip absolute URL origin so callers can pass either bare paths or full URLs
+    const originMatch = clean.match(/^(https?:\/\/[^/]+)(\/.*)?$/);
+    if (originMatch) {
+      clean = originMatch[2] || '';
+    }
+    clean = clean.replace(/^\/+/, '').replace(/\/+$/, '');
+    if (clean.startsWith('en/')) clean = clean.replace(/^en\//, '');
+    if (clean.startsWith('es/')) clean = clean.replace(/^es\//, '');
+    return clean;
+  };
 
-    const canonical = localeUrl(lang);
-    const enUrl = localeUrl("en");
-    const esUrl = localeUrl("es");
+  const localeUrl = (locale) => {
+    const cleanPath = normalizePath(url);
+    const prefix = locale === X_DEFAULT ? '' : `/${locale}`;
+
+    if (!cleanPath) {
+      return `${BASE}${prefix}/`;
+    }
+
+    return `${BASE}${prefix}/${cleanPath}`;
+  };
+
+  const canonical = localeUrl(currentLocale);
+  const enUrl = localeUrl('en');
+  const esUrl = localeUrl('es');
 
     return (
       <Head>
