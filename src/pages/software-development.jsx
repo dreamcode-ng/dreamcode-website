@@ -24,7 +24,8 @@ export const getStaticProps = async ({ locale }) => {
 
 export default function SoftwareDevelopment() {
 
-  const { t } = useTranslation('software');
+  const { t, i18n } = useTranslation('software');
+  const localePrefix = i18n.language === 'en' ? '/en' : '';
   const specialize = t('items_specialize', { returnObjects: true });
 
 
@@ -33,7 +34,7 @@ export default function SoftwareDevelopment() {
       <ProfessionalService
         name="DreamCode Software - Software Development"
         description="Custom software development services including mobile apps, web apps, enterprise applications, and system modernization for businesses in Colombia and LATAM."
-        url="https://dreamcodesoft.com/software-development"
+        url={`https://dreamcodesoft.com${localePrefix}/software-development`}
         serviceArea={["Colombia", "United States", "LATAM"]}
         addressCountry="CO"
         addressLocality="Cali"

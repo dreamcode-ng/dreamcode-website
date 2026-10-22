@@ -15,7 +15,8 @@ import { ProfessionalService } from '@/components/Schema';
 
 export default function Staff() {
 
-  const { t } = useTranslation('staff');
+  const { t, i18n } = useTranslation('staff');
+  const localePrefix = i18n.language === 'en' ? '/en' : '';
   const item_accordion = t('item_accordion', { returnObjects: true }) ;
   const item_list = t('item_list', { returnObjects: true });
   const data_talent = t('data_talent', { returnObjects: true });
@@ -26,7 +27,7 @@ export default function Staff() {
       <ProfessionalService
         name="DreamCode Software - Staff Augmentation"
         description={t('meta_description')}
-        url="https://dreamcodesoft.com/staff-augmentation"
+        url={`https://dreamcodesoft.com${localePrefix}/staff-augmentation`}
         serviceArea={["Colombia", "United States", "LATAM"]}
         addressCountry="CO"
         addressLocality="Cali"

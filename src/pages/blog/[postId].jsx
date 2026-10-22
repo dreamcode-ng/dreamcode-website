@@ -68,7 +68,7 @@ export default function Post({ post }) {
       <BreadcrumbList
         items={[
           { name: "Home", url: "https://dreamcodesoft.com/" },
-          { name: "Blog", url: `https://dreamcodesoft.com/${locale}/blog` },
+          { name: "Blog", url: locale === 'en' ? `https://dreamcodesoft.com/en/blog` : `https://dreamcodesoft.com/blog` },
           { name: post.title, url: postUrl }
         ]}
       />

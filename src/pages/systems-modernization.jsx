@@ -13,7 +13,8 @@ import { ProfessionalService } from '@/components/Schema';
 
 export default function SystemsModernization() {
 
-  const { t } = useTranslation('modernization');
+  const { t, i18n } = useTranslation('modernization');
+  const localePrefix = i18n.language === 'en' ? '/en' : '';
   const data = t('how_migration_items', { returnObjects: true }) ;
 
 
@@ -23,7 +24,7 @@ export default function SystemsModernization() {
       <ProfessionalService
         name="DreamCode Software - Systems Modernization"
         description={t('meta_description')}
-        url="https://dreamcodesoft.com/systems-modernization"
+        url={`https://dreamcodesoft.com${localePrefix}/systems-modernization`}
         serviceArea={["Colombia", "United States", "LATAM"]}
         addressCountry="CO"
         addressLocality="Cali"

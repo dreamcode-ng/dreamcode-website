@@ -10,7 +10,8 @@ import Form from '@/components/UI/Form/Form';
 import { ProfessionalService } from '@/components/Schema';
 export default function itConsulting() {
 
-  const { t } = useTranslation('consulting');
+  const { t, i18n } = useTranslation('consulting');
+  const localePrefix = i18n.language === 'en' ? '/en' : '';
   const challenge = t('items_challenge', { returnObjects: true });
 
 
@@ -19,7 +20,7 @@ export default function itConsulting() {
       <ProfessionalService
         name="DreamCode Software - IT Consulting"
         description="IT consulting services including software architecture, strategy, and implementation to optimize technology investments and business processes."
-        url="https://dreamcodesoft.com/it-consulting"
+        url={`https://dreamcodesoft.com${localePrefix}/it-consulting`}
         serviceArea={["Colombia", "United States", "LATAM"]}
         addressCountry="CO"
         addressLocality="Cali"

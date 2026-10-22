@@ -11,7 +11,8 @@ import Form from '@/components/UI/Form/Form';
 import { ProfessionalService } from '@/components/Schema';
 export default function DatabaseManagement() {
 
-  const { t } = useTranslation('data');
+  const { t, i18n } = useTranslation('data');
+  const localePrefix = i18n.language === 'en' ? '/en' : '';
   const items_accordion = t('items_accordion', { returnObjects: true }) ;
   const line_items = t('line_items', { returnObjects: true }) ;
   const strategics = t('strategics', { returnObjects: true }) ;
@@ -22,7 +23,7 @@ export default function DatabaseManagement() {
       <ProfessionalService
         name="DreamCode Software - Database Management"
         description="Database management and optimization services including performance tuning, backup strategies, migration, and monitoring for reliable data infrastructure."
-        url="https://dreamcodesoft.com/database-management"
+        url={`https://dreamcodesoft.com${localePrefix}/database-management`}
         serviceArea={["Colombia", "United States", "LATAM"]}
         addressCountry="CO"
         addressLocality="Cali"
