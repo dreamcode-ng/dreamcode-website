@@ -42,3 +42,4 @@ Skills Guide.txt
 screenshots/*
 *.py
 claude-seo/
+.playwright-mcp/*

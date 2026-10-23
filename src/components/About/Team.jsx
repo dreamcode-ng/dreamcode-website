@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Wave from '../UI/Reusable/Wave';
 import styles from "./about.module.css";
 import { FaLinkedin } from "react-icons/fa";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 export default function Team() {
 
@@ -20,7 +20,6 @@ export default function Team() {
             <TeamItem name="Jonathan Ortiz" position={t('team_jonathan')} image="Jonathan" link="https://www.linkedin.com/in/jorge-jonathan-ortiz-velez-95878b67/" />
             <TeamItem name="Leonardo Vargas" position={t('team_leonardo')} image="Leonardo" link="https://www.linkedin.com/in/leonardo-vargas-torres-7a317851/" />
             <TeamItem name="Eliana Zapata" position={t('team_eliana')} image="Eliana" link="https://www.linkedin.com/in/eliana-zapata-0b763450/" />           
-            <TeamItem name="Vivian Bobadilla" position={t('team_vivian')} image="Vivian" link="https://www.linkedin.com/in/vivian-bobadilla-b0296989/" /> 
         </div>
       </ContainerSection>
   )

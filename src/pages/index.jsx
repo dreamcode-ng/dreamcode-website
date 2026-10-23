@@ -1,4 +1,3 @@
-
 import MetaDecorator from '@/components/MetaDatos/MetaDecorator';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import ServicesHome from '@/components/Home/ServicesHome';
@@ -12,23 +11,37 @@ import BlogHome from '@/components/Home/BlogHome';
 import Form from '@/components/UI/Form/Form';
 import ContainerGrill from '@/components/UI/Containers/ContainerGrill';
 import { useTranslation } from "next-i18next";
-import { Trans } from 'react-i18next';
+import { Trans } from 'next-i18next';
+import { ProfessionalService } from '@/components/Schema';
 
 
 export default function Home() {
 
-  const { t } = useTranslation('home');
+  const { t, i18n } = useTranslation('home');
 
-    
+
   return (
     <>
-      <MetaDecorator 
+      <ProfessionalService
+        name="DreamCode Software"
+        description="Software development and IT outsourcing with specialized teams, aligned with business goals across industries, with AI capabilities."
+        url="https://dreamcodesoft.com"
+        serviceArea={["Colombia", "United States", "LATAM"]}
+        addressCountry="CO"
+        addressLocality="Cali"
+        latitude={3.4516}
+        longitude={-76.5320}
+        openingHours={["Mo-Fr 09:00-18:00"]}
+        priceRange="$$"
+      />
+
+      <MetaDecorator
         title={t('meta_title')}
         description={t('meta_description')}
         url="" />
       <main>
         <ContainerGrill>
-            <BannerPrincipal 
+            <BannerPrincipal
               withWave
               withLink
               textWave={t('wave')}
@@ -41,12 +54,12 @@ export default function Home() {
               link={t('text_link')}/>
 
             <RedefineFuture />
-        </ContainerGrill>            
-        <ContainerAnimation 
+        </ContainerGrill>
+        <ContainerAnimation
           title={t('title_animation')}
           text={t('subtile_animation')}
           btn={t('btn_animation')}
-          animation='cube' />     
+          animation='cube' />
         <ServicesHome />
         <Clients />
         <ExperienceRocket />
@@ -59,7 +72,7 @@ export default function Home() {
             <Trans i18nKey="our_dreamcoders" ns="home">
               Nuestros <strong className='m_color'>DreamCoders</strong>dicen que somos un excelente lugar para trabajar
             </Trans>
-          }     />    
+          }     />
         <BlogHome />
         <Form />
       </main>
@@ -70,8 +83,8 @@ export default function Home() {
 export const getStaticProps = async ({ locale }) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['home','form','layout'])), 
-      
+      ...(await serverSideTranslations(locale, ['home','form','layout'])),
+
     },
   };
-}
+};

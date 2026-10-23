@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { ButtonIcon } from '@/components/UI/Buttons/Buttons';
 import postlistEn from "@/assets/posts/postsEn.json"
 import postlistEs from "@/assets/posts/postsEs.json"
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import CardPost from '../UI/CardPost/CardPost';
 import ContainerSection from '../UI/Containers/ContainerSection';
 

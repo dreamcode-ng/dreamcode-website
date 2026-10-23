@@ -6,7 +6,7 @@ import Form from '@/components/UI/Form/Form';
 import Office from '@/components/Contact/Office'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import { Trans } from 'react-i18next';
+import { Trans } from 'next-i18next';
 
 
 export default function Contact() {
