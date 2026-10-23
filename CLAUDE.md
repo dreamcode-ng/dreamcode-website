@@ -59,3 +59,60 @@ Hybrid strategy: global utility classes from `src/styles/common.css` + scoped CS
 - `README.md` — project overview, features, quick start, localization, job board, blog pipeline, deployment.
 - `SEO_AUDIT_IMPLEMENTATION_PLAN.md` — SEO fix priorities and progress tracking for dreamcodesoft.com.
 - Memory files in `.claude/memory/`: `analytics-tracker-documentation.md` — Apollo tracker decisions; `remove-fabricated-review-schema.md` — fabricated Review schema removal.
+
+---
+
+## Standing Rules (apply to every conversation and every new requirement)
+
+These rules are enforced automatically — no exceptions without explicit user override.
+
+### 1. Never Commit or Push Changes
+**The user owns all commits and pushes.** Claude Code must never run `git commit`, `git push`, `git add -A`, or `git add -u` without the user's explicit, per-instance approval. This is enforced via permission deny rules in `.claude/settings.local.json`. If a task requires a commit, stop and ask the user to do it themselves.
+
+### 2. Always Plan Before Making Changes
+Before editing any code, produce a written plan that covers:
+- **Scope**: Which files/modules are affected and why
+- **Approach**: How the change will be implemented (pattern, algorithm, dependencies)
+- **Phases/Todos**: Break the work into discrete, verifiable steps
+- **Risks**: Known edge cases, breaking changes, or assumptions
+- **Verification**: How to confirm the change works (build via `npm run build`, lint via `npm run lint`)
+
+For small, isolated changes (single file, single function), the plan can be a brief paragraph. For anything touching multiple files, architecture, or shared utilities, write the plan in full before touching code.
+
+### 3. Wait for User Confirmation Before Starting
+After presenting the plan, **wait for the user to confirm** before making any edits. Do not start implementation until explicitly approved. If the user asks for a quick change without a plan, still confirm the approach briefly before proceeding.
+
+### 4. Divide Work into Phases or Todos
+When a task has multiple components, break it into numbered phases with clear boundaries. Complete one phase, **wait for user confirmation** before moving to the next phase. Verify the completed phase (e.g., `npm run build` succeeds), then proceed. Never implement multiple phases in a single turn without user confirmation between them.
+
+### 5. Use the Existing Claude Code Automations
+This project has pre-configured skills and hooks:
+- **Skills**: `/project-conventions`, `/new-blog-post` — invoke these when relevant
+- **Hooks**: Auto-lint runs after every Edit|Write — trust their output
+- **Subagent**: `code-reviewer` for parallel multi-dimensional review after significant changes
+- **Global skills**: `vercel-react-best-practices`, `web-design-guidelines`, `accessibility`, `best-practices` — invoke when relevant
+
+### 6. Follow the Repository Conventions
+- **Secrets**: Never commit credentials, API keys, or `.env` files — use local untracked files only
+- **Styling**: Hybrid global utilities (`src/styles/common.css`) + scoped CSS Modules per component
+- **Images**: Use `next/image` with explicit `width`/`height` to prevent CLS; organize under `public/img/{feature}/`
+- **Locale**: Default is `es`; root path `/` serves Spanish; English is `/en/...`
+- **i18n namespaces**: Must be listed in `serverSideTranslations` calls per page
+
+### 7. Output Style — Direct, Concise, Structured (ponytail + i-have-adhd)
+Apply these principles by default in every conversation:
+- **Start with the answer or conclusion** — no preamble
+- **Be direct and concise** — eliminate unnecessary introductions, repetition, and code comments
+- **Use bullets and tables only when they improve clarity** — dense is better than verbose
+- **Prefer the simplest solution** — avoid unnecessary abstractions, dependencies, and tool calls
+- **Preserve essential technical details, assumptions, risks, and validation steps** — don't strip substance for brevity
+- **Do not repeat information already established in context** — reference it instead
+- **For complex tasks** (research, multiple repos, file changes): prioritize correctness and completeness over brevity
+- **Keep user-facing explanations concise** while maintaining technical precision
+
+### 8. Documentation Output Path
+Save all analysis, implementation plans, implementation logs, and requested documents to:
+```
+docs/<core-purpose>/
+```
+The `docs/` folder has subfolders named by the core purpose of the user request (e.g., `docs/seo-updates/`, `docs/landing-page/`). Create the folder if it doesn't exist. Never save ticket-related documents outside this structure.

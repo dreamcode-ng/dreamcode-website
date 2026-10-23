@@ -46,6 +46,12 @@ The project includes the following Claude Code automations, configured in `.clau
 - **project-conventions** — Encodes non-obvious project conventions: Pages Router only, i18n namespace requirements, blog Markdown→JSON pipeline, landing section type mappings, schema rules. Always consult before writing code.
 - **new-blog-post** — Scaffolds Markdown posts with the exact frontmatter format `public/main.js` expects. Documents critical gotchas: key-name typos silently drop fields, `date` must be `YYYY-MM-DD`, `url` must be URL-safe, `npm run server` must run after creating a post.
 
+### Global Skills (installed via `npx skills add -g`, available across all agents)
+- **vercel-react-best-practices** — React/Next.js performance optimization, data fetching, routing patterns, bundle optimization. From Vercel Engineering (Next.js creators). 831K+ installs.
+- **web-design-guidelines** — Web UI guidelines, accessibility, responsive design compliance, color theory, typography scale. From Vercel Labs. 775K+ installs.
+- **accessibility** — WCAG 2.2 compliance, screen reader testing, ARIA patterns, keyboard navigation. From Addy Osmani (Google Chrome team). 63K+ installs.
+- **best-practices** — Security, compatibility, code quality review, modern web standards. From Addy Osmani. Medium risk rating.
+
 ### Hooks (`.claude/settings.json`)
 - **PreToolUse: block-sensitive-files** — Prevents Write/Edit on `.env*`, `package-lock.json`, `node_modules/`. Uses `.claude/hooks/block-sensitive-files.sh` script.
 - **PostToolUse: lint-on-edit** — Runs `npm run lint` after every Write/Edit to catch JSX/lint errors at edit time.
