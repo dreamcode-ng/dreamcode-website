@@ -10,7 +10,7 @@ const csp = [
   "object-src 'none'",
   "frame-ancestors 'none'",
   "form-action 'self'",
-  "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://dreamcodesoft.neetocal.com https://cdn.neetocal.com https://schedule.dreamcodesoft.com https://www.google.com https://ad.doubleclick.net https://googleads.g.doubleclick.net https://www.googleadservices.com https://jnn-pa.googleapis.com https://aplo-evnt.com https://assets.apollo.io",
+  "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://dreamcodesoft.neetocal.com https://cdn.neetocal.com https://schedule.dreamcodesoft.com https://www.google.com https://ad.doubleclick.net https://googleads.g.doubleclick.net https://www.googleadservices.com https://jnn-pa.googleapis.com https://aplo-evnt.com https://assets.apollo.io https://vitals.vercel-insights.com",
   "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://dreamcodesoft.neetocal.com https://assets.apollo.io https://va.vercel-scripts.com https://www.google.com https://vercel.live https://www.gstatic.com https://googleads.g.doubleclick.net https://www.googleadservices.com https://static.doubleclick.net",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "img-src 'self' data: https: https://www.googletagmanager.com https://www.google-analytics.com https://dreamcodesoft.neetocal.com",

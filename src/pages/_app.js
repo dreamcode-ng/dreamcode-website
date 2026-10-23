@@ -8,6 +8,7 @@ import { createContext, useState, useEffect } from "react";
 import { appWithTranslation } from 'next-i18next';
 import AnalyticsScripts from '@/assets/SEO/AnalyticsScripts';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 import nextI18nextConfig from '../../next-i18next.config'; // Importar configuración
@@ -30,6 +31,7 @@ function MyApp({ Component, pageProps }) {
                   <Component {...pageProps} />
               </Layout>
               <Analytics />
+              <SpeedInsights />
           </>
     );
 }
