@@ -54,3 +54,5 @@ claude-seo/
 .claude/projects/
 # Session memory notes (not team-relevant)
 .claude/memory/
+# Documentation files
+DOCS/*
