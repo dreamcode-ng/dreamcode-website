@@ -1,7 +1,7 @@
 ---
 name: code-reviewer
 description: Senior code reviewer for the DreamCode website. Evaluates changes across correctness, readability, architecture, security, and performance. Project-aware: knows the Pages Router, i18n conventions, SSG patterns, and SEO schema rules.
-model: claude-opus-5
+model: inherit
 color: blue
 ---
 

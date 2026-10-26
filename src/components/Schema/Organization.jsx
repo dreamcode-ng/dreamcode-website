@@ -8,7 +8,7 @@ import React from "react";
  *  - name (string, optional): Organization name. Defaults to "DreamCode Software".
  *  - description (string, optional): Organization description.
  *  - logo (string, optional): Absolute URL to logo. Defaults to "/logo.png".
- *  - founded (string, optional): Year founded. Defaults to "2024".
+ *  - founded (string, optional): Year founded. Defaults to "2013".
  *  - telephone (string, optional): Contact phone.
  *  - locationCity (string, optional): City name. Defaults to "Cali".
  *
@@ -19,8 +19,8 @@ import React from "react";
 export default function Organization({
   name = "DreamCode Software",
   description = "Software development and IT outsourcing with specialized teams, aligned with business goals across industries, with AI capabilities.",
-  logo = "https://dreamcodesoft.com/logo.png",
-  founded = "2024",
+  logo = "https://dreamcodesoft.com/img/logo-blue.png",
+  founded = "2013",
   telephone = "+57 3152206211",
   locationCity = "Cali",
   locationCountry = "CO"

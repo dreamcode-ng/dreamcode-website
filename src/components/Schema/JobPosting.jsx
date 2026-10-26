@@ -29,7 +29,7 @@ export default function JobPosting({
     "@type": "Organization",
     name: "DreamCode Software",
     url: "https://dreamcodesoft.com",
-    logo: "https://dreamcodesoft.com/logo.png"
+    logo: "https://dreamcodesoft.com/img/logo-blue.png"
   },
   experienceRequirements,
   qualifications,

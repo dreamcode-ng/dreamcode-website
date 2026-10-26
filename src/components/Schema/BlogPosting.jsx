@@ -25,9 +25,9 @@ export default function BlogPosting({
   publisher = {
     "@type": "Organization",
     name: "DreamCode Software",
-    logo: "https://dreamcodesoft.com/logo.png"
+    logo: "https://dreamcodesoft.com/img/logo-blue.png"
   },
-  image = "https://dreamcodesoft.com/default-blog-image.jpg",
+  image = "https://dreamcodesoft.com/img/logo-dreamcode.png",
   description,
   articleSection = "Software Development",
   keywords = ["software", "development", "consulting"]

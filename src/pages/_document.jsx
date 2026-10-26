@@ -20,7 +20,7 @@ function SchemaTags() {
             alternateName: "DreamCode",
             description: "Software development and IT outsourcing with specialized teams, aligned with business goals across industries, with AI capabilities.",
             url: "https://dreamcodesoft.com",
-            logo: "https://dreamcodesoft.com/logo.png",
+            logo: "https://dreamcodesoft.com/img/logo-blue.png",
             founded: "2013",
             location: { "@type": "City", name: "Cali", country: "CO" },
             contactPoint: {

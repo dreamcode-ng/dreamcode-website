@@ -51,7 +51,7 @@ export default function Post({ post }) {
           "name": "DreamCode Software",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://dreamcodesoft.com/logo.png"
+            "url": "https://dreamcodesoft.com/img/logo-blue.png"
           }
         }}
         image={{

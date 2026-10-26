@@ -13,8 +13,8 @@
     /*==================== redesSociales ================================*/
     
     .social_icon svg {
-      width: 44px;
-      height: 44px;
+      width: 30px;
+      height: 30px;
       text-align: center;
       transition: all 0.2s linear;
       display: inline-block;

@@ -25,7 +25,7 @@ export default function ProfessionalService({
   addressLocality = "Cali",
   latitude = 3.4516,
   longitude = -76.5320,
-  openingHours = ["Mo-Fr 09:00-18:00"],
+  openingHours = ["Mo-Fr 08:00-18:00"],
   priceRange = "$$"
 }) {
   const areas = Array.isArray(serviceArea) ? serviceArea : [serviceArea];
