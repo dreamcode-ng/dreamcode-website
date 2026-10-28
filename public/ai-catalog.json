@@ -1,0 +1,43 @@
+{
+  "name": "DreamCode Software AI Catalog",
+  "version": "1.0.0",
+  "description": "AI capabilities exposed by DreamCode Software website",
+  "tools": [
+    {
+      "name": "contact-form",
+      "description": "Contact DreamCode Software for software development inquiries",
+      "endpoint": "https://dreamcodesoft.com/contact",
+      "method": "POST",
+      "parameters": [
+        { "name": "name", "type": "string", "required": true },
+        { "name": "email", "type": "string", "required": true },
+        { "name": "company", "type": "string", "required": false },
+        { "name": "location", "type": "string", "required": false },
+        { "name": "message", "type": "string", "required": true },
+        { "name": "linkedin", "type": "string", "required": false }
+      ]
+    },
+    {
+      "name": "careers-form",
+      "description": "Apply to work at DreamCode Software",
+      "endpoint": "https://dreamcodesoft.com/careers",
+      "method": "POST",
+      "parameters": [
+        { "name": "name", "type": "string", "required": true },
+        { "name": "email", "type": "string", "required": true },
+        { "name": "phone", "type": "string", "required": true },
+        { "name": "position", "type": "string", "required": true },
+        { "name": "file", "type": "file", "required": true },
+        { "name": "ingles", "type": "string", "required": true },
+        { "name": "message", "type": "string", "required": true },
+        { "name": "linkedin", "type": "string", "required": false }
+      ]
+    }
+  ],
+  "organization": {
+    "name": "DreamCode Software",
+    "url": "https://dreamcodesoft.com",
+    "location": "Cali, Colombia",
+    "description": "Software development and IT outsourcing with specialized teams aligned with business goals"
+  }
+}
