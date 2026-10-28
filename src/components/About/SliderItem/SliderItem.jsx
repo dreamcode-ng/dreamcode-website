@@ -6,7 +6,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import { IoRocketOutline } from "react-icons/io5";
 import styles from './sliderItem.module.css'
 import Image from 'next/image';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 
 
 function SliderItems ({ text }) {

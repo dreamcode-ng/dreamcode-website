@@ -281,6 +281,16 @@
   color: var(--landing-text-white);
 }
 
+.pitchImage {
+  width: 100%;
+  max-width: 100%;
+}
+
+.pitchImage img {
+  width: 100%;
+  height: auto;
+}
+
 .pitchSection::before {
   content: '';
   position: absolute;

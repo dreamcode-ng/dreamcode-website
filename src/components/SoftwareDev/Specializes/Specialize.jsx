@@ -4,7 +4,7 @@ import style from './specialize.module.css';
 import { FaAndroid, FaApple, FaLaptopCode, FaCubes } from "react-icons/fa";
 import { MdOutlineLanguage , MdAutoMode} from "react-icons/md";
 import { ButtonIcon } from '@/components/UI/Buttons/Buttons';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 
 const iconMap = {

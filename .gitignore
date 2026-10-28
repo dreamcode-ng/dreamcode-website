@@ -26,19 +26,33 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
 
-# typescript
+# IDE
+.idea/
+.vscode/
+
+# TypeScript (not used in this JS project)
 *.tsbuildinfo
 next-env.d.ts
-package-lock.json
-.claude/
-CLAUDE.md
-AGENTS.md
-.agents/*
-Skills Guide.txt
+
+# screenshots and assets from development
 screenshots/*
 *.py
+
+# SEO skill repo (third-party, not this project's code)
 claude-seo/
+
+# Playwright MCP test infrastructure
+.playwright-mcp/*
+
+# --- Claude Code: session-specific (not shared with team) ---
+# Cross-session auto-memory (user-specific, not team-relevant)
+.claude/projects/
+# Session memory notes (not team-relevant)
+.claude/memory/
+# Documentation files
+DOCS/*

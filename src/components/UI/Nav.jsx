@@ -4,7 +4,7 @@ import LangSwitcher from './Header/LangSwitcher';
 import MenuButtons from './Header/MenuButtons';
 import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
-import { withTranslation } from 'react-i18next';
+import { withTranslation } from 'next-i18next';
 
 
 

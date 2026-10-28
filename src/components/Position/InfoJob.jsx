@@ -3,7 +3,7 @@ import ContainerSection from '../UI/Containers/ContainerSection';
 import { BiTargetLock } from "react-icons/bi";
 import { MdOnlinePrediction } from "react-icons/md";
 import { FaCode } from "react-icons/fa";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 
 function InfoJob ({ modality, experts, rol }) {

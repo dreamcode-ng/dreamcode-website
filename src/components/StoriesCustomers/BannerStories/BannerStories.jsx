@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Trans } from "react-i18next";
-import { useTranslation } from "next-i18next";
+import { useTranslation } from 'next-i18next';
 import style from '@/components/StoriesCustomers/stories.module.css'
 
 

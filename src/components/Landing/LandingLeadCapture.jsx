@@ -1,5 +1,5 @@
 import NeetoCalEmbed from './NeetoCalEmbed';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import styles from './landingPage.module.css';
 
 export default function LandingLeadCapture({ data }) {

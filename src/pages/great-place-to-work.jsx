@@ -4,8 +4,8 @@ import ContainerSection from '@/components/UI/Containers/ContainerSection'
 import OurDreamcoders from '@/components/UI/InfoCardWithImage/InfoCardWithImage'
 import ReasonsWork from '@/components/Great/ReasonsWork';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { Trans } from 'react-i18next';
-import { useTranslation } from "react-i18next";
+import { Trans } from 'next-i18next';
+import { useTranslation } from "next-i18next";
 
 
 

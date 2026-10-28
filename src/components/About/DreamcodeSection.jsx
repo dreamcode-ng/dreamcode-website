@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./about.module.css";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
 import ContainerCircule from "@/components/UI/Containers/ContainersCircule";
