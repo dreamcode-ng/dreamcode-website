@@ -1,0 +1,15 @@
+{
+  "name": "DreamCode Software Agent",
+  "description": "AI agent for DreamCode Software - software development and IT outsourcing company based in Cali, Colombia",
+  "version": "1.0.0",
+  "capabilities": [
+    "contact-form",
+    "careers-form"
+  ],
+  "endpoints": {
+    "contact": "https://dreamcodesoft.com/contact",
+    "careers": "https://dreamcodesoft.com/careers"
+  },
+  "authentication": "none",
+  "protocol": "http"
+}

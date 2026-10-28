@@ -1,3 +1,5 @@
+# DreamCode Software
+
 User-agent: GPTBot
 Allow: /
 
@@ -26,3 +28,15 @@ User-agent: meta-externalagent
 Allow: /
 
 License: RSL 1.0
+
+## Links
+
+- [DreamCode Software](https://dreamcodesoft.com/)
+- [Servicios de Desarrollo de Software](https://dreamcodesoft.com/software-development)
+- [Staff Augmentation](https://dreamcodesoft.com/staff-augmentation)
+- [IT Consulting](https://dreamcodesoft.com/it-consulting)
+- [Database Management](https://dreamcodesoft.com/database-management)
+- [Systems Modernization](https://dreamcodesoft.com/systems-modernization)
+- [Blog](https://dreamcodesoft.com/blog)
+- [Careers](https://dreamcodesoft.com/careers)
+- [Contact](https://dreamcodesoft.com/contact)

@@ -75,7 +75,7 @@ function Form ({ noTitle }) {
                         </div>    
                     }
 
-                    <form ref={form} onSubmit={sendEmail} className="needs-validation was-validated position-relative" method="post" id="contactForm" >
+                    <form ref={form} onSubmit={sendEmail} className="needs-validation was-validated position-relative" method="post" id="contactForm" toolname="careers-form" tooldescription="Apply to work at DreamCode Software">
                         <div className="row justify-content-center">
                             <div className="col-lg-6 mt-5">
                                 <label className="text-left f_600 w_color " htmlFor="inputNombre">{t('form_input_name')}</label>
